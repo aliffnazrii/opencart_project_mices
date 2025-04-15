@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<name>Phone Login</name>
+	<code>phone_login</code>
+	<version>1.0</version>
+	<author>MICES Technology Sdn Bhd</author>
+	<link>https://www.mices.com.my</link>
+	<file path="catalog/controller/account/login.php">
+		<operation>
+			<search>
+				<![CDATA[$this->load->model('account/customer');]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+					$this->document->addScript('https://unpkg.com/libphonenumber-js@1.9.9/bundle/libphonenumber-min.js');
+					$this->document->addScript('https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js');
+					$this->document->addStyle('https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css');
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[if ($customer_info && $this->customer->login($customer_info['email'], '', true)) {]]>
+			</search>
+			<add position="before">
+				<![CDATA[/*]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[if ($customer_info && $this->customer->login($customer_info['email'], '', true)) {]]>
+			</search>
+			<add position="after">
+				<![CDATA[*/
+			if ($this->config->get('module_phone_verification_status')) {
+				$username = $customer_info['telephone'];
+			} else {
+				$username = $customer_info['email'];
+			}
+
+			if ($customer_info && $this->customer->login($username, '', true)) {
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[if (isset($this->request->post['email'])) {]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+		if (isset($this->request->post['telephone'])) {
+			$data['telephone'] = $this->request->post['telephone'];
+		} else {
+			$data['telephone'] = '';
+		}
+
+		$data['phone_verification_status'] = $this->config->get('module_phone_verification_status');
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$login_info = $this->model_account_customer->getLoginAttempts($this->request->post['email']);]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+		if (!$this->config->get('module_phone_verification_status')) {]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$login_info = $this->model_account_customer->getLoginAttempts($this->request->post['email']);]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+		} else {
+			$login_info = $this->model_account_customer->getLoginAttempts($this->request->post['telephone']);
+		}]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$customer_info = $this->model_account_customer->getCustomerByEmail($this->request->post['email']);]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+		if (!$this->config->get('module_phone_verification_status')) {]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$customer_info = $this->model_account_customer->getCustomerByEmail($this->request->post['email']);]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+		} else {
+			$customer_info = $this->model_account_customer->getCustomerByTelephone($this->request->post['telephone']);
+		}]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[if (!$this->customer->login($this->request->post['email'], $this->request->post['password'])) {]]>
+			</search>
+			<add position="before">
+				<![CDATA[/*]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[if (!$this->customer->login($this->request->post['email'], $this->request->post['password'])) {]]>
+			</search>
+			<add position="after">
+				<![CDATA[*/
+			if ($this->config->get('module_phone_verification_status')) {
+				$username = $this->request->post['telephone'];
+			} else {
+				$username = $this->request->post['email'];
+			}
+
+			if (!$this->customer->login($username, $this->request->post['password'])) {
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->error['warning'] = $this->language->get('error_login');]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				if (!$this->config->get('module_phone_verification_status')) {]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->error['warning'] = $this->language->get('error_login');]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				} else {
+					$this->error['warning'] = $this->language->get('error_login_phone');
+				}]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->model_account_customer->addLoginAttempt($this->request->post['email']);]]>
+			</search>
+			<add position="before">
+				<![CDATA[/*]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->model_account_customer->addLoginAttempt($this->request->post['email']);]]>
+			</search>
+			<add position="after">
+				<![CDATA[*/
+				$this->model_account_customer->addLoginAttempt($username);]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->model_account_customer->deleteLoginAttempts($this->request->post['email']);]]>
+			</search>
+			<add position="before">
+				<![CDATA[/*]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->model_account_customer->deleteLoginAttempts($this->request->post['email']);]]>
+			</search>
+			<add position="after">
+				<![CDATA[*/
+				$this->model_account_customer->deleteLoginAttempts($username);]]>
+			</add>
+		</operation>
+	</file>
+
+	<file path="catalog/model/account/customer.php">
+		<operation>
+			<search>
+				<![CDATA[public function getCustomerByEmail($email)]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+					public function getCustomerByTelephone($telephone) {
+						$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "customer WHERE telephone = '" . $this->db->escape($telephone) . "'");
+
+						return $query->row;
+					}
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "customer_login WHERE email = '" . $this->db->escape(utf8_strtolower((string)$email)) . "'");]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+		if (!$this->config->get('module_phone_verification_status')) {]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "customer_login WHERE email = '" . $this->db->escape(utf8_strtolower((string)$email)) . "'");]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+		} else {
+			$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "customer_login WHERE telephone = '" . $this->db->escape($email) . "'");
+		}]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->db->query("INSERT INTO " . DB_PREFIX . "customer_login SET email = '" . $this->db->escape(utf8_strtolower((string)$email)) . "', ip = '" . $this->db->escape($this->request->server['REMOTE_ADDR']) . "', total = 1, date_added = '" . $this->db->escape(date('Y-m-d H:i:s')) . "', date_modified = '" . $this->db->escape(date('Y-m-d H:i:s')) . "'");]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+			if (!$this->config->get('module_phone_verification_status')) {]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->db->query("INSERT INTO " . DB_PREFIX . "customer_login SET email = '" . $this->db->escape(utf8_strtolower((string)$email)) . "', ip = '" . $this->db->escape($this->request->server['REMOTE_ADDR']) . "', total = 1, date_added = '" . $this->db->escape(date('Y-m-d H:i:s')) . "', date_modified = '" . $this->db->escape(date('Y-m-d H:i:s')) . "'");]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+			} else {
+				$this->db->query("INSERT INTO " . DB_PREFIX . "customer_login SET telephone = '" . $this->db->escape($email) . "', ip = '" . $this->db->escape($this->request->server['REMOTE_ADDR']) . "', total = 1, date_added = '" . $this->db->escape(date('Y-m-d H:i:s')) . "', date_modified = '" . $this->db->escape(date('Y-m-d H:i:s')) . "'");
+			}]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$query = $this->db->query("SELECT * FROM `" . DB_PREFIX . "customer_login` WHERE email = '" . $this->db->escape(utf8_strtolower($email)) . "'");]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+		if (!$this->config->get('module_phone_verification_status')) {]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$query = $this->db->query("SELECT * FROM `" . DB_PREFIX . "customer_login` WHERE email = '" . $this->db->escape(utf8_strtolower($email)) . "'");]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+		} else {
+			$query = $this->db->query("SELECT * FROM `" . DB_PREFIX . "customer_login` WHERE telephone = '" . $this->db->escape($email) . "'");
+		}]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->db->query("DELETE FROM `" . DB_PREFIX . "customer_login` WHERE email = '" . $this->db->escape(utf8_strtolower($email)) . "'");]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+		if (!$this->config->get('module_phone_verification_status')) {]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->db->query("DELETE FROM `" . DB_PREFIX . "customer_login` WHERE email = '" . $this->db->escape(utf8_strtolower($email)) . "'");]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+		} else {
+			$this->db->query("DELETE FROM `" . DB_PREFIX . "customer_login` WHERE telephone = '" . $this->db->escape($email) . "'");
+		}]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->db->query("UPDATE " . DB_PREFIX . "customer SET salt = '" . $this->db->escape($salt = token(9)) . "', password = '" . $this->db->escape(sha1($salt . sha1($salt . sha1($password)))) . "', code = '' WHERE LOWER(email) = '" . $this->db->escape(utf8_strtolower($email)) . "'");]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+		if (!$this->config->get('module_phone_verification_status')) {]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->db->query("UPDATE " . DB_PREFIX . "customer SET salt = '" . $this->db->escape($salt = token(9)) . "', password = '" . $this->db->escape(sha1($salt . sha1($salt . sha1($password)))) . "', code = '' WHERE LOWER(email) = '" . $this->db->escape(utf8_strtolower($email)) . "'");]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+		} else {
+			$this->db->query("UPDATE " . DB_PREFIX . "customer SET salt = '" . $this->db->escape($salt = token(9)) . "', password = '" . $this->db->escape(sha1($salt . sha1($salt . sha1($password)))) . "', code = '' WHERE telephone = '" . $this->db->escape($email) . "'");
+		}]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[public function getTotalCustomersByEmail($email) {]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+	public function getTotalCustomersByTelephone($telephone) {
+		$query = $this->db->query("SELECT COUNT(*) AS total FROM " . DB_PREFIX . "customer WHERE telephone = '" . $this->db->escape($telephone) . "'");
+
+		return $query->row['total'];
+	}
+				]]>
+			</add>
+		</operation>
+	</file>
+
+	<file path="catalog/view/theme/journal3/template/account/login.twig">
+		<operation>
+			<search>
+				<![CDATA[<label class="control-label" for="input-email">{{ entry_email }}</label>]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				{% if not phone_verification_status %}]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[<input type="text" name="email" value="{{ email }}" placeholder="{{ entry_email }}" id="input-email" class="form-control" />]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				{% else %}
+					<label class="control-label" for="input-telephone">{{ entry_telephone }}</label>
+					<input type="text" value="{{ telephone }}" placeholder="{{ entry_telephone }}" id="input-telephone" class="form-control" />
+					<input type="hidden" name="telephone" value="{{ telephone }}" id="telephone"  />
+				{% endif %}]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[
+					{{ footer }}
+				]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+{% if phone_verification_status %}
+<script>
+	var phoneInputField = document.querySelector("#input-telephone");
+	var iti = intlTelInput(phoneInputField, {
+		preferredCountries: ["my","sg","id","th","vn","ph","bn","mm"],
+		initialCountry: "my",
+		separateDialCode: true,
+		utilsScript:
+		"https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+	});
+
+	$("button[type=submit]").click(function() {
+		var phoneInput = $('#input-telephone').val();
+		var countryData = iti.getSelectedCountryData();
+		
+		var phoneNumber = libphonenumber.parsePhoneNumberFromString(phoneInput, countryData.iso2.toUpperCase());
+		if (phoneNumber && phoneNumber.isValid()) {
+			var telephone = phoneNumber.countryCallingCode + phoneNumber.nationalNumber;
+
+			$('#telephone').val(telephone);
+		} else {              
+			$('#telephone').val(phoneInput);
+		}
+		$('#input-telephone').val(phoneInput);
+	});
+
+</script>  
+{% endif %} 
+				]]>
+			</add>
+		</operation>
+	</file>
+
+	<file path="system/library/cart/customer.php">
+		<operation>
+			<search>
+				<![CDATA[$customer_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "customer WHERE LOWER(email) = '" . $this->db->escape(utf8_strtolower($email)) . "' AND status = '1'");]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+			if (!$this->config->get('module_phone_verification_status')) {]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$customer_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "customer WHERE LOWER(email) = '" . $this->db->escape(utf8_strtolower($email)) . "' AND status = '1'");]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+			} else {
+				$customer_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "customer WHERE telephone = '" . $this->db->escape($email) . "' AND status = '1'");
+			}]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$customer_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "customer WHERE LOWER(email) = '" . $this->db->escape(utf8_strtolower($email)) . "' AND (password = SHA1(CONCAT(salt, SHA1(CONCAT(salt, SHA1('" . $this->db->escape($password) . "'))))) OR password = '" . $this->db->escape(md5($password)) . "') AND status = '1'");]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+			if (!$this->config->get('module_phone_verification_status')) {]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$customer_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "customer WHERE LOWER(email) = '" . $this->db->escape(utf8_strtolower($email)) . "' AND (password = SHA1(CONCAT(salt, SHA1(CONCAT(salt, SHA1('" . $this->db->escape($password) . "'))))) OR password = '" . $this->db->escape(md5($password)) . "') AND status = '1'");]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+			} else {
+				$customer_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "customer WHERE telephone = '" . $this->db->escape($email) . "' AND (password = SHA1(CONCAT(salt, SHA1(CONCAT(salt, SHA1('" . $this->db->escape($password) . "'))))) OR password = '" . $this->db->escape(md5($password)) . "') AND status = '1'");
+			}]]>
+			</add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/journal3/checkout.php">
+		<operation>
+			<search>
+				<![CDATA['button_login'   => $this->language->get('button_login'),]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+			'phone_verification_status'   => $this->config->get('module_phone_verification_status'),]]>
+			</add>
+		</operation>
+	</file>
+
+	<file path="catalog/view/theme/journal3/template/journal3/checkout/login.twig">
+		<operation>
+			<search>
+				<![CDATA[<div v-if="account === ''" class="form-group">]]>
+			</search>
+			<add position="before">
+				<![CDATA[{#]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[<div v-if="account === ''" class="form-group">]]>
+			</search>
+			<add position="after">
+				<![CDATA[#}
+				<div v-show="account === ''" class="form-group">
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[<label class="control-label" for="input-login-email">{{ entry_email }}</label>]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+        {% if not phone_verification_status %}]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[<input type="text" v-model="login_email" placeholder="{{ entry_email }}" id="input-login-email" class="form-control"/>]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+        {% else %}
+        	<label class="control-label" for="input-login-telephone">{{ entry_telephone }}</label>
+        	<input type="text" v-model="login_email" placeholder="{{ entry_telephone }}" id="input-login-telephone" class="form-control"/>
+          	<input type="hidden" name="login_telephone" value="{{ telephone }}" id="login-telephone"  />
+        {% endif %}]]>
+			</add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/account/register.php">
+		<operation>
+			<search>
+				<![CDATA[$this->load->language('account/register');]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+					$this->document->addScript('https://unpkg.com/libphonenumber-js@1.9.9/bundle/libphonenumber-min.js');
+					$this->document->addScript('https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js');
+					$this->document->addStyle('https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css');
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[getTotalCustomersByEmail($this->request->post['email'])]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+		if ($this->config->get('module_phone_verification_status')) {
+			if ($this->model_account_customer->getTotalCustomersByTelephone($this->request->post['telephone'])) {
+				$this->error['warning'] = $this->language->get('error_phone_exists');
+			}
+		}
+				]]>
+			</add>
+		</operation>		
+		<operation>
+			<search>
+				<![CDATA[$this->customer->login($this->request->post['email'], $this->request->post['password'])]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+		if (!$this->config->get('module_phone_verification_status')) {]]>
+			</add>
+		</operation>		
+		<operation>
+			<search>
+				<![CDATA[$this->customer->login($this->request->post['email'], $this->request->post['password'])]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+		} else {
+			$this->customer->login($this->request->post['telephone'], $this->request->post['password']);
+		}]]>
+			</add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/affiliate/login.php">
+		<operation>
+			<search>
+				<![CDATA[$this->customer->login($this->request->post['email'], $this->request->post['password'])]]>
+			</search>
+			<add position="replace">
+				<![CDATA[$this->customer->login($this->request->post['telephone'], $this->request->post['password'])]]>
+			</add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/affiliate/register.php">
+		<operation>
+			<search>
+				<![CDATA[$this->customer->login($this->request->post['email'], $this->request->post['password'])]]>
+			</search>
+			<add position="replace">
+				<![CDATA[$this->customer->login($this->request->post['telephone'], $this->request->post['password'])]]>
+			</add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/checkout/login.php">
+		<operation>
+			<search>
+				<![CDATA[$this->customer->login($this->request->post['email'], $this->request->post['password'])]]>
+			</search>
+			<add position="replace">
+				<![CDATA[$this->customer->login($this->request->post['telephone'], $this->request->post['password'])]]>
+			</add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/checkout/register.php">
+		<operation>
+			<search>
+				<![CDATA[$this->customer->login($this->request->post['email'], $this->request->post['password'])]]>
+			</search>
+			<add position="replace">
+				<![CDATA[$this->customer->login($this->request->post['telephone'], $this->request->post['password'])]]>
+			</add>
+		</operation>
+	</file>
+	
+  	<!-- languages -->
+	<file path="catalog/language/en-gb/account/login.php">
+		<operation>
+			<search>
+				<![CDATA[$_['entry_email'] ]]>
+			</search>
+			<add position="after">
+				<![CDATA[$_['entry_telephone']              = 'Telephone';]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$_['error_login'] ]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+$_['error_login_phone']              = 'Warning: No match for Telephone and/or Password.';]]>
+			</add>
+		</operation>
+	</file>
+
+	<file path="catalog/language/en-gb/account/register.php">
+		<operation>
+			<search>
+				<![CDATA[$_['error_agree'] ]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+					$_['error_phone_exists']         = 'Warning: Telephone is already registered!';
+					$_['error_phone_invalid']        = 'Phone number empty or invalid';
+				]]>
+			</add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/journal3/checkout.php">
+		<operation>
+			<search>
+				<![CDATA['login_email']]>
+			</search>
+			<add position="after">
+				<![CDATA[
+			'login_telephone'            => '',]]>
+			</add>
+		</operation>
+	</file>
+
+</modification>

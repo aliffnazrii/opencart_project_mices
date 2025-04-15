@@ -1,0 +1,3575 @@
+<?php $val = array (
+  'category_id' => '239',
+  'parent_id' => '232',
+  'title' => 'Computers, Printing &amp; Gaming',
+  'items' => 
+  array (
+    419 => 
+    array (
+      'category_id' => '419',
+      'parent_id' => '239',
+      'title' => 'Computer Accessories',
+      'items' => 
+      array (
+        420 => 
+        array (
+          'category_id' => '420',
+          'parent_id' => '419',
+          'title' => 'Computer Speakers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c420',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_420',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        421 => 
+        array (
+          'category_id' => '421',
+          'parent_id' => '419',
+          'title' => 'Keyboards, Mouse &amp; Mats',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c421',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_421',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        422 => 
+        array (
+          'category_id' => '422',
+          'parent_id' => '419',
+          'title' => 'Laptop Bags &amp; Sleeves',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c422',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_422',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        423 => 
+        array (
+          'category_id' => '423',
+          'parent_id' => '419',
+          'title' => 'Monitors',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c423',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_423',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        424 => 
+        array (
+          'category_id' => '424',
+          'parent_id' => '419',
+          'title' => 'Software',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c424',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_424',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c419',
+        'dropdown' => 
+        array (
+          420 => 
+          array (
+            'category_id' => '420',
+            'parent_id' => '419',
+            'title' => 'Computer Speakers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c420',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_420',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          421 => 
+          array (
+            'category_id' => '421',
+            'parent_id' => '419',
+            'title' => 'Keyboards, Mouse &amp; Mats',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c421',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_421',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          422 => 
+          array (
+            'category_id' => '422',
+            'parent_id' => '419',
+            'title' => 'Laptop Bags &amp; Sleeves',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c422',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_422',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          423 => 
+          array (
+            'category_id' => '423',
+            'parent_id' => '419',
+            'title' => 'Monitors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c423',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_423',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          424 => 
+          array (
+            'category_id' => '424',
+            'parent_id' => '419',
+            'title' => 'Software',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c424',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_424',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    411 => 
+    array (
+      'category_id' => '411',
+      'parent_id' => '239',
+      'title' => 'Computer Components',
+      'items' => 
+      array (
+        412 => 
+        array (
+          'category_id' => '412',
+          'parent_id' => '411',
+          'title' => 'Air &amp; Water Cooling',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c412',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_412',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        413 => 
+        array (
+          'category_id' => '413',
+          'parent_id' => '411',
+          'title' => 'Computer Cases',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c413',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_413',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        414 => 
+        array (
+          'category_id' => '414',
+          'parent_id' => '411',
+          'title' => 'Computer Memory',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c414',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_414',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        415 => 
+        array (
+          'category_id' => '415',
+          'parent_id' => '411',
+          'title' => 'External Devices',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c415',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_415',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        416 => 
+        array (
+          'category_id' => '416',
+          'parent_id' => '411',
+          'title' => 'Graphic Cards',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c416',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_416',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        417 => 
+        array (
+          'category_id' => '417',
+          'parent_id' => '411',
+          'title' => 'Motherboards',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c417',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_417',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        418 => 
+        array (
+          'category_id' => '418',
+          'parent_id' => '411',
+          'title' => 'Processors',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c418',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_418',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c411',
+        'dropdown' => 
+        array (
+          412 => 
+          array (
+            'category_id' => '412',
+            'parent_id' => '411',
+            'title' => 'Air &amp; Water Cooling',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c412',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_412',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          413 => 
+          array (
+            'category_id' => '413',
+            'parent_id' => '411',
+            'title' => 'Computer Cases',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c413',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_413',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          414 => 
+          array (
+            'category_id' => '414',
+            'parent_id' => '411',
+            'title' => 'Computer Memory',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c414',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_414',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          415 => 
+          array (
+            'category_id' => '415',
+            'parent_id' => '411',
+            'title' => 'External Devices',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c415',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_415',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          416 => 
+          array (
+            'category_id' => '416',
+            'parent_id' => '411',
+            'title' => 'Graphic Cards',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c416',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_416',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          417 => 
+          array (
+            'category_id' => '417',
+            'parent_id' => '411',
+            'title' => 'Motherboards',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c417',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_417',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          418 => 
+          array (
+            'category_id' => '418',
+            'parent_id' => '411',
+            'title' => 'Processors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c418',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_418',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    425 => 
+    array (
+      'category_id' => '425',
+      'parent_id' => '239',
+      'title' => 'Computers',
+      'items' => 
+      array (
+        426 => 
+        array (
+          'category_id' => '426',
+          'parent_id' => '425',
+          'title' => '2 in 1 Pcs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c426',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_426',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        427 => 
+        array (
+          'category_id' => '427',
+          'parent_id' => '425',
+          'title' => 'Chromebooks',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c427',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_427',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        428 => 
+        array (
+          'category_id' => '428',
+          'parent_id' => '425',
+          'title' => 'Desktop &amp; All in Ones',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c428',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_428',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        429 => 
+        array (
+          'category_id' => '429',
+          'parent_id' => '425',
+          'title' => 'Gaming Pcs &amp; Vrs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c429',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_429',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        430 => 
+        array (
+          'category_id' => '430',
+          'parent_id' => '425',
+          'title' => 'Laptops',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c430',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_430',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        431 => 
+        array (
+          'category_id' => '431',
+          'parent_id' => '425',
+          'title' => 'Microsoft Surface',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c431',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_431',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        432 => 
+        array (
+          'category_id' => '432',
+          'parent_id' => '425',
+          'title' => 'Modern Pcs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c432',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_432',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c425',
+        'dropdown' => 
+        array (
+          426 => 
+          array (
+            'category_id' => '426',
+            'parent_id' => '425',
+            'title' => '2 in 1 Pcs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c426',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_426',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          427 => 
+          array (
+            'category_id' => '427',
+            'parent_id' => '425',
+            'title' => 'Chromebooks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c427',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_427',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          428 => 
+          array (
+            'category_id' => '428',
+            'parent_id' => '425',
+            'title' => 'Desktop &amp; All in Ones',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c428',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_428',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          429 => 
+          array (
+            'category_id' => '429',
+            'parent_id' => '425',
+            'title' => 'Gaming Pcs &amp; Vrs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c429',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_429',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          430 => 
+          array (
+            'category_id' => '430',
+            'parent_id' => '425',
+            'title' => 'Laptops',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c430',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_430',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          431 => 
+          array (
+            'category_id' => '431',
+            'parent_id' => '425',
+            'title' => 'Microsoft Surface',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c431',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_431',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          432 => 
+          array (
+            'category_id' => '432',
+            'parent_id' => '425',
+            'title' => 'Modern Pcs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c432',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_432',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    433 => 
+    array (
+      'category_id' => '433',
+      'parent_id' => '239',
+      'title' => 'Game Hub',
+      'items' => 
+      array (
+        434 => 
+        array (
+          'category_id' => '434',
+          'parent_id' => '433',
+          'title' => 'Games',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c434',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433_434',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        435 => 
+        array (
+          'category_id' => '435',
+          'parent_id' => '433',
+          'title' => 'Gaming Accessories',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c435',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433_435',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        436 => 
+        array (
+          'category_id' => '436',
+          'parent_id' => '433',
+          'title' => 'Gaming Consoles',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c436',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433_436',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        437 => 
+        array (
+          'category_id' => '437',
+          'parent_id' => '433',
+          'title' => 'Gaming Headphones',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c437',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433_437',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c433',
+        'dropdown' => 
+        array (
+          434 => 
+          array (
+            'category_id' => '434',
+            'parent_id' => '433',
+            'title' => 'Games',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c434',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433_434',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          435 => 
+          array (
+            'category_id' => '435',
+            'parent_id' => '433',
+            'title' => 'Gaming Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c435',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433_435',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          436 => 
+          array (
+            'category_id' => '436',
+            'parent_id' => '433',
+            'title' => 'Gaming Consoles',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c436',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433_436',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          437 => 
+          array (
+            'category_id' => '437',
+            'parent_id' => '433',
+            'title' => 'Gaming Headphones',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c437',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433_437',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    438 => 
+    array (
+      'category_id' => '438',
+      'parent_id' => '239',
+      'title' => 'Hard Drive &amp; Storage',
+      'items' => 
+      array (
+        439 => 
+        array (
+          'category_id' => '439',
+          'parent_id' => '438',
+          'title' => 'Desktop Hard Drives',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c439',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438_439',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        440 => 
+        array (
+          'category_id' => '440',
+          'parent_id' => '438',
+          'title' => 'Network Storage',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c440',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438_440',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        441 => 
+        array (
+          'category_id' => '441',
+          'parent_id' => '438',
+          'title' => 'Portable Hard Drives',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c441',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438_441',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        442 => 
+        array (
+          'category_id' => '442',
+          'parent_id' => '438',
+          'title' => 'USB Flash Drives',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c442',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438_442',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c438',
+        'dropdown' => 
+        array (
+          439 => 
+          array (
+            'category_id' => '439',
+            'parent_id' => '438',
+            'title' => 'Desktop Hard Drives',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c439',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438_439',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          440 => 
+          array (
+            'category_id' => '440',
+            'parent_id' => '438',
+            'title' => 'Network Storage',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c440',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438_440',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          441 => 
+          array (
+            'category_id' => '441',
+            'parent_id' => '438',
+            'title' => 'Portable Hard Drives',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c441',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438_441',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          442 => 
+          array (
+            'category_id' => '442',
+            'parent_id' => '438',
+            'title' => 'USB Flash Drives',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c442',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438_442',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    443 => 
+    array (
+      'category_id' => '443',
+      'parent_id' => '239',
+      'title' => 'Networking',
+      'items' => 
+      array (
+        444 => 
+        array (
+          'category_id' => '444',
+          'parent_id' => '443',
+          'title' => 'Ethernet Switches',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c444',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443_444',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        445 => 
+        array (
+          'category_id' => '445',
+          'parent_id' => '443',
+          'title' => 'Modems &amp; Routers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c445',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443_445',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        446 => 
+        array (
+          'category_id' => '446',
+          'parent_id' => '443',
+          'title' => 'Networking Adapters',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c446',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443_446',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        447 => 
+        array (
+          'category_id' => '447',
+          'parent_id' => '443',
+          'title' => 'WIFI Range Extenders',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c447',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443_447',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c443',
+        'dropdown' => 
+        array (
+          444 => 
+          array (
+            'category_id' => '444',
+            'parent_id' => '443',
+            'title' => 'Ethernet Switches',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c444',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443_444',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          445 => 
+          array (
+            'category_id' => '445',
+            'parent_id' => '443',
+            'title' => 'Modems &amp; Routers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c445',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443_445',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          446 => 
+          array (
+            'category_id' => '446',
+            'parent_id' => '443',
+            'title' => 'Networking Adapters',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c446',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443_446',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          447 => 
+          array (
+            'category_id' => '447',
+            'parent_id' => '443',
+            'title' => 'WIFI Range Extenders',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c447',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443_447',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    448 => 
+    array (
+      'category_id' => '448',
+      'parent_id' => '239',
+      'title' => 'Printing &amp; Accessories',
+      'items' => 
+      array (
+        449 => 
+        array (
+          'category_id' => '449',
+          'parent_id' => '448',
+          'title' => 'Inks, Toners &amp; Papers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c449',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_448_449',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        450 => 
+        array (
+          'category_id' => '450',
+          'parent_id' => '448',
+          'title' => 'Printers &amp; Scanners',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c450',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_448_450',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c448',
+        'dropdown' => 
+        array (
+          449 => 
+          array (
+            'category_id' => '449',
+            'parent_id' => '448',
+            'title' => 'Inks, Toners &amp; Papers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c449',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_448_449',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          450 => 
+          array (
+            'category_id' => '450',
+            'parent_id' => '448',
+            'title' => 'Printers &amp; Scanners',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c450',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_448_450',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_448',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    451 => 
+    array (
+      'category_id' => '451',
+      'parent_id' => '239',
+      'title' => 'Smart Board',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c451',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_451',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c239',
+    'dropdown' => 
+    array (
+      419 => 
+      array (
+        'category_id' => '419',
+        'parent_id' => '239',
+        'title' => 'Computer Accessories',
+        'items' => 
+        array (
+          420 => 
+          array (
+            'category_id' => '420',
+            'parent_id' => '419',
+            'title' => 'Computer Speakers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c420',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_420',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          421 => 
+          array (
+            'category_id' => '421',
+            'parent_id' => '419',
+            'title' => 'Keyboards, Mouse &amp; Mats',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c421',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_421',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          422 => 
+          array (
+            'category_id' => '422',
+            'parent_id' => '419',
+            'title' => 'Laptop Bags &amp; Sleeves',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c422',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_422',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          423 => 
+          array (
+            'category_id' => '423',
+            'parent_id' => '419',
+            'title' => 'Monitors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c423',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_423',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          424 => 
+          array (
+            'category_id' => '424',
+            'parent_id' => '419',
+            'title' => 'Software',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c424',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_424',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c419',
+          'dropdown' => 
+          array (
+            420 => 
+            array (
+              'category_id' => '420',
+              'parent_id' => '419',
+              'title' => 'Computer Speakers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c420',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_420',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            421 => 
+            array (
+              'category_id' => '421',
+              'parent_id' => '419',
+              'title' => 'Keyboards, Mouse &amp; Mats',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c421',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_421',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            422 => 
+            array (
+              'category_id' => '422',
+              'parent_id' => '419',
+              'title' => 'Laptop Bags &amp; Sleeves',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c422',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_422',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            423 => 
+            array (
+              'category_id' => '423',
+              'parent_id' => '419',
+              'title' => 'Monitors',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c423',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_423',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            424 => 
+            array (
+              'category_id' => '424',
+              'parent_id' => '419',
+              'title' => 'Software',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c424',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419_424',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_419',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      411 => 
+      array (
+        'category_id' => '411',
+        'parent_id' => '239',
+        'title' => 'Computer Components',
+        'items' => 
+        array (
+          412 => 
+          array (
+            'category_id' => '412',
+            'parent_id' => '411',
+            'title' => 'Air &amp; Water Cooling',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c412',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_412',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          413 => 
+          array (
+            'category_id' => '413',
+            'parent_id' => '411',
+            'title' => 'Computer Cases',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c413',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_413',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          414 => 
+          array (
+            'category_id' => '414',
+            'parent_id' => '411',
+            'title' => 'Computer Memory',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c414',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_414',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          415 => 
+          array (
+            'category_id' => '415',
+            'parent_id' => '411',
+            'title' => 'External Devices',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c415',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_415',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          416 => 
+          array (
+            'category_id' => '416',
+            'parent_id' => '411',
+            'title' => 'Graphic Cards',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c416',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_416',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          417 => 
+          array (
+            'category_id' => '417',
+            'parent_id' => '411',
+            'title' => 'Motherboards',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c417',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_417',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          418 => 
+          array (
+            'category_id' => '418',
+            'parent_id' => '411',
+            'title' => 'Processors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c418',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_418',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c411',
+          'dropdown' => 
+          array (
+            412 => 
+            array (
+              'category_id' => '412',
+              'parent_id' => '411',
+              'title' => 'Air &amp; Water Cooling',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c412',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_412',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            413 => 
+            array (
+              'category_id' => '413',
+              'parent_id' => '411',
+              'title' => 'Computer Cases',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c413',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_413',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            414 => 
+            array (
+              'category_id' => '414',
+              'parent_id' => '411',
+              'title' => 'Computer Memory',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c414',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_414',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            415 => 
+            array (
+              'category_id' => '415',
+              'parent_id' => '411',
+              'title' => 'External Devices',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c415',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_415',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            416 => 
+            array (
+              'category_id' => '416',
+              'parent_id' => '411',
+              'title' => 'Graphic Cards',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c416',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_416',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            417 => 
+            array (
+              'category_id' => '417',
+              'parent_id' => '411',
+              'title' => 'Motherboards',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c417',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_417',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            418 => 
+            array (
+              'category_id' => '418',
+              'parent_id' => '411',
+              'title' => 'Processors',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c418',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411_418',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_411',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      425 => 
+      array (
+        'category_id' => '425',
+        'parent_id' => '239',
+        'title' => 'Computers',
+        'items' => 
+        array (
+          426 => 
+          array (
+            'category_id' => '426',
+            'parent_id' => '425',
+            'title' => '2 in 1 Pcs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c426',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_426',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          427 => 
+          array (
+            'category_id' => '427',
+            'parent_id' => '425',
+            'title' => 'Chromebooks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c427',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_427',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          428 => 
+          array (
+            'category_id' => '428',
+            'parent_id' => '425',
+            'title' => 'Desktop &amp; All in Ones',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c428',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_428',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          429 => 
+          array (
+            'category_id' => '429',
+            'parent_id' => '425',
+            'title' => 'Gaming Pcs &amp; Vrs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c429',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_429',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          430 => 
+          array (
+            'category_id' => '430',
+            'parent_id' => '425',
+            'title' => 'Laptops',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c430',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_430',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          431 => 
+          array (
+            'category_id' => '431',
+            'parent_id' => '425',
+            'title' => 'Microsoft Surface',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c431',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_431',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          432 => 
+          array (
+            'category_id' => '432',
+            'parent_id' => '425',
+            'title' => 'Modern Pcs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c432',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_432',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c425',
+          'dropdown' => 
+          array (
+            426 => 
+            array (
+              'category_id' => '426',
+              'parent_id' => '425',
+              'title' => '2 in 1 Pcs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c426',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_426',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            427 => 
+            array (
+              'category_id' => '427',
+              'parent_id' => '425',
+              'title' => 'Chromebooks',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c427',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_427',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            428 => 
+            array (
+              'category_id' => '428',
+              'parent_id' => '425',
+              'title' => 'Desktop &amp; All in Ones',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c428',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_428',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            429 => 
+            array (
+              'category_id' => '429',
+              'parent_id' => '425',
+              'title' => 'Gaming Pcs &amp; Vrs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c429',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_429',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            430 => 
+            array (
+              'category_id' => '430',
+              'parent_id' => '425',
+              'title' => 'Laptops',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c430',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_430',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            431 => 
+            array (
+              'category_id' => '431',
+              'parent_id' => '425',
+              'title' => 'Microsoft Surface',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c431',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_431',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            432 => 
+            array (
+              'category_id' => '432',
+              'parent_id' => '425',
+              'title' => 'Modern Pcs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c432',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425_432',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_425',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      433 => 
+      array (
+        'category_id' => '433',
+        'parent_id' => '239',
+        'title' => 'Game Hub',
+        'items' => 
+        array (
+          434 => 
+          array (
+            'category_id' => '434',
+            'parent_id' => '433',
+            'title' => 'Games',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c434',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433_434',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          435 => 
+          array (
+            'category_id' => '435',
+            'parent_id' => '433',
+            'title' => 'Gaming Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c435',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433_435',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          436 => 
+          array (
+            'category_id' => '436',
+            'parent_id' => '433',
+            'title' => 'Gaming Consoles',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c436',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433_436',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          437 => 
+          array (
+            'category_id' => '437',
+            'parent_id' => '433',
+            'title' => 'Gaming Headphones',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c437',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433_437',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c433',
+          'dropdown' => 
+          array (
+            434 => 
+            array (
+              'category_id' => '434',
+              'parent_id' => '433',
+              'title' => 'Games',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c434',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433_434',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            435 => 
+            array (
+              'category_id' => '435',
+              'parent_id' => '433',
+              'title' => 'Gaming Accessories',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c435',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433_435',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            436 => 
+            array (
+              'category_id' => '436',
+              'parent_id' => '433',
+              'title' => 'Gaming Consoles',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c436',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433_436',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            437 => 
+            array (
+              'category_id' => '437',
+              'parent_id' => '433',
+              'title' => 'Gaming Headphones',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c437',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433_437',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_433',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      438 => 
+      array (
+        'category_id' => '438',
+        'parent_id' => '239',
+        'title' => 'Hard Drive &amp; Storage',
+        'items' => 
+        array (
+          439 => 
+          array (
+            'category_id' => '439',
+            'parent_id' => '438',
+            'title' => 'Desktop Hard Drives',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c439',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438_439',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          440 => 
+          array (
+            'category_id' => '440',
+            'parent_id' => '438',
+            'title' => 'Network Storage',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c440',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438_440',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          441 => 
+          array (
+            'category_id' => '441',
+            'parent_id' => '438',
+            'title' => 'Portable Hard Drives',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c441',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438_441',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          442 => 
+          array (
+            'category_id' => '442',
+            'parent_id' => '438',
+            'title' => 'USB Flash Drives',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c442',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438_442',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c438',
+          'dropdown' => 
+          array (
+            439 => 
+            array (
+              'category_id' => '439',
+              'parent_id' => '438',
+              'title' => 'Desktop Hard Drives',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c439',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438_439',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            440 => 
+            array (
+              'category_id' => '440',
+              'parent_id' => '438',
+              'title' => 'Network Storage',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c440',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438_440',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            441 => 
+            array (
+              'category_id' => '441',
+              'parent_id' => '438',
+              'title' => 'Portable Hard Drives',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c441',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438_441',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            442 => 
+            array (
+              'category_id' => '442',
+              'parent_id' => '438',
+              'title' => 'USB Flash Drives',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c442',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438_442',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_438',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      443 => 
+      array (
+        'category_id' => '443',
+        'parent_id' => '239',
+        'title' => 'Networking',
+        'items' => 
+        array (
+          444 => 
+          array (
+            'category_id' => '444',
+            'parent_id' => '443',
+            'title' => 'Ethernet Switches',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c444',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443_444',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          445 => 
+          array (
+            'category_id' => '445',
+            'parent_id' => '443',
+            'title' => 'Modems &amp; Routers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c445',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443_445',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          446 => 
+          array (
+            'category_id' => '446',
+            'parent_id' => '443',
+            'title' => 'Networking Adapters',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c446',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443_446',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          447 => 
+          array (
+            'category_id' => '447',
+            'parent_id' => '443',
+            'title' => 'WIFI Range Extenders',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c447',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443_447',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c443',
+          'dropdown' => 
+          array (
+            444 => 
+            array (
+              'category_id' => '444',
+              'parent_id' => '443',
+              'title' => 'Ethernet Switches',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c444',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443_444',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            445 => 
+            array (
+              'category_id' => '445',
+              'parent_id' => '443',
+              'title' => 'Modems &amp; Routers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c445',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443_445',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            446 => 
+            array (
+              'category_id' => '446',
+              'parent_id' => '443',
+              'title' => 'Networking Adapters',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c446',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443_446',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            447 => 
+            array (
+              'category_id' => '447',
+              'parent_id' => '443',
+              'title' => 'WIFI Range Extenders',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c447',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443_447',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_443',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      448 => 
+      array (
+        'category_id' => '448',
+        'parent_id' => '239',
+        'title' => 'Printing &amp; Accessories',
+        'items' => 
+        array (
+          449 => 
+          array (
+            'category_id' => '449',
+            'parent_id' => '448',
+            'title' => 'Inks, Toners &amp; Papers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c449',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_448_449',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          450 => 
+          array (
+            'category_id' => '450',
+            'parent_id' => '448',
+            'title' => 'Printers &amp; Scanners',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c450',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_448_450',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c448',
+          'dropdown' => 
+          array (
+            449 => 
+            array (
+              'category_id' => '449',
+              'parent_id' => '448',
+              'title' => 'Inks, Toners &amp; Papers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c449',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_448_449',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            450 => 
+            array (
+              'category_id' => '450',
+              'parent_id' => '448',
+              'title' => 'Printers &amp; Scanners',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c450',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_448_450',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_448',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      451 => 
+      array (
+        'category_id' => '451',
+        'parent_id' => '239',
+        'title' => 'Smart Board',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c451',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239_451',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_239',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

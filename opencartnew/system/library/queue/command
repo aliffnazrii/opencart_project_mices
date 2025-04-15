@@ -1,0 +1,22 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use queue\console\InstallCommand;
+use queue\console\JobMakeCommand;
+use queue\console\WorkCommand;
+
+$application = new Application('MICES Queue', '0.0.1');
+
+$installCommand = new InstallCommand();
+$application->add($installCommand);
+
+$jobMakeCommand = new JobMakeCommand();
+$application->add($jobMakeCommand);
+
+$workCommand = new WorkCommand();
+$application->add($workCommand);
+
+$application->run();

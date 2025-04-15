@@ -1,0 +1,2903 @@
+<?php $val = array (
+  'category_id' => '241',
+  'parent_id' => '232',
+  'title' => 'Digital, Mobile &amp; Gadgets',
+  'items' => 
+  array (
+    496 => 
+    array (
+      'category_id' => '496',
+      'parent_id' => '241',
+      'title' => 'Camera',
+      'items' => 
+      array (
+        497 => 
+        array (
+          'category_id' => '497',
+          'parent_id' => '496',
+          'title' => 'Action Cams ',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c497',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_497',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        498 => 
+        array (
+          'category_id' => '498',
+          'parent_id' => '496',
+          'title' => 'Camcorders',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c498',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_498',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        499 => 
+        array (
+          'category_id' => '499',
+          'parent_id' => '496',
+          'title' => 'Digital Cameras',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c499',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_499',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        500 => 
+        array (
+          'category_id' => '500',
+          'parent_id' => '496',
+          'title' => 'Mirrorless Cameras',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c500',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_500',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        501 => 
+        array (
+          'category_id' => '501',
+          'parent_id' => '496',
+          'title' => 'Vlog Cameras',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c501',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_501',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c496',
+        'dropdown' => 
+        array (
+          497 => 
+          array (
+            'category_id' => '497',
+            'parent_id' => '496',
+            'title' => 'Action Cams ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c497',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_497',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          498 => 
+          array (
+            'category_id' => '498',
+            'parent_id' => '496',
+            'title' => 'Camcorders',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c498',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_498',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          499 => 
+          array (
+            'category_id' => '499',
+            'parent_id' => '496',
+            'title' => 'Digital Cameras',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c499',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_499',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          500 => 
+          array (
+            'category_id' => '500',
+            'parent_id' => '496',
+            'title' => 'Mirrorless Cameras',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c500',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_500',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          501 => 
+          array (
+            'category_id' => '501',
+            'parent_id' => '496',
+            'title' => 'Vlog Cameras',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c501',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_501',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    505 => 
+    array (
+      'category_id' => '505',
+      'parent_id' => '241',
+      'title' => 'Camera Accessories',
+      'items' => 
+      array (
+        506 => 
+        array (
+          'category_id' => '506',
+          'parent_id' => '505',
+          'title' => 'Action Cams Accessories',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c506',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_505_506',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        507 => 
+        array (
+          'category_id' => '507',
+          'parent_id' => '505',
+          'title' => 'Memory Cards &amp; Readers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c507',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_505_507',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c505',
+        'dropdown' => 
+        array (
+          506 => 
+          array (
+            'category_id' => '506',
+            'parent_id' => '505',
+            'title' => 'Action Cams Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c506',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_505_506',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          507 => 
+          array (
+            'category_id' => '507',
+            'parent_id' => '505',
+            'title' => 'Memory Cards &amp; Readers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c507',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_505_507',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_505',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    508 => 
+    array (
+      'category_id' => '508',
+      'parent_id' => '241',
+      'title' => 'Headphones',
+      'items' => 
+      array (
+        509 => 
+        array (
+          'category_id' => '509',
+          'parent_id' => '508',
+          'title' => 'In Ear Headphones',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c509',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_509',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        510 => 
+        array (
+          'category_id' => '510',
+          'parent_id' => '508',
+          'title' => 'Noise Cancelling Headphones',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c510',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_510',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        511 => 
+        array (
+          'category_id' => '511',
+          'parent_id' => '508',
+          'title' => 'On Ear Headphones',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c511',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_511',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        512 => 
+        array (
+          'category_id' => '512',
+          'parent_id' => '508',
+          'title' => 'Over Ear Headphones',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c512',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_512',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        513 => 
+        array (
+          'category_id' => '513',
+          'parent_id' => '508',
+          'title' => 'Wireless Headphones',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c513',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_513',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c508',
+        'dropdown' => 
+        array (
+          509 => 
+          array (
+            'category_id' => '509',
+            'parent_id' => '508',
+            'title' => 'In Ear Headphones',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c509',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_509',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          510 => 
+          array (
+            'category_id' => '510',
+            'parent_id' => '508',
+            'title' => 'Noise Cancelling Headphones',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c510',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_510',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          511 => 
+          array (
+            'category_id' => '511',
+            'parent_id' => '508',
+            'title' => 'On Ear Headphones',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c511',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_511',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          512 => 
+          array (
+            'category_id' => '512',
+            'parent_id' => '508',
+            'title' => 'Over Ear Headphones',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c512',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_512',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          513 => 
+          array (
+            'category_id' => '513',
+            'parent_id' => '508',
+            'title' => 'Wireless Headphones',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c513',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_513',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    525 => 
+    array (
+      'category_id' => '525',
+      'parent_id' => '241',
+      'title' => 'Intercom',
+      'items' => 
+      array (
+        526 => 
+        array (
+          'category_id' => '526',
+          'parent_id' => '525',
+          'title' => 'Home Phones',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c526',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_525_526',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        527 => 
+        array (
+          'category_id' => '527',
+          'parent_id' => '525',
+          'title' => 'Walkie Talkies',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c527',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_525_527',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c525',
+        'dropdown' => 
+        array (
+          526 => 
+          array (
+            'category_id' => '526',
+            'parent_id' => '525',
+            'title' => 'Home Phones',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c526',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_525_526',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          527 => 
+          array (
+            'category_id' => '527',
+            'parent_id' => '525',
+            'title' => 'Walkie Talkies',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c527',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_525_527',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_525',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    502 => 
+    array (
+      'category_id' => '502',
+      'parent_id' => '241',
+      'title' => 'Lenses',
+      'items' => 
+      array (
+        504 => 
+        array (
+          'category_id' => '504',
+          'parent_id' => '502',
+          'title' => 'Aps-C Lenses',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c504',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_502_504',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        503 => 
+        array (
+          'category_id' => '503',
+          'parent_id' => '502',
+          'title' => 'Full Frame Lenses',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c503',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_502_503',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c502',
+        'dropdown' => 
+        array (
+          504 => 
+          array (
+            'category_id' => '504',
+            'parent_id' => '502',
+            'title' => 'Aps-C Lenses',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c504',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_502_504',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          503 => 
+          array (
+            'category_id' => '503',
+            'parent_id' => '502',
+            'title' => 'Full Frame Lenses',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c503',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_502_503',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_502',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    523 => 
+    array (
+      'category_id' => '523',
+      'parent_id' => '241',
+      'title' => 'Mid-Range Smart Phone',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c523',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_523',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    514 => 
+    array (
+      'category_id' => '514',
+      'parent_id' => '241',
+      'title' => 'Mobile Gadgets &amp; Accessories',
+      'items' => 
+      array (
+        515 => 
+        array (
+          'category_id' => '515',
+          'parent_id' => '514',
+          'title' => 'Car Mounts',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c515',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_515',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        516 => 
+        array (
+          'category_id' => '516',
+          'parent_id' => '514',
+          'title' => 'Cases &amp; Screen Protectors',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c516',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_516',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        517 => 
+        array (
+          'category_id' => '517',
+          'parent_id' => '514',
+          'title' => 'Drones &amp; Accessories',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c517',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_517',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        522 => 
+        array (
+          'category_id' => '522',
+          'parent_id' => '514',
+          'title' => 'Portable Hand Fans',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c522',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_522',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        518 => 
+        array (
+          'category_id' => '518',
+          'parent_id' => '514',
+          'title' => 'Portable Wireless Speakers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c518',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_518',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        519 => 
+        array (
+          'category_id' => '519',
+          'parent_id' => '514',
+          'title' => 'Power Banks',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c519',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_519',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        520 => 
+        array (
+          'category_id' => '520',
+          'parent_id' => '514',
+          'title' => 'Selfie Accessories',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c520',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_520',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        521 => 
+        array (
+          'category_id' => '521',
+          'parent_id' => '514',
+          'title' => 'Tablets Cases &amp; Keyboards',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c521',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_521',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c514',
+        'dropdown' => 
+        array (
+          515 => 
+          array (
+            'category_id' => '515',
+            'parent_id' => '514',
+            'title' => 'Car Mounts',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c515',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_515',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          516 => 
+          array (
+            'category_id' => '516',
+            'parent_id' => '514',
+            'title' => 'Cases &amp; Screen Protectors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c516',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_516',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          517 => 
+          array (
+            'category_id' => '517',
+            'parent_id' => '514',
+            'title' => 'Drones &amp; Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c517',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_517',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          522 => 
+          array (
+            'category_id' => '522',
+            'parent_id' => '514',
+            'title' => 'Portable Hand Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c522',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_522',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          518 => 
+          array (
+            'category_id' => '518',
+            'parent_id' => '514',
+            'title' => 'Portable Wireless Speakers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c518',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_518',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          519 => 
+          array (
+            'category_id' => '519',
+            'parent_id' => '514',
+            'title' => 'Power Banks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c519',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_519',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          520 => 
+          array (
+            'category_id' => '520',
+            'parent_id' => '514',
+            'title' => 'Selfie Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c520',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_520',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          521 => 
+          array (
+            'category_id' => '521',
+            'parent_id' => '514',
+            'title' => 'Tablets Cases &amp; Keyboards',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c521',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_521',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    524 => 
+    array (
+      'category_id' => '524',
+      'parent_id' => '241',
+      'title' => 'Premium Smart Phone',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c524',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_524',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    528 => 
+    array (
+      'category_id' => '528',
+      'parent_id' => '241',
+      'title' => 'Smart Device',
+      'items' => 
+      array (
+        529 => 
+        array (
+          'category_id' => '529',
+          'parent_id' => '528',
+          'title' => 'Smart Watch',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c529',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_528_529',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c528',
+        'dropdown' => 
+        array (
+          529 => 
+          array (
+            'category_id' => '529',
+            'parent_id' => '528',
+            'title' => 'Smart Watch',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c529',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_528_529',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_528',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    530 => 
+    array (
+      'category_id' => '530',
+      'parent_id' => '241',
+      'title' => 'Tablets',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c530',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_530',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c241',
+    'dropdown' => 
+    array (
+      496 => 
+      array (
+        'category_id' => '496',
+        'parent_id' => '241',
+        'title' => 'Camera',
+        'items' => 
+        array (
+          497 => 
+          array (
+            'category_id' => '497',
+            'parent_id' => '496',
+            'title' => 'Action Cams ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c497',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_497',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          498 => 
+          array (
+            'category_id' => '498',
+            'parent_id' => '496',
+            'title' => 'Camcorders',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c498',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_498',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          499 => 
+          array (
+            'category_id' => '499',
+            'parent_id' => '496',
+            'title' => 'Digital Cameras',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c499',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_499',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          500 => 
+          array (
+            'category_id' => '500',
+            'parent_id' => '496',
+            'title' => 'Mirrorless Cameras',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c500',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_500',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          501 => 
+          array (
+            'category_id' => '501',
+            'parent_id' => '496',
+            'title' => 'Vlog Cameras',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c501',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_501',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c496',
+          'dropdown' => 
+          array (
+            497 => 
+            array (
+              'category_id' => '497',
+              'parent_id' => '496',
+              'title' => 'Action Cams ',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c497',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_497',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            498 => 
+            array (
+              'category_id' => '498',
+              'parent_id' => '496',
+              'title' => 'Camcorders',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c498',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_498',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            499 => 
+            array (
+              'category_id' => '499',
+              'parent_id' => '496',
+              'title' => 'Digital Cameras',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c499',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_499',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            500 => 
+            array (
+              'category_id' => '500',
+              'parent_id' => '496',
+              'title' => 'Mirrorless Cameras',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c500',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_500',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            501 => 
+            array (
+              'category_id' => '501',
+              'parent_id' => '496',
+              'title' => 'Vlog Cameras',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c501',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496_501',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_496',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      505 => 
+      array (
+        'category_id' => '505',
+        'parent_id' => '241',
+        'title' => 'Camera Accessories',
+        'items' => 
+        array (
+          506 => 
+          array (
+            'category_id' => '506',
+            'parent_id' => '505',
+            'title' => 'Action Cams Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c506',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_505_506',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          507 => 
+          array (
+            'category_id' => '507',
+            'parent_id' => '505',
+            'title' => 'Memory Cards &amp; Readers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c507',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_505_507',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c505',
+          'dropdown' => 
+          array (
+            506 => 
+            array (
+              'category_id' => '506',
+              'parent_id' => '505',
+              'title' => 'Action Cams Accessories',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c506',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_505_506',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            507 => 
+            array (
+              'category_id' => '507',
+              'parent_id' => '505',
+              'title' => 'Memory Cards &amp; Readers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c507',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_505_507',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_505',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      508 => 
+      array (
+        'category_id' => '508',
+        'parent_id' => '241',
+        'title' => 'Headphones',
+        'items' => 
+        array (
+          509 => 
+          array (
+            'category_id' => '509',
+            'parent_id' => '508',
+            'title' => 'In Ear Headphones',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c509',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_509',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          510 => 
+          array (
+            'category_id' => '510',
+            'parent_id' => '508',
+            'title' => 'Noise Cancelling Headphones',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c510',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_510',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          511 => 
+          array (
+            'category_id' => '511',
+            'parent_id' => '508',
+            'title' => 'On Ear Headphones',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c511',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_511',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          512 => 
+          array (
+            'category_id' => '512',
+            'parent_id' => '508',
+            'title' => 'Over Ear Headphones',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c512',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_512',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          513 => 
+          array (
+            'category_id' => '513',
+            'parent_id' => '508',
+            'title' => 'Wireless Headphones',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c513',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_513',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c508',
+          'dropdown' => 
+          array (
+            509 => 
+            array (
+              'category_id' => '509',
+              'parent_id' => '508',
+              'title' => 'In Ear Headphones',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c509',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_509',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            510 => 
+            array (
+              'category_id' => '510',
+              'parent_id' => '508',
+              'title' => 'Noise Cancelling Headphones',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c510',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_510',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            511 => 
+            array (
+              'category_id' => '511',
+              'parent_id' => '508',
+              'title' => 'On Ear Headphones',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c511',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_511',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            512 => 
+            array (
+              'category_id' => '512',
+              'parent_id' => '508',
+              'title' => 'Over Ear Headphones',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c512',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_512',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            513 => 
+            array (
+              'category_id' => '513',
+              'parent_id' => '508',
+              'title' => 'Wireless Headphones',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c513',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508_513',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_508',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      525 => 
+      array (
+        'category_id' => '525',
+        'parent_id' => '241',
+        'title' => 'Intercom',
+        'items' => 
+        array (
+          526 => 
+          array (
+            'category_id' => '526',
+            'parent_id' => '525',
+            'title' => 'Home Phones',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c526',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_525_526',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          527 => 
+          array (
+            'category_id' => '527',
+            'parent_id' => '525',
+            'title' => 'Walkie Talkies',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c527',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_525_527',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c525',
+          'dropdown' => 
+          array (
+            526 => 
+            array (
+              'category_id' => '526',
+              'parent_id' => '525',
+              'title' => 'Home Phones',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c526',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_525_526',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            527 => 
+            array (
+              'category_id' => '527',
+              'parent_id' => '525',
+              'title' => 'Walkie Talkies',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c527',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_525_527',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_525',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      502 => 
+      array (
+        'category_id' => '502',
+        'parent_id' => '241',
+        'title' => 'Lenses',
+        'items' => 
+        array (
+          504 => 
+          array (
+            'category_id' => '504',
+            'parent_id' => '502',
+            'title' => 'Aps-C Lenses',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c504',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_502_504',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          503 => 
+          array (
+            'category_id' => '503',
+            'parent_id' => '502',
+            'title' => 'Full Frame Lenses',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c503',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_502_503',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c502',
+          'dropdown' => 
+          array (
+            504 => 
+            array (
+              'category_id' => '504',
+              'parent_id' => '502',
+              'title' => 'Aps-C Lenses',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c504',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_502_504',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            503 => 
+            array (
+              'category_id' => '503',
+              'parent_id' => '502',
+              'title' => 'Full Frame Lenses',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c503',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_502_503',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_502',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      523 => 
+      array (
+        'category_id' => '523',
+        'parent_id' => '241',
+        'title' => 'Mid-Range Smart Phone',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c523',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_523',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      514 => 
+      array (
+        'category_id' => '514',
+        'parent_id' => '241',
+        'title' => 'Mobile Gadgets &amp; Accessories',
+        'items' => 
+        array (
+          515 => 
+          array (
+            'category_id' => '515',
+            'parent_id' => '514',
+            'title' => 'Car Mounts',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c515',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_515',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          516 => 
+          array (
+            'category_id' => '516',
+            'parent_id' => '514',
+            'title' => 'Cases &amp; Screen Protectors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c516',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_516',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          517 => 
+          array (
+            'category_id' => '517',
+            'parent_id' => '514',
+            'title' => 'Drones &amp; Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c517',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_517',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          522 => 
+          array (
+            'category_id' => '522',
+            'parent_id' => '514',
+            'title' => 'Portable Hand Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c522',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_522',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          518 => 
+          array (
+            'category_id' => '518',
+            'parent_id' => '514',
+            'title' => 'Portable Wireless Speakers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c518',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_518',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          519 => 
+          array (
+            'category_id' => '519',
+            'parent_id' => '514',
+            'title' => 'Power Banks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c519',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_519',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          520 => 
+          array (
+            'category_id' => '520',
+            'parent_id' => '514',
+            'title' => 'Selfie Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c520',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_520',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          521 => 
+          array (
+            'category_id' => '521',
+            'parent_id' => '514',
+            'title' => 'Tablets Cases &amp; Keyboards',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c521',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_521',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c514',
+          'dropdown' => 
+          array (
+            515 => 
+            array (
+              'category_id' => '515',
+              'parent_id' => '514',
+              'title' => 'Car Mounts',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c515',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_515',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            516 => 
+            array (
+              'category_id' => '516',
+              'parent_id' => '514',
+              'title' => 'Cases &amp; Screen Protectors',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c516',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_516',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            517 => 
+            array (
+              'category_id' => '517',
+              'parent_id' => '514',
+              'title' => 'Drones &amp; Accessories',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c517',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_517',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            522 => 
+            array (
+              'category_id' => '522',
+              'parent_id' => '514',
+              'title' => 'Portable Hand Fans',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c522',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_522',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            518 => 
+            array (
+              'category_id' => '518',
+              'parent_id' => '514',
+              'title' => 'Portable Wireless Speakers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c518',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_518',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            519 => 
+            array (
+              'category_id' => '519',
+              'parent_id' => '514',
+              'title' => 'Power Banks',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c519',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_519',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            520 => 
+            array (
+              'category_id' => '520',
+              'parent_id' => '514',
+              'title' => 'Selfie Accessories',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c520',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_520',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            521 => 
+            array (
+              'category_id' => '521',
+              'parent_id' => '514',
+              'title' => 'Tablets Cases &amp; Keyboards',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c521',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514_521',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_514',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      524 => 
+      array (
+        'category_id' => '524',
+        'parent_id' => '241',
+        'title' => 'Premium Smart Phone',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c524',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_524',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      528 => 
+      array (
+        'category_id' => '528',
+        'parent_id' => '241',
+        'title' => 'Smart Device',
+        'items' => 
+        array (
+          529 => 
+          array (
+            'category_id' => '529',
+            'parent_id' => '528',
+            'title' => 'Smart Watch',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c529',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_528_529',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c528',
+          'dropdown' => 
+          array (
+            529 => 
+            array (
+              'category_id' => '529',
+              'parent_id' => '528',
+              'title' => 'Smart Watch',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c529',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_528_529',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_528',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      530 => 
+      array (
+        'category_id' => '530',
+        'parent_id' => '241',
+        'title' => 'Tablets',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c530',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241_530',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_241',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

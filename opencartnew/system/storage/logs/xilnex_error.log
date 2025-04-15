@@ -1,0 +1,18 @@
+2025-03-06 1:35:26 - Array
+(
+    [url] => https://api.xilnex.com/logic/v2/companyinfo/all
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => {"ok":false,"status":"Unauthorized","warning":"Attempted to perform an unauthorized operation.","error":null,"data":null}
+)
+
+2025-03-06 1:35:26 - Array
+(
+    [url] => https://api.xilnex.com/apps/v2/sync/customertypes?limit=10
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => {"ok":false,"status":"Unauthorized","warning":"Attempted to perform an unauthorized operation.","error":null,"data":null}
+)
+

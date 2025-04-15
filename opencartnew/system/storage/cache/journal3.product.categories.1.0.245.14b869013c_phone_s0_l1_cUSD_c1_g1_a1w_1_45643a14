@@ -1,0 +1,4583 @@
+<?php $val = array (
+  'category_id' => '245',
+  'parent_id' => '230',
+  'title' => 'Furnitures',
+  'items' => 
+  array (
+    590 => 
+    array (
+      'category_id' => '590',
+      'parent_id' => '245',
+      'title' => 'Benches',
+      'items' => 
+      array (
+        591 => 
+        array (
+          'category_id' => '591',
+          'parent_id' => '590',
+          'title' => 'Back Bench',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c591',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_590_591',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        592 => 
+        array (
+          'category_id' => '592',
+          'parent_id' => '590',
+          'title' => 'Backless Bench',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c592',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_590_592',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c590',
+        'dropdown' => 
+        array (
+          591 => 
+          array (
+            'category_id' => '591',
+            'parent_id' => '590',
+            'title' => 'Back Bench',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c591',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_590_591',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          592 => 
+          array (
+            'category_id' => '592',
+            'parent_id' => '590',
+            'title' => 'Backless Bench',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c592',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_590_592',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_590',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    611 => 
+    array (
+      'category_id' => '611',
+      'parent_id' => '245',
+      'title' => 'Bookcases &amp; Shelving Units',
+      'items' => 
+      array (
+        612 => 
+        array (
+          'category_id' => '612',
+          'parent_id' => '611',
+          'title' => 'Bookcases',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c612',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_611_612',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        613 => 
+        array (
+          'category_id' => '613',
+          'parent_id' => '611',
+          'title' => 'Shelving Units',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c613',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_611_613',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c611',
+        'dropdown' => 
+        array (
+          612 => 
+          array (
+            'category_id' => '612',
+            'parent_id' => '611',
+            'title' => 'Bookcases',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c612',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_611_612',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          613 => 
+          array (
+            'category_id' => '613',
+            'parent_id' => '611',
+            'title' => 'Shelving Units',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c613',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_611_613',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_611',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    601 => 
+    array (
+      'category_id' => '601',
+      'parent_id' => '245',
+      'title' => 'Chairs',
+      'items' => 
+      array (
+        604 => 
+        array (
+          'category_id' => '604',
+          'parent_id' => '601',
+          'title' => 'Bar Chairs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c604',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_604',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        602 => 
+        array (
+          'category_id' => '602',
+          'parent_id' => '601',
+          'title' => 'Dining Chair',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c602',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_602',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        605 => 
+        array (
+          'category_id' => '605',
+          'parent_id' => '601',
+          'title' => 'Folding Chairs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c605',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_605',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        606 => 
+        array (
+          'category_id' => '606',
+          'parent_id' => '601',
+          'title' => 'Gaming Chairs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c606',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_606',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        603 => 
+        array (
+          'category_id' => '603',
+          'parent_id' => '601',
+          'title' => 'Lounge Chairs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c603',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_603',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c601',
+        'dropdown' => 
+        array (
+          604 => 
+          array (
+            'category_id' => '604',
+            'parent_id' => '601',
+            'title' => 'Bar Chairs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c604',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_604',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          602 => 
+          array (
+            'category_id' => '602',
+            'parent_id' => '601',
+            'title' => 'Dining Chair',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c602',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_602',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          605 => 
+          array (
+            'category_id' => '605',
+            'parent_id' => '601',
+            'title' => 'Folding Chairs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c605',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_605',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          606 => 
+          array (
+            'category_id' => '606',
+            'parent_id' => '601',
+            'title' => 'Gaming Chairs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c606',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_606',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          603 => 
+          array (
+            'category_id' => '603',
+            'parent_id' => '601',
+            'title' => 'Lounge Chairs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c603',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_603',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    622 => 
+    array (
+      'category_id' => '622',
+      'parent_id' => '245',
+      'title' => 'Chest of Drawers &amp; Drawer Units',
+      'items' => 
+      array (
+        623 => 
+        array (
+          'category_id' => '623',
+          'parent_id' => '622',
+          'title' => 'Basket Drawers Units',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c623',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_622_623',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        624 => 
+        array (
+          'category_id' => '624',
+          'parent_id' => '622',
+          'title' => 'Chest of Drawers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c624',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_622_624',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        625 => 
+        array (
+          'category_id' => '625',
+          'parent_id' => '622',
+          'title' => 'Drawer Units',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c625',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_622_625',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c622',
+        'dropdown' => 
+        array (
+          623 => 
+          array (
+            'category_id' => '623',
+            'parent_id' => '622',
+            'title' => 'Basket Drawers Units',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c623',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_622_623',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          624 => 
+          array (
+            'category_id' => '624',
+            'parent_id' => '622',
+            'title' => 'Chest of Drawers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c624',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_622_624',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          625 => 
+          array (
+            'category_id' => '625',
+            'parent_id' => '622',
+            'title' => 'Drawer Units',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c625',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_622_625',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_622',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    626 => 
+    array (
+      'category_id' => '626',
+      'parent_id' => '245',
+      'title' => 'Clothes Stands &amp; Shoe Racks',
+      'items' => 
+      array (
+        627 => 
+        array (
+          'category_id' => '627',
+          'parent_id' => '626',
+          'title' => 'Shoe Cabinets',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c627',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_626_627',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        628 => 
+        array (
+          'category_id' => '628',
+          'parent_id' => '626',
+          'title' => 'Shoe, Coat &amp; Hat Racks',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c628',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_626_628',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c626',
+        'dropdown' => 
+        array (
+          627 => 
+          array (
+            'category_id' => '627',
+            'parent_id' => '626',
+            'title' => 'Shoe Cabinets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c627',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_626_627',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          628 => 
+          array (
+            'category_id' => '628',
+            'parent_id' => '626',
+            'title' => 'Shoe, Coat &amp; Hat Racks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c628',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_626_628',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_626',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    614 => 
+    array (
+      'category_id' => '614',
+      'parent_id' => '245',
+      'title' => 'Display Cabinets &amp; Storage Systems',
+      'items' => 
+      array (
+        615 => 
+        array (
+          'category_id' => '615',
+          'parent_id' => '614',
+          'title' => 'Cabinets',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c615',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614_615',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        616 => 
+        array (
+          'category_id' => '616',
+          'parent_id' => '614',
+          'title' => 'Display Cabinets',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c616',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614_616',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        617 => 
+        array (
+          'category_id' => '617',
+          'parent_id' => '614',
+          'title' => 'Display Rack',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c617',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614_617',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        618 => 
+        array (
+          'category_id' => '618',
+          'parent_id' => '614',
+          'title' => 'Sideboards',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c618',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614_618',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c614',
+        'dropdown' => 
+        array (
+          615 => 
+          array (
+            'category_id' => '615',
+            'parent_id' => '614',
+            'title' => 'Cabinets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c615',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614_615',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          616 => 
+          array (
+            'category_id' => '616',
+            'parent_id' => '614',
+            'title' => 'Display Cabinets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c616',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614_616',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          617 => 
+          array (
+            'category_id' => '617',
+            'parent_id' => '614',
+            'title' => 'Display Rack',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c617',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614_617',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          618 => 
+          array (
+            'category_id' => '618',
+            'parent_id' => '614',
+            'title' => 'Sideboards',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c618',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614_618',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    593 => 
+    array (
+      'category_id' => '593',
+      'parent_id' => '245',
+      'title' => 'Sofas',
+      'items' => 
+      array (
+        594 => 
+        array (
+          'category_id' => '594',
+          'parent_id' => '593',
+          'title' => '1 Seater Sofa',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c594',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_594',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        595 => 
+        array (
+          'category_id' => '595',
+          'parent_id' => '593',
+          'title' => '2 Seater Sofa',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c595',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_595',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        596 => 
+        array (
+          'category_id' => '596',
+          'parent_id' => '593',
+          'title' => '3 Seater Sofa',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c596',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_596',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        597 => 
+        array (
+          'category_id' => '597',
+          'parent_id' => '593',
+          'title' => '4 Seater Sofa',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c597',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_597',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        598 => 
+        array (
+          'category_id' => '598',
+          'parent_id' => '593',
+          'title' => 'L Shape Sofa',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c598',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_598',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        600 => 
+        array (
+          'category_id' => '600',
+          'parent_id' => '593',
+          'title' => 'Recliner Sofa',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c600',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_600',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        599 => 
+        array (
+          'category_id' => '599',
+          'parent_id' => '593',
+          'title' => 'Sofa Bed',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c599',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_599',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c593',
+        'dropdown' => 
+        array (
+          594 => 
+          array (
+            'category_id' => '594',
+            'parent_id' => '593',
+            'title' => '1 Seater Sofa',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c594',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_594',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          595 => 
+          array (
+            'category_id' => '595',
+            'parent_id' => '593',
+            'title' => '2 Seater Sofa',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c595',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_595',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          596 => 
+          array (
+            'category_id' => '596',
+            'parent_id' => '593',
+            'title' => '3 Seater Sofa',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c596',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_596',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          597 => 
+          array (
+            'category_id' => '597',
+            'parent_id' => '593',
+            'title' => '4 Seater Sofa',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c597',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_597',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          598 => 
+          array (
+            'category_id' => '598',
+            'parent_id' => '593',
+            'title' => 'L Shape Sofa',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c598',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_598',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          600 => 
+          array (
+            'category_id' => '600',
+            'parent_id' => '593',
+            'title' => 'Recliner Sofa',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c600',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_600',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          599 => 
+          array (
+            'category_id' => '599',
+            'parent_id' => '593',
+            'title' => 'Sofa Bed',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c599',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_599',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    585 => 
+    array (
+      'category_id' => '585',
+      'parent_id' => '245',
+      'title' => 'Stools',
+      'items' => 
+      array (
+        586 => 
+        array (
+          'category_id' => '586',
+          'parent_id' => '585',
+          'title' => 'Bar Stools',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c586',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585_586',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        588 => 
+        array (
+          'category_id' => '588',
+          'parent_id' => '585',
+          'title' => 'Footstools &amp; Pouffes',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c588',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585_588',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        589 => 
+        array (
+          'category_id' => '589',
+          'parent_id' => '585',
+          'title' => 'Stackable Stools',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c589',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585_589',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        587 => 
+        array (
+          'category_id' => '587',
+          'parent_id' => '585',
+          'title' => 'Step Stools',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c587',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585_587',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c585',
+        'dropdown' => 
+        array (
+          586 => 
+          array (
+            'category_id' => '586',
+            'parent_id' => '585',
+            'title' => 'Bar Stools',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c586',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585_586',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          588 => 
+          array (
+            'category_id' => '588',
+            'parent_id' => '585',
+            'title' => 'Footstools &amp; Pouffes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c588',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585_588',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          589 => 
+          array (
+            'category_id' => '589',
+            'parent_id' => '585',
+            'title' => 'Stackable Stools',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c589',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585_589',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          587 => 
+          array (
+            'category_id' => '587',
+            'parent_id' => '585',
+            'title' => 'Step Stools',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c587',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585_587',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    576 => 
+    array (
+      'category_id' => '576',
+      'parent_id' => '245',
+      'title' => 'Tables',
+      'items' => 
+      array (
+        582 => 
+        array (
+          'category_id' => '582',
+          'parent_id' => '576',
+          'title' => 'Bar Tables',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c582',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_582',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        580 => 
+        array (
+          'category_id' => '580',
+          'parent_id' => '576',
+          'title' => 'Coffee Tables',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c580',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_580',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        577 => 
+        array (
+          'category_id' => '577',
+          'parent_id' => '576',
+          'title' => 'Desk Tables',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c577',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_577',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        583 => 
+        array (
+          'category_id' => '583',
+          'parent_id' => '576',
+          'title' => 'Dining Tables',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c583',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_583',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        579 => 
+        array (
+          'category_id' => '579',
+          'parent_id' => '576',
+          'title' => 'Dressing Tables',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c579',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_579',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        584 => 
+        array (
+          'category_id' => '584',
+          'parent_id' => '576',
+          'title' => 'Folding Table',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c584',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_584',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        578 => 
+        array (
+          'category_id' => '578',
+          'parent_id' => '576',
+          'title' => 'Laptop Tables',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c578',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_578',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        581 => 
+        array (
+          'category_id' => '581',
+          'parent_id' => '576',
+          'title' => 'Side Tables',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c581',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_581',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c576',
+        'dropdown' => 
+        array (
+          582 => 
+          array (
+            'category_id' => '582',
+            'parent_id' => '576',
+            'title' => 'Bar Tables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c582',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_582',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          580 => 
+          array (
+            'category_id' => '580',
+            'parent_id' => '576',
+            'title' => 'Coffee Tables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c580',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_580',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          577 => 
+          array (
+            'category_id' => '577',
+            'parent_id' => '576',
+            'title' => 'Desk Tables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c577',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_577',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          583 => 
+          array (
+            'category_id' => '583',
+            'parent_id' => '576',
+            'title' => 'Dining Tables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c583',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_583',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          579 => 
+          array (
+            'category_id' => '579',
+            'parent_id' => '576',
+            'title' => 'Dressing Tables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c579',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_579',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          584 => 
+          array (
+            'category_id' => '584',
+            'parent_id' => '576',
+            'title' => 'Folding Table',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c584',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_584',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          578 => 
+          array (
+            'category_id' => '578',
+            'parent_id' => '576',
+            'title' => 'Laptop Tables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c578',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_578',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          581 => 
+          array (
+            'category_id' => '581',
+            'parent_id' => '576',
+            'title' => 'Side Tables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c581',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_581',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    619 => 
+    array (
+      'category_id' => '619',
+      'parent_id' => '245',
+      'title' => 'TV &amp; Meda Furniture',
+      'items' => 
+      array (
+        621 => 
+        array (
+          'category_id' => '621',
+          'parent_id' => '619',
+          'title' => 'TV &amp; Media Storage',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c621',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_619_621',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        620 => 
+        array (
+          'category_id' => '620',
+          'parent_id' => '619',
+          'title' => 'TV Consoles',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c620',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_619_620',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c619',
+        'dropdown' => 
+        array (
+          621 => 
+          array (
+            'category_id' => '621',
+            'parent_id' => '619',
+            'title' => 'TV &amp; Media Storage',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c621',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_619_621',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          620 => 
+          array (
+            'category_id' => '620',
+            'parent_id' => '619',
+            'title' => 'TV Consoles',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c620',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_619_620',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_619',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    607 => 
+    array (
+      'category_id' => '607',
+      'parent_id' => '245',
+      'title' => 'Wardrobes',
+      'items' => 
+      array (
+        609 => 
+        array (
+          'category_id' => '609',
+          'parent_id' => '607',
+          'title' => 'Doorless Wardrobes',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c609',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_607_609',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        610 => 
+        array (
+          'category_id' => '610',
+          'parent_id' => '607',
+          'title' => 'Hinge Door Wardrobes',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c610',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_607_610',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        608 => 
+        array (
+          'category_id' => '608',
+          'parent_id' => '607',
+          'title' => 'Sliding Door Wardrobes',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c608',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_607_608',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c607',
+        'dropdown' => 
+        array (
+          609 => 
+          array (
+            'category_id' => '609',
+            'parent_id' => '607',
+            'title' => 'Doorless Wardrobes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c609',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_607_609',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          610 => 
+          array (
+            'category_id' => '610',
+            'parent_id' => '607',
+            'title' => 'Hinge Door Wardrobes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c610',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_607_610',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          608 => 
+          array (
+            'category_id' => '608',
+            'parent_id' => '607',
+            'title' => 'Sliding Door Wardrobes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c608',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_607_608',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_607',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c245',
+    'dropdown' => 
+    array (
+      590 => 
+      array (
+        'category_id' => '590',
+        'parent_id' => '245',
+        'title' => 'Benches',
+        'items' => 
+        array (
+          591 => 
+          array (
+            'category_id' => '591',
+            'parent_id' => '590',
+            'title' => 'Back Bench',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c591',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_590_591',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          592 => 
+          array (
+            'category_id' => '592',
+            'parent_id' => '590',
+            'title' => 'Backless Bench',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c592',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_590_592',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c590',
+          'dropdown' => 
+          array (
+            591 => 
+            array (
+              'category_id' => '591',
+              'parent_id' => '590',
+              'title' => 'Back Bench',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c591',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_590_591',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            592 => 
+            array (
+              'category_id' => '592',
+              'parent_id' => '590',
+              'title' => 'Backless Bench',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c592',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_590_592',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_590',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      611 => 
+      array (
+        'category_id' => '611',
+        'parent_id' => '245',
+        'title' => 'Bookcases &amp; Shelving Units',
+        'items' => 
+        array (
+          612 => 
+          array (
+            'category_id' => '612',
+            'parent_id' => '611',
+            'title' => 'Bookcases',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c612',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_611_612',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          613 => 
+          array (
+            'category_id' => '613',
+            'parent_id' => '611',
+            'title' => 'Shelving Units',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c613',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_611_613',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c611',
+          'dropdown' => 
+          array (
+            612 => 
+            array (
+              'category_id' => '612',
+              'parent_id' => '611',
+              'title' => 'Bookcases',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c612',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_611_612',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            613 => 
+            array (
+              'category_id' => '613',
+              'parent_id' => '611',
+              'title' => 'Shelving Units',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c613',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_611_613',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_611',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      601 => 
+      array (
+        'category_id' => '601',
+        'parent_id' => '245',
+        'title' => 'Chairs',
+        'items' => 
+        array (
+          604 => 
+          array (
+            'category_id' => '604',
+            'parent_id' => '601',
+            'title' => 'Bar Chairs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c604',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_604',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          602 => 
+          array (
+            'category_id' => '602',
+            'parent_id' => '601',
+            'title' => 'Dining Chair',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c602',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_602',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          605 => 
+          array (
+            'category_id' => '605',
+            'parent_id' => '601',
+            'title' => 'Folding Chairs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c605',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_605',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          606 => 
+          array (
+            'category_id' => '606',
+            'parent_id' => '601',
+            'title' => 'Gaming Chairs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c606',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_606',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          603 => 
+          array (
+            'category_id' => '603',
+            'parent_id' => '601',
+            'title' => 'Lounge Chairs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c603',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_603',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c601',
+          'dropdown' => 
+          array (
+            604 => 
+            array (
+              'category_id' => '604',
+              'parent_id' => '601',
+              'title' => 'Bar Chairs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c604',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_604',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            602 => 
+            array (
+              'category_id' => '602',
+              'parent_id' => '601',
+              'title' => 'Dining Chair',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c602',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_602',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            605 => 
+            array (
+              'category_id' => '605',
+              'parent_id' => '601',
+              'title' => 'Folding Chairs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c605',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_605',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            606 => 
+            array (
+              'category_id' => '606',
+              'parent_id' => '601',
+              'title' => 'Gaming Chairs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c606',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_606',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            603 => 
+            array (
+              'category_id' => '603',
+              'parent_id' => '601',
+              'title' => 'Lounge Chairs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c603',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601_603',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_601',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      622 => 
+      array (
+        'category_id' => '622',
+        'parent_id' => '245',
+        'title' => 'Chest of Drawers &amp; Drawer Units',
+        'items' => 
+        array (
+          623 => 
+          array (
+            'category_id' => '623',
+            'parent_id' => '622',
+            'title' => 'Basket Drawers Units',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c623',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_622_623',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          624 => 
+          array (
+            'category_id' => '624',
+            'parent_id' => '622',
+            'title' => 'Chest of Drawers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c624',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_622_624',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          625 => 
+          array (
+            'category_id' => '625',
+            'parent_id' => '622',
+            'title' => 'Drawer Units',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c625',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_622_625',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c622',
+          'dropdown' => 
+          array (
+            623 => 
+            array (
+              'category_id' => '623',
+              'parent_id' => '622',
+              'title' => 'Basket Drawers Units',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c623',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_622_623',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            624 => 
+            array (
+              'category_id' => '624',
+              'parent_id' => '622',
+              'title' => 'Chest of Drawers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c624',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_622_624',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            625 => 
+            array (
+              'category_id' => '625',
+              'parent_id' => '622',
+              'title' => 'Drawer Units',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c625',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_622_625',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_622',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      626 => 
+      array (
+        'category_id' => '626',
+        'parent_id' => '245',
+        'title' => 'Clothes Stands &amp; Shoe Racks',
+        'items' => 
+        array (
+          627 => 
+          array (
+            'category_id' => '627',
+            'parent_id' => '626',
+            'title' => 'Shoe Cabinets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c627',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_626_627',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          628 => 
+          array (
+            'category_id' => '628',
+            'parent_id' => '626',
+            'title' => 'Shoe, Coat &amp; Hat Racks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c628',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_626_628',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c626',
+          'dropdown' => 
+          array (
+            627 => 
+            array (
+              'category_id' => '627',
+              'parent_id' => '626',
+              'title' => 'Shoe Cabinets',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c627',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_626_627',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            628 => 
+            array (
+              'category_id' => '628',
+              'parent_id' => '626',
+              'title' => 'Shoe, Coat &amp; Hat Racks',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c628',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_626_628',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_626',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      614 => 
+      array (
+        'category_id' => '614',
+        'parent_id' => '245',
+        'title' => 'Display Cabinets &amp; Storage Systems',
+        'items' => 
+        array (
+          615 => 
+          array (
+            'category_id' => '615',
+            'parent_id' => '614',
+            'title' => 'Cabinets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c615',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614_615',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          616 => 
+          array (
+            'category_id' => '616',
+            'parent_id' => '614',
+            'title' => 'Display Cabinets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c616',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614_616',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          617 => 
+          array (
+            'category_id' => '617',
+            'parent_id' => '614',
+            'title' => 'Display Rack',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c617',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614_617',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          618 => 
+          array (
+            'category_id' => '618',
+            'parent_id' => '614',
+            'title' => 'Sideboards',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c618',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614_618',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c614',
+          'dropdown' => 
+          array (
+            615 => 
+            array (
+              'category_id' => '615',
+              'parent_id' => '614',
+              'title' => 'Cabinets',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c615',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614_615',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            616 => 
+            array (
+              'category_id' => '616',
+              'parent_id' => '614',
+              'title' => 'Display Cabinets',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c616',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614_616',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            617 => 
+            array (
+              'category_id' => '617',
+              'parent_id' => '614',
+              'title' => 'Display Rack',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c617',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614_617',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            618 => 
+            array (
+              'category_id' => '618',
+              'parent_id' => '614',
+              'title' => 'Sideboards',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c618',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614_618',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_614',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      593 => 
+      array (
+        'category_id' => '593',
+        'parent_id' => '245',
+        'title' => 'Sofas',
+        'items' => 
+        array (
+          594 => 
+          array (
+            'category_id' => '594',
+            'parent_id' => '593',
+            'title' => '1 Seater Sofa',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c594',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_594',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          595 => 
+          array (
+            'category_id' => '595',
+            'parent_id' => '593',
+            'title' => '2 Seater Sofa',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c595',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_595',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          596 => 
+          array (
+            'category_id' => '596',
+            'parent_id' => '593',
+            'title' => '3 Seater Sofa',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c596',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_596',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          597 => 
+          array (
+            'category_id' => '597',
+            'parent_id' => '593',
+            'title' => '4 Seater Sofa',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c597',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_597',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          598 => 
+          array (
+            'category_id' => '598',
+            'parent_id' => '593',
+            'title' => 'L Shape Sofa',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c598',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_598',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          600 => 
+          array (
+            'category_id' => '600',
+            'parent_id' => '593',
+            'title' => 'Recliner Sofa',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c600',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_600',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          599 => 
+          array (
+            'category_id' => '599',
+            'parent_id' => '593',
+            'title' => 'Sofa Bed',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c599',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_599',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c593',
+          'dropdown' => 
+          array (
+            594 => 
+            array (
+              'category_id' => '594',
+              'parent_id' => '593',
+              'title' => '1 Seater Sofa',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c594',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_594',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            595 => 
+            array (
+              'category_id' => '595',
+              'parent_id' => '593',
+              'title' => '2 Seater Sofa',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c595',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_595',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            596 => 
+            array (
+              'category_id' => '596',
+              'parent_id' => '593',
+              'title' => '3 Seater Sofa',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c596',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_596',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            597 => 
+            array (
+              'category_id' => '597',
+              'parent_id' => '593',
+              'title' => '4 Seater Sofa',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c597',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_597',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            598 => 
+            array (
+              'category_id' => '598',
+              'parent_id' => '593',
+              'title' => 'L Shape Sofa',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c598',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_598',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            600 => 
+            array (
+              'category_id' => '600',
+              'parent_id' => '593',
+              'title' => 'Recliner Sofa',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c600',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_600',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            599 => 
+            array (
+              'category_id' => '599',
+              'parent_id' => '593',
+              'title' => 'Sofa Bed',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c599',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593_599',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_593',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      585 => 
+      array (
+        'category_id' => '585',
+        'parent_id' => '245',
+        'title' => 'Stools',
+        'items' => 
+        array (
+          586 => 
+          array (
+            'category_id' => '586',
+            'parent_id' => '585',
+            'title' => 'Bar Stools',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c586',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585_586',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          588 => 
+          array (
+            'category_id' => '588',
+            'parent_id' => '585',
+            'title' => 'Footstools &amp; Pouffes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c588',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585_588',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          589 => 
+          array (
+            'category_id' => '589',
+            'parent_id' => '585',
+            'title' => 'Stackable Stools',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c589',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585_589',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          587 => 
+          array (
+            'category_id' => '587',
+            'parent_id' => '585',
+            'title' => 'Step Stools',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c587',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585_587',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c585',
+          'dropdown' => 
+          array (
+            586 => 
+            array (
+              'category_id' => '586',
+              'parent_id' => '585',
+              'title' => 'Bar Stools',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c586',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585_586',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            588 => 
+            array (
+              'category_id' => '588',
+              'parent_id' => '585',
+              'title' => 'Footstools &amp; Pouffes',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c588',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585_588',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            589 => 
+            array (
+              'category_id' => '589',
+              'parent_id' => '585',
+              'title' => 'Stackable Stools',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c589',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585_589',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            587 => 
+            array (
+              'category_id' => '587',
+              'parent_id' => '585',
+              'title' => 'Step Stools',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c587',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585_587',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_585',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      576 => 
+      array (
+        'category_id' => '576',
+        'parent_id' => '245',
+        'title' => 'Tables',
+        'items' => 
+        array (
+          582 => 
+          array (
+            'category_id' => '582',
+            'parent_id' => '576',
+            'title' => 'Bar Tables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c582',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_582',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          580 => 
+          array (
+            'category_id' => '580',
+            'parent_id' => '576',
+            'title' => 'Coffee Tables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c580',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_580',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          577 => 
+          array (
+            'category_id' => '577',
+            'parent_id' => '576',
+            'title' => 'Desk Tables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c577',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_577',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          583 => 
+          array (
+            'category_id' => '583',
+            'parent_id' => '576',
+            'title' => 'Dining Tables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c583',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_583',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          579 => 
+          array (
+            'category_id' => '579',
+            'parent_id' => '576',
+            'title' => 'Dressing Tables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c579',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_579',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          584 => 
+          array (
+            'category_id' => '584',
+            'parent_id' => '576',
+            'title' => 'Folding Table',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c584',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_584',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          578 => 
+          array (
+            'category_id' => '578',
+            'parent_id' => '576',
+            'title' => 'Laptop Tables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c578',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_578',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          581 => 
+          array (
+            'category_id' => '581',
+            'parent_id' => '576',
+            'title' => 'Side Tables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c581',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_581',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c576',
+          'dropdown' => 
+          array (
+            582 => 
+            array (
+              'category_id' => '582',
+              'parent_id' => '576',
+              'title' => 'Bar Tables',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c582',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_582',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            580 => 
+            array (
+              'category_id' => '580',
+              'parent_id' => '576',
+              'title' => 'Coffee Tables',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c580',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_580',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            577 => 
+            array (
+              'category_id' => '577',
+              'parent_id' => '576',
+              'title' => 'Desk Tables',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c577',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_577',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            583 => 
+            array (
+              'category_id' => '583',
+              'parent_id' => '576',
+              'title' => 'Dining Tables',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c583',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_583',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            579 => 
+            array (
+              'category_id' => '579',
+              'parent_id' => '576',
+              'title' => 'Dressing Tables',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c579',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_579',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            584 => 
+            array (
+              'category_id' => '584',
+              'parent_id' => '576',
+              'title' => 'Folding Table',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c584',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_584',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            578 => 
+            array (
+              'category_id' => '578',
+              'parent_id' => '576',
+              'title' => 'Laptop Tables',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c578',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_578',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            581 => 
+            array (
+              'category_id' => '581',
+              'parent_id' => '576',
+              'title' => 'Side Tables',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c581',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576_581',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_576',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      619 => 
+      array (
+        'category_id' => '619',
+        'parent_id' => '245',
+        'title' => 'TV &amp; Meda Furniture',
+        'items' => 
+        array (
+          621 => 
+          array (
+            'category_id' => '621',
+            'parent_id' => '619',
+            'title' => 'TV &amp; Media Storage',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c621',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_619_621',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          620 => 
+          array (
+            'category_id' => '620',
+            'parent_id' => '619',
+            'title' => 'TV Consoles',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c620',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_619_620',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c619',
+          'dropdown' => 
+          array (
+            621 => 
+            array (
+              'category_id' => '621',
+              'parent_id' => '619',
+              'title' => 'TV &amp; Media Storage',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c621',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_619_621',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            620 => 
+            array (
+              'category_id' => '620',
+              'parent_id' => '619',
+              'title' => 'TV Consoles',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c620',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_619_620',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_619',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      607 => 
+      array (
+        'category_id' => '607',
+        'parent_id' => '245',
+        'title' => 'Wardrobes',
+        'items' => 
+        array (
+          609 => 
+          array (
+            'category_id' => '609',
+            'parent_id' => '607',
+            'title' => 'Doorless Wardrobes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c609',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_607_609',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          610 => 
+          array (
+            'category_id' => '610',
+            'parent_id' => '607',
+            'title' => 'Hinge Door Wardrobes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c610',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_607_610',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          608 => 
+          array (
+            'category_id' => '608',
+            'parent_id' => '607',
+            'title' => 'Sliding Door Wardrobes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c608',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_607_608',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c607',
+          'dropdown' => 
+          array (
+            609 => 
+            array (
+              'category_id' => '609',
+              'parent_id' => '607',
+              'title' => 'Doorless Wardrobes',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c609',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_607_609',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            610 => 
+            array (
+              'category_id' => '610',
+              'parent_id' => '607',
+              'title' => 'Hinge Door Wardrobes',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c610',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_607_610',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            608 => 
+            array (
+              'category_id' => '608',
+              'parent_id' => '607',
+              'title' => 'Sliding Door Wardrobes',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c608',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_607_608',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245_607',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_245',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

@@ -1,0 +1,700 @@
+<?php $val = array (
+  'css' => '.module-catalog-372 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-372 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-372 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-372 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-372 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-372 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-372 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-372 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-372  .item-content{padding-top:10px}.module-catalog-372  .catalog-title{padding-right:10px}.module-catalog-372 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-372 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-372
+.subitems{align-items:flex-start}.module-catalog-372 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-372 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-372 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-372 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-372 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-372 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-372 .catalog-image{margin-right:10px}.module-catalog-372 .item-assets{flex-direction:row}.module-catalog-372 .item-assets>a{max-width:40%;order:0}.module-catalog-372 .item-assets
+.subitems{width:60%}.module-catalog-372 .item-assets .catalog-image{display:block}.module-catalog-372 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-372 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-372 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Small Kitchen Appliances',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb70af3ef',
+    'module_id' => 372,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-372',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '372-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Air Fryers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=941_943',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Deep Fryrers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=941_942',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Fryers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=941',
+        'total' => '2',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '372-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Countertop Blenders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=944_946',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Hand Blenders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=944_945',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Portable Blenders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=944_947',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Blenders',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=944',
+        'total' => '3',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '372-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Bread Makers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=948_950',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Cupcake Makers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=948_953',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Sandwich Makers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=948_951',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Toasters',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=948_949',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Waffle Makers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=948_952',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Breadmaker &amp; Toasters',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=948',
+        'total' => '5',
+      ),
+      4 => 
+      array (
+        'limit' => '',
+        'id' => '372-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Capsule Coffee Makers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=954_955',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Drip Coffee Makers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=954_957',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Espresso Machines',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=954_956',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Thermal Coffee Makers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=954_958',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Coffee Machines',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=954',
+        'total' => '4',
+      ),
+      5 => 
+      array (
+        'limit' => '',
+        'id' => '372-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Compact Ceramic Cookers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=959_960',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Compact Gas Stoves',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=959_961',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Compact Induction Cookers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=959_962',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Tabletop Cookers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=959',
+        'total' => '3',
+      ),
+      6 => 
+      array (
+        'limit' => '',
+        'id' => '372-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Tabletop Microwave',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=963_964',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Tabletop Microwave Oven',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=963_966',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Tabletop Oven',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=963_965',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Tabletop Microwaves &amp; Ovens',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=963',
+        'total' => '3',
+      ),
+      7 => 
+      array (
+        'limit' => '',
+        'id' => '372-7',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-7',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Compact Ovens',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=967',
+        'total' => '0',
+      ),
+      8 => 
+      array (
+        'limit' => '',
+        'id' => '372-8',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-8',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Electric Grills',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=968_969',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Electric Grills',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=968',
+        'total' => '1',
+      ),
+      9 => 
+      array (
+        'limit' => '',
+        'id' => '372-9',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-9',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Glass Electric Kettles',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=970_973',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Plastic Electric Kettles',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=970_971',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Stainless Steel Electric Kettles',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=970_972',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Electric Kettles',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=970',
+        'total' => '3',
+      ),
+      10 => 
+      array (
+        'limit' => '',
+        'id' => '372-10',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-10',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Electric Pressure Cookers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=974',
+        'total' => '0',
+      ),
+      11 => 
+      array (
+        'limit' => '',
+        'id' => '372-11',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-11',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Food Steamers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=975',
+        'total' => '0',
+      ),
+      12 => 
+      array (
+        'limit' => '',
+        'id' => '372-12',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-12',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Centrifugal Juicers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=976_977',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Slow Juicers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=976_978',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Twin Gear Juicers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=976_979',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Juicers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=976',
+        'total' => '3',
+      ),
+      13 => 
+      array (
+        'limit' => '',
+        'id' => '372-13',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-13',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Mixers &amp; Food Processors',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=980',
+        'total' => '0',
+      ),
+      14 => 
+      array (
+        'limit' => '',
+        'id' => '372-14',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-14',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Multi Cookers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=981',
+        'total' => '0',
+      ),
+      15 => 
+      array (
+        'limit' => '',
+        'id' => '372-15',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-15',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Basic Rice Cookers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=982_983',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Commercial Rice Cookers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=982_987',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Digital Rice Cookers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=982_984',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Induction Heat Rice Cookers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=982_985',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Multifunction Rice Cookers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=982_986',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Rice Cookers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=982',
+        'total' => '5',
+      ),
+      16 => 
+      array (
+        'limit' => '',
+        'id' => '372-16',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-16',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Slow Cookers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=988',
+        'total' => '0',
+      ),
+      17 => 
+      array (
+        'limit' => '',
+        'id' => '372-17',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-17',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Compact Water Dispensers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=989_990',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Thermo Pot',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=989_991',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Water Dispensers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=989',
+        'total' => '2',
+      ),
+      18 => 
+      array (
+        'limit' => '',
+        'id' => '372-18',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-18',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Gas Stove Parts &amp; Accessories',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=992',
+        'total' => '0',
+      ),
+      19 => 
+      array (
+        'limit' => '',
+        'id' => '372-19',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-19',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Reverse Osmosis Purifier',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=993_994',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Ultrafiltration Purifier',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=993_995',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Ultraviolet Purifier',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=993_996',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Water Purifier &amp; Filter',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=993',
+        'total' => '3',
+      ),
+    ),
+  ),
+);

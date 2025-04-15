@@ -1,0 +1,475 @@
+<?php $val = array (
+  'css' => '.module-catalog-357 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-357 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-357 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-357 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-357 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-357 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-357 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-357 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-357  .item-content{padding-top:10px}.module-catalog-357  .catalog-title{padding-right:10px}.module-catalog-357 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-357 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-357
+.subitems{align-items:flex-start}.module-catalog-357 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-357 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-357 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-357 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-357 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-357 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-357 .catalog-image{margin-right:10px}.module-catalog-357 .item-assets{flex-direction:row}.module-catalog-357 .item-assets>a{max-width:40%;order:0}.module-catalog-357 .item-assets
+.subitems{width:60%}.module-catalog-357 .item-assets .catalog-image{display:block}.module-catalog-357 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-357 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-357 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Lighting',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb70ee32a',
+    'module_id' => 357,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-357',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '357-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Cabinet Lighting Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=885_886',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Puck Lights',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=885_887',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Strip Lights',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=885_888',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Under Cabinet Lights',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=885_889',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Cabinet Lightings',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=885',
+        'total' => '4',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '357-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Decorative Lightings',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=890',
+        'total' => '0',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '357-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Floor Lamp',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=891_892',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Lamp Bases',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=891_893',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Lamp Holders &amp; Cords',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=891_894',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Lamp Parts &amp; Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=891_895',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Lamp Shades',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=891_896',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Table Lamp',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=891_897',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Lamps',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=891',
+        'total' => '6',
+      ),
+      4 => 
+      array (
+        'limit' => '',
+        'id' => '357-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Fluorescent Light Bulbs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=898_899',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Halogen Light Bulbs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=898_900',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Led Light Bulbs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=898_901',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Plug in Cfl Bulbs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=898_902',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Screw in Cfl Bulbs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=898_903',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Specialty Light Bulbs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=898_904',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Light Bulbs',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=898',
+        'total' => '6',
+      ),
+      5 => 
+      array (
+        'limit' => '',
+        'id' => '357-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Outdoor Lightings',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=906',
+        'total' => '0',
+      ),
+      6 => 
+      array (
+        'limit' => '',
+        'id' => '357-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Pendant Lights',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=907_908',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Pendant Lights',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=907',
+        'total' => '1',
+      ),
+      7 => 
+      array (
+        'limit' => '',
+        'id' => '357-7',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-7',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Ceiling Lights',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=909_910',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Ceiling Lights',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=909',
+        'total' => '1',
+      ),
+      8 => 
+      array (
+        'limit' => '',
+        'id' => '357-8',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-8',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Down Lights',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=911_912',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Lighting Eyeballs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=911_913',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Surface Down Lights',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=911_914',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Recessed Lightings',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=911',
+        'total' => '3',
+      ),
+      9 => 
+      array (
+        'limit' => '',
+        'id' => '357-9',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-9',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Track Light Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=915_916',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Track Light Rails',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=915_917',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Track Lights Heads',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=915_918',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Track Lights',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=915',
+        'total' => '3',
+      ),
+      10 => 
+      array (
+        'limit' => '',
+        'id' => '357-10',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-10',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => '1-Head Wall Lights',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=919_920',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => '2-Heads Wall Lights',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=919_921',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => '3-Heads Wall Lights',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=919_922',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => '4-Heads Wall Lights',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=919_923',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Wall Lights',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=919',
+        'total' => '4',
+      ),
+    ),
+  ),
+);

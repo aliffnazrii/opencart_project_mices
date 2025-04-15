@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<name>Allow Duplicate Email Across MultiStore</name>
+ <code>allow_duplicate_email_across_multistore</code>
+ <version>1.0</version>
+ <author>MICES Technology Sdn Bhd</author>
+ <link>https://www.mices.com.my</link>
+	<!-- MODEL -->
+	<!-- change the query to register email -->
+	<file path="catalog/model/account/customer.php">
+		<operation>
+			<search>
+				<![CDATA[$query = $this->db->query("SELECT COUNT(*) AS total FROM " . DB_PREFIX . "customer WHERE LOWER(email) = '" . $this->db->escape(utf8_strtolower($email)) . "'"); ]]>
+			</search>
+			<add position="replace">
+				<![CDATA[$query = $this->db->query("SELECT COUNT(*) AS total FROM " . DB_PREFIX . "customer WHERE LOWER(email) = '" . $this->db->escape(utf8_strtolower($email)) . "' AND store_id = '" . (int)$this->config->get('config_store_id') . "'"); ]]>
+			</add>
+		</operation>
+	</file>
+	<!-- change the query for index -->
+	<file path="admin/model/customer/customer.php">
+		<operation>
+			<search>
+				<![CDATA[SELECT *, CONCAT(c.firstname, ' ', c.lastname) AS name, cgd.name AS customer_group FROM " . DB_PREFIX . "customer c LEFT JOIN " . DB_PREFIX . "customer_group_description cgd ON (c.customer_group_id = cgd.customer_group_id)]]>
+			</search>
+			<add position="replace">
+				<![CDATA[ SELECT c.*, CONCAT(c.firstname, ' ', c.lastname) AS name, cgd.name AS customer_group, s.name AS store_name FROM oc_customer c LEFT JOIN oc_customer_group_description cgd ON c.customer_group_id = cgd.customer_group_id LEFT JOIN oc_store s ON c.store_id = s.store_id]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[public function getCustomers($data = array()) {]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				public function getCustomerByEmailStore($email, $storeId) {
+					$query = $this->db->query("SELECT DISTINCT * FROM " . DB_PREFIX . "customer WHERE LCASE(email) = '" . $this->db->escape(utf8_strtolower($email)) . " AND `store_id` == $storeId'");
+					return $query->row;
+				}
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$implode[] = "c.email LIKE '" . $this->db->escape($data['filter_email']) . "%'";]]>
+			</search>
+			<add position="after" offset="2">
+				<![CDATA[
+				if(isset($data['filter_store']) && $data['filter_store'] !== '') {
+					$implode[] = "c.store_id = '" . (int)$data['filter_store'] . "'";
+				}
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$implode[] = "email LIKE '" . $this->db->escape($data['filter_email']) . "%'";]]>
+			</search>
+			<add position="before" offset="2">
+				<![CDATA[
+				if (isset($data['filter_store']) && $data['filter_store'] !== '') {
+					$implode[] = "store_id = '" . (int)($data['filter_store']) . "'";
+				}
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$sort_data = array(]]>
+			</search>
+			<add position="after">
+				<![CDATA['store_name',]]>
+			</add>
+		</operation>
+	</file>
+	<!-- VIEW -->
+	<!-- change the table header -->
+	<file path="admin/view/template/customer/customer_list.twig">
+		<operation>
+			<search>
+				<![CDATA[<td class="text-left">{% if sort == 'c.email' %}<a href="{{ sort_email }}" class="{{ order|lower }}">{{ column_email }}</a>{% else %}<a href="{{ sort_email }}">{{ column_email }}</a>{% endif %}</td>]]>
+			</search>
+			<add position="after">
+				<![CDATA[ <td class="text-left">{% if sort == 'store_name' %}<a href="{{ sort_store }}" class="{{ order|lower }}">{{ column_store }}</a>{% else %}<a href="{{ sort_store }}">{{ column_store }}</a>{% endif %}</td>]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[url += '&filter_name=' + encodeURIComponent(filter_name);]]>
+			</search>
+			<add position="after" offset="1">
+				<![CDATA[
+				var filter_store = $('input[name=\'filter_store\']').val();
+				var filter_store = $('select[name=\'filter_store\']').val();
+				if (filter_store) {
+					url += '&filter_store=' + encodeURIComponent(filter_store);
+				}
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[<td class="text-left">{{ customer.email }}</td>]]>
+			</search>
+			<add position="after">
+				<![CDATA[<td class="text-left">{{ customer.store_name != '' ? customer.store_name : default_stores.name }}</td>]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[<input type="text" name="filter_email" value="{{ filter_email }}" placeholder="{{ entry_email }}" id="input-email" class="form-control" />]]>
+			</search>
+			<add position="after" offset="1">
+				<![CDATA[
+				<div class="form-group">
+				<label class="control-label" for="input-store">{{ entry_store }}</label>
+				<select name="filter_store" id="input-store" class="form-control">
+				<option value=""></option>
+				{% for store in stores %}
+				{% if store.store_id == filter_store and filter_store != "" %}
+				<option value="{{ store.store_id }}" selected="selected">{{ store.name }}</option>
+				{% else %}
+				<option value="{{ store.store_id }}">{{ store.name }}</option>
+				{% endif %}
+				{% endfor %}
+				</select>
+				</div>
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/view/template/customer/customer_form.twig">
+		<operation>
+			<search>
+				<![CDATA[<input type="text" name="lastname" value="{{ lastname }}" placeholder="{{ entry_lastname }}" id="input-lastname" class="form-control" />]]>
+			</search>
+			<add position="after" offset="4">
+				<![CDATA[
+				{% if store_name %}
+				<div class="form-group required">
+				<label class="col-sm-2 control-label" for="input-store">{{ entry_store }}</label>
+				<div class="col-sm-10">
+				<input type="text" name="store_name" value="{{ store_name }}" placeholder="{{ entry_store }}" id="input-store" class="form-control" disabled />
+				<input type="hidden" name="store_id" value="{{ store_id }}" placeholder="{{ entry_store }}" id="input-store" class="form-control" />
+				{% if error_store %}
+				<div class="text-danger">{{ error_store }}</div>
+				{% endif %}</div>
+				</div>
+				{% endif %}
+				]]>
+			</add>
+		</operation>
+	</file>
+	<!-- CONTROLLER -->
+	<!-- change the filter -->
+	<file path="admin/controller/customer/customer.php">
+		<operation>
+			<search>
+				<![CDATA[ if (isset($this->request->get['filter_email'])) {]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				if (isset($this->request->get['filter_store'])) {
+					$filter_store = $this->request->get['filter_store'];
+				} else {
+					$filter_store = '';
+				}
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[ $data['filter_email'] = $filter_email;]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				$data['filter_store'] = $filter_store;
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[ if (isset($this->request->post['custom_field'])) {]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				if (isset($this->request->post['store_id'])) {
+					$data['store_id'] = $this->request->post['store_id'];
+				} elseif (!empty($customer_info)) {
+					$data['store_id'] = $customer_info['store_id'];
+				} else {
+					$data['store_id'] = '';
+				}
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[ if ($customer_info && ($this->request->get['customer_id'] != $customer_info['customer_id'])) {]]>
+			</search>
+			<add position="before">
+				<![CDATA[ $customer_info = $this->model_customer_customer->getCustomerByEmailStore($this->request->post['email'], $this->request->post['store_id']); ]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[ $data['customer_groups'] = $this->model_customer_customer_group->getCustomerGroups();]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				$data['stores'][] = array(
+					'store_id' => 0,
+					'name' => $this->config->get('config_name'),
+				);
+
+				$stores = $this->model_setting_store->getStores();
+
+				foreach ($stores as $store) {
+					$data['stores'][] = array(
+						'store_id' => $store['store_id'],
+						'name'  => $store['name']
+					);
+				}
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$data['customers'][] = array(]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				if($result['store_id'] == 0){
+					$result['store_name'] = $this->config->get('config_name');
+				}
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$url .= '&filter_email=' . urlencode(html_entity_decode($this->request->get['filter_email'], ENT_QUOTES, 'UTF-8'));]]>
+			</search>
+			<add position="before" offset="1">
+				<![CDATA[
+				if (isset($this->request->get['filter_store'])) {
+				$url .= '&filter_store=' . urlencode(html_entity_decode($this->request->get['filter_store'], ENT_QUOTES, 'UTF-8'));
+				}
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/controller/customer/customer.php">
+		<operation>
+			<search>
+				<![CDATA[$customer_info = $this->model_customer_customer->getCustomer($this->request->get['customer_id']);]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				$this->load->model('setting/store');
+				$store = $this->model_setting_store->getStore($customer_info['store_id']);
+				if( $customer_info['store_id'] == 0){
+					$data['store_name'] = $this->config->get('config_name');
+				} else {
+					$data['store_name'] = $store['name'];
+				}
+				$data['store_id']= $customer_info['store_id'];
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA['filter_email'             => $filter_email,]]>
+			</search>
+			<add position="before">
+				<![CDATA[ 'filter_store'=> $filter_store, ]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA['email'          => $result['email'],]]>
+			</search>
+			<add position="after">
+				<![CDATA['store_name' => $result['store_name'],]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search>
+				<![CDATA[$data['sort_email'] = $this->url->link('customer/customer', 'user_token=' . $this->session->data['user_token'] . '&sort=c.email' . $url, true);]]>
+			</search>
+			<add position="after">
+				<![CDATA[$data['sort_store'] = $this->url->link('customer/customer', 'user_token=' . $this->session->data['user_token'] . '&sort=store_name' . $url, true);]]>
+			</add>
+		</operation>
+	</file>
+	<!-- LANGUAGE -->
+	<!-- language file -->
+	<file path="admin/language/en-gb/customer/customer.php">
+		<operation>
+			<search>
+				<![CDATA[$_['entry_email']]]>
+			</search>
+			<add position="after">
+				<![CDATA[$_['entry_store'] = 'Store Name';]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$_['column_email']]]>
+			</search>
+			<add position="after">
+				<![CDATA[$_['column_store'] = 'Store';]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$_['entry_email']]]>
+			</search>
+			<add position="after">
+				<![CDATA[$_['text_select'] = 'Select';]]>
+			</add>
+		</operation>
+	</file>
+
+
+	<!-- otherss -->
+
+	<file path="catalog/controller/account/password.php">
+		<operation>
+			<search>
+				<![CDATA[$this->model_account_customer->editPassword($this->customer->getEmail(), $this->request->post['password']);]]>
+			</search>
+			<add position="replace">
+				<![CDATA[//$this->model_account_customer->editPassword($this->customer->getEmail(), $this->request->post['password']);
+				$this->model_account_customer->editPasswordStore($this->customer->getId(), $this->request->post['password']);]]>
+			</add>
+		</operation>
+	</file>
+	<file path="catalog/model/account/customer.php">
+		<operation>
+			<search>
+				<![CDATA[public function editPassword($email, $password) {]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				public function editPasswordStore($customer_id, $password) {
+					$this->db->query("UPDATE " . DB_PREFIX . "customer SET salt = '" . $this->db->escape($salt = token(9)) . "', password = '" . $this->db->escape(sha1($salt . sha1($salt . sha1($password)))) . "', code = '' WHERE customer_id = $customer_id");
+				}
+	]]>
+			</add>
+		</operation>
+	</file>
+	<file path="catalog/controller/account/reset.php">
+		<operation>
+			<search>
+				<![CDATA[$this->model_account_customer->editPassword($customer_info['email'], $this->request->post['password']);]]>
+			</search>
+			<add position="before">
+				<![CDATA[//$this->model_account_customer->editPassword($this->customer->getEmail(), $this->request->post['password']);
+				$this->model_account_customer->editPasswordStore($this->customer->customer_info['customer_id'], $this->request->post['password']);]]>
+			</add>
+		</operation>
+	</file>
+	<file path="system/library/cart/customer.php">
+		<operation>
+			<search>
+				<![CDATA[$customer_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "customer WHERE LOWER(email) = '" . $this->db->escape(utf8_strtolower($email)) . "' AND status = '1'");]]>
+			</search>
+			<add position="replace">
+				<![CDATA[$customer_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "customer WHERE LOWER(email) = '" . $this->db->escape(utf8_strtolower($email)) . "' AND status = '1' AND store_id = " . $this->config->get('config_store_id'));]]> 
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$customer_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "customer WHERE LOWER(email) = '" . $this->db->escape(utf8_strtolower($email)) . "' AND (password = SHA1(CONCAT(salt, SHA1(CONCAT(salt, SHA1('" . $this->db->escape($password) . "'))))) OR password = '" . $this->db->escape(md5($password)) . "') AND status = '1'");]]>
+			</search>
+			<add position="replace">
+				<![CDATA[$customer_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "customer WHERE LOWER(email) = '" . $this->db->escape(utf8_strtolower($email)) . "' AND (password = SHA1(CONCAT(salt, SHA1(CONCAT(salt, SHA1('" . $this->db->escape($password) . "'))))) OR password = '" . $this->db->escape(md5($password)) . "') AND status = '1' AND status = '1' AND store_id = " . $this->config->get('config_store_id'));]]> 
+			</add>
+		</operation>
+	</file>
+</modification>

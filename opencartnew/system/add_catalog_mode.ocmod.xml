@@ -1,0 +1,211 @@
+<modification>
+	<name>Add Catalog Mode</name>
+	<version>1.0.0</version>
+	<code>add_catalog_mode</code>
+	<author>Mices Technology</author>
+	<link>https://www.mices.com.my/</link>
+
+    <file path="admin\view\template\setting\setting.twig">
+
+		<!-- Admin Backend -->
+        <operation>
+			<search><![CDATA[
+				<label class="col-sm-2 control-label"><span data-toggle="tooltip" title="{{ help_seo_url }}">{{ entry_seo_url }}</span></label>
+			]]></search>
+			<add position="before"><![CDATA[
+				<label class="col-sm-2 control-label"><span data-toggle="tooltip" title="{{ help_catalog_mode }}">{{ entry_catalog_mode }}</span></label>
+                  <div class="col-sm-10">
+                    <label class="radio-inline"> {% if config_catalog_mode %}
+                      <input type="radio" name="config_catalog_mode" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_catalog_mode" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_catalog_mode %}
+                      <input type="radio" name="config_catalog_mode" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_catalog_mode" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                </div>
+				
+                <div class="form-group">
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin\controller\setting\setting.php">
+        <operation>
+			<search><![CDATA[
+				if (isset($this->request->post['config_seo_url'])) {
+			]]></search>
+			<add position="before"><![CDATA[
+				if (isset($this->request->post['config_catalog_mode'])) {
+					$data['config_catalog_mode'] = $this->request->post['config_catalog_mode'];
+				} else {
+					$data['config_catalog_mode'] = $this->config->get('config_catalog_mode');
+				}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin\language\en-gb\setting\setting.php">
+		<operation>
+			<search><![CDATA[
+				$_['entry_status']                   = 'Status';
+			]]></search>
+			<add position="after"><![CDATA[
+				$_['entry_catalog_mode']                   = 'Catalog Mode';
+			]]></add>
+		</operation>
+
+        <operation>
+			<search><![CDATA[
+				$_['help_compression']               = 'GZIP for more efficient transfer to requesting clients. Compression level must be between 0 - 9.';
+
+			]]></search>
+			<add position="after"><![CDATA[
+				$_['help_catalog_mode']               = 'Allow customers to only browse the products in your store. They will not be able to login, register, add products into the shopping cart and checkout.';
+			]]></add>
+		</operation>
+	</file>
+
+	<!-- Product Cards -->
+	<file path="catalog\controller\journal3\products.php">
+		<operation>
+			<search><![CDATA[
+				$data['default_index'] = $parser->getSetting('sectionsDisplay') === 'isotope' ? 0 : 1;
+			]]></search>
+			<add position="after"><![CDATA[
+				$data['config_catalog_mode'] = $this->config->get('config_catalog_mode') ? 1 : 0;
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog\view\theme\journal3\template\journal3\product_card.twig">
+		<operation>
+			<search><![CDATA[
+				{% if j3.settings.get('catalogCartStatus') or j3.settings.get('catalogWishlistStatus') or j3.settings.get('catalogCompareStatus') %}
+			]]></search>
+			<add position="before"><![CDATA[
+				{% if config_catalog_mode != 1 %}
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+				{% if product.extra_buttons %}
+			]]></search>
+			<add position="before"><![CDATA[
+				{% endif %}
+			]]></add>
+		</operation>
+	</file>
+
+	<!-- Product Page -->
+	<file path="catalog\controller\product\product.php">
+		<operation>
+			<search><![CDATA[
+				$data['column_left'] = $this->load->controller('common/column_left');
+			]]></search>
+			<add position="after"><![CDATA[
+				$data['config_catalog_mode'] = $this->config->get('config_catalog_mode') ? 1 : 0;
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog\view\theme\journal3\template\product\product.twig">
+		<operation>
+			<search><![CDATA[
+				{% if j3.settings.get('catalogCartStatus') or j3.settings.get('catalogWishlistStatus') or j3.settings.get('catalogCompareStatus') or (product_extra_buttons and not j3.document.isPopup()) %}
+			]]></search>
+			<add position="before"><![CDATA[
+				{% if config_catalog_mode != 1 %}
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+				{% if minimum > 1 %}
+			]]></search>
+			<add position="before"><![CDATA[
+				{% endif %}
+			]]></add>
+		</operation>
+	</file>
+
+	<!-- Header -->
+	<file path="catalog\view\theme\journal3\template\journal3\headers\desktop\*.twig">
+		<operation>
+			<search><![CDATA[
+				<div class="third-menu">{{ j3.settings.get('desktop_top_menu_3') }}</div>
+			]]></search>
+			<add position="replace"><![CDATA[
+				{% if config_catalog_mode != 1 %}
+					<div class="third-menu">{{ j3.settings.get('desktop_top_menu_3') }}</div>
+				{% endif %}
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+				<div class="classic-cart-wrapper">
+			]]></search>
+			<add position="before"><![CDATA[
+				{% if config_catalog_mode != 1 %}
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+				<div class="desktop-main-menu-wrapper menu-{{ j3.settings.get('headerMenuLayout') }} {% if j3.settings.get('desktop_main_menu_2') %}has-menu-2{% endif %} navbar-nav">
+			]]></search>
+			<add position="before" offset="1"><![CDATA[
+				{% endif %}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog\controller\common\header.php">
+		<operation>
+			<search><![CDATA[
+				$data['home'] = $this->url->link('common/home');
+			]]></search>
+			<add position="before"><![CDATA[
+				$data['config_catalog_mode'] = $this->config->get('config_catalog_mode') ? 1 : 0;
+			]]></add>
+		</operation>
+	</file>
+
+	<!-- Redirect from any Account Pages to Home Page -->
+	<file path="catalog\controller\account\*.php">
+		<operation>
+			<search><![CDATA[
+				public function index() {
+			]]></search>
+			<add position="after"><![CDATA[
+				if($this->config->get('config_catalog_mode')) {
+					$this->response->redirect($this->url->link('common/home', '', true));
+				}
+			]]></add>
+		</operation>
+	</file>
+
+	<!-- Redirect from any Checkout Pages to Home Page -->
+	<file path="catalog\controller\checkout\*.php">
+		<operation>
+			<search><![CDATA[
+				public function index() {
+			]]></search>
+			<add position="after"><![CDATA[
+				if($this->config->get('config_catalog_mode')) {
+					$this->response->redirect($this->url->link('common/home', '', true));
+				}
+			]]></add>
+		</operation>
+	</file>
+
+</modification>

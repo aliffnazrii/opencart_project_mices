@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<name>
+		Change Phone To Unique
+	</name>
+	<code>
+		change_phone_to_unique
+	</code>
+	<version>
+		1.0
+	</version>
+	<author>
+		MICES Technology Sdn Bhd
+	</author>
+	<link>
+		https://www.mices.com.my
+	</link>
+
+
+	<file path="catalog/controller/account/register.php">
+	<!-- TELEPHONE -->
+		<operation>
+			<search>
+				<![CDATA[$this->error['telephone'] = $this->language->get('error_telephone');]]>
+			</search>
+			<add position="after" offset="1">
+				<![CDATA[else {
+
+                        $existing_customer = $this->db->query("SELECT * FROM " . DB_PREFIX . "customer WHERE telephone = '" . $this->db->escape($this->request->post['telephone']) . "'");
+
+                        if ($existing_customer->num_rows) {
+                            $this->error['telephone'] = $this->language->get('error_telephone_unique');
+                        }
+                        }]]>
+			</add>
+		</operation>
+	</file>
+	<file path="catalog/language/en-gb/account/register.php">
+	<!-- TELEPHONE ERROR MESSEGE -->
+		<operation>
+			<search>
+				<![CDATA[$_['error_telephone']      = 'Telephone must be between 3 and 32 characters!';]]>
+			</search>
+			<add position="after">
+				<![CDATA[$_['error_telephone_unique']    = 'User with this telephone already exist';]]>
+			</add>
+		</operation>
+	</file>
+
+	 <file path="admin/controller/common/column_left.php">
+	 <!-- SIDEBAR MENU -->
+        <operation>
+            <search><![CDATA[// Extension]]></search>
+            <add position="before"><![CDATA[
+                // Acilit Menu
+                $data['menus'][] = array(
+                    'id'       => 'menu-acilit',
+                    'icon'     => 'fa-cogs', 
+                    'name'     => $this->language->get('text_acilit'),
+                    'href'     => '',
+                    'children' => array(
+                        array(
+                            'name' => 'Orders',
+                            'href' => $this->url->link('extension/module/acilit/orders', 'user_token=' . $this->session->data['user_token'], true),
+                            'children' => array()
+                        ),
+                        array(
+                            'name' => 'Outlets',
+                            'href' => $this->url->link('extension/module/acilit/outlets', 'user_token=' . $this->session->data['user_token'], true),
+                            'children' => array()
+                        ),
+                        array(
+                            'name' => 'Products',
+                            'href' => $this->url->link('extension/module/acilit/products', 'user_token=' . $this->session->data['user_token'], true),
+                            'children' => array()
+                        ),
+                        array(
+                            'name' => 'Inventory Log',
+                            'href' => $this->url->link('extension/module/acilit/inventory_log', 'user_token=' . $this->session->data['user_token'], true),
+                            'children' => array()
+                        ),
+                        array(
+                            'name' => 'Customer Tier History',
+                            'href' => $this->url->link('extension/module/acilit/customer_tier_history', 'user_token=' . $this->session->data['user_token'], true),
+                            'children' => array()
+                        ),
+                        array(
+                            'name' => 'Settings',
+                            'href' => $this->url->link('extension/module/acilit/settings', 'user_token=' . $this->session->data['user_token'], true),
+                            'children' => array()
+                        )
+                    )
+                );
+            ]]></add>
+        </operation>
+    </file>
+
+    <!-- Add language text for the menu item -->
+    <file path="admin/language/en-gb/common/column_left.php">
+	<!-- MENU TEXT -->
+        <operation>
+            <search><![CDATA[$_['text_system']]]></search>
+            <add position="before"><![CDATA[
+                $_['text_acilit'] = 'Acilit';
+            ]]></add>
+        </operation>
+    </file>
+
+
+    <!-- for API -->
+
+        <file path="catalog/controller/account/register.php">
+        <operation>
+            <search><![CDATA[$customer_id = $this->model_account_customer->addCustomer($this->request->post);]]></search>
+            <add position="after"><![CDATA[
+
+                if ($this->config->get('module_acilit_status') && $this->config->get('module_acilit_sync_customer_status')) {
+                    $dispatcher = new queue\Dispatcher($this->registry);
+                    $dispatcher->dispatch(new jobs\SyncMember($customer_id));
+                }
+            ]]></add>
+        </operation>
+    </file>
+        <file path="catalog/controller/account/register.php">
+		<!-- REGISTER IN API -->
+        <operation>
+            <search><![CDATA[class ControllerCatalogProduct extends Controller {]]></search>
+            <add position="before"><![CDATA[
+                use acilit\AcilitModel;
+                use queue\Dispatcher;
+                use jobs\syncMember;
+            ]]></add>
+        </operation>
+    </file>
+
+    <!-- PRODUCT API -->
+    </file>
+        <file path="admin/controller/catalog/product.php">
+       <operation error="log">
+			<search><![CDATA[
+				class ControllerCatalogProduct extends Controller {
+			]]></search>
+			<add position="before"><![CDATA[
+			
+			use acilit\AcilitModel;
+			use queue\Dispatcher;
+			use jobs\syncproduct;
+			use jobs\updatestock;
+			]]></add>
+		</operation>
+		<!-- CONSTRUCT (OPTIONAL) -->
+		<operation error="log">
+			<search><![CDATA[
+				public function index() {
+			]]></search>
+			<add position="before"><![CDATA[
+			public function __construct($registry) {
+        parent::__construct($registry);
+
+        $this->acilit_model = new AcilitModel($this->registry);
+             }
+			]]></add>
+		</operation>
+		<!-- ADD PRODUCT CONTROLLER -->
+        <operation error="log">
+			<search><![CDATA[
+				$this->model_catalog_product->addProduct($this->request->post);
+			]]></search>
+			<add position="replace"><![CDATA[
+			$product_id = $this->model_catalog_product->addProduct($this->request->post);
+			$product_info = $this->model_catalog_product->getProduct($product_id);
+
+			 if ($this->config->get('module_acilit_status') && $this->config->get('module_acilit_sync_product_status')) {
+                    $dispatcher = new queue\Dispatcher($this->registry);
+                    $dispatcher->dispatch(new jobs\SyncProduct($product_id));
+            }
+			]]></add>
+		</operation>
+    </file>
+    </file>
+        <file path="admin/controller/catalog/product.php">
+       <operation error="log">
+			<search><![CDATA[
+				class ControllerCatalogProduct extends Controller {
+			]]></search>
+			<add position="before"><![CDATA[
+			
+			use acilit\AcilitModel;
+			use queue\Dispatcher;
+			use jobs\syncproduct;
+			use jobs\updatestock;
+			]]></add>
+		</operation>
+		
+    </file>
+    <file path="admin/view/template/catalog/product_form.twig">
+		<operation error="log">
+			<search><![CDATA[{% if error_model %}]]></search>
+			<add position="before"><![CDATA[
+				<input type="hidden" name="acilit_item_id" value="{{ acilit_item_id }}">
+				{% if xilnex_error %}
+					<div id="xilnex-model-message" class="text-danger">{{ acilit_error}}</div>
+				{% else %}
+					<div id="xilnex-model-message"></div>
+				{% endif %}
+
+				<a id="btn-product-validate" style="margin-top: 10px" class="btn btn-primary {{ acilit_item_id != 0 ? 'hide' : ''}}" onclick="validateProduct()">{{ text_link }}</a>
+				<a id="btn-product-unlink" style="margin-top: 10px" class="btn btn-primary {{ acilit_item_id == 0 ? 'hide' : ''}}" onclick="unlinkProduct()">{{ text_unlink }}</a>
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search><![CDATA[<label class="col-sm-2 control-label" for="input-sku"><span data-toggle="tooltip" title="{{ help_sku }}">{{ entry_sku }}</span></label>]]></search>
+			<add position="before" offset="1"><![CDATA[
+              {% if synced_with_xilnex %}
+              <div class="form-group">
+				
+                <label class="col-sm-2 control-label" for="input-stocks">Acilit Stocks</label>
+                <div class="col-sm-10">
+                  <table class="table table-bordered table-hover" style="font-size: 13px">
+                    <thead>
+                      <td>Outlet</td>
+                      <td>Quantity</td>
+                      <td>Sales Price</td>
+                    </thead>
+                    <tbody>
+                    {% for product_quantity in acilit_stock %}
+                      <tr>
+                        <td class="text-left">{{ product_quantity.outlet_name }}</td>
+                        <td class="text-left">{{ product_quantity.acilit_quantity }}</td>
+                        <td class="text-left">RM{{ product_quantity.acilit_sales_price }}</td>
+                      </tr>
+                      {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+			{% endif %}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search index="0"><![CDATA[
+				                      <td class="text-left">{{ entry_option_value }}</td>
+				]]></search>
+			<add position="after"><![CDATA[
+				                      <td class="text-left">{{ entry_model }}</td>
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			<input type="hidden" name="product_option[{{ option_row }}][product_option_value][{{ option_value_row }}][product_option_value_id]" value="{{ product_option_value.product_option_value_id }}" /></td>
+				]]></search>
+			<add position="after"><![CDATA[
+										<td class="text-right">
+										  	<input type="text" name="product_option[{{ option_row }}][product_option_value][{{ option_value_row }}][model]" value="{{ product_option_value.model }}" placeholder="{{ entry_model }}" class="form-control" {{ product_option_value.xilnex_item_id != 0 ? 'readonly' : '' }}/>
+										  	<input type="hidden" name="product_option[{{ option_row }}][product_option_value][{{ option_value_row }}][acilit_item_id]" value="{{ product_option_value.acilit_item_id }}"/>
+											<a id="btn-option-validate-{{ option_value_row }}" class="btn btn-primary {{ product_option_value.acilit_item_id != 0 ? 'hide' : '' }}" style="width: 100%; margin-top: 10px" onclick="validateProductOption(this, {{ option_row }}, {{ option_value_row }})">{{ text_link }}</a>
+											<a id="btn-option-unlink-{{ option_value_row }}" class="btn btn-primary {{ product_option_value.acilit_item_id == 0 ? 'hide' : ''}}" style="width: 100%; margin-top: 10px" onclick="unlinkOption({{ option_row }}, {{ option_value_row }})">{{ text_unlink }}</a>
+											<div id="xilnex-model-message-{{ option_value_row }}" class="text-left text-success">{% if product_option_value.acilit_item_id != 0 %}Linked{% endif %}</div>
+										</td>
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			html += '        <td class="text-left">{{ entry_option_value }}</td>';
+				]]></search>
+			<add position="after"><![CDATA[
+			html += '        <td class="text-left">{{ entry_model }}</td>';
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+	html += '  </select><input type="hidden" name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][product_option_value_id]" value="" /></td>';
+				]]></search>
+			<add position="after"><![CDATA[
+	html += '  <td class="text-right">';
+	html += '  <input type="text" name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][model]" placeholder="{{ entry_model }}" class="form-control" />';
+	html += '  <input type="hidden" name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][xilnex_item_id]" />';
+	html += '  <a id="btn-option-validate-' + option_value_row + '" class="btn btn-primary" style="width: 100%; margin-top: 10px" onclick="validateProductOption(this, ' + option_row + ', ' + option_value_row + ')">{{ text_link }}</a>';
+	html += '  <a id="btn-option-unlink-' + option_value_row + '" class="btn btn-primary hide" style="width: 100%; margin-top: 10px" onclick="unlinkOption(' + option_row + ', ' + option_value_row + ')">{{ text_unlink }}</a>';
+	html += '  <div id="xilnex-model-message-' + option_value_row + '" class="text-left"></div>';
+	html += '  </td>';
+			]]></add>
+		</operation>
+		
+		<operation error="log">
+			<search><![CDATA[
+{{ footer }} 
+				]]></search>
+			<add position="before"><![CDATA[
+<script type="text/javascript"><!--
+	function validateProductOption(button, option_row, option_value_row) {
+		$('#acilit-model-message-' + option_value_row).removeClass('text-success');
+		$('#acilit-model-message-' + option_value_row).removeClass('text-danger');
+		$('#acilit-model-message-' + option_value_row).text('');
+
+		var model = $('input[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][model]"]').val();
+
+		$.ajax({
+			url: 'index.php?route=extension/module/xilnex/validateProduct&user_token={{ user_token }}',
+			dataType: 'json',
+			method: 'POST',
+			data: {
+				model: model,
+			},
+			beforeSend: function() {
+				$(button).button('loading');
+			},
+			complete: function() {
+				$(button).button('reset');
+			},
+			success: function(json) {
+				if (json.error) {
+					$('#acilit-model-message-' + option_value_row).addClass('text-danger').text(json.error);
+				} else {
+					$('#acilit-model-message-' + option_value_row).addClass('text-success').text('Linked');
+
+					if (json.xilnex_item_id) {
+						$('input[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][xilnex_item_id]"]').val(json.xilnex_item_id);
+						$('input[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][price]"]').val(json.price);
+						$('select[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][price_prefix]"]').val('=');
+						$('input[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][quantity]"]').val(json.quantity);
+						$('input[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][weight]"]').val(json.weight);
+						$('select[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][weight_prefix]"]').val('=');
+
+						$('input[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][model]"]').prop('readonly', true);
+						$('#btn-option-unlink-' + option_value_row).removeClass('hide');
+						$('#btn-option-validate-' + option_value_row).addClass('hide');
+					}
+				}
+			}
+		});
+	}
+
+	function unlinkOption(option_row, option_value_row) {
+		$('#acilit-model-message-' + option_value_row).removeClass('text-success');
+		$('#acilit-model-message-' + option_value_row).removeClass('text-danger');
+		$('#acilit-model-message-' + option_value_row).text('');
+
+		$('input[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][xilnex_item_id]"]').val(0);
+		$('input[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][model]"]').prop('readonly', false);
+		$('#btn-option-validate-' + option_value_row).removeClass('hide');
+		$('#btn-option-unlink-' + option_value_row).addClass('hide');
+
+		$('#acilit-model-message-' + option_value_row).addClass('text-success').text('Not linked');
+	}
+
+	function validateProduct() {
+		$('#acilit-model-message').removeClass('text-success');
+		$('#acilit-model-message').removeClass('text-danger');
+		$('#acilit-model-message').text('');
+
+		var model = $('input[name="model"]').val();
+		var button = $('#btn-product-validate');
+
+		$.ajax({
+			url: 'index.php?route=extension/module/acilit/validateProduct&user_token={{ user_token }}',
+			dataType: 'json',
+			method: 'POST',
+			data: {
+				model: model,
+			},
+			beforeSend: function() {
+				$(button).button('loading');
+			},
+			complete: function() {
+				$(button).button('reset');
+			},
+			success: function(json) {
+				if (json.error) {
+					$('acilit-model-message').addClass('text-danger').text(json.error);
+				} else {
+					$('acilit-model-message').addClass('text-success').text('Linked');
+
+					if (jsonacilit_item_id) {
+						$('input[name=acilit_item_id"]').val(jsonacilit_item_id);
+						$('input[name="price"]').val(json.price);
+						$('input[name="quantity"]').val(json.quantity);
+						$('input[name="weight"]').val(json.weight);
+						$('input[name="length"]').val(json.length);
+						$('input[name="width"]').val(json.width);
+						$('input[name="height"]').val(json.height);
+
+						$('input[name="model"]').prop('readonly', true);
+						$('#btn-product-unlink').removeClass('hide');
+						$('#btn-product-validate').addClass('hide');
+					}
+				}
+			}
+		});
+	}
+
+	function unlinkProduct() {
+		$('acilit-model-message').removeClass('text-success');
+		$('acilit-model-message').removeClass('text-danger');
+		$('acilit-model-message').text('');
+
+		$('input[name=acilit_item_id"]').val(0);
+		$('input[name="model"]').prop('readonly', false);
+		$('#btn-product-validate').removeClass('hide');
+		$('#btn-product-unlink').addClass('hide');
+
+		$('#xilnex-model-message').addClass('text-success').text('Not Linked');
+	}
+//--></script>
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			{% if product_option_value.price_prefix == '+' %}
+				]]></search>
+			<add position="before"><![CDATA[
+			{% if product_option_value.price_prefix == '=' %}
+				<option value="=" selected="selected">=</option>
+			{% else %}
+				<option value="=">=</option>
+			{% endif %}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+	html += '  <td class="text-right"><select name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][price_prefix]"				]]></search>
+			<add position="after"><![CDATA[
+	html += '    <option value="=">=</option>';
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			{% if product_option_value.weight_prefix == '+' %}
+				]]></search>
+			<add position="before"><![CDATA[
+			{% if product_option_value.weight_prefix == '=' %}
+				<option value="=" selected="selected">=</option>
+			{% else %}
+				<option value="=">=</option>
+			{% endif %}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+	html += '  <td class="text-right"><select name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][weight_prefix]"				
+			]]></search>
+			<add position="after"><![CDATA[
+	html += '    <option value="=">=</option>';
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/model/catalog/product.php">
+		<operation error="log">
+			<search><![CDATA[
+					'option_value_id'         => $product_option_value['option_value_id'],
+			]]></search>
+			<add position="after"><![CDATA[
+					'model'         		  => $product_option_value['model'],
+					acilit_item_id'          => $product_option_value[acilit_item_id'],
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[option_value_id = '" . (int)$product_option_value['option_value_id'] . "',]]></search>
+			<add position="replace"><![CDATA[option_value_id = '" . (int)$product_option_value['option_value_id'] . "', model = '" . $this->db->escape($product_option_value['model']) . "', xilnex_item_id = '" . (int)$product_option_value['xilnex_item_id'] . "',]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[public function getProductImages($product_id) {]]></search>
+			<add position="before"><![CDATA[
+				public function getProductOptionValues($product_id) {
+					$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "product_option_value WHERE product_id = '" . (int)$product_id . "'");
+					return $query->rows;
+				}
+				]]></add>
+		</operation>
+	</file>
+	
+       
+	
+</modification>

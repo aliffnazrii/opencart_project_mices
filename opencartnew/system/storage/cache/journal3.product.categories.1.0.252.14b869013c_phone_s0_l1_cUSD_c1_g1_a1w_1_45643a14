@@ -1,0 +1,2087 @@
+<?php $val = array (
+  'category_id' => '252',
+  'parent_id' => '230',
+  'title' => 'Leisure &amp; Travels',
+  'items' => 
+  array (
+    861 => 
+    array (
+      'category_id' => '861',
+      'parent_id' => '252',
+      'title' => 'Bags',
+      'items' => 
+      array (
+        862 => 
+        array (
+          'category_id' => '862',
+          'parent_id' => '861',
+          'title' => 'Backpacks &amp; Messenger Bags',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c862',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_861_862',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        863 => 
+        array (
+          'category_id' => '863',
+          'parent_id' => '861',
+          'title' => 'Bags Organisers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c863',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_861_863',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        864 => 
+        array (
+          'category_id' => '864',
+          'parent_id' => '861',
+          'title' => 'Shopping Bags &amp; Tote Bags',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c864',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_861_864',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c861',
+        'dropdown' => 
+        array (
+          862 => 
+          array (
+            'category_id' => '862',
+            'parent_id' => '861',
+            'title' => 'Backpacks &amp; Messenger Bags',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c862',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_861_862',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          863 => 
+          array (
+            'category_id' => '863',
+            'parent_id' => '861',
+            'title' => 'Bags Organisers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c863',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_861_863',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          864 => 
+          array (
+            'category_id' => '864',
+            'parent_id' => '861',
+            'title' => 'Shopping Bags &amp; Tote Bags',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c864',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_861_864',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_861',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    869 => 
+    array (
+      'category_id' => '869',
+      'parent_id' => '252',
+      'title' => 'Paper Shops',
+      'items' => 
+      array (
+        870 => 
+        array (
+          'category_id' => '870',
+          'parent_id' => '869',
+          'title' => 'Adhesives &amp; Tapes',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c870',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_870',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        871 => 
+        array (
+          'category_id' => '871',
+          'parent_id' => '869',
+          'title' => 'Gift Bags',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c871',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_871',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        872 => 
+        array (
+          'category_id' => '872',
+          'parent_id' => '869',
+          'title' => 'Gift Boxes &amp; Fillers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c872',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_872',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        873 => 
+        array (
+          'category_id' => '873',
+          'parent_id' => '869',
+          'title' => 'Ribbons &amp; Bows',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c873',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_873',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        875 => 
+        array (
+          'category_id' => '875',
+          'parent_id' => '869',
+          'title' => 'Stationery',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c875',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_875',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        874 => 
+        array (
+          'category_id' => '874',
+          'parent_id' => '869',
+          'title' => 'Wrapping Papers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c874',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_874',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c869',
+        'dropdown' => 
+        array (
+          870 => 
+          array (
+            'category_id' => '870',
+            'parent_id' => '869',
+            'title' => 'Adhesives &amp; Tapes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c870',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_870',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          871 => 
+          array (
+            'category_id' => '871',
+            'parent_id' => '869',
+            'title' => 'Gift Bags',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c871',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_871',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          872 => 
+          array (
+            'category_id' => '872',
+            'parent_id' => '869',
+            'title' => 'Gift Boxes &amp; Fillers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c872',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_872',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          873 => 
+          array (
+            'category_id' => '873',
+            'parent_id' => '869',
+            'title' => 'Ribbons &amp; Bows',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c873',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_873',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          875 => 
+          array (
+            'category_id' => '875',
+            'parent_id' => '869',
+            'title' => 'Stationery',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c875',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_875',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          874 => 
+          array (
+            'category_id' => '874',
+            'parent_id' => '869',
+            'title' => 'Wrapping Papers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c874',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_874',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    865 => 
+    array (
+      'category_id' => '865',
+      'parent_id' => '252',
+      'title' => 'Party Supplies',
+      'items' => 
+      array (
+        867 => 
+        array (
+          'category_id' => '867',
+          'parent_id' => '865',
+          'title' => 'Balloon &amp; Inflators',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c867',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_865_867',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        868 => 
+        array (
+          'category_id' => '868',
+          'parent_id' => '865',
+          'title' => 'Disposable Tableware',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c868',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_865_868',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        866 => 
+        array (
+          'category_id' => '866',
+          'parent_id' => '865',
+          'title' => 'Family, Party &amp; Card Games',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c866',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_865_866',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c865',
+        'dropdown' => 
+        array (
+          867 => 
+          array (
+            'category_id' => '867',
+            'parent_id' => '865',
+            'title' => 'Balloon &amp; Inflators',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c867',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_865_867',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          868 => 
+          array (
+            'category_id' => '868',
+            'parent_id' => '865',
+            'title' => 'Disposable Tableware',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c868',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_865_868',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          866 => 
+          array (
+            'category_id' => '866',
+            'parent_id' => '865',
+            'title' => 'Family, Party &amp; Card Games',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c866',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_865_866',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_865',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    881 => 
+    array (
+      'category_id' => '881',
+      'parent_id' => '252',
+      'title' => 'Pets',
+      'items' => 
+      array (
+        882 => 
+        array (
+          'category_id' => '882',
+          'parent_id' => '881',
+          'title' => 'Pets Foods &amp; Bowls',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c882',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_881_882',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        883 => 
+        array (
+          'category_id' => '883',
+          'parent_id' => '881',
+          'title' => 'Pets Grooming',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c883',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_881_883',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        884 => 
+        array (
+          'category_id' => '884',
+          'parent_id' => '881',
+          'title' => 'Pets Toys',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c884',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_881_884',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c881',
+        'dropdown' => 
+        array (
+          882 => 
+          array (
+            'category_id' => '882',
+            'parent_id' => '881',
+            'title' => 'Pets Foods &amp; Bowls',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c882',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_881_882',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          883 => 
+          array (
+            'category_id' => '883',
+            'parent_id' => '881',
+            'title' => 'Pets Grooming',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c883',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_881_883',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          884 => 
+          array (
+            'category_id' => '884',
+            'parent_id' => '881',
+            'title' => 'Pets Toys',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c884',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_881_884',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_881',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    876 => 
+    array (
+      'category_id' => '876',
+      'parent_id' => '252',
+      'title' => 'Travels',
+      'items' => 
+      array (
+        877 => 
+        array (
+          'category_id' => '877',
+          'parent_id' => '876',
+          'title' => 'Luggage Straps',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c877',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876_877',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        878 => 
+        array (
+          'category_id' => '878',
+          'parent_id' => '876',
+          'title' => 'Neck Pillows',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c878',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876_878',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        880 => 
+        array (
+          'category_id' => '880',
+          'parent_id' => '876',
+          'title' => 'Travel Kits',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c880',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876_880',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        879 => 
+        array (
+          'category_id' => '879',
+          'parent_id' => '876',
+          'title' => 'Umbrellas',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c879',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876_879',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c876',
+        'dropdown' => 
+        array (
+          877 => 
+          array (
+            'category_id' => '877',
+            'parent_id' => '876',
+            'title' => 'Luggage Straps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c877',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876_877',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          878 => 
+          array (
+            'category_id' => '878',
+            'parent_id' => '876',
+            'title' => 'Neck Pillows',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c878',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876_878',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          880 => 
+          array (
+            'category_id' => '880',
+            'parent_id' => '876',
+            'title' => 'Travel Kits',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c880',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876_880',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          879 => 
+          array (
+            'category_id' => '879',
+            'parent_id' => '876',
+            'title' => 'Umbrellas',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c879',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876_879',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c252',
+    'dropdown' => 
+    array (
+      861 => 
+      array (
+        'category_id' => '861',
+        'parent_id' => '252',
+        'title' => 'Bags',
+        'items' => 
+        array (
+          862 => 
+          array (
+            'category_id' => '862',
+            'parent_id' => '861',
+            'title' => 'Backpacks &amp; Messenger Bags',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c862',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_861_862',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          863 => 
+          array (
+            'category_id' => '863',
+            'parent_id' => '861',
+            'title' => 'Bags Organisers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c863',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_861_863',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          864 => 
+          array (
+            'category_id' => '864',
+            'parent_id' => '861',
+            'title' => 'Shopping Bags &amp; Tote Bags',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c864',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_861_864',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c861',
+          'dropdown' => 
+          array (
+            862 => 
+            array (
+              'category_id' => '862',
+              'parent_id' => '861',
+              'title' => 'Backpacks &amp; Messenger Bags',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c862',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_861_862',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            863 => 
+            array (
+              'category_id' => '863',
+              'parent_id' => '861',
+              'title' => 'Bags Organisers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c863',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_861_863',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            864 => 
+            array (
+              'category_id' => '864',
+              'parent_id' => '861',
+              'title' => 'Shopping Bags &amp; Tote Bags',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c864',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_861_864',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_861',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      869 => 
+      array (
+        'category_id' => '869',
+        'parent_id' => '252',
+        'title' => 'Paper Shops',
+        'items' => 
+        array (
+          870 => 
+          array (
+            'category_id' => '870',
+            'parent_id' => '869',
+            'title' => 'Adhesives &amp; Tapes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c870',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_870',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          871 => 
+          array (
+            'category_id' => '871',
+            'parent_id' => '869',
+            'title' => 'Gift Bags',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c871',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_871',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          872 => 
+          array (
+            'category_id' => '872',
+            'parent_id' => '869',
+            'title' => 'Gift Boxes &amp; Fillers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c872',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_872',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          873 => 
+          array (
+            'category_id' => '873',
+            'parent_id' => '869',
+            'title' => 'Ribbons &amp; Bows',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c873',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_873',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          875 => 
+          array (
+            'category_id' => '875',
+            'parent_id' => '869',
+            'title' => 'Stationery',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c875',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_875',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          874 => 
+          array (
+            'category_id' => '874',
+            'parent_id' => '869',
+            'title' => 'Wrapping Papers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c874',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_874',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c869',
+          'dropdown' => 
+          array (
+            870 => 
+            array (
+              'category_id' => '870',
+              'parent_id' => '869',
+              'title' => 'Adhesives &amp; Tapes',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c870',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_870',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            871 => 
+            array (
+              'category_id' => '871',
+              'parent_id' => '869',
+              'title' => 'Gift Bags',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c871',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_871',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            872 => 
+            array (
+              'category_id' => '872',
+              'parent_id' => '869',
+              'title' => 'Gift Boxes &amp; Fillers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c872',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_872',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            873 => 
+            array (
+              'category_id' => '873',
+              'parent_id' => '869',
+              'title' => 'Ribbons &amp; Bows',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c873',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_873',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            875 => 
+            array (
+              'category_id' => '875',
+              'parent_id' => '869',
+              'title' => 'Stationery',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c875',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_875',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            874 => 
+            array (
+              'category_id' => '874',
+              'parent_id' => '869',
+              'title' => 'Wrapping Papers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c874',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869_874',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_869',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      865 => 
+      array (
+        'category_id' => '865',
+        'parent_id' => '252',
+        'title' => 'Party Supplies',
+        'items' => 
+        array (
+          867 => 
+          array (
+            'category_id' => '867',
+            'parent_id' => '865',
+            'title' => 'Balloon &amp; Inflators',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c867',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_865_867',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          868 => 
+          array (
+            'category_id' => '868',
+            'parent_id' => '865',
+            'title' => 'Disposable Tableware',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c868',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_865_868',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          866 => 
+          array (
+            'category_id' => '866',
+            'parent_id' => '865',
+            'title' => 'Family, Party &amp; Card Games',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c866',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_865_866',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c865',
+          'dropdown' => 
+          array (
+            867 => 
+            array (
+              'category_id' => '867',
+              'parent_id' => '865',
+              'title' => 'Balloon &amp; Inflators',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c867',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_865_867',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            868 => 
+            array (
+              'category_id' => '868',
+              'parent_id' => '865',
+              'title' => 'Disposable Tableware',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c868',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_865_868',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            866 => 
+            array (
+              'category_id' => '866',
+              'parent_id' => '865',
+              'title' => 'Family, Party &amp; Card Games',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c866',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_865_866',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_865',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      881 => 
+      array (
+        'category_id' => '881',
+        'parent_id' => '252',
+        'title' => 'Pets',
+        'items' => 
+        array (
+          882 => 
+          array (
+            'category_id' => '882',
+            'parent_id' => '881',
+            'title' => 'Pets Foods &amp; Bowls',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c882',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_881_882',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          883 => 
+          array (
+            'category_id' => '883',
+            'parent_id' => '881',
+            'title' => 'Pets Grooming',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c883',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_881_883',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          884 => 
+          array (
+            'category_id' => '884',
+            'parent_id' => '881',
+            'title' => 'Pets Toys',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c884',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_881_884',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c881',
+          'dropdown' => 
+          array (
+            882 => 
+            array (
+              'category_id' => '882',
+              'parent_id' => '881',
+              'title' => 'Pets Foods &amp; Bowls',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c882',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_881_882',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            883 => 
+            array (
+              'category_id' => '883',
+              'parent_id' => '881',
+              'title' => 'Pets Grooming',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c883',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_881_883',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            884 => 
+            array (
+              'category_id' => '884',
+              'parent_id' => '881',
+              'title' => 'Pets Toys',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c884',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_881_884',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_881',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      876 => 
+      array (
+        'category_id' => '876',
+        'parent_id' => '252',
+        'title' => 'Travels',
+        'items' => 
+        array (
+          877 => 
+          array (
+            'category_id' => '877',
+            'parent_id' => '876',
+            'title' => 'Luggage Straps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c877',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876_877',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          878 => 
+          array (
+            'category_id' => '878',
+            'parent_id' => '876',
+            'title' => 'Neck Pillows',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c878',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876_878',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          880 => 
+          array (
+            'category_id' => '880',
+            'parent_id' => '876',
+            'title' => 'Travel Kits',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c880',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876_880',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          879 => 
+          array (
+            'category_id' => '879',
+            'parent_id' => '876',
+            'title' => 'Umbrellas',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c879',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876_879',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c876',
+          'dropdown' => 
+          array (
+            877 => 
+            array (
+              'category_id' => '877',
+              'parent_id' => '876',
+              'title' => 'Luggage Straps',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c877',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876_877',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            878 => 
+            array (
+              'category_id' => '878',
+              'parent_id' => '876',
+              'title' => 'Neck Pillows',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c878',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876_878',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            880 => 
+            array (
+              'category_id' => '880',
+              'parent_id' => '876',
+              'title' => 'Travel Kits',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c880',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876_880',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            879 => 
+            array (
+              'category_id' => '879',
+              'parent_id' => '876',
+              'title' => 'Umbrellas',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c879',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876_879',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252_876',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_252',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

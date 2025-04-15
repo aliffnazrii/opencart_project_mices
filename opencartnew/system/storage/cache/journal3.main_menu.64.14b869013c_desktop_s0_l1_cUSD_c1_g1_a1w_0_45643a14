@@ -1,0 +1,22 @@
+<?php $val = array (
+  'css' => NULL,
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'status' => true,
+    'id' => 'main-menu-2',
+    'module_id' => 64,
+    'classes' => 
+    array (
+      0 => 'main-menu',
+      1 => 'main-menu-64',
+      'accordion-menu' => false,
+    ),
+    'display' => 'dropdown',
+    'items' => 
+    array (
+    ),
+  ),
+);

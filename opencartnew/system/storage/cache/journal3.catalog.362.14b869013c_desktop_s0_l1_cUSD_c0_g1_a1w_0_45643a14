@@ -1,0 +1,422 @@
+<?php $val = array (
+  'css' => '.module-catalog-362 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-362 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-362 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-362 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-362 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-362 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-362 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-362 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-362  .item-content{padding-top:10px}.module-catalog-362  .catalog-title{padding-right:10px}.module-catalog-362 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-362 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-362
+.subitems{align-items:flex-start}.module-catalog-362 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-362 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-362 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-362 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-362 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-362 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-362 .catalog-image{margin-right:10px}.module-catalog-362 .item-assets{flex-direction:row}.module-catalog-362 .item-assets>a{max-width:40%;order:0}.module-catalog-362 .item-assets
+.subitems{width:60%}.module-catalog-362 .item-assets .catalog-image{display:block}.module-catalog-362 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-362 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-362 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Big Kitchen Appliances',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb709d935',
+    'module_id' => 362,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-362',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '362-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Built-In-Microwave Ovens',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=367_368',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Built-In-Microwave Ovens',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=367',
+        'total' => '1',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '362-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Built-In-Ovens',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=369_370',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Built-In-Ovens',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=369',
+        'total' => '1',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '362-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Built-In-Ceramic Hobs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=371_372',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Built-In-Gas Hobs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=371_373',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Built-In-Induction Hobs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=371_374',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Cooker Hobs',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=371',
+        'total' => '3',
+      ),
+      4 => 
+      array (
+        'limit' => '',
+        'id' => '362-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Chimney Hoods',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=375_376',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Conventional/Visor Hoods',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=375_377',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Designer Hoods',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=375_378',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Integrated Hoods',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=375_379',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Island Hoods',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=375_380',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Cooker Hoods',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=375',
+        'total' => '5',
+      ),
+      5 => 
+      array (
+        'limit' => '',
+        'id' => '362-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Dishdryers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=381_383',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Dishwashers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=381_382',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Dishwashers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=381',
+        'total' => '2',
+      ),
+      6 => 
+      array (
+        'limit' => '',
+        'id' => '362-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Freestanding Cookers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=384_385',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Freestanding Cookers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=384',
+        'total' => '1',
+      ),
+      7 => 
+      array (
+        'limit' => '',
+        'id' => '362-7',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-7',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Chest Freezers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=386_388',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Upright Freezers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=386_387',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Freezers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=386',
+        'total' => '2',
+      ),
+      8 => 
+      array (
+        'limit' => '',
+        'id' => '362-8',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-8',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => '1D Fridges',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=389_393',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => '2D Bottom Freezer Fridges',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=389_394',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => '2D Top Freezer Fridges',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=389_395',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'French Door Fridges',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=389_390',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Multidoor Fridges',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=389_391',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Side-By-Side Fridges',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=389_392',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Fridges',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=389',
+        'total' => '6',
+      ),
+      9 => 
+      array (
+        'limit' => '',
+        'id' => '362-9',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-9',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Showcase Chiller',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=396_398',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Wine Chiller',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=396_397',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Chiller',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=396',
+        'total' => '2',
+      ),
+    ),
+  ),
+);

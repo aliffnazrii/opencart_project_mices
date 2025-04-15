@@ -1,0 +1,2231 @@
+<?php $val = array (
+  'category_id' => '248',
+  'parent_id' => '230',
+  'title' => 'Heating, Cooling &amp; Air Treatment',
+  'items' => 
+  array (
+    729 => 
+    array (
+      'category_id' => '729',
+      'parent_id' => '248',
+      'title' => 'Air Conditioning',
+      'items' => 
+      array (
+        734 => 
+        array (
+          'category_id' => '734',
+          'parent_id' => '729',
+          'title' => 'Air Curtains',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c734',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_734',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        730 => 
+        array (
+          'category_id' => '730',
+          'parent_id' => '729',
+          'title' => 'Cassette Air Conditioners',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c730',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_730',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        731 => 
+        array (
+          'category_id' => '731',
+          'parent_id' => '729',
+          'title' => 'Multi Split System Air Conditioners',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c731',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_731',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        732 => 
+        array (
+          'category_id' => '732',
+          'parent_id' => '729',
+          'title' => 'Portable Air Conditioner/Air Coolers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c732',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_732',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        733 => 
+        array (
+          'category_id' => '733',
+          'parent_id' => '729',
+          'title' => 'Wall/Window Air Conditioners',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c733',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_733',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c729',
+        'dropdown' => 
+        array (
+          734 => 
+          array (
+            'category_id' => '734',
+            'parent_id' => '729',
+            'title' => 'Air Curtains',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c734',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_734',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          730 => 
+          array (
+            'category_id' => '730',
+            'parent_id' => '729',
+            'title' => 'Cassette Air Conditioners',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c730',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_730',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          731 => 
+          array (
+            'category_id' => '731',
+            'parent_id' => '729',
+            'title' => 'Multi Split System Air Conditioners',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c731',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_731',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          732 => 
+          array (
+            'category_id' => '732',
+            'parent_id' => '729',
+            'title' => 'Portable Air Conditioner/Air Coolers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c732',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_732',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          733 => 
+          array (
+            'category_id' => '733',
+            'parent_id' => '729',
+            'title' => 'Wall/Window Air Conditioners',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c733',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_733',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    735 => 
+    array (
+      'category_id' => '735',
+      'parent_id' => '248',
+      'title' => 'Air Treatment',
+      'items' => 
+      array (
+        736 => 
+        array (
+          'category_id' => '736',
+          'parent_id' => '735',
+          'title' => 'Air Purifiers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c736',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_735_736',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        737 => 
+        array (
+          'category_id' => '737',
+          'parent_id' => '735',
+          'title' => 'Dehumidfiers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c737',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_735_737',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        738 => 
+        array (
+          'category_id' => '738',
+          'parent_id' => '735',
+          'title' => 'Humidifiers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c738',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_735_738',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c735',
+        'dropdown' => 
+        array (
+          736 => 
+          array (
+            'category_id' => '736',
+            'parent_id' => '735',
+            'title' => 'Air Purifiers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c736',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_735_736',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          737 => 
+          array (
+            'category_id' => '737',
+            'parent_id' => '735',
+            'title' => 'Dehumidfiers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c737',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_735_737',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          738 => 
+          array (
+            'category_id' => '738',
+            'parent_id' => '735',
+            'title' => 'Humidifiers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c738',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_735_738',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_735',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    739 => 
+    array (
+      'category_id' => '739',
+      'parent_id' => '248',
+      'title' => 'Fans',
+      'items' => 
+      array (
+        744 => 
+        array (
+          'category_id' => '744',
+          'parent_id' => '739',
+          'title' => 'Box Fans',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c744',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_744',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        740 => 
+        array (
+          'category_id' => '740',
+          'parent_id' => '739',
+          'title' => 'Ceiling Fans',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c740',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_740',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        749 => 
+        array (
+          'category_id' => '749',
+          'parent_id' => '739',
+          'title' => 'Cooler Fans',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c749',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_749',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        746 => 
+        array (
+          'category_id' => '746',
+          'parent_id' => '739',
+          'title' => 'Desk Fans',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c746',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_746',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        741 => 
+        array (
+          'category_id' => '741',
+          'parent_id' => '739',
+          'title' => 'Exhaust &amp; Ventilation Fans',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c741',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_741',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        742 => 
+        array (
+          'category_id' => '742',
+          'parent_id' => '739',
+          'title' => 'Fan Blades',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c742',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_742',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        743 => 
+        array (
+          'category_id' => '743',
+          'parent_id' => '739',
+          'title' => 'Floor Fans',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c743',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_743',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        747 => 
+        array (
+          'category_id' => '747',
+          'parent_id' => '739',
+          'title' => 'Stand Fans',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c747',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_747',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        748 => 
+        array (
+          'category_id' => '748',
+          'parent_id' => '739',
+          'title' => 'Table Fans',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c748',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_748',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        745 => 
+        array (
+          'category_id' => '745',
+          'parent_id' => '739',
+          'title' => 'Tower Fans',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c745',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_745',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        750 => 
+        array (
+          'category_id' => '750',
+          'parent_id' => '739',
+          'title' => 'Wall &amp; Auto Fans',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c750',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_750',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c739',
+        'dropdown' => 
+        array (
+          744 => 
+          array (
+            'category_id' => '744',
+            'parent_id' => '739',
+            'title' => 'Box Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c744',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_744',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          740 => 
+          array (
+            'category_id' => '740',
+            'parent_id' => '739',
+            'title' => 'Ceiling Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c740',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_740',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          749 => 
+          array (
+            'category_id' => '749',
+            'parent_id' => '739',
+            'title' => 'Cooler Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c749',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_749',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          746 => 
+          array (
+            'category_id' => '746',
+            'parent_id' => '739',
+            'title' => 'Desk Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c746',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_746',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          741 => 
+          array (
+            'category_id' => '741',
+            'parent_id' => '739',
+            'title' => 'Exhaust &amp; Ventilation Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c741',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_741',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          742 => 
+          array (
+            'category_id' => '742',
+            'parent_id' => '739',
+            'title' => 'Fan Blades',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c742',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_742',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          743 => 
+          array (
+            'category_id' => '743',
+            'parent_id' => '739',
+            'title' => 'Floor Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c743',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_743',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          747 => 
+          array (
+            'category_id' => '747',
+            'parent_id' => '739',
+            'title' => 'Stand Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c747',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_747',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          748 => 
+          array (
+            'category_id' => '748',
+            'parent_id' => '739',
+            'title' => 'Table Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c748',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_748',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          745 => 
+          array (
+            'category_id' => '745',
+            'parent_id' => '739',
+            'title' => 'Tower Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c745',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_745',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          750 => 
+          array (
+            'category_id' => '750',
+            'parent_id' => '739',
+            'title' => 'Wall &amp; Auto Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c750',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_750',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    751 => 
+    array (
+      'category_id' => '751',
+      'parent_id' => '248',
+      'title' => 'Water Heaters',
+      'items' => 
+      array (
+        753 => 
+        array (
+          'category_id' => '753',
+          'parent_id' => '751',
+          'title' => 'Storage Tank',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c753',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_751_753',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        752 => 
+        array (
+          'category_id' => '752',
+          'parent_id' => '751',
+          'title' => 'Tankless Water Heaters ',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c752',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_751_752',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c751',
+        'dropdown' => 
+        array (
+          753 => 
+          array (
+            'category_id' => '753',
+            'parent_id' => '751',
+            'title' => 'Storage Tank',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c753',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_751_753',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          752 => 
+          array (
+            'category_id' => '752',
+            'parent_id' => '751',
+            'title' => 'Tankless Water Heaters ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c752',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_751_752',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_751',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c248',
+    'dropdown' => 
+    array (
+      729 => 
+      array (
+        'category_id' => '729',
+        'parent_id' => '248',
+        'title' => 'Air Conditioning',
+        'items' => 
+        array (
+          734 => 
+          array (
+            'category_id' => '734',
+            'parent_id' => '729',
+            'title' => 'Air Curtains',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c734',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_734',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          730 => 
+          array (
+            'category_id' => '730',
+            'parent_id' => '729',
+            'title' => 'Cassette Air Conditioners',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c730',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_730',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          731 => 
+          array (
+            'category_id' => '731',
+            'parent_id' => '729',
+            'title' => 'Multi Split System Air Conditioners',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c731',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_731',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          732 => 
+          array (
+            'category_id' => '732',
+            'parent_id' => '729',
+            'title' => 'Portable Air Conditioner/Air Coolers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c732',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_732',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          733 => 
+          array (
+            'category_id' => '733',
+            'parent_id' => '729',
+            'title' => 'Wall/Window Air Conditioners',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c733',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_733',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c729',
+          'dropdown' => 
+          array (
+            734 => 
+            array (
+              'category_id' => '734',
+              'parent_id' => '729',
+              'title' => 'Air Curtains',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c734',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_734',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            730 => 
+            array (
+              'category_id' => '730',
+              'parent_id' => '729',
+              'title' => 'Cassette Air Conditioners',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c730',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_730',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            731 => 
+            array (
+              'category_id' => '731',
+              'parent_id' => '729',
+              'title' => 'Multi Split System Air Conditioners',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c731',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_731',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            732 => 
+            array (
+              'category_id' => '732',
+              'parent_id' => '729',
+              'title' => 'Portable Air Conditioner/Air Coolers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c732',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_732',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            733 => 
+            array (
+              'category_id' => '733',
+              'parent_id' => '729',
+              'title' => 'Wall/Window Air Conditioners',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c733',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729_733',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_729',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      735 => 
+      array (
+        'category_id' => '735',
+        'parent_id' => '248',
+        'title' => 'Air Treatment',
+        'items' => 
+        array (
+          736 => 
+          array (
+            'category_id' => '736',
+            'parent_id' => '735',
+            'title' => 'Air Purifiers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c736',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_735_736',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          737 => 
+          array (
+            'category_id' => '737',
+            'parent_id' => '735',
+            'title' => 'Dehumidfiers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c737',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_735_737',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          738 => 
+          array (
+            'category_id' => '738',
+            'parent_id' => '735',
+            'title' => 'Humidifiers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c738',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_735_738',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c735',
+          'dropdown' => 
+          array (
+            736 => 
+            array (
+              'category_id' => '736',
+              'parent_id' => '735',
+              'title' => 'Air Purifiers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c736',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_735_736',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            737 => 
+            array (
+              'category_id' => '737',
+              'parent_id' => '735',
+              'title' => 'Dehumidfiers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c737',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_735_737',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            738 => 
+            array (
+              'category_id' => '738',
+              'parent_id' => '735',
+              'title' => 'Humidifiers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c738',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_735_738',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_735',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      739 => 
+      array (
+        'category_id' => '739',
+        'parent_id' => '248',
+        'title' => 'Fans',
+        'items' => 
+        array (
+          744 => 
+          array (
+            'category_id' => '744',
+            'parent_id' => '739',
+            'title' => 'Box Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c744',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_744',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          740 => 
+          array (
+            'category_id' => '740',
+            'parent_id' => '739',
+            'title' => 'Ceiling Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c740',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_740',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          749 => 
+          array (
+            'category_id' => '749',
+            'parent_id' => '739',
+            'title' => 'Cooler Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c749',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_749',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          746 => 
+          array (
+            'category_id' => '746',
+            'parent_id' => '739',
+            'title' => 'Desk Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c746',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_746',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          741 => 
+          array (
+            'category_id' => '741',
+            'parent_id' => '739',
+            'title' => 'Exhaust &amp; Ventilation Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c741',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_741',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          742 => 
+          array (
+            'category_id' => '742',
+            'parent_id' => '739',
+            'title' => 'Fan Blades',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c742',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_742',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          743 => 
+          array (
+            'category_id' => '743',
+            'parent_id' => '739',
+            'title' => 'Floor Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c743',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_743',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          747 => 
+          array (
+            'category_id' => '747',
+            'parent_id' => '739',
+            'title' => 'Stand Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c747',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_747',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          748 => 
+          array (
+            'category_id' => '748',
+            'parent_id' => '739',
+            'title' => 'Table Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c748',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_748',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          745 => 
+          array (
+            'category_id' => '745',
+            'parent_id' => '739',
+            'title' => 'Tower Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c745',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_745',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          750 => 
+          array (
+            'category_id' => '750',
+            'parent_id' => '739',
+            'title' => 'Wall &amp; Auto Fans',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c750',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_750',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c739',
+          'dropdown' => 
+          array (
+            744 => 
+            array (
+              'category_id' => '744',
+              'parent_id' => '739',
+              'title' => 'Box Fans',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c744',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_744',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            740 => 
+            array (
+              'category_id' => '740',
+              'parent_id' => '739',
+              'title' => 'Ceiling Fans',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c740',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_740',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            749 => 
+            array (
+              'category_id' => '749',
+              'parent_id' => '739',
+              'title' => 'Cooler Fans',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c749',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_749',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            746 => 
+            array (
+              'category_id' => '746',
+              'parent_id' => '739',
+              'title' => 'Desk Fans',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c746',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_746',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            741 => 
+            array (
+              'category_id' => '741',
+              'parent_id' => '739',
+              'title' => 'Exhaust &amp; Ventilation Fans',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c741',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_741',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            742 => 
+            array (
+              'category_id' => '742',
+              'parent_id' => '739',
+              'title' => 'Fan Blades',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c742',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_742',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            743 => 
+            array (
+              'category_id' => '743',
+              'parent_id' => '739',
+              'title' => 'Floor Fans',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c743',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_743',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            747 => 
+            array (
+              'category_id' => '747',
+              'parent_id' => '739',
+              'title' => 'Stand Fans',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c747',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_747',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            748 => 
+            array (
+              'category_id' => '748',
+              'parent_id' => '739',
+              'title' => 'Table Fans',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c748',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_748',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            745 => 
+            array (
+              'category_id' => '745',
+              'parent_id' => '739',
+              'title' => 'Tower Fans',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c745',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_745',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            750 => 
+            array (
+              'category_id' => '750',
+              'parent_id' => '739',
+              'title' => 'Wall &amp; Auto Fans',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c750',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739_750',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_739',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      751 => 
+      array (
+        'category_id' => '751',
+        'parent_id' => '248',
+        'title' => 'Water Heaters',
+        'items' => 
+        array (
+          753 => 
+          array (
+            'category_id' => '753',
+            'parent_id' => '751',
+            'title' => 'Storage Tank',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c753',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_751_753',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          752 => 
+          array (
+            'category_id' => '752',
+            'parent_id' => '751',
+            'title' => 'Tankless Water Heaters ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c752',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_751_752',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c751',
+          'dropdown' => 
+          array (
+            753 => 
+            array (
+              'category_id' => '753',
+              'parent_id' => '751',
+              'title' => 'Storage Tank',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c753',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_751_753',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            752 => 
+            array (
+              'category_id' => '752',
+              'parent_id' => '751',
+              'title' => 'Tankless Water Heaters ',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c752',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_751_752',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248_751',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_248',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

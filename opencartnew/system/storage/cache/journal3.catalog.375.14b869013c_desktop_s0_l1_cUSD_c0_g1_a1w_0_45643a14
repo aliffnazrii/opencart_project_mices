@@ -1,0 +1,454 @@
+<?php $val = array (
+  'css' => '.module-catalog-375 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-375 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-375 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-375 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-375 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-375 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-375 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-375 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-375  .item-content{padding-top:10px}.module-catalog-375  .catalog-title{padding-right:10px}.module-catalog-375 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-375 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-375
+.subitems{align-items:flex-start}.module-catalog-375 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-375 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-375 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-375 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-375 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-375 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-375 .catalog-image{margin-right:10px}.module-catalog-375 .item-assets{flex-direction:row}.module-catalog-375 .item-assets>a{max-width:40%;order:0}.module-catalog-375 .item-assets
+.subitems{width:60%}.module-catalog-375 .item-assets .catalog-image{display:block}.module-catalog-375 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-375 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-375 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Digital, Mobile & Gadgets',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb7078e7e',
+    'module_id' => 375,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-375',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '375-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Action Cams ',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=496_497',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Camcorders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=496_498',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Digital Cameras',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=496_499',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Mirrorless Cameras',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=496_500',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Vlog Cameras',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=496_501',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Camera',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=496',
+        'total' => '5',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '375-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Aps-C Lenses',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=502_504',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Full Frame Lenses',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=502_503',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Lenses',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=502',
+        'total' => '2',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '375-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Action Cams Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=505_506',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Memory Cards &amp; Readers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=505_507',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Camera Accessories',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=505',
+        'total' => '2',
+      ),
+      4 => 
+      array (
+        'limit' => '',
+        'id' => '375-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'In Ear Headphones',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=508_509',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Noise Cancelling Headphones',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=508_510',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'On Ear Headphones',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=508_511',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Over Ear Headphones',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=508_512',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Wireless Headphones',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=508_513',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Headphones',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=508',
+        'total' => '5',
+      ),
+      5 => 
+      array (
+        'limit' => '',
+        'id' => '375-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Car Mounts',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=514_515',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Cases &amp; Screen Protectors',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=514_516',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Drones &amp; Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=514_517',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Portable Hand Fans',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=514_522',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Portable Wireless Speakers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=514_518',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Power Banks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=514_519',
+            'image' => '',
+            'image2x' => '',
+          ),
+          6 => 
+          array (
+            'name' => 'Selfie Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=514_520',
+            'image' => '',
+            'image2x' => '',
+          ),
+          7 => 
+          array (
+            'name' => 'Tablets Cases &amp; Keyboards',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=514_521',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Mobile Gadgets &amp; Accessories',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=514',
+        'total' => '8',
+      ),
+      6 => 
+      array (
+        'limit' => '',
+        'id' => '375-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Mid-Range Smart Phone',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=523',
+        'total' => '0',
+      ),
+      7 => 
+      array (
+        'limit' => '',
+        'id' => '375-7',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-7',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Premium Smart Phone',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=524',
+        'total' => '0',
+      ),
+      8 => 
+      array (
+        'limit' => '',
+        'id' => '375-8',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-8',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Home Phones',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=525_526',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Walkie Talkies',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=525_527',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Intercom',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=525',
+        'total' => '2',
+      ),
+      9 => 
+      array (
+        'limit' => '',
+        'id' => '375-9',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-9',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Smart Watch',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=528_529',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Smart Device',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=528',
+        'total' => '1',
+      ),
+      10 => 
+      array (
+        'limit' => '',
+        'id' => '375-10',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-10',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Tablets',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=530',
+        'total' => '0',
+      ),
+    ),
+  ),
+);

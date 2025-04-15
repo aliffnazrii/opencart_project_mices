@@ -1,0 +1,191 @@
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="pull-right">
+        <button type="button" data-toggle="tooltip" title="{{ button_filter }}" onclick="$('#filter-point-transaction').toggleClass('hidden-sm hidden-xs');" class="btn btn-default hidden-md hidden-lg"><i class="fa fa-filter"></i></button>
+      </div>
+      <h1>{{ heading_title }}</h1>
+      <ul class="breadcrumb">
+        {% for breadcrumb in breadcrumbs %}
+        <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div id="filter-point-transaction" class="col-md-3 col-md-push-9 col-sm-12 hidden-sm hidden-xs">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"><i class="fa fa-filter"></i> {{ text_filter }}</h3>
+          </div>
+          <div class="panel-body">
+            <div class="form-group">
+              <label class="control-label" for="input-name">{{ entry_customer_name }}</label>
+              <input type="text" name="filter_name" value="{{ filter_name }}" placeholder="{{ entry_customer_name }}" id="input-name" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label class="control-label" for="input-type">{{ entry_type }}</label>
+              <select name="filter_type" id="input-type" class="form-control">
+                <option value=""></option>
+                {% for key, value in transaction_types %}
+                {% if filter_type == key %}
+                <option value="{{ key }}" selected="selected">{{ value }}</option>
+                {% else %}
+                <option value="{{ key }}">{{ value }}</option>
+                {% endif %}
+                {% endfor %}
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="control-label" for="input-order-id">{{ entry_order_id }}</label>
+              <input type="number" name="filter_order_id" value="{{ filter_order_id }}" placeholder="{{ entry_order_id }}" id="input-order_id" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label class="control-label" for="input-date-added">{{ entry_date_added }}</label>
+              <div class="input-group date">
+                <input type="text" name="filter_date_added" value="{{ filter_date_added }}" placeholder="{{ entry_date_added }}" data-date-format="YYYY-MM-DD" id="input-date-added" class="form-control" />
+                <span class="input-group-btn">
+                <button type="button" class="btn btn-default"><i class="fa fa-calendar"></i></button>
+                </span>
+              </div>
+            </div>
+            <div class="form-group text-right">
+              <button type="button" id="button-filter" class="btn btn-default"><i class="fa fa-filter"></i> {{ button_filter }}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9 col-md-pull-3 col-sm-12">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"><i class="fa fa-list"></i> {{ text_list }}</h3>
+          </div>
+          <div class="panel-body">
+            <div class="table-responsive">
+              <form action="{{ delete }}" method="post" enctype="multipart/form-data" id="form-point-transaction">
+                <table class="table table-bordered table-hover">
+                  <thead>
+                    <tr>
+                      <td class="text-left">{% if sort == 'cp.customer_point_id' %}<a href="{{ sort_no }}" class="{{ order|lower }}">{{ column_no }}</a>{% else %}<a href="{{ sort_no }}">{{ column_no }}</a>{% endif %}</td>
+                      <td class="text-left">{% if sort == 'name' %}<a href="{{ sort_name }}" class="{{ order|lower }}">{{ column_customer_name }}</a>{% else %}<a href="{{ sort_name }}">{{ column_customer_name }}</a>{% endif %}</td>
+                      <td class="text-left">{% if sort == 'cp.type' %}<a href="{{ sort_type }}" class="{{ order|lower }}">{{ column_type }}</a>{% else %}<a href="{{ sort_type }}">{{ column_type }}</a>{% endif %}</td>
+                      <td class="text-left">{% if sort == 'cp.order_id' %}<a href="{{ sort_order_id }}" class="{{ order|lower }}">{{ column_order_id }}</a>{% else %}<a href="{{ sort_order_id }}">{{ column_order_id }}</a>{% endif %}</td>
+                      <td class="text-right">{% if sort == 'cp.points' %}<a href="{{ sort_points }}" class="{{ order|lower }}">{{ column_points }}</a> {% else %} <a href="{{ sort_points }}">{{ column_points }}</a>{% endif %}</td>
+                      <td class="text-left">{% if sort == 'cp.date_added' %}<a href="{{ sort_date_added }}" class="{{ order|lower }}">{{ column_date_added }}</a>{% else %}<a href="{{ sort_date_added }}">{{ column_date_added }}</a>{% endif %}</td>
+                      <td class="text-center">{{ column_action }}</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  {% if point_transactions %}
+                  {% for point_transaction in point_transactions %}
+                  <tr>
+                    <td class="text-center">{{ point_transaction.customer_point_id }}</td>
+                    <td class="text-left">{{ point_transaction.name }}</td>
+                    <td class="text-left">{{ point_transaction.type }}</td>
+                    <td class="text-left">
+                      {% if point_transaction.order_url %}
+                        <a href="{{ point_transaction.order_url }}" target="_blank">{{ point_transaction.order_id }}</a>
+                      {% else %}
+                        <span>{{ point_transaction.order_id }}</span>
+                      {% endif %}
+                    </td>
+                    <td class="text-right">{{ point_transaction.points }}</td>
+                    <td class="text-left">{{ point_transaction.date_added }}</td>
+                    <td class="text-center">
+                      <div class="btn-group"> <a href="{{ point_transaction.view }}" data-toggle="tooltip" title="{{ button_view }}" class="btn btn-primary"><i class="fa fa-eye"></i></a>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                  {% else %}
+                  <tr>
+                    <td class="text-center" colspan="8">{{ text_no_results }}</td>
+                  </tr>
+                  {% endif %}
+                    </tbody>
+                </table>
+              </div>
+            </form>
+            <div class="row">
+              <div class="col-sm-6 text-left">{{ pagination }}</div>
+              <div class="col-sm-6 text-right">{{ results }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript"><!--
+  $('.table-responsive').on('shown.bs.dropdown', function (e) {
+    var t = $(this),
+      m = $(e.target).find('.dropdown-menu'),
+      tb = t.offset().top + t.height(),
+      mb = m.offset().top + m.outerHeight(true),
+      d = 20;
+    if (t[0].scrollWidth > t.innerWidth()) {
+      if (mb + d > tb) {
+        t.css('padding-bottom', ((mb + d) - tb));
+      }
+    } else {
+      t.css('overflow', 'visible');
+    }
+  }).on('hidden.bs.dropdown', function () {
+    $(this).css({'padding-bottom': '', 'overflow': ''});
+  });
+  //--></script>
+  <script type="text/javascript"><!--
+  $('#button-filter').on('click', function() {
+    url = 'index.php?route={{ module }}/transaction&user_token={{ user_token }}';
+    var filter_name = $('input[name=\'filter_name\']').val();
+    if (filter_name) {
+      url += '&filter_name=' + encodeURIComponent(filter_name);
+    }
+
+    var filter_type = $('select[name=\'filter_type\']').val();
+    if (filter_type !== '') {
+      url += '&filter_type=' + encodeURIComponent(filter_type);
+    }
+    
+    var filter_order_id = $('input[name=\'filter_order_id\']').val();
+    if (filter_order_id) {
+      url += '&filter_order_id=' + encodeURIComponent(filter_order_id);
+    }
+    
+    var filter_date_added = $('input[name=\'filter_date_added\']').val();
+    if (filter_date_added) {
+      url += '&filter_date_added=' + encodeURIComponent(filter_date_added);
+    }
+    
+    location = url;
+  });
+  //--></script>
+  <script type="text/javascript"><!--
+  $('input[name=\'filter_name\']').autocomplete({
+    'source': function(request, response) {
+      $.ajax({
+        url: 'index.php?route=customer/customer/autocomplete&user_token={{ user_token }}&filter_name=' +  encodeURIComponent(request),
+        dataType: 'json',
+        success: function(json) {
+          response($.map(json, function(item) {
+            return {
+              label: item['name'],
+              value: item['customer_id']
+            }
+          }));
+        }
+      });
+    },
+    'select': function(item) {
+      $('input[name=\'filter_name\']').val(item['label']);
+    }
+  });
+  //--></script>
+  <script type="text/javascript"><!--
+  $('.date').datetimepicker({
+    language: '{{ datepicker }}',
+    pickTime: false
+  });
+  //--></script>
+</div>
+{{ footer }}

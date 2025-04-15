@@ -1,0 +1,708 @@
+<modification>
+	<name>
+		Customer Point
+	</name>
+	<version>
+		1.0.0
+	</version>
+	<code>
+		customer_point
+	</code>
+	<author>
+		Mices Technology
+	</author>
+	<link>
+		https://www.mices.com.my/
+	</link>
+	<!-- Backend Menu -->
+	<file path="admin/controller/sale/order.php">
+		<operation>
+			<search>
+				<![CDATA[extensions = $this->model_setting_extension->getInstalled('fraud');]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				$content = $this->load->controller('extension/total/point/history');
+				
+				if ($content) {
+				$data['tabs'][] = array(
+				'code'    => 'total_point',
+				'title'   => 'Point History',
+				'content' => $content
+				);
+				}
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/view/template/sale/order_info.twig">
+		<operation>
+			<search>
+				<![CDATA[$('#history').load('index.php?route=sale/order/history&user_token={{ user_token }}&order_id={{ order_id }}');]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				$('#tab-total_point').delegate('.pagination a', 'click', function(e) {
+				e.preventDefault();
+				
+				$('#tab-total_point').load(this.href);
+				});
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/controller/common/column_left.php">
+		<operation>
+			<search>
+				<![CDATA[// Marketing]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				// Point
+				$point = array();
+				
+				if ($this->user->hasPermission('access', 'extension/total/point')) {
+				$point[] = array(
+				'name'	   => $this->language->get('text_point_customers'),
+				'href'     => $this->url->link('extension/total/point/customers', 'user_token=' . $this->session->data['user_token'], true),
+				'children' => array()
+				);
+				
+				$point[] = array(
+				'name'	   => $this->language->get('text_point_transactions'),
+				'href'     => $this->url->link('extension/total/point/transaction', 'user_token=' . $this->session->data['user_token'], true),
+				'children' => array()
+				);
+				}
+				
+				if ($point) {
+				$data['menus'][] = array(
+				'id'       => 'menu-point',
+				'icon'	   => 'fa-gift',
+				'name'	   => $this->language->get('text_points'),
+				'href'     => '',
+				'children' => $point
+				);
+				}
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/language/en-gb/common/column_left.php">
+		<operation>
+			<search>
+				<![CDATA[$_['text_marketing']            = 'Marketing';]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				$_['text_points']            = 'Points';
+				$_['text_point_transactions'] = 'Point Transactions';
+				$_['text_point_adjustments'] = 'Point Adjustments';
+				$_['text_point_settings']    = 'Point Settings';
+				$_['text_point_customers']   = 'Customer Points';
+				$_['text_point_settings_double'] = 'Double Point Settings';
+				]]>
+			</add>
+		</operation>
+	</file>
+	<!-- Backend Menu -->
+	<!-- Backend -->
+	<file path="system/library/cart/customer.php">
+		<operation>
+			<search>
+				<![CDATA[private $address_id;]]>
+			</search>
+			<add position="after">
+				<![CDATA[	private $points;]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->address_id = $customer_query->row['address_id'];]]>
+			</search>
+			<add position="after">
+				<![CDATA[				$this->points = $customer_query->row['points'];]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->address_id = '';]]>
+			</search>
+			<add position="after">
+				<![CDATA[		$this->points = '';]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[ $query = $this->db->query("SELECT SUM(points) AS total FROM " . DB_PREFIX . "customer_reward WHERE customer_id = '" . (int)$this->customer_id . "'");       ]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				return $this->points;
+				/*
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[ $query = $this->db->query("SELECT SUM(points) AS total FROM " . DB_PREFIX . "customer_reward WHERE customer_id = '" . (int)$this->customer_id . "'");       ]]>
+			</search>
+			<add position="after">
+				<![CDATA[		*/]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/model/sale/order.php">
+		<operation>
+			<search>
+				<![CDATA[$order_query->row['date_added'],]]>
+			</search>
+			<add position="after">
+				<![CDATA['award_point_status'      => $order_query->row['award_point_status'],]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[public function getOrders($data = array()) {]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				public function getLatestOrderStatus($order_id) {
+				$sql = "SELECT * FROM " . DB_PREFIX . "order_history WHERE order_id = '" . (int)$order_id . "' ORDER BY order_history_id DESC LIMIT 1";
+				
+				$query = $this->db->query($sql);
+				
+				return $query->row;
+				}
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/controller/setting/setting.php">
+		<operation>
+			<search>
+				<![CDATA[$this->load->model('localisation/order_status');]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				$this->load->model('user/user');
+				
+				$data['users'] = $this->model_user_user->getUsers();
+				
+				if (isset($this->request->post['config_point_approver_id'])) {
+				$data['config_point_approver_id'] = $this->request->post['config_point_approver_id'];
+				} elseif ($this->config->get('config_point_approver_id')) {
+				$data['config_point_approver_id'] = $this->config->get('config_point_approver_id');
+				} else {
+				$data['config_point_approver_id'] = array();
+				}
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[if ($this->error && !isset($this->error['warning'])) {]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				if (!isset($this->request->post['config_point_approver_id'])) {
+				$this->error['point_approver'] = $this->language->get('error_point_approver');
+				}
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$data['breadcrumbs'] = array();]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				if (isset($this->error['point_approver'])) {
+				$data['error_point_approver'] = $this->error['point_approver'];
+				} else {
+				$data['error_point_approver'] = '';
+				}
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/view/template/setting/setting.twig">
+		<operation>
+			<search>
+				<![CDATA[<div class="tab-pane" id="tab-option">]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				<fieldset>
+				<legend>{{ entry_point }}</legend>
+				<div class="form-group required">
+				<label class="col-sm-2 control-label" for="input-point-approver">{{ entry_point_approver }}</label>
+				<div class="col-sm-10">
+				<div class="well well-sm" style="height: 150px; overflow: auto;"> {% for user in users %}
+				<div class="checkbox">
+				<label> {% if user.user_id in config_point_approver_id %}
+				<input type="checkbox" name="config_point_approver_id[]" value="{{ user.user_id }}" checked="checked" />
+				{{ user.username }}
+				{% else %}
+				<input type="checkbox" name="config_point_approver_id[]" value="{{ user.user_id }}" />
+				{{ user.username }}
+				{% endif %} </label>
+				</div>
+				{% endfor %} </div>
+				{% if error_point_approver %}
+				<div class="text-danger">{{ error_point_approver }}</div>
+				{% endif %} </div>
+				</div>
+				</fieldset>
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/language/en-gb/setting/setting.php">
+		<operation>
+			<search>
+				<![CDATA[$_['entry_status']                   = 'Status';]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				$_['entry_point']                   = 'Point';
+				$_['entry_point_approver']          = 'Point Approver';
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$_['text_error']                     = 'Error Handling';]]>
+			</search>
+			<add position="after">
+				<![CDATA[$_['text_point']                      = 'Point';         ]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$_['error_encryption']               = 'Encryption Key must be between 32 and 1024 characters!';]]>
+			</search>
+			<add position="after">
+				<![CDATA[         $_['error_point_approver']    = 'You must choose at least 1 user for Point Approval!';         ]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/view/template/customer/customer_form.twig">
+		<operation>
+			<search>
+				<![CDATA[{{ footer }}]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				<script type="text/javascript"><!--
+				$('#point').delegate('.pagination a', 'click', function(e) {
+				e.preventDefault();
+				
+				$('#point').load(this.href);
+				});
+				
+				$('#point').load('index.php?route=extension/total/point/customer&user_token={{ user_token }}&customer_id={{ customer_id }}');
+				//--></script>
+				]]>
+			</add>
+		</operation>
+		<!-- Hide Reward Points -->
+		<operation>
+			<search>
+				<![CDATA[<li><a href="#tab-reward" data-toggle="tab">{{ tab_reward }}</a></li>]]>
+			</search>
+			<add position="before">
+				<![CDATA[         <!--         ]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[<li><a href="#tab-reward" data-toggle="tab">{{ tab_reward }}</a></li>]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				-->
+				<li><a href="#tab-point" data-toggle="tab">{{ tab_points }}</a></li>
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[<div class="tab-pane" id="tab-ip">]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				<div class="tab-pane" id="tab-point">
+				<fieldset>
+				<legend>{{ text_points }}</legend>
+				<div id="point"></div>
+				</fieldset>
+				</div>
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$('#reward').delegate('.pagination a', 'click', function(e) {]]>
+			</search>
+			<add position="before">
+				<![CDATA[         {#         ]]>
+			</add>
+		</operation>
+		<operation>
+			<search index="0">
+				<![CDATA[$('#reward').load('index.php?route=customer/customer/reward&user_token={{ user_token }}&customer_id={{ customer_id }}');]]>
+			</search>
+			<add position="after">
+				<![CDATA[         #}         ]]>
+			</add>
+		</operation>
+		<!-- Hide Reward Points -->
+	</file>
+	<file path="admin/language/en-gb/customer/customer.php">
+		<operation>
+			<search>
+				<![CDATA[$_['text_unlock']]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				$_['text_points']              = 'Points';
+				$_['tab_points']              = 'Points';
+				$_['text_voucher']              = 'Voucher';
+				$_['tab_voucher']              = 'Voucher';
+				]]>
+			</add>
+		</operation>
+	</file>
+	<!-- Backend -->
+	<file path="catalog/controller/startup/maintenance.php">
+		<operation>
+			<search>
+				<![CDATA['common/language/language',]]>
+			</search>
+			<add position="after">
+				<![CDATA['extension/total/point/cliAwardPoint',]]>
+			</add>
+		</operation>
+	</file>
+	<file path="catalog/model/checkout/order.php">
+		<operation error="log">
+			<search>
+				<![CDATA[ $this->db->query("INSERT INTO " . DB_PREFIX . "order_history SET order_id = '" . (int)$order_id . "', order_status_id = '" . (int)$order_status_id . "', notify = '" . (int)$notify . "', comment = '" . $this->db->escape($comment) . "', date_added = NOW()"); ]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				// Check Order Status to award Points
+				if ($this->config->get('total_point_status')) {
+				if (!$order_info['award_point_status']) {
+				$award_statuses = $this->config->get('total_point_award_order_status') ?? array();
+				
+				if ($order_info['date_added'] >= $this->config->get('total_point_award_order_from') && in_array($order_status_id, $award_statuses)) {
+				$epoint = new EPoint\EPoint($this->registry);
+				$epoint->award($order_info);
+				
+				$epoint->setCustomerExpirePointsDate($customer_info['customer_id'], $customer_info['customer_group_id']);
+				}
+				}
+				}
+				]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search>
+				<![CDATA[           'date_added'              => $order_query->row['date_added'],			         ]]>
+			</search>
+			<add position="after">
+				<![CDATA[           'award_point_status'      => $order_query->row['award_point_status'],			 ]]>
+			</add>
+		</operation>
+	</file>
+	<file path="catalog/controller/account/account.php">
+		<operation>
+			<search>
+				<![CDATA[$data['transaction'] = $this->url->link('account/transaction', '', true);]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				if ($this->config->get('total_point_status')) {
+				$data['point'] = $this->url->link('account/point', '', true);
+				} else {
+				$data['point'] = '';
+				}
+				]]>
+			</add>
+		</operation>
+	</file>
+	
+	<file path="catalog/view/theme/journal3/template/account/account.twig">
+		<operation>
+			<search>
+				<![CDATA[<li><a href="{{ return }}">{{ text_return }}</a></li>]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				{% if point %}
+				<li><a href="{{ point }}">{{ text_points }}</a></li>
+				{% endif %}
+				{% if point %}
+				<li><a href="{{ voucher }}">{{ text_voucher }}</a></li>
+				{% endif %}
+				]]>
+			</add>
+		</operation>
+	</file>
+	<!-- <file path="catalog/language/en-gb/account/account.php">
+		<operation>
+			<search>
+				<![CDATA[$_['text_tracking']]]>
+			</search>
+			<add position="after">
+				<![CDATA[           $_['text_points']       = 'Points';         ]]>
+				<![CDATA[           $_['text_vouchers']       = 'Vouchers';         ]]>
+			</add>
+		</operation>
+	</file> -->
+	<!-- Checkout Basel -->
+	<file path="catalog/view/theme/basel/template/extension/quickcheckout/voucher.twig">
+		<operation>
+			<search>
+				<![CDATA[<script type="text/javascript"><!--]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				{% if point_module %}
+				<div id="point-heading"><i class="fa fa-star"></i> {{ entry_point }}</div>
+				<div id="point-content" style="display:block">
+				<label class="control-label" for="input-point">{{ help_point }}</label>
+				{% if help_point2 %}
+				<br/><label class="control-label" for="input-point">{{ help_point2 }}</label>
+				{% endif %}
+				<div class="input-group">
+				<input type="text" name="point" value="" class="form-control" />
+				<span class="input-group-btn">
+				<button type="button" id="button-point" class="btn btn-primary">{{ text_use_point }}</button>
+				</span>
+				</div>
+				</div>
+				{% endif %}
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[//--></script>]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				$('#point-heading').on('click', function() {
+				if($('#point-content').is(':visible')){
+				$('#point-content').slideUp('slow');
+				} else {
+				$('#point-content').slideDown('slow');
+				};
+				});
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[//--></script>]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				<style>
+				#point-heading {
+				background: #ffffff;
+				cursor: pointer;
+				width: 100%;
+				padding: 12px;
+				margin-bottom: 5px;
+				}
+				
+				#point-content {
+				display: none;
+				margin-bottom: 15px;
+				padding: 12px;
+				background: #ffffff;
+				}
+				
+				#point-heading .fa {
+				display: none;
+				}
+				</style>
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="catalog/language/en-gb/extension/quickcheckout/checkout.php">
+		<operation>
+			<search>
+				<![CDATA[$_['text_use_reward']]]>
+			</search>
+			<add position="after">
+				<![CDATA[ $_['text_use_point']    		     = 'Apply';         ]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$_['entry_reward']]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				$_['entry_point']          		 = 'Enter points to use (Available: %s):';
+				
+				// Help
+				$_['help_point']           = 'Minimum Point Redeem: %s';
+				$_['help_point2']         = 'Must use Multiple of %s points (Ex: %s, %s, %s)';
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="catalog/controller/extension/quickcheckout/voucher.php">
+		<operation>
+			<search>
+				<![CDATA[// All variables]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				if ($this->config->get('total_point_status')) {
+				$epoint = new EPoint\Epoint($this->registry);
+				$data['entry_point'] = sprintf($this->language->get('entry_point'), number_format($epoint->getCustomerPoint($this->customer->getId())) ?? 0);
+				
+				$min_point_redeem = $this->config->get('total_point_redeem_min') ?? 0;
+				$data['help_point'] = sprintf($this->language->get('help_point'), $min_point_redeem);
+				
+				$point_redeem_multiple = $this->config->get('total_point_redeem_multiple') ?? 0;
+				if ($point_redeem_multiple) {
+				$data['help_point2'] = sprintf($this->language->get('help_point2'), $point_redeem_multiple, $point_redeem_multiple, $point_redeem_multiple * 2, $point_redeem_multiple * 3);
+				} else {
+				$data['help_point2'] = '';
+				}
+				}
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$data['reward_module'] = $this->config->get('quickcheckout_reward');]]>
+			</search>
+			<add position="after">
+				<![CDATA[ $data['point_module'] = $this->config->get('total_point_status');         ]]>
+			</add>
+		</operation>
+	</file>
+	<file path="catalog/view/theme/basel/template/extension/quickcheckout/checkout.twig">
+		<operation>
+			<search>
+				<![CDATA[{% if voucher_module or coupon_module or reward_module %}]]>
+			</search>
+			<add position="replace">
+				<![CDATA[
+				{% if voucher_module or coupon_module or reward_module or point_module %}
+				{# {% if voucher_module or coupon_module or reward_module %} #}
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$(document).on('click', '#button-reward', function() {]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				$(document).on('click', '#button-point', function() {
+				$.ajax({
+				url: 'index.php?route=extension/total/point/validatePoint',
+				type: 'post',
+				data: $('#point-content :input'),
+				dataType: 'json',
+				cache: false,
+				beforeSend: function() {
+				$('#button-point').prop('disabled', true);
+				$('#button-point').after('<i class="fa fa-spinner fa-spin"></i>');
+				},
+				complete: function() {
+				$('#button-point').prop('disabled', false);
+				$('#point-content .fa-spinner').remove();
+				},
+				success: function(json) {
+				$('.alert').remove();
+				
+				$('html, body').animate({ scrollTop: 0 }, 'slow');
+				
+				if (json['success']) {
+				$('#success-messages').prepend('<div class="alert alert-success" style="display:none;"><i class="fa fa-check-circle"></i> ' + json['success'] + '</div>');
+				
+				$('.alert-success').fadeIn('slow');
+				} else if (json['error']) {
+				$('#warning-messages').prepend('<div class="alert alert-danger" style="display: none;"><i class="fa fa-exclamation-circle"></i> ' + json['error'] + '</div>');
+				
+				$('.alert-danger').fadeIn('slow');
+				}
+				
+				{% if not logged %}
+				if ($('#payment-address input[name=\'shipping_address\']:checked').val()) {
+				reloadPaymentMethod();
+				
+				{% if shipping_required %}
+				reloadShippingMethod('payment');
+				{% endif %}
+				} else {
+				reloadPaymentMethod();
+				
+				{% if shipping_required %}
+				reloadShippingMethod('shipping');
+				{% endif %}
+				}
+				{% else %}
+				if ($('#payment-address input[name=\'payment_address\']:checked').val() == 'new') {
+				reloadPaymentMethod();
+				} else {
+				reloadPaymentMethodById($('#payment-address select[name=\'address_id\']').val());
+				}
+				
+				{% if shipping_required %}
+				if ($('#shipping-address input[name=\'shipping_address\']:checked').val() == 'new') {
+				reloadShippingMethod('shipping');
+				} else {
+				reloadShippingMethodById($('#shipping-address select[name=\'address_id\']').val());
+				}
+				{% endif %}
+				{% endif %}
+				
+				{% if not shipping_required %}
+				loadCart();
+				{% endif %}
+				},
+				{% if debug %}
+				error: function(xhr, ajaxOptions, thrownError) {
+				alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+				}
+				{% endif %}
+				});
+				});
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="catalog/controller/checkout/success.php">
+		<operation>
+			<search>
+				<![CDATA[unset($this->session->data['coupon']);]]>
+			</search>
+			<add position="after">
+				<![CDATA[ unset($this->session->data['point']);         ]]>
+			</add>
+		</operation>
+	</file>
+	<file path="catalog/controller/account/{logout,login}.php">
+		<operation>
+			<search>
+				<![CDATA[unset($this->session->data['coupon']);]]>
+			</search>
+			<add position="after">
+				<![CDATA[ unset($this->session->data['point']);         ]]>
+			</add>
+		</operation>
+	</file>
+	<!-- Checkout Basel -->
+</modification>

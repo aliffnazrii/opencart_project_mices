@@ -1,0 +1,572 @@
+<?php $val = array (
+  'css' => '.module-catalog-363 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-363 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-363 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-363 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-363 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-363 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-363 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-363 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-363  .item-content{padding-top:10px}.module-catalog-363  .catalog-title{padding-right:10px}.module-catalog-363 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-363 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-363
+.subitems{align-items:flex-start}.module-catalog-363 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-363 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-363 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-363 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-363 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-363 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-363 .catalog-image{margin-right:10px}.module-catalog-363 .item-assets{flex-direction:row}.module-catalog-363 .item-assets>a{max-width:40%;order:0}.module-catalog-363 .item-assets
+.subitems{width:60%}.module-catalog-363 .item-assets .catalog-image{display:block}.module-catalog-363 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-363 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-363 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Decoration',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb71a87aa',
+    'module_id' => 363,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-363',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '363-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Chinese New Year Decoration',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=452_453',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Christmas Decorations',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=452_454',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Hari Raya Decoration',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=452_455',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Holidays Decorations',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=452',
+        'total' => '3',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '363-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Artficial Flowers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=456_457',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Artficial Plants',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=456_458',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Potted Plants',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=456_459',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Wreaths',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=456_460',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Artificial Plants &amp; Flowers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=456',
+        'total' => '4',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '363-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Candle Holders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=461_462',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Led Candles',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=461_463',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Scented Candles',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=461_464',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Unscented Candles',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=461_465',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Candle Holders &amp; Candles',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=461',
+        'total' => '4',
+      ),
+      4 => 
+      array (
+        'limit' => '',
+        'id' => '363-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Tabletop &amp; Alarm Clocks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=466_467',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Wall &amp; Standing Clocks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=466_468',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Clocks',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=466',
+        'total' => '2',
+      ),
+      5 => 
+      array (
+        'limit' => '',
+        'id' => '363-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Seat &amp; Chair Cushions',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=469_470',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Sofa Cushions',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=469_471',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Cushions',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=469',
+        'total' => '2',
+      ),
+      6 => 
+      array (
+        'limit' => '',
+        'id' => '363-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Decorative Accessories',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=472',
+        'total' => '0',
+      ),
+      7 => 
+      array (
+        'limit' => '',
+        'id' => '363-7',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-7',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Display Bowls &amp; Vases',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=473',
+        'total' => '0',
+      ),
+      8 => 
+      array (
+        'limit' => '',
+        'id' => '363-8',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-8',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Mirror Cabinets',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=474_475',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Standing Mirrors',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=474_476',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Tabletop Mirrors',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=474_477',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Wall Mirrors',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=474_478',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Mirrors',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=474',
+        'total' => '4',
+      ),
+      9 => 
+      array (
+        'limit' => '',
+        'id' => '363-9',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-9',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Pictures &amp; Photo Frames',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=479_480',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Upholstered Wall Panels',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=479_481',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Wall Arts',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=479_482',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Wall Decorations',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=479_483',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Frames &amp; Pictures',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=479',
+        'total' => '4',
+      ),
+      10 => 
+      array (
+        'limit' => '',
+        'id' => '363-10',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-10',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Floral Peel &amp; Stick Wallpapers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=484_485',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Texture Peel &amp; Stick Wallpapers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=484_486',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Wall Papers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=484',
+        'total' => '2',
+      ),
+      11 => 
+      array (
+        'limit' => '',
+        'id' => '363-11',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-11',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Curtain Holdbacks &amp; Tie Backs ',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=487_488',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Curtain Rods &amp; Rails',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=487_489',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Curtain Accessories',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=487',
+        'total' => '2',
+      ),
+      12 => 
+      array (
+        'limit' => '',
+        'id' => '363-12',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-12',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Curtains',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=490',
+        'total' => '0',
+      ),
+      13 => 
+      array (
+        'limit' => '',
+        'id' => '363-13',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-13',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Roller Blinds',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=491',
+        'total' => '0',
+      ),
+      14 => 
+      array (
+        'limit' => '',
+        'id' => '363-14',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-14',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Window Stickers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=492',
+        'total' => '0',
+      ),
+      15 => 
+      array (
+        'limit' => '',
+        'id' => '363-15',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-15',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Air Fresherners',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=493_494',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Aroma Diffusers, Sticks &amp; Oils',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=493_495',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Aroma &amp; Fragrance',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=493',
+        'total' => '2',
+      ),
+    ),
+  ),
+);

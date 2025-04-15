@@ -1,0 +1,1031 @@
+<?php $val = array (
+  'category_id' => '238',
+  'parent_id' => '231',
+  'title' => 'Bedding',
+  'items' => 
+  array (
+    399 => 
+    array (
+      'category_id' => '399',
+      'parent_id' => '238',
+      'title' => 'Bed Linen &amp; Straps',
+      'items' => 
+      array (
+        400 => 
+        array (
+          'category_id' => '400',
+          'parent_id' => '399',
+          'title' => 'Bed Linen Straps',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c400',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_400',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        401 => 
+        array (
+          'category_id' => '401',
+          'parent_id' => '399',
+          'title' => 'Blankets',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c401',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_401',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        402 => 
+        array (
+          'category_id' => '402',
+          'parent_id' => '399',
+          'title' => 'Bolster Case',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c402',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_402',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        403 => 
+        array (
+          'category_id' => '403',
+          'parent_id' => '399',
+          'title' => 'Comforter',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c403',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_403',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        404 => 
+        array (
+          'category_id' => '404',
+          'parent_id' => '399',
+          'title' => 'Fitted Bedsheet',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c404',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_404',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        405 => 
+        array (
+          'category_id' => '405',
+          'parent_id' => '399',
+          'title' => 'Pillow Case &amp; Cover',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c405',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_405',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c399',
+        'dropdown' => 
+        array (
+          400 => 
+          array (
+            'category_id' => '400',
+            'parent_id' => '399',
+            'title' => 'Bed Linen Straps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c400',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_400',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          401 => 
+          array (
+            'category_id' => '401',
+            'parent_id' => '399',
+            'title' => 'Blankets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c401',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_401',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          402 => 
+          array (
+            'category_id' => '402',
+            'parent_id' => '399',
+            'title' => 'Bolster Case',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c402',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_402',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          403 => 
+          array (
+            'category_id' => '403',
+            'parent_id' => '399',
+            'title' => 'Comforter',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c403',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_403',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          404 => 
+          array (
+            'category_id' => '404',
+            'parent_id' => '399',
+            'title' => 'Fitted Bedsheet',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c404',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_404',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          405 => 
+          array (
+            'category_id' => '405',
+            'parent_id' => '399',
+            'title' => 'Pillow Case &amp; Cover',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c405',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_405',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    406 => 
+    array (
+      'category_id' => '406',
+      'parent_id' => '238',
+      'title' => 'Mattress, Pads &amp; Frames',
+      'items' => 
+      array (
+        409 => 
+        array (
+          'category_id' => '409',
+          'parent_id' => '406',
+          'title' => 'Bed Frames',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c409',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_406_409',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        408 => 
+        array (
+          'category_id' => '408',
+          'parent_id' => '406',
+          'title' => 'Mattress Pads &amp; Protectors',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c408',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_406_408',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        407 => 
+        array (
+          'category_id' => '407',
+          'parent_id' => '406',
+          'title' => 'Mattresses',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c407',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_406_407',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c406',
+        'dropdown' => 
+        array (
+          409 => 
+          array (
+            'category_id' => '409',
+            'parent_id' => '406',
+            'title' => 'Bed Frames',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c409',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_406_409',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          408 => 
+          array (
+            'category_id' => '408',
+            'parent_id' => '406',
+            'title' => 'Mattress Pads &amp; Protectors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c408',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_406_408',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          407 => 
+          array (
+            'category_id' => '407',
+            'parent_id' => '406',
+            'title' => 'Mattresses',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c407',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_406_407',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_406',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    410 => 
+    array (
+      'category_id' => '410',
+      'parent_id' => '238',
+      'title' => 'Pillows &amp; Bolsters',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c410',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_410',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c238',
+    'dropdown' => 
+    array (
+      399 => 
+      array (
+        'category_id' => '399',
+        'parent_id' => '238',
+        'title' => 'Bed Linen &amp; Straps',
+        'items' => 
+        array (
+          400 => 
+          array (
+            'category_id' => '400',
+            'parent_id' => '399',
+            'title' => 'Bed Linen Straps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c400',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_400',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          401 => 
+          array (
+            'category_id' => '401',
+            'parent_id' => '399',
+            'title' => 'Blankets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c401',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_401',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          402 => 
+          array (
+            'category_id' => '402',
+            'parent_id' => '399',
+            'title' => 'Bolster Case',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c402',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_402',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          403 => 
+          array (
+            'category_id' => '403',
+            'parent_id' => '399',
+            'title' => 'Comforter',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c403',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_403',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          404 => 
+          array (
+            'category_id' => '404',
+            'parent_id' => '399',
+            'title' => 'Fitted Bedsheet',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c404',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_404',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          405 => 
+          array (
+            'category_id' => '405',
+            'parent_id' => '399',
+            'title' => 'Pillow Case &amp; Cover',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c405',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_405',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c399',
+          'dropdown' => 
+          array (
+            400 => 
+            array (
+              'category_id' => '400',
+              'parent_id' => '399',
+              'title' => 'Bed Linen Straps',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c400',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_400',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            401 => 
+            array (
+              'category_id' => '401',
+              'parent_id' => '399',
+              'title' => 'Blankets',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c401',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_401',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            402 => 
+            array (
+              'category_id' => '402',
+              'parent_id' => '399',
+              'title' => 'Bolster Case',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c402',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_402',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            403 => 
+            array (
+              'category_id' => '403',
+              'parent_id' => '399',
+              'title' => 'Comforter',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c403',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_403',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            404 => 
+            array (
+              'category_id' => '404',
+              'parent_id' => '399',
+              'title' => 'Fitted Bedsheet',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c404',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_404',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            405 => 
+            array (
+              'category_id' => '405',
+              'parent_id' => '399',
+              'title' => 'Pillow Case &amp; Cover',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c405',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399_405',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_399',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      406 => 
+      array (
+        'category_id' => '406',
+        'parent_id' => '238',
+        'title' => 'Mattress, Pads &amp; Frames',
+        'items' => 
+        array (
+          409 => 
+          array (
+            'category_id' => '409',
+            'parent_id' => '406',
+            'title' => 'Bed Frames',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c409',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_406_409',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          408 => 
+          array (
+            'category_id' => '408',
+            'parent_id' => '406',
+            'title' => 'Mattress Pads &amp; Protectors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c408',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_406_408',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          407 => 
+          array (
+            'category_id' => '407',
+            'parent_id' => '406',
+            'title' => 'Mattresses',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c407',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_406_407',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c406',
+          'dropdown' => 
+          array (
+            409 => 
+            array (
+              'category_id' => '409',
+              'parent_id' => '406',
+              'title' => 'Bed Frames',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c409',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_406_409',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            408 => 
+            array (
+              'category_id' => '408',
+              'parent_id' => '406',
+              'title' => 'Mattress Pads &amp; Protectors',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c408',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_406_408',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            407 => 
+            array (
+              'category_id' => '407',
+              'parent_id' => '406',
+              'title' => 'Mattresses',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c407',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_406_407',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_406',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      410 => 
+      array (
+        'category_id' => '410',
+        'parent_id' => '238',
+        'title' => 'Pillows &amp; Bolsters',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c410',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238_410',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=231_238',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

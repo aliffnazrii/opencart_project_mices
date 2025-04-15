@@ -1,0 +1,333 @@
+<?php $val = array (
+  'css' => '.module-catalog-361 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-361 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-361 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-361 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-361 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-361 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-361 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-361 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-361  .item-content{padding-top:10px}.module-catalog-361  .catalog-title{padding-right:10px}.module-catalog-361 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-361 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-361
+.subitems{align-items:flex-start}.module-catalog-361 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-361 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-361 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-361 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-361 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-361 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-361 .catalog-image{margin-right:10px}.module-catalog-361 .item-assets{flex-direction:row}.module-catalog-361 .item-assets>a{max-width:40%;order:0}.module-catalog-361 .item-assets
+.subitems{width:60%}.module-catalog-361 .item-assets .catalog-image{display:block}.module-catalog-361 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-361 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-361 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Baby & Children',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb7211fe1',
+    'module_id' => 361,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-361',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '361-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Baby Basin',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=302_305',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Baby Crawl Mat',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=302_306',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Baby Toilet Bowl',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=302_304',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Baby Yard',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=302_307',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Babys Safety &amp; Protetcor',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=302_308',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Pacifiers &amp; Teethers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=302_303',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Baby Care',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=302',
+        'total' => '6',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '361-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Cup Feeding',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=309_311',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Warmer &amp; Sterilisers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=309_310',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Baby Feeding',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=309',
+        'total' => '2',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '361-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Baby Carriers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=312_313',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Baby Strollers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=312_314',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Car Seats',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=312_315',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Carrier, Stroller &amp; Car Seats',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=312',
+        'total' => '3',
+      ),
+      4 => 
+      array (
+        'limit' => '',
+        'id' => '361-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Art &amp; Crafts',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=316_317',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Soft Toys',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=316_318',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Toys',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=316_319',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Toys &amp; Plays',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=316',
+        'total' => '3',
+      ),
+      5 => 
+      array (
+        'limit' => '',
+        'id' => '361-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Baby Chair',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=320_321',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Children Chair',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=320_322',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Children Stools',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=320_324',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Children Tables',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=320_323',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Children Furniture',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=320',
+        'total' => '4',
+      ),
+      6 => 
+      array (
+        'limit' => '',
+        'id' => '361-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Children Kitchenware &amp; Tableware',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=325',
+        'total' => '0',
+      ),
+    ),
+  ),
+);

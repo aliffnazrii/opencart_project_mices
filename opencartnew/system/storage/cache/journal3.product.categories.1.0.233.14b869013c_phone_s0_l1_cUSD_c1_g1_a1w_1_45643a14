@@ -1,0 +1,647 @@
+<?php $val = array (
+  'category_id' => '233',
+  'parent_id' => '228',
+  'title' => 'Apparel',
+  'items' => 
+  array (
+    264 => 
+    array (
+      'category_id' => '264',
+      'parent_id' => '233',
+      'title' => 'Bracelet &amp; Jewelry',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c264',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_264',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    268 => 
+    array (
+      'category_id' => '268',
+      'parent_id' => '233',
+      'title' => 'Eyewear',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c268',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_268',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    261 => 
+    array (
+      'category_id' => '261',
+      'parent_id' => '233',
+      'title' => 'Footwear',
+      'items' => 
+      array (
+        262 => 
+        array (
+          'category_id' => '262',
+          'parent_id' => '261',
+          'title' => 'Boots',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c262',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_261_262',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        263 => 
+        array (
+          'category_id' => '263',
+          'parent_id' => '261',
+          'title' => 'Slippers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c263',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_261_263',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c261',
+        'dropdown' => 
+        array (
+          262 => 
+          array (
+            'category_id' => '262',
+            'parent_id' => '261',
+            'title' => 'Boots',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c262',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_261_262',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          263 => 
+          array (
+            'category_id' => '263',
+            'parent_id' => '261',
+            'title' => 'Slippers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c263',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_261_263',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_261',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    267 => 
+    array (
+      'category_id' => '267',
+      'parent_id' => '233',
+      'title' => 'Hairpins &amp; Hairclips',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c267',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_267',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    269 => 
+    array (
+      'category_id' => '269',
+      'parent_id' => '233',
+      'title' => 'Head Wear',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c269',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_269',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    260 => 
+    array (
+      'category_id' => '260',
+      'parent_id' => '233',
+      'title' => 'Polos',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c260',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_260',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    266 => 
+    array (
+      'category_id' => '266',
+      'parent_id' => '233',
+      'title' => 'Scrunchy &amp; Headbands',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c266',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_266',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    259 => 
+    array (
+      'category_id' => '259',
+      'parent_id' => '233',
+      'title' => 'Shirts',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c259',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_259',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    265 => 
+    array (
+      'category_id' => '265',
+      'parent_id' => '233',
+      'title' => 'Socks',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c265',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_265',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c233',
+    'dropdown' => 
+    array (
+      264 => 
+      array (
+        'category_id' => '264',
+        'parent_id' => '233',
+        'title' => 'Bracelet &amp; Jewelry',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c264',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_264',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      268 => 
+      array (
+        'category_id' => '268',
+        'parent_id' => '233',
+        'title' => 'Eyewear',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c268',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_268',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      261 => 
+      array (
+        'category_id' => '261',
+        'parent_id' => '233',
+        'title' => 'Footwear',
+        'items' => 
+        array (
+          262 => 
+          array (
+            'category_id' => '262',
+            'parent_id' => '261',
+            'title' => 'Boots',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c262',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_261_262',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          263 => 
+          array (
+            'category_id' => '263',
+            'parent_id' => '261',
+            'title' => 'Slippers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c263',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_261_263',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c261',
+          'dropdown' => 
+          array (
+            262 => 
+            array (
+              'category_id' => '262',
+              'parent_id' => '261',
+              'title' => 'Boots',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c262',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_261_262',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            263 => 
+            array (
+              'category_id' => '263',
+              'parent_id' => '261',
+              'title' => 'Slippers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c263',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_261_263',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_261',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      267 => 
+      array (
+        'category_id' => '267',
+        'parent_id' => '233',
+        'title' => 'Hairpins &amp; Hairclips',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c267',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_267',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      269 => 
+      array (
+        'category_id' => '269',
+        'parent_id' => '233',
+        'title' => 'Head Wear',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c269',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_269',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      260 => 
+      array (
+        'category_id' => '260',
+        'parent_id' => '233',
+        'title' => 'Polos',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c260',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_260',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      266 => 
+      array (
+        'category_id' => '266',
+        'parent_id' => '233',
+        'title' => 'Scrunchy &amp; Headbands',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c266',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_266',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      259 => 
+      array (
+        'category_id' => '259',
+        'parent_id' => '233',
+        'title' => 'Shirts',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c259',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_259',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      265 => 
+      array (
+        'category_id' => '265',
+        'parent_id' => '233',
+        'title' => 'Socks',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c265',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233_265',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=228_233',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

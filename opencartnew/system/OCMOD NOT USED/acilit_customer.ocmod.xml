@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<name>
+		Sync Customer from API
+	</name>
+	<code>
+		sync_customer_from_api
+	</code>
+	<version>
+		1.0
+	</version>
+	<author>
+		MICES Technology Sdn Bhd
+	</author>
+	<link>
+		https://www.mices.com.my
+	</link>
+	<file path="admin/controller/customer/customer.php">
+		<operation>
+			<search>
+				<![CDATA[$this->model_customer_customer->addCustomer($this->request->post);
+]]>	
+			</search>
+			<add position="replace">
+				<![CDATA[$customer_id = $this->model_customer_customer->addCustomer($this->request->post);
+
+				if ($this->config->get('module_acilit_status') && $this->config->get('module_acilit_sync_customer_status')) {
+					$dispatcher = new queue\Dispatcher($this->registry);
+					$dispatcher->dispatch(new jobs\SyncMember($customer_id));
+				}
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->model_customer_customer->editCustomer($this->request->get['customer_id'], $this->request->post);]]>
+			</search>
+			<add position="replace">
+				<![CDATA[$customer = $this->model_customer_customer->getCustomer($this->request->get['customer_id']);
+						$old_customer_group_id = $customer['customer_group_id'];
+
+						$this->model_customer_customer->editCustomer($this->request->get['customer_id'], $this->request->post);
+
+						if ($this->config->get('module_acilit_status')) {
+							if ($this->config->get('module_acilit_sync_customer_status')) {
+								$dispatcher = new queue\Dispatcher($this->registry);
+								$dispatcher->dispatch(new jobs\SyncMember($this->request->get['customer_id']));
+							}
+
+							if ($old_customer_group_id != $this->request->post['customer_group_id']) {
+								$acilit_model = new acilit\AcilitModel($this->registry);
+								$acilit_member = new acilit\AcilitMember($this->registry);
+
+								$user = $acilit_model->getUser($this->user->getId());
+								$acilit_model->addCustomerGroupHistory(array(
+									'customer_id' => $this->request->get['customer_id'],
+									'old_customer_group_id' => $old_customer_group_id,
+									'new_customer_group_id' => $this->request->post['customer_group_id'],
+									'updated_by' => $this->user->getId(),
+									'description' => 'Manually updated by ' . $user['firstname'] . ' ' . $user['lastname'],
+								));
+
+								$member_tier_settings = $this->config->get('module_acilit_membership_tier');
+								if (isset($member_tier_settings[$this->request->post['customer_group_id']])) {
+									$member_tier_setting = $member_tier_settings[$this->request->post['customer_group_id']];
+								} else {
+									$member_tier_setting = array();
+								}
+
+								if ($member_tier_setting && $member_tier_setting['renewal_duration']) {
+									$new_renewal_date = date('Y-m-d', strtotime('+' . $member_tier_setting['renewal_duration'] . ' months'));
+									$acilit_model->updateCustomerTierRenewal($this->request->get['customer_id'], $new_renewal_date);
+								} else {
+									$acilit_model->updateCustomerTierRenewal($this->request->get['customer_id'], null);
+								}
+
+								$acilit_member->assignCoupons($this->request->get['customer_id']);
+							}
+						}
+					]]>
+			</add>
+		</operation>
+		
+	</file>
+	<file path="admin/model/customer/customer.php">
+		<operation>
+			<search>
+				<![CDATA[$implode[] = "c.newsletter = '" . (int)$data['filter_newsletter'] . "'";]]>
+			</search>
+			<add position="before">
+				<![CDATA[if (isset($data['filter_synced']) && $data['filter_synced'] != '') {
+					if ($data['filter_synced'] == 1) {
+						$implode[] = "c.acilit_client_id != '0'";
+					} elseif ($data['filter_synced'] == 0) {
+						$implode[] = "c.acilit_client_id = '0'";
+					}
+				}
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/language/en-gb/customer/customer.php">
+		<operation>
+			<search>
+				<![CDATA[$_['entry_date_added']]]>
+			</search>
+			<add position="after">
+				<![CDATA[$_['entry_synced'] = 'Synced';]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$_['column_action']]]>
+			</search>
+			<add position="after">
+				<![CDATA[$_['column_acilit_id'] = 'Acilit Customer ID';
+				$_['column_synced'] = 'Synced';
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$_['text_unlock']]]>
+			</search>
+			<add position="after">
+				<![CDATA[$_['text_synced'] = 'Synced';
+				$_['text_not_synced'] = 'Not Synced';
+				$_['text_customer_group_history'] = 'Tier History';
+
+				$_['tab_customer_group_history'] = 'Tier History';
+
+				]]>
+			</add>
+		</operation>
+	</file>
+    <file path="admin/view/template/customer/customer_list.twig">
+		<operation>
+			<search>
+				<![CDATA[var filter_customer_group_id = $('select[name=\'filter_customer_group_id\']').val();]]>
+			</search>
+			<add position="after">
+				<![CDATA[var filter_synced = $('select[name=\'filter_synced\']').val();
+				if (filter_synced !== '') {
+					url += '&filter_synced=' + encodeURIComponent(filter_synced); 
+				}
+				]]>
+			</add>
+		</operation>
+	</file>
+      <file path="catalog/controller/account/register.php">
+		<operation>
+			<search>
+				<![CDATA[$customer_id = $this->model_account_customer->addCustomer($this->request->post);
+]]>
+			</search>
+			<add position="after">
+				<![CDATA[if ($this->config->get('module_acilit_status') && $this->config->get('module_acilit_sync_customer_status')) {
+					$acilit_member = new acilit\AcilitMember($this->registry);
+					$result = $acilit_member->syncMember($customer_id);
+
+					if (!$result) {
+						$dispatcher = new queue\Dispatcher($this->registry);
+						$dispatcher->dispatch(new jobs\SyncMember($customer_id));
+					}
+				}
+				]]>
+			</add>
+			</add>
+		</operation>
+	</file>
+        <file path="catalog/language/en-gb/mail/register.php">
+		<operation>
+			<search>
+				<![CDATA[$_['text_telephone']]]>
+			</search>
+			<add position="after">
+				<![CDATA[$_['text_acilit_login'] = 'Your password is your phone number. Ex: 60123456789. Please change your password upon login to keep your account protected.';
+]]>
+			</add>
+		</operation>
+        </file>
+        <file path="catalog/view/theme/default/template/mail/register.twig">
+		<operation>
+			<search>
+				<![CDATA[{{ text_service }}
+]]>
+			</search>
+			<add position="before">
+				<![CDATA[{% if text_acilit_login %}
+				{{ text_acilit_login }}
+				{% endif %}
+				]]>
+			</add>
+		</operation>
+	</file>
+    </modification>

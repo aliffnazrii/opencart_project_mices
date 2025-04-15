@@ -1,0 +1,350 @@
+<?php $val = array (
+  'css' => '.module-catalog-330 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-330 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-330 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-330 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-330 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-330 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-330 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-330 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-330  .item-content{padding-top:10px}.module-catalog-330  .catalog-title{padding-right:10px}.module-catalog-330 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-330 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-330
+.subitems{align-items:flex-start}.module-catalog-330 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-330 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-330 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-330 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-330 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-330 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-330 .catalog-image{margin-right:10px}.module-catalog-330 .item-assets{flex-direction:row}.module-catalog-330 .item-assets>a{max-width:40%;order:0}.module-catalog-330 .item-assets
+.subitems{width:60%}.module-catalog-330 .item-assets .catalog-image{display:block}.module-catalog-330 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-330 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-330 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Audio & Visuals',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb7049a60',
+    'module_id' => 330,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-330',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '330-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Media Streaming Players',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=270',
+        'total' => '0',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '330-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Av Receivers / Amplifiers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=281_282',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Hi Fi System',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=281_283',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Home Theatre System',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=281_284',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Karaoke Touchscreen',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=281_286',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Power Mixers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=281_285',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Sound Systems',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=281',
+        'total' => '5',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '330-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'HD Tvs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=287_288',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Oled Tvs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=287_290',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Projectors',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=287_294',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Qled Tvs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=287_289',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Qned Tvs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=287_292',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'UHD Tvs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=287_291',
+            'image' => '',
+            'image2x' => '',
+          ),
+          6 => 
+          array (
+            'name' => 'Uled Tvs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=287_293',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'TVs',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=287',
+        'total' => '7',
+      ),
+      4 => 
+      array (
+        'limit' => '',
+        'id' => '330-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Ceiling Speakers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=295_297',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Center &amp; Surrond Speakers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=295_300',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Loud Speakers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=295_298',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Soundbars',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=295_296',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Subwoofers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=295_299',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Tower Speakers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=295_301',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Speakers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=295',
+        'total' => '6',
+      ),
+      5 => 
+      array (
+        'limit' => '',
+        'id' => '330-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Analogue/ Digital Radios',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=275_280',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Blu-Ray Players &amp; Recorders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=275_276',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'CD Players/ Turntables',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=275_279',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'DVD Players &amp; Recorders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=275_277',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Pvrs &amp; Media Players',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=275_278',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Players &amp; Recorders',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=275',
+        'total' => '5',
+      ),
+    ),
+  ),
+);

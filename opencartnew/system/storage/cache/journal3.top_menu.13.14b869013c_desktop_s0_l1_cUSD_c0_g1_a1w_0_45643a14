@@ -1,0 +1,26 @@
+<?php $val = array (
+  'css' => NULL,
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'scheduledStatus' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'status' => true,
+    'id' => 'top-menu-67fdfb76013bc',
+    'module_id' => 13,
+    'classes' => 
+    array (
+      0 => 'top-menu',
+      1 => 'top-menu-13',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

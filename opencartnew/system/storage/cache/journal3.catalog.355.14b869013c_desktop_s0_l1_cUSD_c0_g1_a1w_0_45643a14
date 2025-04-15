@@ -1,0 +1,492 @@
+<?php $val = array (
+  'css' => '.module-catalog-355 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-355 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-355 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-355 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-355 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-355 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-355 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-355 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-355  .item-content{padding-top:10px}.module-catalog-355  .catalog-title{padding-right:10px}.module-catalog-355 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-355 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-355
+.subitems{align-items:flex-start}.module-catalog-355 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-355 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-355 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-355 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-355 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-355 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-355 .catalog-image{margin-right:10px}.module-catalog-355 .item-assets{flex-direction:row}.module-catalog-355 .item-assets>a{max-width:40%;order:0}.module-catalog-355 .item-assets
+.subitems{width:60%}.module-catalog-355 .item-assets .catalog-image{display:block}.module-catalog-355 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-355 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-355 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Health & Beauty',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb71d31e6',
+    'module_id' => 355,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-355',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '355-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Beauty',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=682_683',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Feminine Care',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=682_684',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Spa &amp; Massage',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=682_685',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Beauty &amp; Massage',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=682',
+        'total' => '3',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '355-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Bar Soaps',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=686_687',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Body Lotion &amp; Sun Lotion',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=686_688',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Body Scrubs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=686_689',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Hand Liquid Soap &amp; Sanitizer',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=686_690',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Perfumes &amp; Deoderants',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=686_691',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Shower Gels',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=686_692',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Body &amp; Hand Care',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=686',
+        'total' => '6',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '355-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Bike Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=693_695',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Fitness Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=693_694',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Swim Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=693_696',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Exercise Equipment',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=693',
+        'total' => '3',
+      ),
+      4 => 
+      array (
+        'limit' => '',
+        'id' => '355-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Conditioners',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=697_698',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Shampoos',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=697_699',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Hair Care',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=697',
+        'total' => '2',
+      ),
+      5 => 
+      array (
+        'limit' => '',
+        'id' => '355-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Hair Curler',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=700_701',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Hair Dryers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=700_702',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Hair Straightener',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=700_703',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Hair Stylers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=700_704',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Hair Styling',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=700',
+        'total' => '4',
+      ),
+      6 => 
+      array (
+        'limit' => '',
+        'id' => '355-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Bandages',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=705_706',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Blood Pressure Monitor',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=705_707',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Facial Tissues',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=705_708',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Medical Masks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=705_709',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Scales',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=705_710',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Thermometer',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=705_711',
+            'image' => '',
+            'image2x' => '',
+          ),
+          6 => 
+          array (
+            'name' => 'Wet Tissue',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=705_712',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Health &amp; Well-Being',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=705',
+        'total' => '7',
+      ),
+      7 => 
+      array (
+        'limit' => '',
+        'id' => '355-7',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-7',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Flossers &amp; Toothpicks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=713_714',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Mouthwashes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=713_715',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Toothbrushes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=713_716',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Toothpastes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=713_717',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Oral Care',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=713',
+        'total' => '4',
+      ),
+      8 => 
+      array (
+        'limit' => '',
+        'id' => '355-8',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-8',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Female Hair Removal',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=718_719',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Hair Clippers &amp; Trimmers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=718_720',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Men Shavers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=718_721',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Shaving Foams',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=718_722',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Shaving &amp; Grooming',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=718',
+        'total' => '4',
+      ),
+      9 => 
+      array (
+        'limit' => '',
+        'id' => '355-9',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-9',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Shower Gels',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=692',
+        'total' => '0',
+      ),
+    ),
+  ),
+);

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<name>
+		Change Phone To Unique
+	</name>
+	<code>
+		change_phone_to_unique
+	</code>
+	<version>
+		1.0
+	</version>
+	<author>
+		MICES Technology Sdn Bhd
+	</author>
+	<link>
+		https://www.mices.com.my
+	</link>
+	<file path="">
+		<operation>
+			<search>
+				<![CDATA[$this->model_catalog_product->addProduct($this->request->post);]]>
+			</search>
+			<add position="replace">
+				<![CDATA[
+				$product_id = $this->model_catalog_product->addProduct($this->request->post);
+
+				if ($this->config->get('module_acilit_status') && $this->config->get('module_acilit_sync_product_status')) {
+				$dispatcher = new queue\Dispatcher($this->registry);
+				$dispatcher->dispatch(new jobs\syncProduct($product_id));
+				}
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="">
+		<operation>
+			<search>
+				<![CDATA[ ]]>
+			</search>
+			<add position="">
+				<![CDATA[ ]]>
+			</add>
+		</operation>
+	</file>
+	<file path="">
+		<operation>
+			<search>
+				<![CDATA[ ]]>
+			</search>
+			<add position="">
+				<![CDATA[ ]]>
+			</add>
+		</operation>
+	</file>
+	<file path="">
+		<operation>
+			<search>
+				<![CDATA[ ]]>
+			</search>
+			<add position="after">
+				<![CDATA[ ]]>
+			</add>
+		</operation>
+	</file>
+</modification>

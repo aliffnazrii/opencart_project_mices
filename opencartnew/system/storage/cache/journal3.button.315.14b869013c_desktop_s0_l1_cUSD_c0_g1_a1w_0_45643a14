@@ -1,0 +1,43 @@
+<?php $val = array (
+  'css' => '.module-button-315
+.btn{transform:scale(calc(100 / 100));transform-origin:center;width:auto;background:rgba(41,40,38,1);border-width:2px;border-style:solid;border-color:rgba(41,40,38,1);padding-top:20px;padding-right:40px;padding-bottom:20px;padding-left:40px}.module-button-315{display:flex;justify-content:center}.module-button-315 .btn, .module-button-315 .btn:visited{font-size:14px;color:rgba(255, 255, 255, 1)}.module-button-315 .btn:hover{color:rgba(41, 40, 38, 1) !important;background:rgba(255, 255, 255, 1) !important}.module-button-315 .btn:active, .module-button-315 .btn:hover:active, .module-button-315 .btn:focus:active{color:rgba(41, 40, 38, 1) !important;background:rgba(255, 255, 255, 1) !important}.module-button-315 .btn.btn.disabled::after{font-size:20px}.module-button-315 .btn::after{content:none !important}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Show More',
+    'link' => 
+    array (
+      'type' => 'page',
+      'id' => '',
+      'href' => 'http://opencartnew.test/index.php?route=product/catalog',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'status' => true,
+    'id' => 'button-67fdfb745d0ab',
+    'module_id' => 315,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-button',
+      2 => 'module-button-315',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

@@ -1,0 +1,1909 @@
+<modification>
+	<name>MICES Xilnex</name>
+	<version>1.0.0</version>
+	<code>mices_xilnex</code>
+	<author>Mices Technology</author>
+	<link>https://www.mices.com.my/</link>
+
+	<!--Admin Column-->
+    <file path="admin/controller/common/column_left.php">
+		<operation>
+			<search><![CDATA[// Marketing]]></search>
+			<add position="before"><![CDATA[
+			if ($this->user->hasPermission('access', 'extension/module/xilnex')) {
+				$xilnex = array();
+
+				$xilnex[] = array(
+					'name'	   => $this->language->get('text_order'),
+					'href'     => $this->url->link('extension/module/xilnex/order', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+
+				$xilnex[] = array(
+					'name'	   => $this->language->get('text_outlet'),
+					'href'     => $this->url->link('extension/module/xilnex/outlet', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+
+				$xilnex[] = array(
+					'name'	   => $this->language->get('text_product'),
+					'href'     => $this->url->link('extension/module/xilnex/productOutlets', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+
+				$xilnex[] = array(
+					'name'	   => $this->language->get('text_inventory_log'),
+					'href'     => $this->url->link('extension/module/xilnex/inventory', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+
+				$xilnex[] = array(
+					'name'	   => $this->language->get('text_customer_tier_history'),
+					'href'     => $this->url->link('extension/module/xilnex/tierHistory', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()		
+				);
+
+				$xilnex[] = array(
+					'name'	   => $this->language->get('text_setting'),
+					'href'     => $this->url->link('extension/module/xilnex', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+
+				if ($xilnex) {
+					$data['menus'][] = array(
+						'id'       => 'menu-customer',
+						'icon'	   => 'fa-user', 
+						'name'	   => $this->language->get('text_xilnex'),
+						'href'     => '',
+						'children' => $xilnex
+					);	
+				}
+			}
+			]]></add>
+		</operation>	
+	</file>
+
+	<file path="admin/language/en-gb/common/column_left.php">
+		<operation>
+			<search><![CDATA[$_['text_other_status']]]></search>
+			<add position="after"><![CDATA[
+$_['text_xilnex']         = 'Xilnex';
+$_['text_outlet']         = 'Outlets';
+$_['text_inventory_log']      = 'Inventory Log';
+$_['text_customer_tier_history'] = 'Customer Tier History';
+
+			]]></add>
+		</operation>	
+	</file>
+	<!--Admin Column-->
+
+	<!-- Backend -->
+	<file path="admin/view/template/common/header.twig">
+		<operation error="log">
+			<search><![CDATA[
+				<link type="text/css" href="view/stylesheet/stylesheet.css" rel="stylesheet" media="screen" />
+			]]></search>
+			<add position="after"><![CDATA[
+			<link type="text/css" href="view/stylesheet/xilnex.css?t={{ date().timestamp }}" rel="stylesheet" media="screen" />
+			]]></add>
+		</operation>
+	</file>
+	
+	<file path="admin/controller/catalog/product.php">
+		<operation error="log">
+			<search><![CDATA[
+				class ControllerCatalogProduct extends Controller {
+			]]></search>
+			<add position="before"><![CDATA[
+			
+			use xilnex\XilnexModel;
+			use queue\Dispatcher;
+			use jobs\syncproduct;
+			use jobs\updatestock;
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search><![CDATA[
+				public function index() {
+			]]></search>
+			<add position="before"><![CDATA[
+			public function __construct($registry) {
+        parent::__construct($registry);
+
+        $this->xilnex_model = new XilnexModel($this->registry);
+    }
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search><![CDATA[
+				$this->model_catalog_product->deleteProduct($product_id);
+			]]></search>
+			<add position="after"><![CDATA[
+				$this->xilnex_model->deleteProductOutlet($product_id);
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search index="1"><![CDATA[
+				$this->response->redirect($this->url->link('catalog/product', 'user_token=' . $this->session->data['user_token'] . $url, true));
+			]]></search>
+			<add position="before"><![CDATA[
+			$product_info = $this->model_catalog_product->getProduct($this->request->get['product_id']);
+
+			if ($this->config->get('module_xilnex_status')) {
+				$dispatcher = new Dispatcher($this->registry);
+				if ($product_info['xilnex_item_id'] != 0) {
+					$dispatcher->dispatch(new UpdateStock($product_info));
+				} else {
+					$xilnex_model = new \Xilnex\XilnexModel($this->registry);
+					$product_options = $xilnex_model->getXilnexItemOptionByProductId($this->request->get['product_id']);
+					foreach ($product_options as $product_option) {
+						$dispatcher->dispatch(new UpdateStock($product_option, 1));
+					}
+				}
+			}
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search><![CDATA[
+				$this->model_catalog_product->addProduct($this->request->post);
+			]]></search>
+			<add position="replace"><![CDATA[
+			$product_id = $this->model_catalog_product->addProduct($this->request->post);
+			$product_info = $this->model_catalog_product->getProduct($product_id);
+
+			if ($this->config->get('module_xilnex_status')) {
+				$dispatcher = new Dispatcher($this->registry);
+				if ($product_info['xilnex_item_id'] != 0) {
+					$dispatcher->dispatch(new UpdateStock($product_info));
+				} else {
+					$xilnex_model = new \Xilnex\XilnexModel($this->registry);
+					$product_options = $xilnex_model->getXilnexItemOptionByProductId($product_id);
+					foreach ($product_options as $product_option) {
+						$dispatcher->dispatch(new UpdateStock($product_option, 1));
+					}
+				}
+			}
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search><![CDATA[
+			$data['products'][] = array(
+			]]></search>
+			<add position="before"><![CDATA[
+			$product_option_values = $this->model_catalog_product->getProductOptionValues($result['product_id']);
+
+			if ($product_option_values) {
+				$linked_options = 0;
+				$unlinked_options = 0;
+				foreach ($product_option_values as $product_option_value) {
+					if ($product_option_value['xilnex_item_id']) {
+						$linked_options++;
+					} else {
+						$unlinked_options++;
+					}
+				}
+				
+				$sync_status = '';
+				if ($linked_options) {
+					$sync_status .= '<span class="label label-success">' . $linked_options . ' options synced</span><br>';
+				}
+
+				if ($unlinked_options) {
+					$sync_status .= '<span class="label label-warning">' . $unlinked_options . ' options not synced.</span>';
+				}
+
+			} else {
+				if ($result['xilnex_error'] != '') {
+					$sync_status = '<span class="label label-danger">Error</span>';
+				} else if ($result['xilnex_item_id'] > 0) {
+					$sync_status = '<span class="label label-success">Synced</span>';
+				} else {
+					$sync_status = '<span class="label label-danger">Not Synced.</span>';
+				}
+			}
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search><![CDATA[
+			$result['quantity'],
+			]]></search>
+			<add position="before"><![CDATA[
+			'sync_status' => $sync_status,
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search><![CDATA[
+				$this->load->model('localisation/language');
+			]]></search>
+			<add position="before"><![CDATA[
+		$data['xilnex_stock'] = array();
+		if (isset($product_info['xilnex_item_id'])) {
+			$data['synced_with_xilnex'] = ($product_info['xilnex_item_id'] > 0) ? true : false;
+
+			$getXilnexProductQuantityAllOutlet = $this->xilnex_model->getXilnexProductQuantityAllOutlet($product_info['model']);
+			if (!empty($getXilnexProductQuantityAllOutlet)) {
+				$data['xilnex_stock'] = $getXilnexProductQuantityAllOutlet;
+			}
+			$data['xilnex_error'] = $product_info['xilnex_error'];
+		} else {
+			$data['synced_with_xilnex'] = false;
+			$data['xilnex_error'] = '';
+		}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+						'option_value_id'         => $product_option_value['option_value_id'],
+			]]></search>
+			<add position="after"><![CDATA[
+						'model'         		  => $product_option_value['model'],
+						'xilnex_item_id'          => $product_option_value['xilnex_item_id'],
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/view/template/catalog/product_form.twig">
+		<operation error="log">
+			<search><![CDATA[{% if error_model %}]]></search>
+			<add position="before"><![CDATA[
+				<input type="hidden" name="xilnex_item_id" value="{{ xilnex_item_id }}">
+				{% if xilnex_error %}
+					<div id="xilnex-model-message" class="text-danger">{{ xilnex_error}}</div>
+				{% else %}
+					<div id="xilnex-model-message"></div>
+				{% endif %}
+
+				<a id="btn-product-validate" style="margin-top: 10px" class="btn btn-primary {{ xilnex_item_id != 0 ? 'hide' : ''}}" onclick="validateProduct()">{{ text_link }}</a>
+				<a id="btn-product-unlink" style="margin-top: 10px" class="btn btn-primary {{ xilnex_item_id == 0 ? 'hide' : ''}}" onclick="unlinkProduct()">{{ text_unlink }}</a>
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search><![CDATA[<label class="col-sm-2 control-label" for="input-sku"><span data-toggle="tooltip" title="{{ help_sku }}">{{ entry_sku }}</span></label>]]></search>
+			<add position="before" offset="1"><![CDATA[
+              {% if synced_with_xilnex %}
+              <div class="form-group">
+				
+                <label class="col-sm-2 control-label" for="input-stocks">Xilnex Stocks</label>
+                <div class="col-sm-10">
+                  <table class="table table-bordered table-hover" style="font-size: 13px">
+                    <thead>
+                      <td>Outlet</td>
+                      <td>Quantity</td>
+                      <td>Sales Price</td>
+                    </thead>
+                    <tbody>
+                    {% for product_quantity in xilnex_stock %}
+                      <tr>
+                        <td class="text-left">{{ product_quantity.outlet_name }}</td>
+                        <td class="text-left">{{ product_quantity.xilnex_quantity }}</td>
+                        <td class="text-left">RM{{ product_quantity.xilnex_sales_price }}</td>
+                      </tr>
+                      {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+			{% endif %}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search index="0"><![CDATA[
+				                      <td class="text-left">{{ entry_option_value }}</td>
+				]]></search>
+			<add position="after"><![CDATA[
+				                      <td class="text-left">{{ entry_model }}</td>
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			<input type="hidden" name="product_option[{{ option_row }}][product_option_value][{{ option_value_row }}][product_option_value_id]" value="{{ product_option_value.product_option_value_id }}" /></td>
+				]]></search>
+			<add position="after"><![CDATA[
+										<td class="text-right">
+										  	<input type="text" name="product_option[{{ option_row }}][product_option_value][{{ option_value_row }}][model]" value="{{ product_option_value.model }}" placeholder="{{ entry_model }}" class="form-control" {{ product_option_value.xilnex_item_id != 0 ? 'readonly' : '' }}/>
+										  	<input type="hidden" name="product_option[{{ option_row }}][product_option_value][{{ option_value_row }}][xilnex_item_id]" value="{{ product_option_value.xilnex_item_id }}"/>
+											<a id="btn-option-validate-{{ option_value_row }}" class="btn btn-primary {{ product_option_value.xilnex_item_id != 0 ? 'hide' : '' }}" style="width: 100%; margin-top: 10px" onclick="validateProductOption(this, {{ option_row }}, {{ option_value_row }})">{{ text_link }}</a>
+											<a id="btn-option-unlink-{{ option_value_row }}" class="btn btn-primary {{ product_option_value.xilnex_item_id == 0 ? 'hide' : ''}}" style="width: 100%; margin-top: 10px" onclick="unlinkOption({{ option_row }}, {{ option_value_row }})">{{ text_unlink }}</a>
+											<div id="xilnex-model-message-{{ option_value_row }}" class="text-left text-success">{% if product_option_value.xilnex_item_id != 0 %}Linked{% endif %}</div>
+										</td>
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			html += '        <td class="text-left">{{ entry_option_value }}</td>';
+				]]></search>
+			<add position="after"><![CDATA[
+			html += '        <td class="text-left">{{ entry_model }}</td>';
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+	html += '  </select><input type="hidden" name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][product_option_value_id]" value="" /></td>';
+				]]></search>
+			<add position="after"><![CDATA[
+	html += '  <td class="text-right">';
+	html += '  <input type="text" name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][model]" placeholder="{{ entry_model }}" class="form-control" />';
+	html += '  <input type="hidden" name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][xilnex_item_id]" />';
+	html += '  <a id="btn-option-validate-' + option_value_row + '" class="btn btn-primary" style="width: 100%; margin-top: 10px" onclick="validateProductOption(this, ' + option_row + ', ' + option_value_row + ')">{{ text_link }}</a>';
+	html += '  <a id="btn-option-unlink-' + option_value_row + '" class="btn btn-primary hide" style="width: 100%; margin-top: 10px" onclick="unlinkOption(' + option_row + ', ' + option_value_row + ')">{{ text_unlink }}</a>';
+	html += '  <div id="xilnex-model-message-' + option_value_row + '" class="text-left"></div>';
+	html += '  </td>';
+			]]></add>
+		</operation>
+		
+		<operation error="log">
+			<search><![CDATA[
+{{ footer }} 
+				]]></search>
+			<add position="before"><![CDATA[
+<script type="text/javascript"><!--
+	function validateProductOption(button, option_row, option_value_row) {
+		$('#xilnex-model-message-' + option_value_row).removeClass('text-success');
+		$('#xilnex-model-message-' + option_value_row).removeClass('text-danger');
+		$('#xilnex-model-message-' + option_value_row).text('');
+
+		var model = $('input[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][model]"]').val();
+
+		$.ajax({
+			url: 'index.php?route=extension/module/xilnex/validateProduct&user_token={{ user_token }}',
+			dataType: 'json',
+			method: 'POST',
+			data: {
+				model: model,
+			},
+			beforeSend: function() {
+				$(button).button('loading');
+			},
+			complete: function() {
+				$(button).button('reset');
+			},
+			success: function(json) {
+				if (json.error) {
+					$('#xilnex-model-message-' + option_value_row).addClass('text-danger').text(json.error);
+				} else {
+					$('#xilnex-model-message-' + option_value_row).addClass('text-success').text('Linked');
+
+					if (json.xilnex_item_id) {
+						$('input[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][xilnex_item_id]"]').val(json.xilnex_item_id);
+						$('input[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][price]"]').val(json.price);
+						$('select[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][price_prefix]"]').val('=');
+						$('input[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][quantity]"]').val(json.quantity);
+						$('input[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][weight]"]').val(json.weight);
+						$('select[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][weight_prefix]"]').val('=');
+
+						$('input[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][model]"]').prop('readonly', true);
+						$('#btn-option-unlink-' + option_value_row).removeClass('hide');
+						$('#btn-option-validate-' + option_value_row).addClass('hide');
+					}
+				}
+			}
+		});
+	}
+
+	function unlinkOption(option_row, option_value_row) {
+		$('#xilnex-model-message-' + option_value_row).removeClass('text-success');
+		$('#xilnex-model-message-' + option_value_row).removeClass('text-danger');
+		$('#xilnex-model-message-' + option_value_row).text('');
+
+		$('input[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][xilnex_item_id]"]').val(0);
+		$('input[name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][model]"]').prop('readonly', false);
+		$('#btn-option-validate-' + option_value_row).removeClass('hide');
+		$('#btn-option-unlink-' + option_value_row).addClass('hide');
+
+		$('#xilnex-model-message-' + option_value_row).addClass('text-success').text('Not linked');
+	}
+
+	function validateProduct() {
+		$('#xilnex-model-message').removeClass('text-success');
+		$('#xilnex-model-message').removeClass('text-danger');
+		$('#xilnex-model-message').text('');
+
+		var model = $('input[name="model"]').val();
+		var button = $('#btn-product-validate');
+
+		$.ajax({
+			url: 'index.php?route=extension/module/xilnex/validateProduct&user_token={{ user_token }}',
+			dataType: 'json',
+			method: 'POST',
+			data: {
+				model: model,
+			},
+			beforeSend: function() {
+				$(button).button('loading');
+			},
+			complete: function() {
+				$(button).button('reset');
+			},
+			success: function(json) {
+				if (json.error) {
+					$('#xilnex-model-message').addClass('text-danger').text(json.error);
+				} else {
+					$('#xilnex-model-message').addClass('text-success').text('Linked');
+
+					if (json.xilnex_item_id) {
+						$('input[name="xilnex_item_id"]').val(json.xilnex_item_id);
+						$('input[name="price"]').val(json.price);
+						$('input[name="quantity"]').val(json.quantity);
+						$('input[name="weight"]').val(json.weight);
+						$('input[name="length"]').val(json.length);
+						$('input[name="width"]').val(json.width);
+						$('input[name="height"]').val(json.height);
+
+						$('input[name="model"]').prop('readonly', true);
+						$('#btn-product-unlink').removeClass('hide');
+						$('#btn-product-validate').addClass('hide');
+					}
+				}
+			}
+		});
+	}
+
+	function unlinkProduct() {
+		$('#xilnex-model-message').removeClass('text-success');
+		$('#xilnex-model-message').removeClass('text-danger');
+		$('#xilnex-model-message').text('');
+
+		$('input[name="xilnex_item_id"]').val(0);
+		$('input[name="model"]').prop('readonly', false);
+		$('#btn-product-validate').removeClass('hide');
+		$('#btn-product-unlink').addClass('hide');
+
+		$('#xilnex-model-message').addClass('text-success').text('Not Linked');
+	}
+//--></script>
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			{% if product_option_value.price_prefix == '+' %}
+				]]></search>
+			<add position="before"><![CDATA[
+			{% if product_option_value.price_prefix == '=' %}
+				<option value="=" selected="selected">=</option>
+			{% else %}
+				<option value="=">=</option>
+			{% endif %}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+	html += '  <td class="text-right"><select name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][price_prefix]"				]]></search>
+			<add position="after"><![CDATA[
+	html += '    <option value="=">=</option>';
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			{% if product_option_value.weight_prefix == '+' %}
+				]]></search>
+			<add position="before"><![CDATA[
+			{% if product_option_value.weight_prefix == '=' %}
+				<option value="=" selected="selected">=</option>
+			{% else %}
+				<option value="=">=</option>
+			{% endif %}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+	html += '  <td class="text-right"><select name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][weight_prefix]"				
+			]]></search>
+			<add position="after"><![CDATA[
+	html += '    <option value="=">=</option>';
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/model/catalog/product.php">
+		<operation error="log">
+			<search><![CDATA[
+					'option_value_id'         => $product_option_value['option_value_id'],
+			]]></search>
+			<add position="after"><![CDATA[
+					'model'         		  => $product_option_value['model'],
+					'xilnex_item_id'          => $product_option_value['xilnex_item_id'],
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[option_value_id = '" . (int)$product_option_value['option_value_id'] . "',]]></search>
+			<add position="replace"><![CDATA[option_value_id = '" . (int)$product_option_value['option_value_id'] . "', model = '" . $this->db->escape($product_option_value['model']) . "', xilnex_item_id = '" . (int)$product_option_value['xilnex_item_id'] . "',]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[public function getProductImages($product_id) {]]></search>
+			<add position="before"><![CDATA[
+				public function getProductOptionValues($product_id) {
+					$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "product_option_value WHERE product_id = '" . (int)$product_id . "'");
+					return $query->rows;
+				}
+				]]></add>
+		</operation>
+	</file>
+	
+	<file path="admin/view/template/catalog/product_list.twig">
+		<operation error="log">
+			<search><![CDATA[
+			<td class="text-left">{% if sort == 'p.status' %} <a href="{{ sort_status }}" class="{{ order|lower }}">{{ column_status }}</a> {% else %} <a href="{{ sort_status }}">{{ column_status }}</a> {% endif %}</td>
+			]]></search>
+			<add position="before"><![CDATA[
+			<td class="text-left">{{ column_sync_status }}</td>
+			]]></add>
+		</operation>
+		
+		<operation error="log">
+			<search><![CDATA[
+			<td class="text-left">{{ product.status }}</td>
+			]]></search>
+			<add position="before"><![CDATA[
+			<td class="text-left">{{ product.sync_status }}</td>
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/language/en-gb/catalog/product.php">
+		<operation error="log">
+			<search><![CDATA[= 'Action';]]></search>
+			<add position="after"><![CDATA[
+				$_['column_sync_status']             = 'Sync Status';
+				$_['text_link']             		 = 'Link';
+				$_['text_unlink']             		 = 'Unlink';
+			]]></add>
+		</operation>
+	</file>
+	
+	<file path="admin/view/template/sale/order_list.twig">
+		<operation error="log">
+			<search><![CDATA[
+            <input type="text" name="filter_total" value="{{ filter_total }}" placeholder="{{ entry_total }}" id="input-total" class="form-control" />
+			]]></search>
+			<add position="after" offset="1"><![CDATA[
+			<div class="form-group">
+				<label class="control-label" for="input-order-source">{{ entry_order_source }}</label>
+				<select name="filter_order_source" id="input-order-source" class="form-control">
+					<option value=""></option>
+					{% for order_source in order_sources %}
+						{% if order_source == filter_order_source %}
+							<option value="{{ order_source }}" selected="selected">{{ order_source|capitalize }}</option>
+						{% else %}
+							<option value="{{ order_source }}">{{ order_source|capitalize }}</option>
+						{% endif %}
+					{% endfor %}
+				</select>
+			</div>
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+                    <td class="text-left">{% if sort == 'o.date_modified' %} <a href="{{ sort_date_modified }}" class="{{ order|lower }}">{{ column_date_modified }}</a> {% else %} <a href="{{ sort_date_modified }}">{{ column_date_modified }}</a> {% endif %}</td>
+			]]></search>
+			<add position="after"><![CDATA[
+                    <td class="text-left">{{ column_source }}</td>
+                    <!-- <td class="text-left">{{ column_sync_status }}</td>
+                    <td class="text-left">{{ column_sync_error }}</td> -->
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+                  <td class="text-left">{{ order.date_modified }}</td>
+			]]></search>
+
+			<add position="after"><![CDATA[
+				  <td class="text-left">{{ order.order_source }}</td>
+
+				  <!-- <td class="text-center">
+					{% if order.xilnex_sync_status %} 
+						<span class="label label-success">{{ text_synced }}</span>
+					{% else %} 
+						<span class="label label-danger">{{ text_not_synced }}</span>
+					{% endif %} 
+				  </td>
+                  <td class="text-center">
+				  	{% if order.xilnex_error %}
+						<span>
+							<i class="fa fa-exclamation-circle fa-2x text-danger" data-toggle="tooltip" rel="tooltip" title="{{ order.xilnex_error }}" data-original-title="{{ order.xilnex_error }}"></i>
+						</span> 
+				  	{% endif %}
+				  </td> -->
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+		{{ footer }} 
+			]]></search>
+			<add position="after"><![CDATA[
+<script type="text/javascript"><!--
+	$('[rel=tooltip]').tooltip();
+//--></script>
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+	var filter_date_added = $('input[name=\'filter_date_added\']').val();
+			]]></search>
+			<add position="before"><![CDATA[
+	var filter_order_source = $('select[name=\'filter_order_source\']').val();
+	if (filter_order_source) {
+		url += '&filter_order_source=' + encodeURIComponent(filter_order_source);
+	}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/controller/sale/order.php">
+		<operation error="log">
+			<search><![CDATA[
+	private $error = array();
+			]]></search>
+			<add position="before"><![CDATA[
+	const ORDER_XILNEX = 'xilnex';
+	const ORDER_OPENCART = 'opencart';
+	const ORDER_SOURCES = [
+		self::ORDER_XILNEX,
+		self::ORDER_OPENCART,
+	];
+			]]></add>
+		</operation>
+		
+		<operation error="log">
+			<search><![CDATA[
+				'customer'      => $result['customer'],
+			]]></search>
+			<add position="after"><![CDATA[
+				'xilnex_sync_status'  => $result['synced'],
+				'xilnex_error'  => htmlentities($result['xilnex_error']),
+				'order_source'  => ucfirst($result['order_source']),
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			$url .= '&filter_date_added=' . $this->request->get['filter_date_added'];
+			]]></search>
+			<add position="before" offset="1"><![CDATA[
+		if (isset($this->request->get['filter_order_source'])) {
+			$url .= '&filter_order_source=' . $this->request->get['filter_order_source'];
+		}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			$filter_date_added = $this->request->get['filter_date_added'];
+			]]></search>
+			<add position="before" offset="1"><![CDATA[
+		if (isset($this->request->get['filter_order_source'])) {
+			$filter_order_source = $this->request->get['filter_order_source'];
+		} else {
+			$filter_order_source = '';
+		}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			'filter_date_added'      => $filter_date_added,
+			]]></search>
+			<add position="after"><![CDATA[
+			'filter_order_source'   => $filter_order_source,
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+		$data['filter_date_added'] = $filter_date_added;
+			]]></search>
+			<add position="after"><![CDATA[
+		$data['filter_order_source'] = $filter_order_source;
+
+		$data['order_sources'] = self::ORDER_SOURCES;
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			$data['ip'] = $order_info['ip'];
+			]]></search>
+			<add position="before"><![CDATA[
+			$data['order_source'] = $order_info['order_source'];
+
+			$xilnex_model = new \Xilnex\XilnexModel($this->registry);
+			$xilnex_order = $xilnex_model->getXilnexOrderByOrderId($order_id);
+
+			if ($xilnex_order) {
+				$outlet = $xilnex_model->getOutlet($xilnex_order['xilnex_location_id']);
+				$data['outlet'] = $outlet['name'] ?? '';
+			}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/model/sale/order.php">
+		<operation error="log">
+			<search><![CDATA[o.currency_code, o.currency_value,]]></search>
+			<add position="replace"><![CDATA[o.currency_code, o.currency_value, o.xilnex_error, o.synced, o.order_source,]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			$sql .= " AND DATE(o.date_added) = DATE('" . $this->db->escape($data['filter_date_added']) . "')";
+				]]></search>
+			<add position="before" offset="1"><![CDATA[
+		if (!empty($data['filter_order_source'])) {
+			$sql .= " AND o.order_source LIKE '" . $this->db->escape($data['filter_order_source']) . "'";
+		}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			$sql .= " AND DATE(date_added) = DATE('" . $this->db->escape($data['filter_date_added']) . "')";
+				]]></search>
+			<add position="before" offset="1"><![CDATA[
+		if (!empty($data['filter_order_source'])) {
+			$sql .= " AND order_source LIKE '" . $this->db->escape($data['filter_order_source']) . "'";
+		}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			$order_query->row['date_added']
+				]]></search>
+			<add position="after"><![CDATA[
+			'order_source'      => $order_query->row['order_source'],
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/language/en-gb/sale/order.php">
+		<operation error="log">
+			<search><![CDATA[
+$_['column_weight']
+			]]></search>
+			<add position="after"><![CDATA[
+$_['column_sync_status']             = 'Sync Status';
+$_['column_source']                  = 'Source';
+$_['column_sync_error']              = 'Error';
+
+$_['text_synced']              	     = 'Synced';
+$_['text_not_synced']                = 'Not Synced';
+$_['text_order_source']              = 'Order Source';
+$_['text_outlet']                    = 'Outlet';
+
+$_['entry_order_source']             = 'Order Source';
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/view/template/sale/order_info.twig">
+		<operation error="log">
+			<search><![CDATA[
+                <td><button data-toggle="tooltip" title="{{ text_payment_method }}" class="btn btn-info btn-xs"><i class="fa fa-credit-card fa-fw"></i></button></td>
+			]]></search>
+			<add position="before" offset="1"><![CDATA[
+			<tr>
+                <td style="width: 1%;"><button data-toggle="tooltip" title="{{ text_order_source }}" class="btn btn-info btn-xs"><i class="fa fa-shopping-cart fa-fw"></i></button></td>
+                <td>{{ order_source|capitalize }}</td>
+			</tr>
+			{% if outlet %}
+				<tr>
+					<td style="width: 1%;"><button data-toggle="tooltip" title="{{ text_outlet }}" class="btn btn-info btn-xs"><i class="fa fa-map-pin fa-fw"></i></button></td>
+					<td>{{ outlet }}</td>
+				</tr>
+			{% endif %}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/controller/customer/customer.php">
+		<operation error="log">
+			<search><![CDATA[
+			$this->model_customer_customer->addCustomer($this->request->post);
+			]]></search>
+				<add position="replace"><![CDATA[
+			$customer_id = $this->model_customer_customer->addCustomer($this->request->post);
+
+			if ($this->config->get('module_xilnex_status') && $this->config->get('module_xilnex_sync_customer_status')) {
+				$dispatcher = new queue\Dispatcher($this->registry);
+				$dispatcher->dispatch(new jobs\SyncMember($customer_id));
+			}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			$this->model_customer_customer->editCustomer($this->request->get['customer_id'], $this->request->post);
+			]]></search>
+				<add position="before"><![CDATA[
+			$customer = $this->model_customer_customer->getCustomer($this->request->get['customer_id']);
+			$old_customer_group_id = $customer['customer_group_id'];
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			$this->model_customer_customer->editCustomer($this->request->get['customer_id'], $this->request->post);
+			]]></search>
+				<add position="after"><![CDATA[
+			if ($this->config->get('module_xilnex_status')) {
+				if ($this->config->get('module_xilnex_sync_customer_status')) {
+					$dispatcher = new queue\Dispatcher($this->registry);
+					$dispatcher->dispatch(new jobs\SyncMember($this->request->get['customer_id']));
+				}
+
+				if ($old_customer_group_id != $this->request->post['customer_group_id']) {
+					$xilnex_model = new xilnex\XilnexModel($this->registry);
+					$xilnex_member = new xilnex\XilnexMember($this->registry);
+
+					$user = $xilnex_model->getUser($this->user->getId());
+					$xilnex_model->addCustomerGroupHistory(array(
+						'customer_id' => $this->request->get['customer_id'],
+						'old_customer_group_id' => $old_customer_group_id,
+						'new_customer_group_id' => $this->request->post['customer_group_id'],
+						'updated_by' => $this->user->getId(),
+						'description' => 'Manually updated by ' . $user['firstname'] . ' ' . $user['lastname'],
+					));
+
+					$member_tier_settings = $this->config->get('module_xilnex_membership_tier');
+					if (isset($member_tier_settings[$this->request->post['customer_group_id']])) {
+						$member_tier_setting = $member_tier_settings[$this->request->post['customer_group_id']];
+					} else {
+						$member_tier_setting = array();
+					}
+
+					if ($member_tier_setting && $member_tier_setting['renewal_duration']) {
+						$new_renewal_date = date('Y-m-d', strtotime('+' . $member_tier_setting['renewal_duration'] . ' months'));
+                		$this->xilnex_model->updateCustomerTierRenewal($this->request->get['customer_id'], $new_renewal_date);
+					} else {
+        				$this->xilnex_model->updateCustomerTierRenewal($this->request->get['customer_id'], null);
+					}
+
+					$xilnex_member->assignCoupons($this->request->get['customer_id']);
+				}
+			}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			$filter_status = $this->request->get['filter_status'];
+			]]></search>
+				<add position="before" offset="1"><![CDATA[
+			if (isset($this->request->get['filter_synced'])) {
+				$filter_synced = $this->request->get['filter_synced'];
+			} else {
+				$filter_synced = '';
+			}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			$url .= '&filter_status=' . $this->request->get['filter_status'];
+			]]></search>
+				<add position="before" offset="1"><![CDATA[
+			if (isset($this->request->get['filter_synced'])) {
+				$url .= '&filter_synced=' . $this->request->get['filter_synced'];
+			}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			'filter_customer_group_id' => $filter_customer_group_id,
+			]]></search>
+				<add position="before"><![CDATA[
+			'filter_synced' => $filter_synced,
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+		$data['filter_date_added'] = $filter_date_added;
+			]]></search>
+				<add position="after"><![CDATA[
+		$data['filter_synced'] = $filter_synced;
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+				'customer_group' => $result['customer_group'],
+			]]></search>
+				<add position="before"><![CDATA[
+				'xilnex_client_id' => $result['xilnex_client_id'],
+				'synced' => $result['xilnex_client_id'] ? 1 : 0,
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/model/customer/customer.php">
+		<operation error="log">
+			<search><![CDATA[
+			$implode[] = "c.newsletter = '" . (int)$data['filter_newsletter'] . "'";
+			]]></search>
+				<add position="before" offset="1"><![CDATA[
+			if (isset($data['filter_synced']) && $data['filter_synced'] != '') {
+				if ($data['filter_synced'] == 1) {
+					$implode[] = "c.xilnex_client_id != '0'";
+				} elseif ($data['filter_synced'] == 0) {
+					$implode[] = "c.xilnex_client_id = '0'";
+				}
+			}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			$implode[] = "newsletter = '" . (int)$data['filter_newsletter'] . "'";
+			]]></search>
+				<add position="before" offset="1"><![CDATA[
+			if (isset($data['filter_synced']) && $data['filter_synced'] != '') {
+				if ($data['filter_synced'] == 1) {
+					$implode[] = "xilnex_client_id != '0'";
+				} elseif ($data['filter_synced'] == 0) {
+					$implode[] = "xilnex_client_id = '0'";
+				}
+			}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/view/template/customer/customer_list.twig">
+		<operation error="log">
+			<search><![CDATA[
+			<label class="control-label" for="input-status">{{ entry_status }}</label>
+			]]></search>
+				<add position="before" offset="1"><![CDATA[
+			<div class="form-group">
+              <label class="control-label" for="input-synced">{{ entry_synced }}</label>
+              <select name="filter_synced" id="input-synced" class="form-control">
+                <option value=""></option>
+                {% if filter_synced == '1' %}
+                <option value="1" selected="selected">{{ text_yes }}</option>
+                {% else %}
+                <option value="1">{{ text_yes }}</option>
+                {% endif %}
+                {% if filter_synced == '0' %}
+                <option value="0" selected="selected">{{ text_no }}</option>
+                {% else %}
+                <option value="0">{{ text_no }}</option>
+                {% endif %}
+              </select>
+            </div>
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			var filter_customer_group_id = $('select[name=\'filter_customer_group_id\']').val();
+			]]></search>
+				<add position="before"><![CDATA[
+			var filter_synced = $('select[name=\'filter_synced\']').val();
+			if (filter_synced !== '') {
+				url += '&filter_synced=' + encodeURIComponent(filter_synced); 
+			}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			<td class="text-left">{% if sort == 'c.status' %}<a href="{{ sort_status }}" class="{{ order|lower }}">{{ column_status }}</a>{% else %}<a href="{{ sort_status }}">{{ column_status }}</a>{% endif %}</td>
+			]]></search>
+			<add position="before"><![CDATA[
+			<td class="text-left">{{ column_xilnex_id }}</td>
+			<td class="text-left">{{ column_synced }}</td>
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			<td class="text-left">{{ customer.status }}</td>
+			]]></search>
+			<add position="before"><![CDATA[
+			<td class="text-left">{{ customer.xilnex_client_id }}</td>
+			<td class="text-left">
+				{% if customer.synced == 1 %}
+				<span class="label label-success">{{ text_synced }}</span>
+				{% else %}
+				<span class="label label-danger">{{ text_not_synced }}</span>
+				{% endif %}
+			</td>
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/language/en-gb/customer/customer.php">
+		<operation error="log">
+			<search><![CDATA[
+$_['entry_date_added']
+			]]></search>
+				<add position="after"><![CDATA[
+$_['entry_synced']          = 'Synced';
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+$_['column_action']             = 'Action';
+			]]></search>
+				<add position="after"><![CDATA[
+$_['column_xilnex_id']          = 'Xilnex Customer ID';
+$_['column_synced']             = 'Synced';
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+$_['text_unlock']               = 'Unlock Account';
+			]]></search>
+				<add position="after"><![CDATA[
+$_['text_synced']               = 'Synced';
+$_['text_not_synced']           = 'Not Synced';
+$_['text_customer_group_history'] = 'Tier History';
+
+$_['tab_customer_group_history'] = 'Tier History';
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/view/template/customer/customer_form.twig">
+		<operation error="log">
+			<search>
+				<![CDATA[<li><a href="#tab-ip" data-toggle="tab">{{ tab_ip }}</a></li>]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+	<li><a href="#tab-customer-group-history" data-toggle="tab">{{ tab_customer_group_history }}</a></li>
+				]]>
+			</add>
+		</operation>
+
+		<operation error="log">
+			<search>
+				<![CDATA[<div class="tab-pane" id="tab-ip">]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+	<div class="tab-pane" id="tab-customer-group-history">
+		<fieldset>
+			<legend>{{ text_customer_group_history }}</legend>
+			<div id="customer-group-history"></div>
+		</fieldset>
+    </div>
+				]]>
+			</add>
+		</operation>
+
+		<operation error="log">
+			<search>
+				<![CDATA[{{ footer }} ]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+	<script type="text/javascript"><!--
+		$('#customer-group-history').delegate('.pagination a', 'click', function(e) {
+			e.preventDefault();
+
+			$('#customer-group-history').load(this.href);
+		});
+
+		$('#customer-group-history').load('index.php?route=extension/module/xilnex/tierHistory&user_token={{ user_token }}&filter_customer_id={{ customer_id }}&table_only=1');
+  	//--></script> 
+				]]>
+			</add>
+		</operation>
+	</file>
+	<!-- Backend -->
+
+
+
+
+
+
+
+
+
+	<!-- Front End -->
+	<file path="catalog/view/theme/journal3/template/common/header.twig">
+		<operation error="log">
+			<search><![CDATA[
+				</head>
+			]]></search>
+			<add position="before"><![CDATA[
+			<link type="text/css" href="catalog/view/theme/default/stylesheet/xilnex.css" rel="stylesheet" media="screen" />
+			]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/checkout/register.php">
+		<operation error="log">
+			<search><![CDATA[
+				$customer_id = $this->model_account_customer->addCustomer($this->request->post);
+			]]></search>
+			<add position="after"><![CDATA[
+				if ($this->config->get('module_xilnex_status') && $this->config->get('module_xilnex_sync_customer_status')) {
+					$xilnex_member = new xilnex\XilnexMember($this->registry);
+					$result = $xilnex_member->syncMember($customer_id);
+
+					if (!$result) {
+						$dispatcher = new queue\Dispatcher($this->registry);
+						$dispatcher->dispatch(new jobs\SyncMember($customer_id));
+					}
+				}
+			]]></add>
+		</operation>
+	</file>
+	<file path="catalog/controller/account/register.php">
+		<operation error="log">
+			<search><![CDATA[
+				$customer_id = $this->model_account_customer->addCustomer($this->request->post);
+			]]></search>
+			<add position="after"><![CDATA[
+				if ($this->config->get('module_xilnex_status') && $this->config->get('module_xilnex_sync_customer_status')) {
+					$xilnex_member = new xilnex\XilnexMember($this->registry);
+					$result = $xilnex_member->syncMember($customer_id);
+
+					if (!$result) {
+						$dispatcher = new queue\Dispatcher($this->registry);
+						$dispatcher->dispatch(new jobs\SyncMember($customer_id));
+					}
+				}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/account/login.php">
+		<operation error="log">
+			<search><![CDATA[
+				$this->model_account_customer->deleteLoginAttempts($this->request->post['email']);
+			]]></search>
+			<add position="before"><![CDATA[
+				if ($this->config->get('module_xilnex_status') && $this->config->get('module_xilnex_sync_customer_status')) {
+					$dispatcher = new queue\Dispatcher($this->registry);
+					$dispatcher->dispatch(new jobs\SyncMember($customer_info['customer_id']));
+				}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/checkout/login.php">
+		<operation error="log">
+			<search><![CDATA[
+				$this->model_account_customer->deleteLoginAttempts($this->request->post['email']);
+			]]></search>
+			<add position="before"><![CDATA[
+				if ($this->config->get('module_xilnex_status') && $this->config->get('module_xilnex_sync_customer_status')) {
+					$dispatcher = new queue\Dispatcher($this->registry);
+					$dispatcher->dispatch(new jobs\SyncMember($customer_info['customer_id']));
+				}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/extension/quickcheckout/login.php">
+		<operation error="log">
+			<search><![CDATA[
+				$this->model_account_customer->deleteLoginAttempts($this->request->post['email']);
+			]]></search>
+			<add position="before"><![CDATA[
+				if ($this->config->get('module_xilnex_status') && $this->config->get('module_xilnex_sync_customer_status')) {
+					$dispatcher = new queue\Dispatcher($this->registry);
+					$dispatcher->dispatch(new jobs\SyncMember($customer_info['customer_id']));
+				}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/model/checkout/order.php">
+		<operation error="log">
+			<search><![CDATA[
+				$order_totals = $this->getOrderTotals($order_id);
+			]]></search>
+			<add position="after"><![CDATA[
+			if ($order_info['order_source'] != 'opencart') {
+				$order_totals = array();
+			}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+				'date_added'              => $order_query->row['date_added'],
+			]]></search>
+			<add position="after"><![CDATA[
+				'order_source'              => $order_query->row['order_source'],
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			$this->cache->delete('product');
+			]]></search>
+			<add position="after"><![CDATA[
+			if ($this->config->get('module_xilnex_status')) {
+				$xilnex_model  = new Xilnex\XilnexModel($this->registry);
+
+				if (in_array($order_status_id, $this->config->get('module_xilnex_order_sync_status')) && $order_info['date_added'] >= $this->config->get('module_xilnex_pull_order_date')) {
+					if (!$customer_info['xilnex_client_id']) {
+						$dispatcher = new queue\Dispatcher($this->registry);
+						$dispatcher->dispatch(new jobs\SyncMember($customer_info['customer_id']));
+					}
+
+					$exist = $xilnex_model->getXilnexOrderByOrderId($order_id);
+					if (!$exist || (!$exist['job_id'] && !$exist['xilnex_order_id'])) {
+						$dispatcher = new queue\bus\Dispatcher();
+						$job = new jobs\PushOrder($order_id);
+						$job->setRegistry($this->registry);
+						$job_id = $dispatcher->dispatch($job);
+
+						if (!$exist) {
+							$xilnex_model->saveXilnexOrder([
+								'order_id' => $order_id,
+								'xilnex_order_id' => '', 
+								'xilnex_client_id' => '', 
+								'xilnex_location_id' => '', 
+								'sales_person' => '', 
+								'total' => '0', 
+								'sales_date' => '0000-00-00 00:00:00', 
+								'job_id' => $job_id,
+								'error' => '',
+								'synced' => 0,
+								'status' => ''
+							]);
+						} else {
+							$xilnex_model->setOrderError($order_id, '');
+							$xilnex_model->updateXilnexOrderSyncStatus($order_id, 0, $job_id);
+						}
+					}
+				}
+
+				if ($order_status_id == $this->config->get('module_xilnex_order_canceled_status')) {
+					$job = new jobs\CancelOrder($order_id);
+					$job->setRegistry($this->registry);
+
+					$dispatcher = new queue\bus\Dispatcher();
+					$job_id = $dispatcher->dispatch($job);
+
+					$xilnex_model->updateOrderSyncStatus($order_id, 0);
+					$xilnex_model->updateXilnexOrderSyncStatus($order_id, 0, $job_id);
+				}
+
+				if ($this->config->get('module_xilnex_membership_upgrade_status')) {
+					if ($order_status_id == $this->config->get('module_xilnex_order_complete_status')) {
+						$xilnex_member = new Xilnex\XilnexMember($this->registry);
+						$xilnex_member->upgradeMember($customer_info);
+					}
+				}
+			}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/model/account/order.php">
+		<operation error="log">
+			<search><![CDATA[ => $order_query->row['order_status_id'],]]></search>
+				<add position="after"><![CDATA[
+				'order_source'            => $order_query->row['order_source'],
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/account/order.php">
+		<operation error="log">
+			<search><![CDATA[
+			$data['date_added'] = date($this->language->get('date_format_short'), strtotime($order_info['date_added']));
+			]]></search>
+				<add position="after"><![CDATA[
+			if ($order_info['order_source'] == 'opencart') {
+				$data['order_source'] = 'Online';
+				$data['is_online'] = 1;
+			} else {
+				$data['order_source'] = 'Offline';
+				$data['is_online'] = 0;
+
+				$xilnex_model = new \Xilnex\XilnexModel($this->registry);
+				$xilnex_order = $xilnex_model->getXilnexOrderByOrderId($this->request->get['order_id']);
+				if ($xilnex_order && $xilnex_order['xilnex_location_id']) {
+					$outlet = $xilnex_model->getOutlet($xilnex_order['xilnex_location_id']);
+					if ($outlet) {
+						$data['outlet_name'] = $outlet['name'];
+					}
+				}
+			}
+
+			$data['text_order_detail'] = $this->language->get('text_order_detail') . ' (' . $data['order_source'] . ')';
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/view/theme/basel/template/account/order_info.twig">
+		<operation error="log">
+			<search><![CDATA[
+              {% if shipping_method %}
+			]]></search>
+			<add position="before"><![CDATA[
+            {% if outlet_name %}
+              <b>{{ text_outlet }}</b> {{ outlet_name }}<br />
+			{% endif %}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+            <td class="text-left" style="width: 50%; vertical-align: top;">{{ text_payment_address }}</td>
+			]]></search>
+			<add position="before" offset="3"><![CDATA[
+            {% if is_online %}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+            <div class="table-responsive">
+			]]></search>
+			<add position="before"><![CDATA[
+            {% endif %}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/language/en-gb/account/order.php">
+		<operation error="log">
+			<search><![CDATA[
+$_['text_error']            = 'The order you requested could not be found!';
+			]]></search>
+				<add position="after"><![CDATA[
+$_['text_outlet']           = 'Outlet:';
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/account/edit.php">
+		<operation error="log">
+			<search><![CDATA[
+			$this->model_account_customer->editCustomer($this->customer->getId(), $this->request->post);
+			]]></search>
+				<add position="after"><![CDATA[
+		if ($this->config->get('module_xilnex_status') && $this->config->get('module_xilnex_sync_customer_status')) {
+			$dispatcher = new queue\Dispatcher($this->registry);
+			$dispatcher->dispatch(new jobs\SyncMember($this->customer->getId()));
+		}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="system/library/cart/cart.php">
+		<operation error="log">
+			<search><![CDATA[
+			$option_weight = 0;
+			]]></search>
+				<add position="after"><![CDATA[
+			$fixed_price = 0;
+			$fixed_weight = 0;
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search index="0"><![CDATA[
+			$option_price -= $option_value_query->row['price'];
+			]]></search>
+			<add position="after" offset="1"><![CDATA[
+			elseif ($option_value_query->row['price_prefix'] == '=') {
+				$fixed_price = $option_value_query->row['price'];
+			}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search index="0"><![CDATA[
+			$option_weight -= $option_value_query->row['weight'];
+			]]></search>
+			<add position="after" offset="1"><![CDATA[
+			elseif ($option_value_query->row['weight_prefix'] == '=') {
+				$fixed_weight = $option_value_query->row['weight'];
+			}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search index="0"><![CDATA[
+					$price = $product_special_query->row['price'];
+			]]></search>
+			<add position="after"><![CDATA[
+					$special = $product_special_query->row['price'];
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search index="0"><![CDATA[
+				$product_data[] = array(
+			]]></search>
+			<add position="before"><![CDATA[
+				if (!$this->config->get('module_xilnex_prioritize_product_special')) {
+					if ($fixed_price && isset($special) && $special) {
+						$price = $fixed_price;
+						$option_price = 0;
+						$special = 0;
+					}
+				}
+
+				if ($fixed_weight) {
+					$product_query->row['weight'] = $fixed_weight;
+					$option_weight = 0;
+				}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/extension/basel/live_options.php">
+		<operation error="log">
+			<search><![CDATA[
+					$options_makeup = $options_makeup + (float)$price;
+			]]></search>
+			<add position="after"><![CDATA[
+				} else if ($option_value[$param.'_prefix'] === '='){
+					$options_makeup = (float)$price;
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			$options_makeup += $this->get_options_makeup($option_value, $product_info['tax_class_id'], $option_tax);
+			]]></search>
+			<add position="before"><![CDATA[
+			if ($option_value['price_prefix'] != '=') {
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+			$options_makeup_notax += $this->get_options_makeup($option_value, 0, $option_tax);
+			]]></search>
+			<add position="after"><![CDATA[
+				if (!$this->config->get('module_xilnex_prioritize_product_special')) {
+					if ($this->data['special']) {
+						$this->data['price'] = $this->data['special'];
+					}
+				}
+			} else {
+				/*
+				$options_makeup = $this->get_options_makeup($option_value, $product_info['tax_class_id'], $option_tax);
+				$options_makeup = $options_makeup - $this->data['price'];
+
+				$options_makeup_notax = $this->get_options_makeup($option_value, 0, $option_tax);
+				$options_makeup_notax = $options_makeup_notax - $this->data['price'];
+				*/
+
+				if (!$this->config->get('module_xilnex_prioritize_product_special')) {
+					$fixed_price = $this->get_options_makeup($option_value, 0, $option_tax);
+					$this->data['price'] = $fixed_price;
+
+					if ($this->data['special'] && $fixed_price) {
+						$this->data['special'] = $fixed_price;
+					} else {
+						$this->data['price'] = $this->data['special'];
+					}
+				}
+			}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/product/product.php">
+		<operation error="log">
+			<search><![CDATA[
+					$product_option_value_data[] = array(
+			]]></search>
+			<add position="before"><![CDATA[
+				if ($this->config->get('module_xilnex_prioritize_product_special') && $data['special']) {
+					$price = false;
+				} else {
+					$data['special'] = false;
+				}
+			]]></add>
+		</operation>
+	</file>
+
+	<!-- Force customer to complete profile -->
+	<file path="catalog/view/theme/basel/template/account/edit.twig">
+		<operation error="log">
+			<search><![CDATA[
+	<div class="row">{{ column_left }}
+			]]></search>
+			<add position="before"><![CDATA[
+	{% if email == '' %}
+  	<div class="alert alert-warning alert-dismissible"><i class="fa fa-exclamation-circle"></i> {{ text_complete_profile }}</div>
+	{% endif %}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/extension/quickcheckout/checkout.php">
+		<operation error="log">
+			<search><![CDATA[
+		// Validate minimum quantity requirements.	
+			]]></search>
+			<add position="before"><![CDATA[
+		// Validate if customer has Email
+		if ($this->customer->isLogged() && !$this->customer->getEmail()) {
+	  		$this->response->redirect($this->url->link('account/edit'));
+		}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/language/en-gb/account/edit.php">
+		<operation error="log">
+			<search><![CDATA[
+$_['text_success']
+			]]></search>
+			<add position="after"><![CDATA[
+$_['text_complete_profile']      = 'Please complete your profile before checking out.';
+			]]></add>
+		</operation>
+	</file>
+	<!-- Force customer to complete profile -->
+
+	<!-- Modify Email Content for customer created from Xilnex -->
+	<file path="catalog/controller/mail/register.php">
+		<operation error="log">
+			<search><![CDATA[
+		$data['text_thanks'] = $this->language->get('text_thanks');
+			]]></search>
+			<add position="after"><![CDATA[
+		if (isset($args[0]['xilnex_client_id']) && $args[0]['xilnex_client_id']) {
+			$data['text_xilnex_login'] = $this->language->get('text_xilnex_login');
+		} else {
+			$data['text_xilnex_login'] = '';
+		}
+			]]></add>
+		</operation>
+	</file>
+	<file path="catalog/language/en-gb/mail/register.php">
+		<operation error="log">
+			<search><![CDATA[
+$_['text_telephone']
+			]]></search>
+			<add position="after"><![CDATA[
+$_['text_xilnex_login']      = 'Your password is your phone number. Ex: 60123456789. Please change your password upon login to keep your account protected.';
+			]]></add>
+		</operation>
+	</file>
+	<file path="catalog/view/theme/default/template/mail/register.twig">
+		<operation error="log">
+			<search><![CDATA[
+		{{ text_service }}
+			]]></search>
+			<add position="before"><![CDATA[{% if text_xilnex_login %}
+{{ text_xilnex_login }}
+{% endif %}
+			]]></add>
+		</operation>
+	</file>
+	<!-- Modify Email Content for customer created from Xilnex -->
+	<!-- Front End -->
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Birthday -->
+	<file path="catalog/controller/account/register.php">
+		<operation error="log">
+			<search><![CDATA[
+				if (isset($this->request->post['customer_group_id']) && is_array($this->config->get('config_customer_group_display')) && in_array($this->request->post['customer_group_id'], $this->config->get('config_customer_group_display'))) {
+			]]></search>
+			<add position="before"><![CDATA[
+			if (!isset($this->request->post['birthday']) || !$this->request->post['birthday']) {
+				$this->error['birthday'] = $this->language->get('error_birthday');
+			}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+				if (isset($this->error['custom_field'])) {
+			]]></search>
+			<add position="before"><![CDATA[
+		if (isset($this->error['birthday'])) {
+			$data['error_birthday'] = $this->error['error_birthday'];
+		} else {
+			$data['error_birthday'] = array();
+		}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+		// Custom Fields
+			]]></search>
+			<add position="before"><![CDATA[
+		if (isset($this->request->post['birthday'])) {
+			$data['birthday'] = $this->request->post['birthday'];
+		} else {
+			$data['birthday'] = '';
+		}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/extension/quickcheckout/register.php">
+		<operation error="log">
+			<search><![CDATA[
+				$customer_id = $this->model_account_customer->addCustomer($this->request->post);
+			]]></search>
+			<add position="before"><![CDATA[
+			$this->request->post['birthday'] = '0000-00-00';
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/language/en-gb/account/register.php">
+		<operation error="log">
+			<search><![CDATA[
+				$_['entry_confirm']        = 'Password Confirm';
+			]]></search>
+			<add position="before"><![CDATA[
+$_['error_telephone_exist'] = 'The telephone number is already registered!';
+$_['error_birthday'] 		= 'Birthday is required';
+$_['entry_birthday']       	= 'Birthday';
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/view/theme/*/template/account/register.twig">
+		<operation error="log">
+			<search><![CDATA[
+				{% for custom_field in custom_fields %}
+			]]></search>
+				<add position="before"><![CDATA[
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="input-birthday">{{ entry_birthday }}</label>
+					<div class="col-sm-10">
+						<div class="input-group date">
+							<input type="text" name="birthday" value="{{ birthday }}" placeholder="{{ entry_birthday }}" data-date-format="YYYY-MM-DD" id="input-birthday" class="form-control" />
+							<span class="input-group-btn">
+								<button type="button" class="btn btn-default"><i class="fa fa-calendar"></i></button>
+							</span>
+						</div>
+						{% if error_birthday %}
+							<div class="text-danger">{{ error_birthday }}</div>
+						{% endif %}
+					</div>
+				</div>
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/view/theme/*/template/account/edit.twig">
+		<operation error="log">
+			<search><![CDATA[
+				{% for custom_field in custom_fields %}
+			]]></search>
+				<add position="before"><![CDATA[
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="input-birthday">{{ entry_birthday }}</label>
+					<div class="col-sm-10">
+						<div class="input-group date">
+							<input type="text" name="birthday" value="{{ birthday }}" placeholder="{{ entry_birthday }}" data-date-format="YYYY-MM-DD" id="input-birthday" class="form-control" />
+							<span class="input-group-btn">
+								<button type="button" class="btn btn-default"><i class="fa fa-calendar"></i></button>
+							</span>
+						</div>
+						{% if error_birthday %}
+							<div class="text-danger">{{ error_birthday }}</div>
+						{% endif %}
+					</div>
+				</div>
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/account/edit.php">
+		<operation error="log">
+			<search><![CDATA[
+		// Custom field validation
+			]]></search>
+				<add position="before"><![CDATA[
+		if (!isset($this->request->post['birthday']) || !$this->request->post['birthday']) {
+			$this->error['birthday'] = $this->language->get('error_birthday');
+		}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+		if (isset($this->error['custom_field'])) {
+			]]></search>
+				<add position="before"><![CDATA[
+		if (isset($this->error['birthday'])) {
+			$data['error_birthday'] = $this->error['error_birthday'];
+		} else {
+			$data['error_birthday'] = array();
+		}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search><![CDATA[
+		// Custom Fields
+			]]></search>
+				<add position="before"><![CDATA[
+		if (isset($this->request->post['birthday'])) {
+			$data['birthday'] = $this->request->post['birthday'];
+		} elseif (!empty($customer_info)) {
+			$data['birthday'] = $customer_info['birthday'];
+		} else {
+			$data['birthday'] = '';
+		}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/language/en-gb/account/edit.php">
+		<operation error="log">
+			<search><![CDATA[
+		$_['error_custom_field']
+			]]></search>
+				<add position="after"><![CDATA[
+$_['entry_birthday'] = 'Birthday';
+$_['error_birthday'] = 'Birthday is required';
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/model/account/customer.php">
+		<operation error="log">
+			<search>
+				<![CDATA[telephone = '" . $this->db->escape($data['telephone']) . "',]]>
+			</search>
+			<add position="replace">
+				<![CDATA[telephone = '" . $this->db->escape($data['telephone']) . "', birthday = '" . $this->db->escape($data['birthday']) . "',]]>
+			</add>
+		</operation>
+	</file>
+
+	<file path="admin/controller/customer/customer.php">
+		<operation error="log">
+			<search>
+				<![CDATA[$customer_info = $this->model_customer_customer->getCustomerByEmail($this->request->post['email']);]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+		if (!isset($this->request->post['birthday']) || !$this->request->post['birthday']) {
+			$this->error['birthday'] = $this->language->get('error_birthday');
+		}
+				]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search><![CDATA[
+		if (isset($this->error['custom_field'])) {
+			]]></search>
+				<add position="before"><![CDATA[
+		if (isset($this->error['birthday'])) {
+			$data['error_birthday'] = $this->error['error_birthday'];
+		} else {
+			$data['error_birthday'] = array();
+		}
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search><![CDATA[
+		// Custom Fields
+			]]></search>
+				<add position="before"><![CDATA[
+		if (isset($this->request->post['birthday'])) {
+			$data['birthday'] = $this->request->post['birthday'];
+		} elseif (!empty($customer_info)) {
+			$data['birthday'] = $customer_info['birthday'];
+		} else {
+			$data['birthday'] = '';
+		}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/model/customer/customer.php">
+		<operation error="log">
+			<search>
+				<![CDATA[telephone = '" . $this->db->escape($data['telephone']) . "',]]>
+			</search>
+			<add position="replace">
+				<![CDATA[telephone = '" . $this->db->escape($data['telephone']) . "', birthday = '" . $this->db->escape($data['birthday']) . "',]]>
+			</add>
+		</operation>
+	</file>
+
+	<file path="admin/language/en-gb/customer/customer.php">
+		<operation error="log">
+			<search><![CDATA[
+		$_['error_custom_field']
+			]]></search>
+				<add position="after"><![CDATA[
+$_['entry_birthday'] = 'Birthday';
+$_['error_birthday'] = 'Birthday is required';
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/view/template/customer/customer_form.twig">
+		<operation error="log">
+			<search>
+				<![CDATA[<div class="text-danger">{{ error_telephone }}</div>]]>
+			</search>
+			<add position="after" offset="2">
+				<![CDATA[
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="input-birthday">{{ entry_birthday }}</label>
+					<div class="col-sm-10">
+						<div class="input-group date">
+							<input type="text" name="birthday" value="{{ birthday }}" placeholder="{{ entry_birthday }}" data-date-format="YYYY-MM-DD" id="input-birthday" class="form-control" />
+							<span class="input-group-btn">
+								<button type="button" class="btn btn-default"><i class="fa fa-calendar"></i></button>
+							</span>
+						</div>
+						{% if error_birthday %}
+							<div class="text-danger">{{ error_birthday }}</div>
+						{% endif %}
+					</div>
+				</div>
+				]]>
+			</add>
+		</operation>
+
+		<operation error="log">
+			<search>
+				<![CDATA[{{ footer }}]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				<script>
+					$('ul#address>li>a').on('click', function () {
+						$('select[name$=\'[country_id]\']').trigger('change');
+					});
+				</script>
+				]]>
+			</add>
+		</operation>
+	</file>
+	<!-- Birthday  -->
+</modification>

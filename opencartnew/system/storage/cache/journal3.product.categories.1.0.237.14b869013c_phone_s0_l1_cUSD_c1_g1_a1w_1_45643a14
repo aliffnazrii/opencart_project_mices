@@ -1,0 +1,2663 @@
+<?php $val = array (
+  'category_id' => '237',
+  'parent_id' => '229',
+  'title' => 'Big Kitchen Appliances',
+  'items' => 
+  array (
+    367 => 
+    array (
+      'category_id' => '367',
+      'parent_id' => '237',
+      'title' => 'Built-In-Microwave Ovens',
+      'items' => 
+      array (
+        368 => 
+        array (
+          'category_id' => '368',
+          'parent_id' => '367',
+          'title' => 'Built-In-Microwave Ovens',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c368',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_367_368',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c367',
+        'dropdown' => 
+        array (
+          368 => 
+          array (
+            'category_id' => '368',
+            'parent_id' => '367',
+            'title' => 'Built-In-Microwave Ovens',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c368',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_367_368',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_367',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    369 => 
+    array (
+      'category_id' => '369',
+      'parent_id' => '237',
+      'title' => 'Built-In-Ovens',
+      'items' => 
+      array (
+        370 => 
+        array (
+          'category_id' => '370',
+          'parent_id' => '369',
+          'title' => 'Built-In-Ovens',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c370',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_369_370',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c369',
+        'dropdown' => 
+        array (
+          370 => 
+          array (
+            'category_id' => '370',
+            'parent_id' => '369',
+            'title' => 'Built-In-Ovens',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c370',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_369_370',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_369',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    396 => 
+    array (
+      'category_id' => '396',
+      'parent_id' => '237',
+      'title' => 'Chiller',
+      'items' => 
+      array (
+        398 => 
+        array (
+          'category_id' => '398',
+          'parent_id' => '396',
+          'title' => 'Showcase Chiller',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c398',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_396_398',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        397 => 
+        array (
+          'category_id' => '397',
+          'parent_id' => '396',
+          'title' => 'Wine Chiller',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c397',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_396_397',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c396',
+        'dropdown' => 
+        array (
+          398 => 
+          array (
+            'category_id' => '398',
+            'parent_id' => '396',
+            'title' => 'Showcase Chiller',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c398',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_396_398',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          397 => 
+          array (
+            'category_id' => '397',
+            'parent_id' => '396',
+            'title' => 'Wine Chiller',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c397',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_396_397',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_396',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    371 => 
+    array (
+      'category_id' => '371',
+      'parent_id' => '237',
+      'title' => 'Cooker Hobs',
+      'items' => 
+      array (
+        372 => 
+        array (
+          'category_id' => '372',
+          'parent_id' => '371',
+          'title' => 'Built-In-Ceramic Hobs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c372',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_371_372',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        373 => 
+        array (
+          'category_id' => '373',
+          'parent_id' => '371',
+          'title' => 'Built-In-Gas Hobs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c373',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_371_373',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        374 => 
+        array (
+          'category_id' => '374',
+          'parent_id' => '371',
+          'title' => 'Built-In-Induction Hobs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c374',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_371_374',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c371',
+        'dropdown' => 
+        array (
+          372 => 
+          array (
+            'category_id' => '372',
+            'parent_id' => '371',
+            'title' => 'Built-In-Ceramic Hobs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c372',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_371_372',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          373 => 
+          array (
+            'category_id' => '373',
+            'parent_id' => '371',
+            'title' => 'Built-In-Gas Hobs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c373',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_371_373',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          374 => 
+          array (
+            'category_id' => '374',
+            'parent_id' => '371',
+            'title' => 'Built-In-Induction Hobs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c374',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_371_374',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_371',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    375 => 
+    array (
+      'category_id' => '375',
+      'parent_id' => '237',
+      'title' => 'Cooker Hoods',
+      'items' => 
+      array (
+        376 => 
+        array (
+          'category_id' => '376',
+          'parent_id' => '375',
+          'title' => 'Chimney Hoods',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c376',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_376',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        377 => 
+        array (
+          'category_id' => '377',
+          'parent_id' => '375',
+          'title' => 'Conventional/Visor Hoods',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c377',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_377',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        378 => 
+        array (
+          'category_id' => '378',
+          'parent_id' => '375',
+          'title' => 'Designer Hoods',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c378',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_378',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        379 => 
+        array (
+          'category_id' => '379',
+          'parent_id' => '375',
+          'title' => 'Integrated Hoods',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c379',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_379',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        380 => 
+        array (
+          'category_id' => '380',
+          'parent_id' => '375',
+          'title' => 'Island Hoods',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c380',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_380',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c375',
+        'dropdown' => 
+        array (
+          376 => 
+          array (
+            'category_id' => '376',
+            'parent_id' => '375',
+            'title' => 'Chimney Hoods',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c376',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_376',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          377 => 
+          array (
+            'category_id' => '377',
+            'parent_id' => '375',
+            'title' => 'Conventional/Visor Hoods',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c377',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_377',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          378 => 
+          array (
+            'category_id' => '378',
+            'parent_id' => '375',
+            'title' => 'Designer Hoods',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c378',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_378',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          379 => 
+          array (
+            'category_id' => '379',
+            'parent_id' => '375',
+            'title' => 'Integrated Hoods',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c379',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_379',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          380 => 
+          array (
+            'category_id' => '380',
+            'parent_id' => '375',
+            'title' => 'Island Hoods',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c380',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_380',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    381 => 
+    array (
+      'category_id' => '381',
+      'parent_id' => '237',
+      'title' => 'Dishwashers',
+      'items' => 
+      array (
+        383 => 
+        array (
+          'category_id' => '383',
+          'parent_id' => '381',
+          'title' => 'Dishdryers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c383',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_381_383',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        382 => 
+        array (
+          'category_id' => '382',
+          'parent_id' => '381',
+          'title' => 'Dishwashers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c382',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_381_382',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c381',
+        'dropdown' => 
+        array (
+          383 => 
+          array (
+            'category_id' => '383',
+            'parent_id' => '381',
+            'title' => 'Dishdryers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c383',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_381_383',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          382 => 
+          array (
+            'category_id' => '382',
+            'parent_id' => '381',
+            'title' => 'Dishwashers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c382',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_381_382',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_381',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    384 => 
+    array (
+      'category_id' => '384',
+      'parent_id' => '237',
+      'title' => 'Freestanding Cookers',
+      'items' => 
+      array (
+        385 => 
+        array (
+          'category_id' => '385',
+          'parent_id' => '384',
+          'title' => 'Freestanding Cookers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c385',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_384_385',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c384',
+        'dropdown' => 
+        array (
+          385 => 
+          array (
+            'category_id' => '385',
+            'parent_id' => '384',
+            'title' => 'Freestanding Cookers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c385',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_384_385',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_384',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    386 => 
+    array (
+      'category_id' => '386',
+      'parent_id' => '237',
+      'title' => 'Freezers',
+      'items' => 
+      array (
+        388 => 
+        array (
+          'category_id' => '388',
+          'parent_id' => '386',
+          'title' => 'Chest Freezers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c388',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_386_388',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        387 => 
+        array (
+          'category_id' => '387',
+          'parent_id' => '386',
+          'title' => 'Upright Freezers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c387',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_386_387',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c386',
+        'dropdown' => 
+        array (
+          388 => 
+          array (
+            'category_id' => '388',
+            'parent_id' => '386',
+            'title' => 'Chest Freezers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c388',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_386_388',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          387 => 
+          array (
+            'category_id' => '387',
+            'parent_id' => '386',
+            'title' => 'Upright Freezers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c387',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_386_387',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_386',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    389 => 
+    array (
+      'category_id' => '389',
+      'parent_id' => '237',
+      'title' => 'Fridges',
+      'items' => 
+      array (
+        393 => 
+        array (
+          'category_id' => '393',
+          'parent_id' => '389',
+          'title' => '1D Fridges',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c393',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_393',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        394 => 
+        array (
+          'category_id' => '394',
+          'parent_id' => '389',
+          'title' => '2D Bottom Freezer Fridges',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c394',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_394',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        395 => 
+        array (
+          'category_id' => '395',
+          'parent_id' => '389',
+          'title' => '2D Top Freezer Fridges',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c395',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_395',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        390 => 
+        array (
+          'category_id' => '390',
+          'parent_id' => '389',
+          'title' => 'French Door Fridges',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c390',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_390',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        391 => 
+        array (
+          'category_id' => '391',
+          'parent_id' => '389',
+          'title' => 'Multidoor Fridges',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c391',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_391',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        392 => 
+        array (
+          'category_id' => '392',
+          'parent_id' => '389',
+          'title' => 'Side-By-Side Fridges',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c392',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_392',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c389',
+        'dropdown' => 
+        array (
+          393 => 
+          array (
+            'category_id' => '393',
+            'parent_id' => '389',
+            'title' => '1D Fridges',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c393',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_393',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          394 => 
+          array (
+            'category_id' => '394',
+            'parent_id' => '389',
+            'title' => '2D Bottom Freezer Fridges',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c394',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_394',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          395 => 
+          array (
+            'category_id' => '395',
+            'parent_id' => '389',
+            'title' => '2D Top Freezer Fridges',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c395',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_395',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          390 => 
+          array (
+            'category_id' => '390',
+            'parent_id' => '389',
+            'title' => 'French Door Fridges',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c390',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_390',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          391 => 
+          array (
+            'category_id' => '391',
+            'parent_id' => '389',
+            'title' => 'Multidoor Fridges',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c391',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_391',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          392 => 
+          array (
+            'category_id' => '392',
+            'parent_id' => '389',
+            'title' => 'Side-By-Side Fridges',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c392',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_392',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c237',
+    'dropdown' => 
+    array (
+      367 => 
+      array (
+        'category_id' => '367',
+        'parent_id' => '237',
+        'title' => 'Built-In-Microwave Ovens',
+        'items' => 
+        array (
+          368 => 
+          array (
+            'category_id' => '368',
+            'parent_id' => '367',
+            'title' => 'Built-In-Microwave Ovens',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c368',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_367_368',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c367',
+          'dropdown' => 
+          array (
+            368 => 
+            array (
+              'category_id' => '368',
+              'parent_id' => '367',
+              'title' => 'Built-In-Microwave Ovens',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c368',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_367_368',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_367',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      369 => 
+      array (
+        'category_id' => '369',
+        'parent_id' => '237',
+        'title' => 'Built-In-Ovens',
+        'items' => 
+        array (
+          370 => 
+          array (
+            'category_id' => '370',
+            'parent_id' => '369',
+            'title' => 'Built-In-Ovens',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c370',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_369_370',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c369',
+          'dropdown' => 
+          array (
+            370 => 
+            array (
+              'category_id' => '370',
+              'parent_id' => '369',
+              'title' => 'Built-In-Ovens',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c370',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_369_370',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_369',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      396 => 
+      array (
+        'category_id' => '396',
+        'parent_id' => '237',
+        'title' => 'Chiller',
+        'items' => 
+        array (
+          398 => 
+          array (
+            'category_id' => '398',
+            'parent_id' => '396',
+            'title' => 'Showcase Chiller',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c398',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_396_398',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          397 => 
+          array (
+            'category_id' => '397',
+            'parent_id' => '396',
+            'title' => 'Wine Chiller',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c397',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_396_397',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c396',
+          'dropdown' => 
+          array (
+            398 => 
+            array (
+              'category_id' => '398',
+              'parent_id' => '396',
+              'title' => 'Showcase Chiller',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c398',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_396_398',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            397 => 
+            array (
+              'category_id' => '397',
+              'parent_id' => '396',
+              'title' => 'Wine Chiller',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c397',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_396_397',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_396',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      371 => 
+      array (
+        'category_id' => '371',
+        'parent_id' => '237',
+        'title' => 'Cooker Hobs',
+        'items' => 
+        array (
+          372 => 
+          array (
+            'category_id' => '372',
+            'parent_id' => '371',
+            'title' => 'Built-In-Ceramic Hobs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c372',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_371_372',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          373 => 
+          array (
+            'category_id' => '373',
+            'parent_id' => '371',
+            'title' => 'Built-In-Gas Hobs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c373',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_371_373',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          374 => 
+          array (
+            'category_id' => '374',
+            'parent_id' => '371',
+            'title' => 'Built-In-Induction Hobs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c374',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_371_374',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c371',
+          'dropdown' => 
+          array (
+            372 => 
+            array (
+              'category_id' => '372',
+              'parent_id' => '371',
+              'title' => 'Built-In-Ceramic Hobs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c372',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_371_372',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            373 => 
+            array (
+              'category_id' => '373',
+              'parent_id' => '371',
+              'title' => 'Built-In-Gas Hobs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c373',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_371_373',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            374 => 
+            array (
+              'category_id' => '374',
+              'parent_id' => '371',
+              'title' => 'Built-In-Induction Hobs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c374',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_371_374',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_371',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      375 => 
+      array (
+        'category_id' => '375',
+        'parent_id' => '237',
+        'title' => 'Cooker Hoods',
+        'items' => 
+        array (
+          376 => 
+          array (
+            'category_id' => '376',
+            'parent_id' => '375',
+            'title' => 'Chimney Hoods',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c376',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_376',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          377 => 
+          array (
+            'category_id' => '377',
+            'parent_id' => '375',
+            'title' => 'Conventional/Visor Hoods',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c377',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_377',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          378 => 
+          array (
+            'category_id' => '378',
+            'parent_id' => '375',
+            'title' => 'Designer Hoods',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c378',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_378',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          379 => 
+          array (
+            'category_id' => '379',
+            'parent_id' => '375',
+            'title' => 'Integrated Hoods',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c379',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_379',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          380 => 
+          array (
+            'category_id' => '380',
+            'parent_id' => '375',
+            'title' => 'Island Hoods',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c380',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_380',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c375',
+          'dropdown' => 
+          array (
+            376 => 
+            array (
+              'category_id' => '376',
+              'parent_id' => '375',
+              'title' => 'Chimney Hoods',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c376',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_376',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            377 => 
+            array (
+              'category_id' => '377',
+              'parent_id' => '375',
+              'title' => 'Conventional/Visor Hoods',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c377',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_377',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            378 => 
+            array (
+              'category_id' => '378',
+              'parent_id' => '375',
+              'title' => 'Designer Hoods',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c378',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_378',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            379 => 
+            array (
+              'category_id' => '379',
+              'parent_id' => '375',
+              'title' => 'Integrated Hoods',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c379',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_379',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            380 => 
+            array (
+              'category_id' => '380',
+              'parent_id' => '375',
+              'title' => 'Island Hoods',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c380',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375_380',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_375',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      381 => 
+      array (
+        'category_id' => '381',
+        'parent_id' => '237',
+        'title' => 'Dishwashers',
+        'items' => 
+        array (
+          383 => 
+          array (
+            'category_id' => '383',
+            'parent_id' => '381',
+            'title' => 'Dishdryers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c383',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_381_383',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          382 => 
+          array (
+            'category_id' => '382',
+            'parent_id' => '381',
+            'title' => 'Dishwashers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c382',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_381_382',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c381',
+          'dropdown' => 
+          array (
+            383 => 
+            array (
+              'category_id' => '383',
+              'parent_id' => '381',
+              'title' => 'Dishdryers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c383',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_381_383',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            382 => 
+            array (
+              'category_id' => '382',
+              'parent_id' => '381',
+              'title' => 'Dishwashers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c382',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_381_382',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_381',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      384 => 
+      array (
+        'category_id' => '384',
+        'parent_id' => '237',
+        'title' => 'Freestanding Cookers',
+        'items' => 
+        array (
+          385 => 
+          array (
+            'category_id' => '385',
+            'parent_id' => '384',
+            'title' => 'Freestanding Cookers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c385',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_384_385',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c384',
+          'dropdown' => 
+          array (
+            385 => 
+            array (
+              'category_id' => '385',
+              'parent_id' => '384',
+              'title' => 'Freestanding Cookers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c385',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_384_385',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_384',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      386 => 
+      array (
+        'category_id' => '386',
+        'parent_id' => '237',
+        'title' => 'Freezers',
+        'items' => 
+        array (
+          388 => 
+          array (
+            'category_id' => '388',
+            'parent_id' => '386',
+            'title' => 'Chest Freezers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c388',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_386_388',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          387 => 
+          array (
+            'category_id' => '387',
+            'parent_id' => '386',
+            'title' => 'Upright Freezers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c387',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_386_387',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c386',
+          'dropdown' => 
+          array (
+            388 => 
+            array (
+              'category_id' => '388',
+              'parent_id' => '386',
+              'title' => 'Chest Freezers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c388',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_386_388',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            387 => 
+            array (
+              'category_id' => '387',
+              'parent_id' => '386',
+              'title' => 'Upright Freezers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c387',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_386_387',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_386',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      389 => 
+      array (
+        'category_id' => '389',
+        'parent_id' => '237',
+        'title' => 'Fridges',
+        'items' => 
+        array (
+          393 => 
+          array (
+            'category_id' => '393',
+            'parent_id' => '389',
+            'title' => '1D Fridges',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c393',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_393',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          394 => 
+          array (
+            'category_id' => '394',
+            'parent_id' => '389',
+            'title' => '2D Bottom Freezer Fridges',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c394',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_394',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          395 => 
+          array (
+            'category_id' => '395',
+            'parent_id' => '389',
+            'title' => '2D Top Freezer Fridges',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c395',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_395',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          390 => 
+          array (
+            'category_id' => '390',
+            'parent_id' => '389',
+            'title' => 'French Door Fridges',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c390',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_390',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          391 => 
+          array (
+            'category_id' => '391',
+            'parent_id' => '389',
+            'title' => 'Multidoor Fridges',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c391',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_391',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          392 => 
+          array (
+            'category_id' => '392',
+            'parent_id' => '389',
+            'title' => 'Side-By-Side Fridges',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c392',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_392',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c389',
+          'dropdown' => 
+          array (
+            393 => 
+            array (
+              'category_id' => '393',
+              'parent_id' => '389',
+              'title' => '1D Fridges',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c393',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_393',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            394 => 
+            array (
+              'category_id' => '394',
+              'parent_id' => '389',
+              'title' => '2D Bottom Freezer Fridges',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c394',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_394',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            395 => 
+            array (
+              'category_id' => '395',
+              'parent_id' => '389',
+              'title' => '2D Top Freezer Fridges',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c395',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_395',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            390 => 
+            array (
+              'category_id' => '390',
+              'parent_id' => '389',
+              'title' => 'French Door Fridges',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c390',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_390',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            391 => 
+            array (
+              'category_id' => '391',
+              'parent_id' => '389',
+              'title' => 'Multidoor Fridges',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c391',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_391',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            392 => 
+            array (
+              'category_id' => '392',
+              'parent_id' => '389',
+              'title' => 'Side-By-Side Fridges',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c392',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389_392',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237_389',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_237',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

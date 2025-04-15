@@ -1,0 +1,279 @@
+<?php $val = array (
+  'css' => '.module-grid-306 .grid-row-3{padding-top:0px}.module-grid-306 .grid-row-3::before{display:block;left:0;width:100vw}.module-grid-306 .grid-row-3 .grid-col-1{width:50%}.module-grid-306 .grid-row-3 .grid-col-1 .grid-item{height:auto}.module-grid-306 .grid-row-3 .grid-col-1 .grid-items{justify-content:flex-start}@media (max-width: 470px){.module-grid-306 .grid-row-3 .grid-col-1{width:100%;margin-bottom:15px}}.module-grid-306 .grid-row-3 .grid-col-2{width:50%;padding-bottom:0px}.module-grid-306 .grid-row-3 .grid-col-2 .grid-item{height:auto}.module-grid-306 .grid-row-3 .grid-col-2 .grid-items{justify-content:flex-start}@media (max-width: 1024px){.module-grid-306 .grid-row-3 .grid-col-2{width:100%;padding-right:0px}}.module-grid-306 .grid-row-4::before{display:block;left:0;width:100vw}.module-grid-306 .grid-row-4 .grid-col-1{width:50%}.module-grid-306 .grid-row-4 .grid-col-1 .grid-item{height:auto}.module-grid-306 .grid-row-4 .grid-col-1 .grid-items{justify-content:flex-start}@media (max-width: 470px){.module-grid-306 .grid-row-4 .grid-col-1{width:100%}}.module-grid-306 .grid-row-4 .grid-col-2{width:50%}.module-grid-306 .grid-row-4 .grid-col-2 .grid-item{height:auto}.module-grid-306 .grid-row-4 .grid-col-2 .grid-items{justify-content:flex-start}@media (max-width: 470px){.module-grid-306 .grid-row-4 .grid-col-2{width:100%}}.module-grid-306 .grid-row-5::before{display:block;left:0;width:100vw}.module-grid-306 .grid-row-5 .grid-col-1{width:50%}.module-grid-306 .grid-row-5 .grid-col-1 .grid-item{height:auto}.module-grid-306 .grid-row-5 .grid-col-1 .grid-items{justify-content:flex-start}@media (max-width: 470px){.module-grid-306 .grid-row-5 .grid-col-1{width:100%}}.module-grid-306 .grid-row-5 .grid-col-2{width:50%}.module-grid-306 .grid-row-5 .grid-col-2 .grid-item{height:auto}.module-grid-306 .grid-row-5 .grid-col-2 .grid-items{justify-content:flex-start}@media (max-width: 470px){.module-grid-306 .grid-row-5 .grid-col-2{width:100%}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'name' => 'New Column',
+    'grid_classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-grid',
+      2 => 'module-grid-306',
+      3 => 'grid-rows',
+    ),
+    'rows' => 
+    array (
+      3 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-3',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-1',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '312',
+                  'name' => 'Payment Method Title',
+                  'type' => 'title',
+                ),
+              ),
+              2 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-2',
+                ),
+                'item' => 
+                array (
+                  'id' => '311',
+                  'name' => 'Payment Methods',
+                  'type' => 'info_blocks',
+                ),
+              ),
+            ),
+          ),
+          2 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-2',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '389',
+                  'name' => 'Delivery Method Title',
+                  'type' => 'title',
+                ),
+              ),
+              2 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-2',
+                ),
+                'item' => 
+                array (
+                  'id' => '388',
+                  'name' => 'Delivery Method',
+                  'type' => 'info_blocks',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      4 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-4',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-1',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '386',
+                  'name' => 'Available Installment Title',
+                  'type' => 'title',
+                ),
+              ),
+              2 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-2',
+                ),
+                'item' => 
+                array (
+                  'id' => '384',
+                  'name' => 'Available Installment',
+                  'type' => 'info_blocks',
+                ),
+              ),
+            ),
+          ),
+          2 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-2',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '307',
+                  'name' => 'Domaio App Download',
+                  'type' => 'title',
+                ),
+              ),
+              2 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-2',
+                ),
+                'item' => 
+                array (
+                  'id' => '308',
+                  'name' => 'Domaio Download',
+                  'type' => 'grid',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      5 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-5',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-1',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '387',
+                  'name' => 'Buy Now Pay Later Title',
+                  'type' => 'title',
+                ),
+              ),
+              2 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-2',
+                ),
+                'item' => 
+                array (
+                  'id' => '385',
+                  'name' => 'Buy Now Pay Later',
+                  'type' => 'info_blocks',
+                ),
+              ),
+            ),
+          ),
+          2 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-2',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '61',
+                  'name' => 'Social Icons',
+                  'type' => 'icons_menu',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

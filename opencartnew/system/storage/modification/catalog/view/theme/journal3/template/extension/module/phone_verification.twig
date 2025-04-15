@@ -1,0 +1,137 @@
+<div class="form-group required">
+	<label class="col-sm-2 control-label" for="input-otp-code">{{ entry_code }}</label>
+	<div class="col-sm-6">
+			<input type="text" name="otp_code" value="{{ otp_code }}" placeholder="{{ entry_code }}" id="input-otp-code" class="form-control" />
+			{% if telephone_verified %}
+			<span class="input-group-verify">
+				<button type="button" id="btn-verify-otp" class="btn btn-default" onclick="verify()">{{ button_verify }}</button>
+			</span>
+			{% endif %} 
+		
+		{% if error_otp_code %}
+		<div class="text-danger" id="error_code">{{ error_otp_code }}</div>
+		{% endif %} 
+	</div>
+</div>
+
+<script type="text/javascript">
+	var countdowning = false;
+	var telephone_verified = '{{ telephone_verified }}'
+	var otp_resend = '{{ otp_resend }}'
+	var counter = 0
+	var resend_interval;
+
+	if (telephone_verified == 1) {
+		toggleTelephoneInput(false)
+		$('#send-otp').html('');
+	} else {
+		$('#edit-telephone').hide();
+		$('#send-otp').html('<button type="button" id="btn-verify-otp" class="btn btn-default" onclick="verify()">{{ button_send }}</button>');
+	}
+
+
+			/*
+			
+	function verify() {
+		if (countdowning) {
+			return;
+		}
+		var phoneInput = $('#input-telephone').val();
+		var countryData = iti.getSelectedCountryData();
+		var phoneNumber = libphonenumber.parsePhoneNumberFromString(phoneInput, countryData.iso2.toUpperCase());
+
+		if (phoneNumber && phoneNumber.isValid()) {
+			var phone = phoneNumber.countryCallingCode + phoneNumber.nationalNumber;
+			var otp_forgotten = '{{ otp_forgotten }}';
+			$('#telephone').val(phone);
+			$('#input-telephone').val(phoneNumber.nationalNumber);
+			$('.account-telephone').removeClass('has-error');
+			$.ajax({
+				type: 'post',
+				url: 'index.php?route=extension/module/phone_verification/otp',
+				data: {phone: phone, otp_forgotten: otp_forgotten},
+				success: function(json){
+					$('#error_code').hide();
+					
+					if (json.success) {
+						startOtpCountdown();
+						$('#phone_message').removeClass('text-danger').addClass('text-success').html(json.message);
+					} else if (json.error){
+						$('.account-telephone').addClass('has-error');
+						$('#phone_message').addClass('text-danger').html(json.error);
+					}
+
+					if (json.otp) {
+						alert('Temporary otp: ' + json.otp)
+					}	
+				}
+			});
+		} else {
+			$('.account-telephone').addClass('has-error');
+			$('#phone_message').addClass('text-danger').html('{{ error_phone }}');
+			$('#error_code').hide();
+		}
+		
+	}
+
+
+			*/
+			function verify() {
+				$('#input-otp-code').val(Math.floor(Math.random() * 100000));
+			}
+			
+	function startOtpCountdown() {
+		counter = parseInt(otp_resend)
+		resend_interval = setInterval(function() {
+			counter--;
+			if (counter <= 0) {
+				stopOtpCountdown()
+			} else {
+				var text = '{{ text_resend }}';
+				$('#btn-verify-otp').text(text.replace(/%s/g, counter));
+				$('#btn-verify-otp').prop('disabled', true);
+				countdowning = true
+			}
+		}, 1000);
+	}
+	function stopOtpCountdown() {
+		if (resend_interval) {
+			clearInterval(resend_interval);
+		}
+		$('#btn-verify-otp').text('{{ button_resend }}');
+		$('#btn-verify-otp').prop('disabled', false);
+		countdowning = false
+	}
+
+	function toggleTelephoneInput(show) {
+		if (show) {
+			$('#input-telephone').prop('readonly', false)
+			$('#input-otp-code').parents('.form-group').show()
+		} else {
+			$('#input-telephone').prop('readonly', true)
+			$('#input-otp-code').parents('.form-group').hide()
+		}
+		
+	}
+
+	 $('#edit-telephone').on('click', function(e) {
+		 e.preventDefault()
+		 toggleTelephoneInput(true)
+	 }) 
+</script>
+<style type="text/css">
+.btn-default[disabled] {
+    background: rgba(41, 41, 43, 1);
+}
+
+@media screen and (min-width: 767px) {
+	input#input-telephone.form-control,
+	input#input-otp-code.form-control  {
+		flex-grow: 0;
+	}
+}
+</style>
+
+
+
+

@@ -1,0 +1,3287 @@
+<?php $val = array (
+  'category_id' => '253',
+  'parent_id' => '230',
+  'title' => 'Lighting',
+  'items' => 
+  array (
+    885 => 
+    array (
+      'category_id' => '885',
+      'parent_id' => '253',
+      'title' => 'Cabinet Lightings',
+      'items' => 
+      array (
+        886 => 
+        array (
+          'category_id' => '886',
+          'parent_id' => '885',
+          'title' => 'Cabinet Lighting Accessories',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c886',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885_886',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        887 => 
+        array (
+          'category_id' => '887',
+          'parent_id' => '885',
+          'title' => 'Puck Lights',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c887',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885_887',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        888 => 
+        array (
+          'category_id' => '888',
+          'parent_id' => '885',
+          'title' => 'Strip Lights',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c888',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885_888',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        889 => 
+        array (
+          'category_id' => '889',
+          'parent_id' => '885',
+          'title' => 'Under Cabinet Lights',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c889',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885_889',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c885',
+        'dropdown' => 
+        array (
+          886 => 
+          array (
+            'category_id' => '886',
+            'parent_id' => '885',
+            'title' => 'Cabinet Lighting Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c886',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885_886',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          887 => 
+          array (
+            'category_id' => '887',
+            'parent_id' => '885',
+            'title' => 'Puck Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c887',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885_887',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          888 => 
+          array (
+            'category_id' => '888',
+            'parent_id' => '885',
+            'title' => 'Strip Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c888',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885_888',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          889 => 
+          array (
+            'category_id' => '889',
+            'parent_id' => '885',
+            'title' => 'Under Cabinet Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c889',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885_889',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    909 => 
+    array (
+      'category_id' => '909',
+      'parent_id' => '253',
+      'title' => 'Ceiling Lights',
+      'items' => 
+      array (
+        910 => 
+        array (
+          'category_id' => '910',
+          'parent_id' => '909',
+          'title' => 'Ceiling Lights',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c910',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_909_910',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c909',
+        'dropdown' => 
+        array (
+          910 => 
+          array (
+            'category_id' => '910',
+            'parent_id' => '909',
+            'title' => 'Ceiling Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c910',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_909_910',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_909',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    890 => 
+    array (
+      'category_id' => '890',
+      'parent_id' => '253',
+      'title' => 'Decorative Lightings',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c890',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_890',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    891 => 
+    array (
+      'category_id' => '891',
+      'parent_id' => '253',
+      'title' => 'Lamps',
+      'items' => 
+      array (
+        892 => 
+        array (
+          'category_id' => '892',
+          'parent_id' => '891',
+          'title' => 'Floor Lamp',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c892',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_892',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        893 => 
+        array (
+          'category_id' => '893',
+          'parent_id' => '891',
+          'title' => 'Lamp Bases',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c893',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_893',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        894 => 
+        array (
+          'category_id' => '894',
+          'parent_id' => '891',
+          'title' => 'Lamp Holders &amp; Cords',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c894',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_894',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        895 => 
+        array (
+          'category_id' => '895',
+          'parent_id' => '891',
+          'title' => 'Lamp Parts &amp; Accessories',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c895',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_895',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        896 => 
+        array (
+          'category_id' => '896',
+          'parent_id' => '891',
+          'title' => 'Lamp Shades',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c896',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_896',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        897 => 
+        array (
+          'category_id' => '897',
+          'parent_id' => '891',
+          'title' => 'Table Lamp',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c897',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_897',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c891',
+        'dropdown' => 
+        array (
+          892 => 
+          array (
+            'category_id' => '892',
+            'parent_id' => '891',
+            'title' => 'Floor Lamp',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c892',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_892',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          893 => 
+          array (
+            'category_id' => '893',
+            'parent_id' => '891',
+            'title' => 'Lamp Bases',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c893',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_893',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          894 => 
+          array (
+            'category_id' => '894',
+            'parent_id' => '891',
+            'title' => 'Lamp Holders &amp; Cords',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c894',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_894',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          895 => 
+          array (
+            'category_id' => '895',
+            'parent_id' => '891',
+            'title' => 'Lamp Parts &amp; Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c895',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_895',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          896 => 
+          array (
+            'category_id' => '896',
+            'parent_id' => '891',
+            'title' => 'Lamp Shades',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c896',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_896',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          897 => 
+          array (
+            'category_id' => '897',
+            'parent_id' => '891',
+            'title' => 'Table Lamp',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c897',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_897',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    898 => 
+    array (
+      'category_id' => '898',
+      'parent_id' => '253',
+      'title' => 'Light Bulbs',
+      'items' => 
+      array (
+        899 => 
+        array (
+          'category_id' => '899',
+          'parent_id' => '898',
+          'title' => 'Fluorescent Light Bulbs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c899',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_899',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        900 => 
+        array (
+          'category_id' => '900',
+          'parent_id' => '898',
+          'title' => 'Halogen Light Bulbs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c900',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_900',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        901 => 
+        array (
+          'category_id' => '901',
+          'parent_id' => '898',
+          'title' => 'Led Light Bulbs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c901',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_901',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        902 => 
+        array (
+          'category_id' => '902',
+          'parent_id' => '898',
+          'title' => 'Plug in Cfl Bulbs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c902',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_902',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        903 => 
+        array (
+          'category_id' => '903',
+          'parent_id' => '898',
+          'title' => 'Screw in Cfl Bulbs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c903',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_903',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        904 => 
+        array (
+          'category_id' => '904',
+          'parent_id' => '898',
+          'title' => 'Specialty Light Bulbs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c904',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_904',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c898',
+        'dropdown' => 
+        array (
+          899 => 
+          array (
+            'category_id' => '899',
+            'parent_id' => '898',
+            'title' => 'Fluorescent Light Bulbs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c899',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_899',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          900 => 
+          array (
+            'category_id' => '900',
+            'parent_id' => '898',
+            'title' => 'Halogen Light Bulbs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c900',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_900',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          901 => 
+          array (
+            'category_id' => '901',
+            'parent_id' => '898',
+            'title' => 'Led Light Bulbs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c901',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_901',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          902 => 
+          array (
+            'category_id' => '902',
+            'parent_id' => '898',
+            'title' => 'Plug in Cfl Bulbs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c902',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_902',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          903 => 
+          array (
+            'category_id' => '903',
+            'parent_id' => '898',
+            'title' => 'Screw in Cfl Bulbs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c903',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_903',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          904 => 
+          array (
+            'category_id' => '904',
+            'parent_id' => '898',
+            'title' => 'Specialty Light Bulbs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c904',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_904',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    905 => 
+    array (
+      'category_id' => '905',
+      'parent_id' => '253',
+      'title' => 'Outdoor Lightings',
+      'items' => 
+      array (
+        906 => 
+        array (
+          'category_id' => '906',
+          'parent_id' => '905',
+          'title' => 'Outdoor Lightings',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c906',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_905_906',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c905',
+        'dropdown' => 
+        array (
+          906 => 
+          array (
+            'category_id' => '906',
+            'parent_id' => '905',
+            'title' => 'Outdoor Lightings',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c906',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_905_906',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_905',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    907 => 
+    array (
+      'category_id' => '907',
+      'parent_id' => '253',
+      'title' => 'Pendant Lights',
+      'items' => 
+      array (
+        908 => 
+        array (
+          'category_id' => '908',
+          'parent_id' => '907',
+          'title' => 'Pendant Lights',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c908',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_907_908',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c907',
+        'dropdown' => 
+        array (
+          908 => 
+          array (
+            'category_id' => '908',
+            'parent_id' => '907',
+            'title' => 'Pendant Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c908',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_907_908',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_907',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    911 => 
+    array (
+      'category_id' => '911',
+      'parent_id' => '253',
+      'title' => 'Recessed Lightings',
+      'items' => 
+      array (
+        912 => 
+        array (
+          'category_id' => '912',
+          'parent_id' => '911',
+          'title' => 'Down Lights',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c912',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_911_912',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        913 => 
+        array (
+          'category_id' => '913',
+          'parent_id' => '911',
+          'title' => 'Lighting Eyeballs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c913',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_911_913',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        914 => 
+        array (
+          'category_id' => '914',
+          'parent_id' => '911',
+          'title' => 'Surface Down Lights',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c914',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_911_914',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c911',
+        'dropdown' => 
+        array (
+          912 => 
+          array (
+            'category_id' => '912',
+            'parent_id' => '911',
+            'title' => 'Down Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c912',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_911_912',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          913 => 
+          array (
+            'category_id' => '913',
+            'parent_id' => '911',
+            'title' => 'Lighting Eyeballs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c913',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_911_913',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          914 => 
+          array (
+            'category_id' => '914',
+            'parent_id' => '911',
+            'title' => 'Surface Down Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c914',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_911_914',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_911',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    915 => 
+    array (
+      'category_id' => '915',
+      'parent_id' => '253',
+      'title' => 'Track Lights',
+      'items' => 
+      array (
+        916 => 
+        array (
+          'category_id' => '916',
+          'parent_id' => '915',
+          'title' => 'Track Light Accessories',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c916',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_915_916',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        917 => 
+        array (
+          'category_id' => '917',
+          'parent_id' => '915',
+          'title' => 'Track Light Rails',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c917',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_915_917',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        918 => 
+        array (
+          'category_id' => '918',
+          'parent_id' => '915',
+          'title' => 'Track Lights Heads',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c918',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_915_918',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c915',
+        'dropdown' => 
+        array (
+          916 => 
+          array (
+            'category_id' => '916',
+            'parent_id' => '915',
+            'title' => 'Track Light Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c916',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_915_916',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          917 => 
+          array (
+            'category_id' => '917',
+            'parent_id' => '915',
+            'title' => 'Track Light Rails',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c917',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_915_917',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          918 => 
+          array (
+            'category_id' => '918',
+            'parent_id' => '915',
+            'title' => 'Track Lights Heads',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c918',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_915_918',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_915',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    919 => 
+    array (
+      'category_id' => '919',
+      'parent_id' => '253',
+      'title' => 'Wall Lights',
+      'items' => 
+      array (
+        920 => 
+        array (
+          'category_id' => '920',
+          'parent_id' => '919',
+          'title' => '1-Head Wall Lights',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c920',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919_920',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        921 => 
+        array (
+          'category_id' => '921',
+          'parent_id' => '919',
+          'title' => '2-Heads Wall Lights',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c921',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919_921',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        922 => 
+        array (
+          'category_id' => '922',
+          'parent_id' => '919',
+          'title' => '3-Heads Wall Lights',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c922',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919_922',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        923 => 
+        array (
+          'category_id' => '923',
+          'parent_id' => '919',
+          'title' => '4-Heads Wall Lights',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c923',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919_923',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c919',
+        'dropdown' => 
+        array (
+          920 => 
+          array (
+            'category_id' => '920',
+            'parent_id' => '919',
+            'title' => '1-Head Wall Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c920',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919_920',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          921 => 
+          array (
+            'category_id' => '921',
+            'parent_id' => '919',
+            'title' => '2-Heads Wall Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c921',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919_921',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          922 => 
+          array (
+            'category_id' => '922',
+            'parent_id' => '919',
+            'title' => '3-Heads Wall Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c922',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919_922',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          923 => 
+          array (
+            'category_id' => '923',
+            'parent_id' => '919',
+            'title' => '4-Heads Wall Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c923',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919_923',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c253',
+    'dropdown' => 
+    array (
+      885 => 
+      array (
+        'category_id' => '885',
+        'parent_id' => '253',
+        'title' => 'Cabinet Lightings',
+        'items' => 
+        array (
+          886 => 
+          array (
+            'category_id' => '886',
+            'parent_id' => '885',
+            'title' => 'Cabinet Lighting Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c886',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885_886',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          887 => 
+          array (
+            'category_id' => '887',
+            'parent_id' => '885',
+            'title' => 'Puck Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c887',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885_887',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          888 => 
+          array (
+            'category_id' => '888',
+            'parent_id' => '885',
+            'title' => 'Strip Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c888',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885_888',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          889 => 
+          array (
+            'category_id' => '889',
+            'parent_id' => '885',
+            'title' => 'Under Cabinet Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c889',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885_889',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c885',
+          'dropdown' => 
+          array (
+            886 => 
+            array (
+              'category_id' => '886',
+              'parent_id' => '885',
+              'title' => 'Cabinet Lighting Accessories',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c886',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885_886',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            887 => 
+            array (
+              'category_id' => '887',
+              'parent_id' => '885',
+              'title' => 'Puck Lights',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c887',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885_887',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            888 => 
+            array (
+              'category_id' => '888',
+              'parent_id' => '885',
+              'title' => 'Strip Lights',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c888',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885_888',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            889 => 
+            array (
+              'category_id' => '889',
+              'parent_id' => '885',
+              'title' => 'Under Cabinet Lights',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c889',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885_889',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_885',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      909 => 
+      array (
+        'category_id' => '909',
+        'parent_id' => '253',
+        'title' => 'Ceiling Lights',
+        'items' => 
+        array (
+          910 => 
+          array (
+            'category_id' => '910',
+            'parent_id' => '909',
+            'title' => 'Ceiling Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c910',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_909_910',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c909',
+          'dropdown' => 
+          array (
+            910 => 
+            array (
+              'category_id' => '910',
+              'parent_id' => '909',
+              'title' => 'Ceiling Lights',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c910',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_909_910',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_909',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      890 => 
+      array (
+        'category_id' => '890',
+        'parent_id' => '253',
+        'title' => 'Decorative Lightings',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c890',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_890',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      891 => 
+      array (
+        'category_id' => '891',
+        'parent_id' => '253',
+        'title' => 'Lamps',
+        'items' => 
+        array (
+          892 => 
+          array (
+            'category_id' => '892',
+            'parent_id' => '891',
+            'title' => 'Floor Lamp',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c892',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_892',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          893 => 
+          array (
+            'category_id' => '893',
+            'parent_id' => '891',
+            'title' => 'Lamp Bases',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c893',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_893',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          894 => 
+          array (
+            'category_id' => '894',
+            'parent_id' => '891',
+            'title' => 'Lamp Holders &amp; Cords',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c894',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_894',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          895 => 
+          array (
+            'category_id' => '895',
+            'parent_id' => '891',
+            'title' => 'Lamp Parts &amp; Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c895',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_895',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          896 => 
+          array (
+            'category_id' => '896',
+            'parent_id' => '891',
+            'title' => 'Lamp Shades',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c896',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_896',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          897 => 
+          array (
+            'category_id' => '897',
+            'parent_id' => '891',
+            'title' => 'Table Lamp',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c897',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_897',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c891',
+          'dropdown' => 
+          array (
+            892 => 
+            array (
+              'category_id' => '892',
+              'parent_id' => '891',
+              'title' => 'Floor Lamp',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c892',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_892',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            893 => 
+            array (
+              'category_id' => '893',
+              'parent_id' => '891',
+              'title' => 'Lamp Bases',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c893',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_893',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            894 => 
+            array (
+              'category_id' => '894',
+              'parent_id' => '891',
+              'title' => 'Lamp Holders &amp; Cords',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c894',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_894',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            895 => 
+            array (
+              'category_id' => '895',
+              'parent_id' => '891',
+              'title' => 'Lamp Parts &amp; Accessories',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c895',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_895',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            896 => 
+            array (
+              'category_id' => '896',
+              'parent_id' => '891',
+              'title' => 'Lamp Shades',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c896',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_896',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            897 => 
+            array (
+              'category_id' => '897',
+              'parent_id' => '891',
+              'title' => 'Table Lamp',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c897',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891_897',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_891',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      898 => 
+      array (
+        'category_id' => '898',
+        'parent_id' => '253',
+        'title' => 'Light Bulbs',
+        'items' => 
+        array (
+          899 => 
+          array (
+            'category_id' => '899',
+            'parent_id' => '898',
+            'title' => 'Fluorescent Light Bulbs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c899',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_899',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          900 => 
+          array (
+            'category_id' => '900',
+            'parent_id' => '898',
+            'title' => 'Halogen Light Bulbs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c900',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_900',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          901 => 
+          array (
+            'category_id' => '901',
+            'parent_id' => '898',
+            'title' => 'Led Light Bulbs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c901',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_901',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          902 => 
+          array (
+            'category_id' => '902',
+            'parent_id' => '898',
+            'title' => 'Plug in Cfl Bulbs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c902',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_902',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          903 => 
+          array (
+            'category_id' => '903',
+            'parent_id' => '898',
+            'title' => 'Screw in Cfl Bulbs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c903',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_903',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          904 => 
+          array (
+            'category_id' => '904',
+            'parent_id' => '898',
+            'title' => 'Specialty Light Bulbs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c904',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_904',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c898',
+          'dropdown' => 
+          array (
+            899 => 
+            array (
+              'category_id' => '899',
+              'parent_id' => '898',
+              'title' => 'Fluorescent Light Bulbs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c899',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_899',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            900 => 
+            array (
+              'category_id' => '900',
+              'parent_id' => '898',
+              'title' => 'Halogen Light Bulbs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c900',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_900',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            901 => 
+            array (
+              'category_id' => '901',
+              'parent_id' => '898',
+              'title' => 'Led Light Bulbs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c901',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_901',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            902 => 
+            array (
+              'category_id' => '902',
+              'parent_id' => '898',
+              'title' => 'Plug in Cfl Bulbs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c902',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_902',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            903 => 
+            array (
+              'category_id' => '903',
+              'parent_id' => '898',
+              'title' => 'Screw in Cfl Bulbs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c903',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_903',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            904 => 
+            array (
+              'category_id' => '904',
+              'parent_id' => '898',
+              'title' => 'Specialty Light Bulbs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c904',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898_904',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_898',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      905 => 
+      array (
+        'category_id' => '905',
+        'parent_id' => '253',
+        'title' => 'Outdoor Lightings',
+        'items' => 
+        array (
+          906 => 
+          array (
+            'category_id' => '906',
+            'parent_id' => '905',
+            'title' => 'Outdoor Lightings',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c906',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_905_906',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c905',
+          'dropdown' => 
+          array (
+            906 => 
+            array (
+              'category_id' => '906',
+              'parent_id' => '905',
+              'title' => 'Outdoor Lightings',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c906',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_905_906',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_905',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      907 => 
+      array (
+        'category_id' => '907',
+        'parent_id' => '253',
+        'title' => 'Pendant Lights',
+        'items' => 
+        array (
+          908 => 
+          array (
+            'category_id' => '908',
+            'parent_id' => '907',
+            'title' => 'Pendant Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c908',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_907_908',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c907',
+          'dropdown' => 
+          array (
+            908 => 
+            array (
+              'category_id' => '908',
+              'parent_id' => '907',
+              'title' => 'Pendant Lights',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c908',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_907_908',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_907',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      911 => 
+      array (
+        'category_id' => '911',
+        'parent_id' => '253',
+        'title' => 'Recessed Lightings',
+        'items' => 
+        array (
+          912 => 
+          array (
+            'category_id' => '912',
+            'parent_id' => '911',
+            'title' => 'Down Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c912',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_911_912',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          913 => 
+          array (
+            'category_id' => '913',
+            'parent_id' => '911',
+            'title' => 'Lighting Eyeballs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c913',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_911_913',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          914 => 
+          array (
+            'category_id' => '914',
+            'parent_id' => '911',
+            'title' => 'Surface Down Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c914',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_911_914',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c911',
+          'dropdown' => 
+          array (
+            912 => 
+            array (
+              'category_id' => '912',
+              'parent_id' => '911',
+              'title' => 'Down Lights',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c912',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_911_912',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            913 => 
+            array (
+              'category_id' => '913',
+              'parent_id' => '911',
+              'title' => 'Lighting Eyeballs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c913',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_911_913',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            914 => 
+            array (
+              'category_id' => '914',
+              'parent_id' => '911',
+              'title' => 'Surface Down Lights',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c914',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_911_914',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_911',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      915 => 
+      array (
+        'category_id' => '915',
+        'parent_id' => '253',
+        'title' => 'Track Lights',
+        'items' => 
+        array (
+          916 => 
+          array (
+            'category_id' => '916',
+            'parent_id' => '915',
+            'title' => 'Track Light Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c916',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_915_916',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          917 => 
+          array (
+            'category_id' => '917',
+            'parent_id' => '915',
+            'title' => 'Track Light Rails',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c917',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_915_917',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          918 => 
+          array (
+            'category_id' => '918',
+            'parent_id' => '915',
+            'title' => 'Track Lights Heads',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c918',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_915_918',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c915',
+          'dropdown' => 
+          array (
+            916 => 
+            array (
+              'category_id' => '916',
+              'parent_id' => '915',
+              'title' => 'Track Light Accessories',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c916',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_915_916',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            917 => 
+            array (
+              'category_id' => '917',
+              'parent_id' => '915',
+              'title' => 'Track Light Rails',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c917',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_915_917',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            918 => 
+            array (
+              'category_id' => '918',
+              'parent_id' => '915',
+              'title' => 'Track Lights Heads',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c918',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_915_918',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_915',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      919 => 
+      array (
+        'category_id' => '919',
+        'parent_id' => '253',
+        'title' => 'Wall Lights',
+        'items' => 
+        array (
+          920 => 
+          array (
+            'category_id' => '920',
+            'parent_id' => '919',
+            'title' => '1-Head Wall Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c920',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919_920',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          921 => 
+          array (
+            'category_id' => '921',
+            'parent_id' => '919',
+            'title' => '2-Heads Wall Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c921',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919_921',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          922 => 
+          array (
+            'category_id' => '922',
+            'parent_id' => '919',
+            'title' => '3-Heads Wall Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c922',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919_922',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          923 => 
+          array (
+            'category_id' => '923',
+            'parent_id' => '919',
+            'title' => '4-Heads Wall Lights',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c923',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919_923',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c919',
+          'dropdown' => 
+          array (
+            920 => 
+            array (
+              'category_id' => '920',
+              'parent_id' => '919',
+              'title' => '1-Head Wall Lights',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c920',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919_920',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            921 => 
+            array (
+              'category_id' => '921',
+              'parent_id' => '919',
+              'title' => '2-Heads Wall Lights',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c921',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919_921',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            922 => 
+            array (
+              'category_id' => '922',
+              'parent_id' => '919',
+              'title' => '3-Heads Wall Lights',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c922',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919_922',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            923 => 
+            array (
+              'category_id' => '923',
+              'parent_id' => '919',
+              'title' => '4-Heads Wall Lights',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c923',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919_923',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253_919',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_253',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

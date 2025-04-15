@@ -1,0 +1,84 @@
+<?php $val = array (
+  'css' => '.module-banners-320 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-banners-320 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-banners-320 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-banners-320 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-banners-320 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-banners-320 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-banners-320 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-banners-320 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-banners-320 a
+img{transform:scale(1)}.module-banners-320 .module-item>a{background:rgba(249, 211, 66, 1)}.module-banners-320 .module-item>a::before{mix-blend-mode:normal}.module-banners-320 a::before{opacity:0}.module-banners-320 a:hover::before{opacity:1}.module-banners-320 a::after{opacity:0}.module-banners-320 a:hover::after{opacity:1}.module-banners-320 .module-item>a::after{top:50%;left:50%;right:auto;bottom:auto;transform:translate3d(-50%, -50%, 0)}.module-banners-320 .banner-caption{visibility:hidden;opacity:0;display:block;top:50%;left:50%;right:auto;bottom:auto;transform:translate3d(-50%, -50%, 0)}.module-banners-320 a:hover .banner-caption{visibility:visible;opacity:1}.module-banners-320 a .banner-caption{width:100%}.module-banners-320 .banner-caption
+span{transform:scale(calc(100 / 100));transform-origin:center;white-space:normal;;white-space:normal}.module-banners-320 .module-banners-320:hover .banner-caption
+span{transform:scale(calc(100 / 100))}.module-banners-320 .banner-caption span
+s{display:inline-block}.module-banners-320 .banner-caption-2{visibility:hidden;opacity:0;display:block;top:auto;left:50%;right:auto;bottom:0;transform:translate3d(-50%, 0, 0)}.module-banners-320 a:hover .banner-caption-2{visibility:visible;opacity:1}.module-banners-320 a .banner-caption-2{width:100%}.module-banners-320 .banner-caption-2
+span{transform:scale(calc(100 / 100));transform-origin:center;white-space:normal;;white-space:normal}.module-banners-320 .module-banners-320:hover .banner-caption-2
+span{transform:scale(calc(100 / 100))}.module-banners-320 .banner-caption-2 span
+s{display:inline-block}.module-banners-320 .banner-caption-3
+span{white-space:normal;;white-space:normal}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'carousel' => false,
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'lazyLoad' => false,
+    'status' => false,
+    'id' => 'banners-67fdfb738ce48',
+    'module_id' => 320,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-banners',
+      2 => 'module-banners-320',
+      'carousel-mode' => false,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+  ),
+);

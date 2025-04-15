@@ -1,0 +1,194 @@
+{{ header }}
+
+					<style>
+						.banner-style {
+							background: linear-gradient(90deg, #F9D342 0%, #FFE066 50%, #F9D342 70%, #E6B800 100%);
+							margin-left: 10px;
+							margin-right: 10px;
+							padding: 10px;
+							padding-bottom: 20px;
+							padding-top: 20px;
+							color: #ffffff;
+							margin: 15px;
+							position: relative;
+							border: 1px solid #ffffff;
+							border-radius: 20px;
+							overflow: hidden;
+						}
+						
+						.banner-style span {
+							line-height: 1.2 !important;
+						}
+
+						.desktop .banner-style {
+						
+							line-height: 2 !important;
+							width:70%
+
+						}
+							
+						@media (min-width: 992px) {
+							.text-md-center {
+								text-align: left !important;
+							}
+							.no-gutters {
+								margin-left: 20px;
+							}
+							.barcode {
+								padding: 0;
+							}
+						}
+						
+						@media (max-width: 991px) {
+							.text-md-center {
+								text-align: center !important;
+							}
+							.barcode {
+								display: flex;
+								justify-content: center;
+							
+							}
+							.hutz-points {
+								display: block;
+								width: 100%;
+								text-align: center;
+								margin-top: 0.5rem;
+							}
+						}
+					</style>
+				
+<ul class="breadcrumb">
+  {% for breadcrumb in breadcrumbs %}
+  <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+  {% endfor %}
+</ul>
+{% if j3.settings.get('pageTitlePosition') == 'top' %}
+  <h1 class="title page-title"><span>{{ heading_title }}</span></h1>
+{% endif %}
+{{ j3.loadController('journal3/layout', 'top') }}
+<div id="account-account" class="container">
+  {% if success %}
+  <div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> {{ success }}</div>
+  {% endif %}
+  <div class="row">{{ column_left }}
+    {% if column_left and column_right %}
+    {% set class = 'col-sm-6' %}
+    {% elseif column_left or column_right %}
+    {% set class = 'col-sm-9' %}
+    {% else %}
+    {% set class = 'col-sm-12' %}
+    {% endif %}
+    <div id="content" class="account-page {{ class }}">
+      {% if j3.settings.get('pageTitlePosition') == 'default' %}
+        <h1 class="title page-title">{{ heading_title }}</h1>
+      {% endif %}
+      {{ content_top }}
+      <div class="my-account">
+        <h2 class="title">{{ text_my_account }}</h2>
+
+				<div id="reward-points-banner-block">
+					<div id="reward-points-banner">
+						<div class="banner-style text-center">
+							<div class="row no-gutters" style="margin-top: 20px;">
+								<div class="text-center" style="font-weight:900; font-size:30px; color:#5A0F14;">
+									{{ text_membership }}
+									
+								</div>
+								<div class="text-center" style="font-weight:600; font-size:25px; color:#5A0F14;">
+									({{ customer_group_description }})
+								</div>
+								<div class="col-md-6 text-center barcode">
+									<div style="background-color: #ffffff; border-radius: 4px; padding: 10px; width: 60%; height: auto; display: flex; flex-direction: column; align-items: center; justify-content: center; margin:20px;">
+										<img src="{{ barcode }}" alt="Barcode Image" style="width: 100%; height: auto; margin-bottom:0.5rem;" />
+										<span style="color:#000; font-weight:900; font-size:18px">
+											{{ customer_info.telephone }}
+										</span>
+									</div>
+								</div>
+								<div class="col-md-6 text-center">
+									<div class="col-12 row">
+										<span class="text-center" style="font-weight:700; font-size:20px; color:#5A0F14;">
+											{{ customer_info.firstname|upper }}
+											{{ customer_info.lastname|upper }}
+										</span>
+										<div id="reward-points-value" style="color:#6A3B25; font-size:40px; font-weight:600">
+											{{ customer_info.points|round|number_format(0, '.', ',') }}
+										</div>
+										<span style="color: #141300; font-weight:900; font-size:18px">
+											Points
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+        <ul class="list-unstyled account-list">
+          <li class="edit-info"><a href="{{ edit }}">{{ text_edit }}</a></li>
+          <li class="edit-pass"><a href="{{ password }}">{{ text_password }}</a></li>
+          <li class="edit-address"><a href="{{ address }}">{{ text_address }}</a></li>
+          <li class="edit-wishlist"><a href="{{ wishlist }}">{{ text_wishlist }}</a></li>
+        </ul>
+      </div>
+      {% if credit_cards %}
+        <div class="my-cards">
+          <h2 class="title">{{ text_credit_card }}</h2>
+          <ul class="list-unstyled account-list">
+            {% for credit_card in credit_cards %}
+              <li><a href="{{ credit_card.href }}">{{ credit_card.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+      <div class="my-orders">
+        <h2 class="title">{{ text_my_orders }}</h2>
+        <ul class="list-unstyled account-list">
+          <li class="edit-order"><a href="{{ order }}">{{ text_order }}</a></li>
+          <li class="edit-downloads"><a href="{{ download }}">{{ text_download }}</a></li>
+          {% if reward %}
+            <li class="edit-rewards"><a href="{{ reward }}">{{ text_reward }}</a></li>
+          {% endif %}
+          <li class="edit-returns"><a href="{{ return }}">{{ text_return }}</a></li>
+          <li class="edit-transactions"><a href="{{ transaction }}">{{ text_transaction }}</a></li>
+
+					<li	class="edit-points">
+						<a	href="{{ point }}">
+							{{ text_point }}
+						</a>
+					</li>
+					<li	class="edit-vouchers">
+						<a	href="{{ voucher }}">
+							{{ text_my_coupon }}
+						</a>
+					</li>
+					<li	class="edit-redeem">
+						<a	href="{{ redeem }}">
+							{{ text_redeem_voucher }}
+						</a>
+					</li>
+				
+          <li class="edit-recurring"><a href="{{ recurring }}">{{ text_recurring }}</a></li>
+        </ul>
+      </div>
+      <div class="my-affiliates">
+        <h2 class="title">{{ text_my_affiliate }}</h2>
+        <ul class="list-unstyled account-list">
+          {% if not tracking %}
+            <li class="affiliate-add"><a href="{{ affiliate }}">{{ text_affiliate_add }}</a></li>
+          {% else %}
+            <li class="affiliate-edit"><a href="{{ affiliate }}">{{ text_affiliate_edit }}</a></li>
+            <li class="affiliate-track"><a href="{{ tracking }}">{{ text_tracking }}</a></li>
+          {% endif %}
+        </ul>
+      </div>
+      <div class="my-newsletter">
+        <h2 class="title">{{ text_my_newsletter }}</h2>
+        <ul class="list-unstyled account-list">
+          <li><a href="{{ newsletter }}">{{ text_newsletter }}</a></li>
+        </ul>
+      </div>
+      {{ content_bottom }}</div>
+    {{ column_right }}</div>
+</div>
+{{ footer }}

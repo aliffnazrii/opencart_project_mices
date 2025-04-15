@@ -1,0 +1,1134 @@
+<?php $val = array (
+  'css' => '.module-catalog-373 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-373 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-373 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-373 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-373 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-373 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-373 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-373 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-373  .item-content{padding-top:10px}.module-catalog-373  .catalog-title{padding-right:10px}.module-catalog-373 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-373 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-373
+.subitems{align-items:flex-start}.module-catalog-373 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-373 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-373 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-373 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-373 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-373 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-373 .catalog-image{margin-right:10px}.module-catalog-373 .item-assets{flex-direction:row}.module-catalog-373 .item-assets>a{max-width:40%;order:0}.module-catalog-373 .item-assets
+.subitems{width:60%}.module-catalog-373 .item-assets .catalog-image{display:block}.module-catalog-373 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-373 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-373 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Tools & Hardwares',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb711e25d',
+    'module_id' => 373,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-373',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '373-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Car Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1027_1028',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Car Cleaning Kits',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1027_1029',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Car Cleaning &amp; Accessories',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1027',
+        'total' => '2',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '373-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Furniture Accessories',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1030',
+        'total' => '0',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '373-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Awls',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1031_1032',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Chisels',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1031_1033',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Cutters',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1031_1034',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Hammers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1031_1035',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Hand/Hack Saws',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1031_1036',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Hex Allan Keys',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1031_1037',
+            'image' => '',
+            'image2x' => '',
+          ),
+          6 => 
+          array (
+            'name' => 'Pliers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1031_1038',
+            'image' => '',
+            'image2x' => '',
+          ),
+          7 => 
+          array (
+            'name' => 'Ratchets ',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1031_1039',
+            'image' => '',
+            'image2x' => '',
+          ),
+          8 => 
+          array (
+            'name' => 'Rivet Tools &amp; Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1031_1040',
+            'image' => '',
+            'image2x' => '',
+          ),
+          9 => 
+          array (
+            'name' => 'Screwdrivers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1031_1041',
+            'image' => '',
+            'image2x' => '',
+          ),
+          10 => 
+          array (
+            'name' => 'Snips',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1031_1042',
+            'image' => '',
+            'image2x' => '',
+          ),
+          11 => 
+          array (
+            'name' => 'Test Pens',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1031_1043',
+            'image' => '',
+            'image2x' => '',
+          ),
+          12 => 
+          array (
+            'name' => 'Tools Box Set',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1031_1044',
+            'image' => '',
+            'image2x' => '',
+          ),
+          13 => 
+          array (
+            'name' => 'Utility Knives',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1031_1045',
+            'image' => '',
+            'image2x' => '',
+          ),
+          14 => 
+          array (
+            'name' => 'Wrenches',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1031_1046',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Hand Tools',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1031',
+        'total' => '15',
+      ),
+      4 => 
+      array (
+        'limit' => '',
+        'id' => '373-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Cabinet Hinges',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1047_1048',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Cabinet Knobs &amp; Pulls',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1047_1049',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Cabinet Locks &amp; Latches',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1047_1050',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Cabinet Hardware',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1047',
+        'total' => '3',
+      ),
+      5 => 
+      array (
+        'limit' => '',
+        'id' => '373-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Door Knobs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1051_1052',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Door Locks ',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1051_1053',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Door Stops',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1051_1054',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Door Hardware',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1051',
+        'total' => '3',
+      ),
+      6 => 
+      array (
+        'limit' => '',
+        'id' => '373-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Bolts',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1055_1056',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Cable Ties',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1055_1057',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Cup Hooks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1055_1058',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Expansion Pipe Plugs &amp; Anchors',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1055_1059',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Nails',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1055_1060',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Picture &amp; Mirror Hanging Hooks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1055_1061',
+            'image' => '',
+            'image2x' => '',
+          ),
+          6 => 
+          array (
+            'name' => 'Screw Eyes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1055_1062',
+            'image' => '',
+            'image2x' => '',
+          ),
+          7 => 
+          array (
+            'name' => 'Screws',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1055_1063',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Fastener',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1055',
+        'total' => '8',
+      ),
+      7 => 
+      array (
+        'limit' => '',
+        'id' => '373-7',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-7',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Extension Ladders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1064_1065',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Folding Ladders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1064_1066',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Ladders',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1064',
+        'total' => '2',
+      ),
+      8 => 
+      array (
+        'limit' => '',
+        'id' => '373-8',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-8',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Exterior Paints',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1067_1068',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Painting Tools',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1067_1069',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Spray Paints',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1067_1070',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Paints',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1067',
+        'total' => '3',
+      ),
+      9 => 
+      array (
+        'limit' => '',
+        'id' => '373-9',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-9',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Poles',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1071',
+        'total' => '0',
+      ),
+      10 => 
+      array (
+        'limit' => '',
+        'id' => '373-10',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-10',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Portable Trolleys',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1072',
+        'total' => '0',
+      ),
+      11 => 
+      array (
+        'limit' => '',
+        'id' => '373-11',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-11',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Carpenter Squares',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1073',
+        'total' => '0',
+      ),
+      12 => 
+      array (
+        'limit' => '',
+        'id' => '373-12',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-12',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Levels',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1074',
+        'total' => '0',
+      ),
+      13 => 
+      array (
+        'limit' => '',
+        'id' => '373-13',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-13',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Measuring Tapes',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1075',
+        'total' => '0',
+      ),
+      14 => 
+      array (
+        'limit' => '',
+        'id' => '373-14',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-14',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Signage',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1076',
+        'total' => '0',
+      ),
+      15 => 
+      array (
+        'limit' => '',
+        'id' => '373-15',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-15',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Drills/Drivers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1077_1078',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Electric Screwdrivers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1077_1079',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Hammer /Percussion Drills',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1077_1080',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Impact Drivers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1077_1081',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Right Angle Drills',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1077_1082',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Rotary Hammer/Drills',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1077_1083',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Drills',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1077',
+        'total' => '6',
+      ),
+      16 => 
+      array (
+        'limit' => '',
+        'id' => '373-16',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-16',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Angle Grinders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1084_1085',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Bench Grinders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1084_1086',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Die Grinders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1084_1087',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Straight Grinders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1084_1088',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Grinders',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1084',
+        'total' => '4',
+      ),
+      17 => 
+      array (
+        'limit' => '',
+        'id' => '373-17',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-17',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Belt Sanders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1089_1090',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Detail Sanders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1089_1091',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Disc &amp; Orbital Sanders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1089_1092',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Sheet Sanders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1089_1093',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Spindle Sanders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1089_1094',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Sanders',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1089',
+        'total' => '5',
+      ),
+      18 => 
+      array (
+        'limit' => '',
+        'id' => '373-18',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-18',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Chop Saws',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1095_1096',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Circular Saws',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1095_1097',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Concrete Saws',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1095_1098',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Jig Saws',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1095_1099',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Miter Saws',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1095_1100',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Reciprocating Saws',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1095_1101',
+            'image' => '',
+            'image2x' => '',
+          ),
+          6 => 
+          array (
+            'name' => 'Table Saws',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1095_1102',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Saws',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1095',
+        'total' => '7',
+      ),
+      19 => 
+      array (
+        'limit' => '',
+        'id' => '373-19',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-19',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Tile Cutters',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1103_1104',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Tile Tools',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1103',
+        'total' => '1',
+      ),
+      20 => 
+      array (
+        'limit' => '',
+        'id' => '373-20',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-20',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Clamps &amp; Vises ',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1105_1106',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Glue Guns &amp; Sticks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1105_1109',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Heat Gun',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1105_1107',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Planers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1105_1108',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Woodworking Tools',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1105',
+        'total' => '4',
+      ),
+      21 => 
+      array (
+        'limit' => '',
+        'id' => '373-21',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-21',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Carabiners',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1110_1111',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Chains',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1110_1112',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Ropes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1110_1113',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Tension Straps',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1110_1114',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Ropes &amp; Chains',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1110',
+        'total' => '4',
+      ),
+      22 => 
+      array (
+        'limit' => '',
+        'id' => '373-22',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-22',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Emergency Lights',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1115_1116',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Flashlights',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1115_1117',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Floodlights',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1115_1118',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Headlamps &amp; Worklamps',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1115_1119',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Lanterns',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1115_1120',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Flashlights &amp; Lanterns',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1115',
+        'total' => '5',
+      ),
+      23 => 
+      array (
+        'limit' => '',
+        'id' => '373-23',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-23',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Keyboxes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1121_1122',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Mailboxes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1121_1123',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Padlocks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1121_1124',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Safes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1121_1125',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Safes, Keyboxes &amp; Mailboxes',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1121',
+        'total' => '4',
+      ),
+      24 => 
+      array (
+        'limit' => '',
+        'id' => '373-24',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-24',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Tools Accesories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1126_1127',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Tools Storage &amp; Organisers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1126_1128',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Tools Organisers &amp; Accessories',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1126',
+        'total' => '2',
+      ),
+      25 => 
+      array (
+        'limit' => '',
+        'id' => '373-25',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-25',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Bubble Wrap',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1129_1132',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Moving Boxes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1129_1131',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Plastic Bags',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1129_1130',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Moving &amp; Packing Supplies',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1129',
+        'total' => '3',
+      ),
+      26 => 
+      array (
+        'limit' => '',
+        'id' => '373-26',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-26',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Workwear &amp; Safety Gear',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1133',
+        'total' => '0',
+      ),
+    ),
+  ),
+);

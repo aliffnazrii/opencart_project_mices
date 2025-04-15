@@ -1,0 +1,452 @@
+<?php $val = array (
+  'css' => '.module-catalog-329 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-329 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-329 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-329 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-329 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-329 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-329 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-329 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-329  .item-content{padding-top:10px}.module-catalog-329  .catalog-title{padding-right:10px}.module-catalog-329 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-329 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-329
+.subitems{align-items:flex-start}.module-catalog-329 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-329 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-329 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-329 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-329 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-329 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-329 .catalog-image{margin-right:10px}.module-catalog-329 .item-assets{flex-direction:row}.module-catalog-329 .item-assets>a{max-width:40%;order:0}.module-catalog-329 .item-assets
+.subitems{width:60%}.module-catalog-329 .item-assets .catalog-image{display:block}.module-catalog-329 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-329 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-329 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Bath',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb7160cc9',
+    'module_id' => 329,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-329',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '329-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Bath Organisers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=326_327',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Body Puffs &amp; Brushs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=326_328',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Hair Dryer Holders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=326_329',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Make Up Organisers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=326_330',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Shower Caps',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=326_331',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Shower Curtains, Rods &amp; Rings',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=326_332',
+            'image' => '',
+            'image2x' => '',
+          ),
+          6 => 
+          array (
+            'name' => 'Soap Dishes ',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=326_333',
+            'image' => '',
+            'image2x' => '',
+          ),
+          7 => 
+          array (
+            'name' => 'Soap Dispensers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=326_334',
+            'image' => '',
+            'image2x' => '',
+          ),
+          8 => 
+          array (
+            'name' => 'Tissue Box Covers ',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=326_335',
+            'image' => '',
+            'image2x' => '',
+          ),
+          9 => 
+          array (
+            'name' => 'Toilet Brush Holders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=326_336',
+            'image' => '',
+            'image2x' => '',
+          ),
+          10 => 
+          array (
+            'name' => 'Toilet Paper Holders ',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=326_337',
+            'image' => '',
+            'image2x' => '',
+          ),
+          11 => 
+          array (
+            'name' => 'Toothbrush Holders ',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=326_338',
+            'image' => '',
+            'image2x' => '',
+          ),
+          12 => 
+          array (
+            'name' => 'Towel Bars &amp; Racks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=326_339',
+            'image' => '',
+            'image2x' => '',
+          ),
+          13 => 
+          array (
+            'name' => 'Towel Rings &amp; Hooks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=326_340',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Bath Accessories',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=326',
+        'total' => '14',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '329-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Bath Furniture &amp; Set',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=341_342',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Bath Fixtures',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=341',
+        'total' => '1',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '329-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Drop In Bathroom Sinks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=343_344',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Pedestral Sinks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=343_345',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Undermount Bathroom Sinks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=343_346',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Vessels Sinks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=343_347',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Wall Mount Sinks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=343_348',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Bath Sinks',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=343',
+        'total' => '5',
+      ),
+      4 => 
+      array (
+        'limit' => '',
+        'id' => '329-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Centerset Sink Taps',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=349_350',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Single Handle Sink Taps',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=349_351',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Touchless Sink Taps',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=349_352',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Vessel Sink Faucets',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=349_353',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Wall Mounted Sink Taps',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=349_354',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Widespread Sink Taps',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=349_355',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Bath Taps',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=349',
+        'total' => '6',
+      ),
+      5 => 
+      array (
+        'limit' => '',
+        'id' => '329-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Bath Mats',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=356_357',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Bath Robes &amp; Slippers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=356_358',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Bath Sheets',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=356_359',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Bath Towels ',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=356_360',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Face Towels ',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=356_361',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Hand Towels',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=356_362',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Bath Textiles',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=356',
+        'total' => '6',
+      ),
+      6 => 
+      array (
+        'limit' => '',
+        'id' => '329-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Shower Arms &amp; Slide Bars ',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=363_364',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Shower Heads &amp; Pipes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=363_365',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Shower Towers &amp; Sets',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=363_366',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Shower Systems',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=363',
+        'total' => '3',
+      ),
+    ),
+  ),
+);

@@ -1,0 +1,453 @@
+<?php $val = array (
+  'css' => '.module-catalog-364 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-364 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-364 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-364 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-364 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-364 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-364 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-364 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-364  .item-content{padding-top:10px}.module-catalog-364  .catalog-title{padding-right:10px}.module-catalog-364 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-364 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-364
+.subitems{align-items:flex-start}.module-catalog-364 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-364 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-364 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-364 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-364 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-364 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-364 .catalog-image{margin-right:10px}.module-catalog-364 .item-assets{flex-direction:row}.module-catalog-364 .item-assets>a{max-width:40%;order:0}.module-catalog-364 .item-assets
+.subitems{width:60%}.module-catalog-364 .item-assets .catalog-image{display:block}.module-catalog-364 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-364 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-364 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Electrical',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb710d9f2',
+    'module_id' => 364,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-364',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '364-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Batteries &amp; Battery Chargers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=534_535',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Cables &amp; Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=534_536',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Chargers &amp; Adapters',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=534_537',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Cables &amp; Chargers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=534',
+        'total' => '3',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '364-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Doorbell Buttons',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=538_539',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Doorbell Chimes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=538_540',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Doorbell Kits',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=538_541',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Doorbells',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=538',
+        'total' => '3',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '364-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Circuit Breakers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=542_543',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Disconnectors',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=542_544',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Electrical Wires',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=542_545',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Plugs &amp; Power Supplies',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=542_546',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Wire Connectors &amp; Wire Terminals',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=542_547',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Electric Distribution',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=542',
+        'total' => '5',
+      ),
+      4 => 
+      array (
+        'limit' => '',
+        'id' => '364-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Air Con Remotes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=548_549',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Fan Remotes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=548_550',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Lighting Remotes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=548_551',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'TV Remotes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=548_552',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Remotes',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=548',
+        'total' => '4',
+      ),
+      5 => 
+      array (
+        'limit' => '',
+        'id' => '364-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Gate Switches',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=553_556',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Light Switches',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=553_555',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Rotary Switches',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=553_554',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Dimmers &amp; Switches',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=553',
+        'total' => '3',
+      ),
+      6 => 
+      array (
+        'limit' => '',
+        'id' => '364-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Coaxial Socket',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=557_563',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Ethernet/ Phone Socket',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=557_560',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Extension Socket',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=557_561',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Socket Box',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=557_562',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Socket Covers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=557_558',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Switch Sockets',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=557_559',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Sockets &amp; Covers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=557',
+        'total' => '6',
+      ),
+      7 => 
+      array (
+        'limit' => '',
+        'id' => '364-7',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-7',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Light Sensors',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=564_565',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Motion Sensors',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=564_566',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Wiring Devices',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=564',
+        'total' => '2',
+      ),
+      8 => 
+      array (
+        'limit' => '',
+        'id' => '364-8',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-8',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Antennas &amp; Amplifiers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=567_568',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Av Splitters &amp; Selectors',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=567_569',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Microphones &amp; Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=567_570',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Tv/Speaker Mount &amp; Brackets',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=567_571',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'TV &amp; Speaker Accessories',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=567',
+        'total' => '4',
+      ),
+    ),
+  ),
+);

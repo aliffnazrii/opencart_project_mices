@@ -1,0 +1,241 @@
+.popup-overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.7);
+z-index: 9999;
+display: none;
+}
+
+.popup-content {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+text-align: center;
+}
+
+.popup-content h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.popup-content p {
+font-size: 16px;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+
+.close-btn {
+background: #000;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+
+#outlet-selection .nav-tabs>li.active {
+    border: none;
+}
+
+#select-outlet {
+	cursor: pointer;
+    margin-bottom: 14px;
+    font-size: 13px;
+    height: auto;
+}
+
+.row-store-selector .fa {
+    margin-right: 5px;
+}
+
+#modal-select-outlet h1 {
+	font-size: 20px;
+}
+
+#modal-select-outlet h1 .fa-map-marker {
+    margin-left: 5px;
+}
+
+#modal-select-outlet h2 {
+	font-size: 19px;
+}
+
+#modal-select-outlet p {
+	font-size: 13px;
+    font-weight: 500;
+    color: #565656;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+#modal-select-outlet p.desc {
+    font-size: 13px;
+    font-weight: 500;
+    color: #565656;
+    line-height: 17px;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+#modal-select-outlet img {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.selected-outlet {
+    background: #0071ce;
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 10px;
+    border: 1px solid #0d52d6;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding: 7px 12px;
+}
+.selected-outlet:hover {
+    opacity: 0.8;
+}
+
+#modal-select-outlet .nav-tabs li {
+    background-color: #0071ce;
+    width: 50%;
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 10px;
+    opacity: 0.4;
+    border-radius: 10px;
+}
+
+#modal-select-outlet .nav-tabs li:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#modal-select-outlet .nav-tabs li:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#modal-select-outlet .nav-tabs li.active {
+    opacity: 1;
+}
+
+#modal-select-outlet .nav-tabs li a {
+    color: #fff;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+#modal-select-outlet .bg-danger {
+    padding: 10px;
+}
+
+#modal-select-outlet table tr td {
+    font-size: 14px;
+}
+
+#modal-select-outlet table tr td.td-total-title {
+    font-weight: 600;
+}
+
+#close-popup {
+    position: absolute;
+    top: -2px;
+    right: 3px;
+    font-size: 28px;
+    color: #000;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.outlet-row {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.outlet-row a.btn.btn-primary.check-cart {
+    margin-top: 2px;
+}
+
+.outlet-row a.btn.btn-primary.check-cart:hover {
+    opacity: 0.8;
+    background: #0071ce!important;
+}
+
+@media (max-width: 600px) {
+    .table-full-width {
+        display: block;
+    }
+    #modal-select-outlet h1.modal-title {
+        font-size: 17px;
+    }
+    #modal-select-outlet .nav-tabs li a {
+        font-size: 12px;
+        padding-bottom: 3px;
+    }
+    #modal-select-outlet h2 {
+        font-size: 14px;
+    }
+    #modal-select-outlet p {
+        font-size: 12px;
+        font-weight: 500;
+        color: #565656;
+        line-height: 16px;
+    }
+    .selected-outlet {
+        color: #fff;
+        margin: 0 auto;
+        border: 1px solid #5295d6;
+        margin-left: 16px;
+        padding-bottom: 8px;
+        font-size: 12px;
+    }
+    #select-outlet {
+        margin-bottom: 15px;
+        margin-top: 3px;
+    }
+    #time-slot {
+        padding-right: 15px;
+    }
+    .route-account-account .mobile {
+        margin-top: 10px;
+    }
+    .outlet-row a.btn.btn-primary.check-cart {
+        font-size: 12px;
+    }
+
+}
+
+#time-slot {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}
+
+#time-slot label {
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+#modal-select-outlet .loading-slinner {
+    text-align: center;
+}
+
+#modal-select-outlet .loading-slinner img {
+    border: 0;
+    width: 100px;
+}

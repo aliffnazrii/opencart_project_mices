@@ -1,0 +1,216 @@
+{{ header }}{{ column_left }}
+<div id="content">
+	<div class="page-header">
+		<div class="container-fluid">
+			<div class="pull-right">
+				<button type="submit" form="form-push-notification" data-toggle="tooltip" title="{{ button_save }}" class="btn btn-primary"><i class="fa fa-save"></i></button>
+				<a href="{{ cancel }}" data-toggle="tooltip" title="{{ button_cancel }}" class="btn btn-default"><i class="fa fa-reply"></i></a></div>
+			<h1>{{ heading_title }}</h1>
+			<ul class="breadcrumb">
+				{% for breadcrumb in breadcrumbs %}
+				<li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+	<div class="container-fluid">{% if error_warning %}
+		<div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+			<button type="button" class="close" data-dismiss="alert">&times;</button>
+		</div>
+		{% endif %}
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title"><i class="fa fa-pencil"></i> {{ text_edit_form }}</h3>
+			</div>
+			<div class="panel-body">
+				<form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-push-notification" class="form-horizontal">
+					{% if location_id %}
+						<input type="hidden" name="location_id" value="{{ location_id }}"/>
+					{% endif %}
+
+					{% if xilnex_outlet_id %}
+						<input type="hidden" name="xilnex_outlet_id" value="{{ xilnex_outlet_id }}"/>
+					{% endif %}
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab-general">
+							<div class="form-group required">
+								<label class="col-sm-2 control-label" for="input-name">{{ entry_outlet_name }}</label>
+								<div class="col-sm-10">
+									<input type="text" name="name" value="{{ name }}" placeholder="{{ entry_outlet_name }}" id="input-name" class="form-control" maxlength="100"/>
+									{% if error_name %}
+										<div class="text-danger">{{ error_name }}</div>
+									{% endif %}
+								</div>
+							</div>
+							<div class="form-group required">
+								<label class="col-sm-2 control-label" for="input-shop-label">{{ entry_shop_label }}</label>
+								<div class="col-sm-10">
+									<input type="text" name="shop_label" value="{{ shop_label }}" placeholder="{{ entry_shop_label }}" id="input-shop-label" class="form-control" maxlength="100"/>
+									{% if error_shop_label %}
+										<div class="text-danger">{{ error_shop_label }}</div>
+									{% endif %}
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-2 control-label" for="input-address">{{ entry_address }}</label>
+								<div class="col-sm-10">
+									<textarea name="address" placeholder="{{ entry_address }}" id="input-address" class="form-control" maxlength="800">{{ address }}</textarea>
+									{% if error_address %}
+										<div class="text-danger">{{ error_address }}</div>
+									{% endif %}
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-2 control-label">{{ entry_pickup }}</label>
+								<div class="col-sm-2">
+									<select class="form-control" name="pickup_status" id="input-pickup-status">
+										{% if pickup_status %}
+											<option value="0">{{ text_disabled }}</option>
+											<option value="1" selected>{{ text_enabled }}</option>
+										{% else %}
+											<option value="0" selected>{{ text_disabled }}</option>
+											<option value="1">{{ text_enabled }}</option>
+										{% endif %}
+									</select>
+								</div>
+
+								<label class="col-sm-1 control-label pickup-time" for="input-pickup-time-start">{{ text_start }}</label>
+								<div class="col-sm-2 pickup-time">
+									<select class="form-control" name="pickup_time_start" id="input-pickup-time-start">
+										{% for hour in 6..21 %}
+											{% set time = hour ~ ':00' %}
+											{% set display_time = time|date('h:i A') %}
+											{% set selected = (hour == pickup_time_start) ? 'selected' : '' %}
+											<option value="{{ hour }}" {{ selected }}>{{ display_time }}</option>
+										{% endfor %}
+									</select>
+								</div>
+
+								<label class="col-sm-1 control-label pickup-time" for="input-pickup-time-end">{{ text_end }}</label>
+								<div class="col-sm-2 pickup-time">
+									<select class="form-control" name="pickup_time_end" id="input-pickup-time-end">
+										{% for hour in 6..21 %}
+											{% set time = hour ~ ':00' %}
+											{% set display_time = time|date('h:i A') %}
+											{% set selected = (hour == pickup_time_end) ? 'selected' : '' %}
+											<option value="{{ hour }}" {{ selected }}>{{ display_time }}</option>
+										{% endfor %}
+									</select>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-2 control-label" for="input-status">{{ entry_status }}</label>
+								<div class="col-sm-2">
+									<select name="status" id="input-status" class="form-control">
+										{% if status %}
+											<option value="1" selected="selected">{{ text_enabled }}</option>
+											<option value="0">{{ text_disabled }}</option>
+										{% else %}
+											<option value="1">{{ text_enabled }}</option>
+											<option value="0" selected="selected">{{ text_disabled }}</option>
+										{% endif %}
+									</select>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-2 control-label" for="input-status">{{ text_assigned }}</label>
+								<div class="col-sm-2">
+									<ol class="list-unstyled">
+									{% for assign_account in assign_accounts %}
+										<li>{{ loop.index }}. {{ assign_account.full_name }}</li>
+									{% endfor %}
+									<ol>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<script>
+		pickupStartVal = parseInt($('#input-pickup-time-start').val());
+		$('#input-pickup-time-end option').each(function(){
+			if(parseInt($(this).val()) <= pickupStartVal){
+				$(this).css('display', 'none');
+				console.log($(this).val());
+			}
+			else{
+				$(this).css('display', 'block');
+			}
+		});
+
+		pickupEndVal = parseInt($('#input-pickup-time-end').val());
+		if(pickupEndVal == 6){
+			$('#input-pickup-time-end').val(21);
+		}
+		else{
+			$('#input-pickup-time-start option').each(function(){
+				if(parseInt($(this).val()) >= pickupEndVal){
+					$(this).css('display', 'none');
+					console.log($(this).val());
+				}
+				else{
+					$(this).css('display', 'block');
+				}
+			});
+		}
+
+		pickupStatusVal = parseInt($('#input-pickup-status').val());
+		if(pickupStatusVal == 1){
+			$('.pickup-time').show();
+		}
+		else{
+			
+			$('.pickup-time').hide();
+		}
+
+		$('#input-pickup-status').on('change', function(){
+			pickupStatusVal = parseInt($('#input-pickup-status').val());
+			if(pickupStatusVal == 1){
+				$('.pickup-time').show();
+			}
+			else{
+				$('.pickup-time').hide();
+			}
+		});
+
+		$('#input-pickup-time-start').on('change', function(){
+			pickupStartVal = parseInt($('#input-pickup-time-start').val());
+			$('#input-pickup-time-end option').each(function(){
+				if(parseInt($(this).val()) <= pickupStartVal){
+					$(this).css('display', 'none');
+					console.log($(this).val());
+				}
+				else{
+					$(this).css('display', 'block');
+				}
+			});
+		});
+
+		$('#input-pickup-time-end').on('change', function(){
+			pickupEndVal = parseInt($('#input-pickup-time-end').val());
+			$('#input-pickup-time-start option').each(function(){
+				if(parseInt($(this).val()) >= pickupEndVal){
+					$(this).css('display', 'none');
+					console.log($(this).val());
+				}
+				else{
+					$(this).css('display', 'block');
+				}
+			});
+		});
+	</script>
+
+	<link href="view/javascript/codemirror/lib/codemirror.css" rel="stylesheet"/>
+	<link href="view/javascript/codemirror/theme/monokai.css" rel="stylesheet"/>
+	<script type="text/javascript" src="view/javascript/codemirror/lib/codemirror.js"></script>
+	<script type="text/javascript" src="view/javascript/codemirror/lib/xml.js"></script>
+	<script type="text/javascript" src="view/javascript/codemirror/lib/formatting.js"></script>
+	<script type="text/javascript" src="view/javascript/summernote/summernote.min.js"></script>
+	<link href="view/javascript/summernote/summernote.min.css" rel="stylesheet"/>
+	<script type="text/javascript" src="view/javascript/summernote/summernote-image-attributes.js"></script>
+	<script type="text/javascript" src="view/javascript/summernote/opencart.js"></script>
+	<script type="text/javascript"><!--
+{{ footer }} 

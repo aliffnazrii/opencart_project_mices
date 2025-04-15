@@ -1,0 +1,2663 @@
+<?php $val = array (
+  'category_id' => '256',
+  'parent_id' => '230',
+  'title' => 'Storage Organisers',
+  'items' => 
+  array (
+    997 => 
+    array (
+      'category_id' => '997',
+      'parent_id' => '256',
+      'title' => 'Clothes Organisers',
+      'items' => 
+      array (
+        998 => 
+        array (
+          'category_id' => '998',
+          'parent_id' => '997',
+          'title' => 'Clothes Storage Organisers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c998',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_998',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1002 => 
+        array (
+          'category_id' => '1002',
+          'parent_id' => '997',
+          'title' => 'Compact Wardrobe',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1002',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_1002',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        999 => 
+        array (
+          'category_id' => '999',
+          'parent_id' => '997',
+          'title' => 'Door Hooks',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c999',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_999',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1000 => 
+        array (
+          'category_id' => '1000',
+          'parent_id' => '997',
+          'title' => 'Garment Bags',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1000',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_1000',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1001 => 
+        array (
+          'category_id' => '1001',
+          'parent_id' => '997',
+          'title' => 'Hanging Clothes Organisers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1001',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_1001',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1003 => 
+        array (
+          'category_id' => '1003',
+          'parent_id' => '997',
+          'title' => 'Wardrobes Organisers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1003',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_1003',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c997',
+        'dropdown' => 
+        array (
+          998 => 
+          array (
+            'category_id' => '998',
+            'parent_id' => '997',
+            'title' => 'Clothes Storage Organisers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c998',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_998',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1002 => 
+          array (
+            'category_id' => '1002',
+            'parent_id' => '997',
+            'title' => 'Compact Wardrobe',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1002',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_1002',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          999 => 
+          array (
+            'category_id' => '999',
+            'parent_id' => '997',
+            'title' => 'Door Hooks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c999',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_999',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1000 => 
+          array (
+            'category_id' => '1000',
+            'parent_id' => '997',
+            'title' => 'Garment Bags',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1000',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_1000',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1001 => 
+          array (
+            'category_id' => '1001',
+            'parent_id' => '997',
+            'title' => 'Hanging Clothes Organisers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1001',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_1001',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1003 => 
+          array (
+            'category_id' => '1003',
+            'parent_id' => '997',
+            'title' => 'Wardrobes Organisers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1003',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_1003',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    1004 => 
+    array (
+      'category_id' => '1004',
+      'parent_id' => '256',
+      'title' => 'Food Storage &amp; Organisers',
+      'items' => 
+      array (
+        1005 => 
+        array (
+          'category_id' => '1005',
+          'parent_id' => '1004',
+          'title' => 'Food Containers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1005',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1005',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1006 => 
+        array (
+          'category_id' => '1006',
+          'parent_id' => '1004',
+          'title' => 'Food Packaging Wrap &amp; Foil',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1006',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1006',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1007 => 
+        array (
+          'category_id' => '1007',
+          'parent_id' => '1004',
+          'title' => 'Food Sealing Clips',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1007',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1007',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1009 => 
+        array (
+          'category_id' => '1009',
+          'parent_id' => '1004',
+          'title' => 'Jar &amp; Tins',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1009',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1009',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1010 => 
+        array (
+          'category_id' => '1010',
+          'parent_id' => '1004',
+          'title' => 'Kitchen &amp; Shelf Trolleys',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1010',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1010',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1011 => 
+        array (
+          'category_id' => '1011',
+          'parent_id' => '1004',
+          'title' => 'Spice &amp; Condiment Stands',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1011',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1011',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1012 => 
+        array (
+          'category_id' => '1012',
+          'parent_id' => '1004',
+          'title' => 'Wine Racks',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1012',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1012',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1008 => 
+        array (
+          'category_id' => '1008',
+          'parent_id' => '1004',
+          'title' => 'Zipper Bags',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1008',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1008',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c1004',
+        'dropdown' => 
+        array (
+          1005 => 
+          array (
+            'category_id' => '1005',
+            'parent_id' => '1004',
+            'title' => 'Food Containers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1005',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1005',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1006 => 
+          array (
+            'category_id' => '1006',
+            'parent_id' => '1004',
+            'title' => 'Food Packaging Wrap &amp; Foil',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1006',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1006',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1007 => 
+          array (
+            'category_id' => '1007',
+            'parent_id' => '1004',
+            'title' => 'Food Sealing Clips',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1007',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1007',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1009 => 
+          array (
+            'category_id' => '1009',
+            'parent_id' => '1004',
+            'title' => 'Jar &amp; Tins',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1009',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1009',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1010 => 
+          array (
+            'category_id' => '1010',
+            'parent_id' => '1004',
+            'title' => 'Kitchen &amp; Shelf Trolleys',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1010',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1010',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1011 => 
+          array (
+            'category_id' => '1011',
+            'parent_id' => '1004',
+            'title' => 'Spice &amp; Condiment Stands',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1011',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1011',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1012 => 
+          array (
+            'category_id' => '1012',
+            'parent_id' => '1004',
+            'title' => 'Wine Racks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1012',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1012',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1008 => 
+          array (
+            'category_id' => '1008',
+            'parent_id' => '1004',
+            'title' => 'Zipper Bags',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1008',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1008',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    1013 => 
+    array (
+      'category_id' => '1013',
+      'parent_id' => '256',
+      'title' => 'Paper &amp; Media Organisers',
+      'items' => 
+      array (
+        1014 => 
+        array (
+          'category_id' => '1014',
+          'parent_id' => '1013',
+          'title' => 'Desk Accessories',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1014',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1014',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1015 => 
+        array (
+          'category_id' => '1015',
+          'parent_id' => '1013',
+          'title' => 'Drawer &amp; Shelf Organisers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1015',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1015',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1016 => 
+        array (
+          'category_id' => '1016',
+          'parent_id' => '1013',
+          'title' => 'Magazine Files',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1016',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1016',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1017 => 
+        array (
+          'category_id' => '1017',
+          'parent_id' => '1013',
+          'title' => 'Media Accessories',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1017',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1017',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1018 => 
+        array (
+          'category_id' => '1018',
+          'parent_id' => '1013',
+          'title' => 'Newspaper Racks',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1018',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1018',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1019 => 
+        array (
+          'category_id' => '1019',
+          'parent_id' => '1013',
+          'title' => 'Noticeboards',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1019',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1019',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c1013',
+        'dropdown' => 
+        array (
+          1014 => 
+          array (
+            'category_id' => '1014',
+            'parent_id' => '1013',
+            'title' => 'Desk Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1014',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1014',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1015 => 
+          array (
+            'category_id' => '1015',
+            'parent_id' => '1013',
+            'title' => 'Drawer &amp; Shelf Organisers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1015',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1015',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1016 => 
+          array (
+            'category_id' => '1016',
+            'parent_id' => '1013',
+            'title' => 'Magazine Files',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1016',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1016',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1017 => 
+          array (
+            'category_id' => '1017',
+            'parent_id' => '1013',
+            'title' => 'Media Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1017',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1017',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1018 => 
+          array (
+            'category_id' => '1018',
+            'parent_id' => '1013',
+            'title' => 'Newspaper Racks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1018',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1018',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1019 => 
+          array (
+            'category_id' => '1019',
+            'parent_id' => '1013',
+            'title' => 'Noticeboards',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1019',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1019',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    1023 => 
+    array (
+      'category_id' => '1023',
+      'parent_id' => '256',
+      'title' => 'Shelves &amp; Wall Organisation',
+      'items' => 
+      array (
+        1024 => 
+        array (
+          'category_id' => '1024',
+          'parent_id' => '1023',
+          'title' => 'Complete Wall Shelves',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1024',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1023_1024',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1025 => 
+        array (
+          'category_id' => '1025',
+          'parent_id' => '1023',
+          'title' => 'Shelves',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1025',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1023_1025',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1026 => 
+        array (
+          'category_id' => '1026',
+          'parent_id' => '1023',
+          'title' => 'Shelving Brackets',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1026',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1023_1026',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c1023',
+        'dropdown' => 
+        array (
+          1024 => 
+          array (
+            'category_id' => '1024',
+            'parent_id' => '1023',
+            'title' => 'Complete Wall Shelves',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1024',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1023_1024',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1025 => 
+          array (
+            'category_id' => '1025',
+            'parent_id' => '1023',
+            'title' => 'Shelves',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1025',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1023_1025',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1026 => 
+          array (
+            'category_id' => '1026',
+            'parent_id' => '1023',
+            'title' => 'Shelving Brackets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1026',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1023_1026',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1023',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    1020 => 
+    array (
+      'category_id' => '1020',
+      'parent_id' => '256',
+      'title' => 'Storage Boxes &amp; Baskets',
+      'items' => 
+      array (
+        1021 => 
+        array (
+          'category_id' => '1021',
+          'parent_id' => '1020',
+          'title' => 'Baskets',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1021',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1020_1021',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1022 => 
+        array (
+          'category_id' => '1022',
+          'parent_id' => '1020',
+          'title' => 'Storage Boxes',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1022',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1020_1022',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c1020',
+        'dropdown' => 
+        array (
+          1021 => 
+          array (
+            'category_id' => '1021',
+            'parent_id' => '1020',
+            'title' => 'Baskets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1021',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1020_1021',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1022 => 
+          array (
+            'category_id' => '1022',
+            'parent_id' => '1020',
+            'title' => 'Storage Boxes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1022',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1020_1022',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1020',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c256',
+    'dropdown' => 
+    array (
+      997 => 
+      array (
+        'category_id' => '997',
+        'parent_id' => '256',
+        'title' => 'Clothes Organisers',
+        'items' => 
+        array (
+          998 => 
+          array (
+            'category_id' => '998',
+            'parent_id' => '997',
+            'title' => 'Clothes Storage Organisers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c998',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_998',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1002 => 
+          array (
+            'category_id' => '1002',
+            'parent_id' => '997',
+            'title' => 'Compact Wardrobe',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1002',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_1002',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          999 => 
+          array (
+            'category_id' => '999',
+            'parent_id' => '997',
+            'title' => 'Door Hooks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c999',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_999',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1000 => 
+          array (
+            'category_id' => '1000',
+            'parent_id' => '997',
+            'title' => 'Garment Bags',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1000',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_1000',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1001 => 
+          array (
+            'category_id' => '1001',
+            'parent_id' => '997',
+            'title' => 'Hanging Clothes Organisers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1001',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_1001',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1003 => 
+          array (
+            'category_id' => '1003',
+            'parent_id' => '997',
+            'title' => 'Wardrobes Organisers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1003',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_1003',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c997',
+          'dropdown' => 
+          array (
+            998 => 
+            array (
+              'category_id' => '998',
+              'parent_id' => '997',
+              'title' => 'Clothes Storage Organisers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c998',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_998',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1002 => 
+            array (
+              'category_id' => '1002',
+              'parent_id' => '997',
+              'title' => 'Compact Wardrobe',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1002',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_1002',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            999 => 
+            array (
+              'category_id' => '999',
+              'parent_id' => '997',
+              'title' => 'Door Hooks',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c999',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_999',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1000 => 
+            array (
+              'category_id' => '1000',
+              'parent_id' => '997',
+              'title' => 'Garment Bags',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1000',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_1000',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1001 => 
+            array (
+              'category_id' => '1001',
+              'parent_id' => '997',
+              'title' => 'Hanging Clothes Organisers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1001',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_1001',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1003 => 
+            array (
+              'category_id' => '1003',
+              'parent_id' => '997',
+              'title' => 'Wardrobes Organisers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1003',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997_1003',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_997',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      1004 => 
+      array (
+        'category_id' => '1004',
+        'parent_id' => '256',
+        'title' => 'Food Storage &amp; Organisers',
+        'items' => 
+        array (
+          1005 => 
+          array (
+            'category_id' => '1005',
+            'parent_id' => '1004',
+            'title' => 'Food Containers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1005',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1005',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1006 => 
+          array (
+            'category_id' => '1006',
+            'parent_id' => '1004',
+            'title' => 'Food Packaging Wrap &amp; Foil',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1006',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1006',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1007 => 
+          array (
+            'category_id' => '1007',
+            'parent_id' => '1004',
+            'title' => 'Food Sealing Clips',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1007',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1007',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1009 => 
+          array (
+            'category_id' => '1009',
+            'parent_id' => '1004',
+            'title' => 'Jar &amp; Tins',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1009',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1009',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1010 => 
+          array (
+            'category_id' => '1010',
+            'parent_id' => '1004',
+            'title' => 'Kitchen &amp; Shelf Trolleys',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1010',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1010',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1011 => 
+          array (
+            'category_id' => '1011',
+            'parent_id' => '1004',
+            'title' => 'Spice &amp; Condiment Stands',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1011',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1011',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1012 => 
+          array (
+            'category_id' => '1012',
+            'parent_id' => '1004',
+            'title' => 'Wine Racks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1012',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1012',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1008 => 
+          array (
+            'category_id' => '1008',
+            'parent_id' => '1004',
+            'title' => 'Zipper Bags',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1008',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1008',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c1004',
+          'dropdown' => 
+          array (
+            1005 => 
+            array (
+              'category_id' => '1005',
+              'parent_id' => '1004',
+              'title' => 'Food Containers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1005',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1005',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1006 => 
+            array (
+              'category_id' => '1006',
+              'parent_id' => '1004',
+              'title' => 'Food Packaging Wrap &amp; Foil',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1006',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1006',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1007 => 
+            array (
+              'category_id' => '1007',
+              'parent_id' => '1004',
+              'title' => 'Food Sealing Clips',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1007',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1007',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1009 => 
+            array (
+              'category_id' => '1009',
+              'parent_id' => '1004',
+              'title' => 'Jar &amp; Tins',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1009',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1009',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1010 => 
+            array (
+              'category_id' => '1010',
+              'parent_id' => '1004',
+              'title' => 'Kitchen &amp; Shelf Trolleys',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1010',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1010',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1011 => 
+            array (
+              'category_id' => '1011',
+              'parent_id' => '1004',
+              'title' => 'Spice &amp; Condiment Stands',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1011',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1011',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1012 => 
+            array (
+              'category_id' => '1012',
+              'parent_id' => '1004',
+              'title' => 'Wine Racks',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1012',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1012',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1008 => 
+            array (
+              'category_id' => '1008',
+              'parent_id' => '1004',
+              'title' => 'Zipper Bags',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1008',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004_1008',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1004',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      1013 => 
+      array (
+        'category_id' => '1013',
+        'parent_id' => '256',
+        'title' => 'Paper &amp; Media Organisers',
+        'items' => 
+        array (
+          1014 => 
+          array (
+            'category_id' => '1014',
+            'parent_id' => '1013',
+            'title' => 'Desk Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1014',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1014',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1015 => 
+          array (
+            'category_id' => '1015',
+            'parent_id' => '1013',
+            'title' => 'Drawer &amp; Shelf Organisers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1015',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1015',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1016 => 
+          array (
+            'category_id' => '1016',
+            'parent_id' => '1013',
+            'title' => 'Magazine Files',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1016',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1016',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1017 => 
+          array (
+            'category_id' => '1017',
+            'parent_id' => '1013',
+            'title' => 'Media Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1017',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1017',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1018 => 
+          array (
+            'category_id' => '1018',
+            'parent_id' => '1013',
+            'title' => 'Newspaper Racks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1018',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1018',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1019 => 
+          array (
+            'category_id' => '1019',
+            'parent_id' => '1013',
+            'title' => 'Noticeboards',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1019',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1019',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c1013',
+          'dropdown' => 
+          array (
+            1014 => 
+            array (
+              'category_id' => '1014',
+              'parent_id' => '1013',
+              'title' => 'Desk Accessories',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1014',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1014',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1015 => 
+            array (
+              'category_id' => '1015',
+              'parent_id' => '1013',
+              'title' => 'Drawer &amp; Shelf Organisers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1015',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1015',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1016 => 
+            array (
+              'category_id' => '1016',
+              'parent_id' => '1013',
+              'title' => 'Magazine Files',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1016',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1016',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1017 => 
+            array (
+              'category_id' => '1017',
+              'parent_id' => '1013',
+              'title' => 'Media Accessories',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1017',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1017',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1018 => 
+            array (
+              'category_id' => '1018',
+              'parent_id' => '1013',
+              'title' => 'Newspaper Racks',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1018',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1018',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1019 => 
+            array (
+              'category_id' => '1019',
+              'parent_id' => '1013',
+              'title' => 'Noticeboards',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1019',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013_1019',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1013',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      1023 => 
+      array (
+        'category_id' => '1023',
+        'parent_id' => '256',
+        'title' => 'Shelves &amp; Wall Organisation',
+        'items' => 
+        array (
+          1024 => 
+          array (
+            'category_id' => '1024',
+            'parent_id' => '1023',
+            'title' => 'Complete Wall Shelves',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1024',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1023_1024',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1025 => 
+          array (
+            'category_id' => '1025',
+            'parent_id' => '1023',
+            'title' => 'Shelves',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1025',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1023_1025',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1026 => 
+          array (
+            'category_id' => '1026',
+            'parent_id' => '1023',
+            'title' => 'Shelving Brackets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1026',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1023_1026',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c1023',
+          'dropdown' => 
+          array (
+            1024 => 
+            array (
+              'category_id' => '1024',
+              'parent_id' => '1023',
+              'title' => 'Complete Wall Shelves',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1024',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1023_1024',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1025 => 
+            array (
+              'category_id' => '1025',
+              'parent_id' => '1023',
+              'title' => 'Shelves',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1025',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1023_1025',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1026 => 
+            array (
+              'category_id' => '1026',
+              'parent_id' => '1023',
+              'title' => 'Shelving Brackets',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1026',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1023_1026',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1023',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      1020 => 
+      array (
+        'category_id' => '1020',
+        'parent_id' => '256',
+        'title' => 'Storage Boxes &amp; Baskets',
+        'items' => 
+        array (
+          1021 => 
+          array (
+            'category_id' => '1021',
+            'parent_id' => '1020',
+            'title' => 'Baskets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1021',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1020_1021',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1022 => 
+          array (
+            'category_id' => '1022',
+            'parent_id' => '1020',
+            'title' => 'Storage Boxes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1022',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1020_1022',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c1020',
+          'dropdown' => 
+          array (
+            1021 => 
+            array (
+              'category_id' => '1021',
+              'parent_id' => '1020',
+              'title' => 'Baskets',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1021',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1020_1021',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1022 => 
+            array (
+              'category_id' => '1022',
+              'parent_id' => '1020',
+              'title' => 'Storage Boxes',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1022',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1020_1022',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256_1020',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_256',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

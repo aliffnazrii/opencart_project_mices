@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+<name>MICES SMS Verification</name>
+<code>mices_sms_verification</code>
+<version>1.0.0</version>
+<author>MICES Technology Sdn Bhd</author>
+<link>https://www.mices.com.my</link>
+<file path="catalog/language/en-gb/account/{register,edit}.php">
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$_['error_telephone']
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+$_['error_code']          = 'Invalid verification code. Please try again.';
+$_['error_expired']       = 'Verification code has expired. Please try again with new verification code.';
+$_['error_verification']  = 'Phone number not verified yet! Please tap Verify to send code for verification';
+
+//Button
+$_['button_verify']          = 'Verify';
+			]]>
+		</add>
+	</operation>
+</file>
+<file path="catalog/controller/account/{register,edit}.php">
+	<!-- <operation error="skip">
+		<search>
+			<![CDATA[
+				 if (isset($this->error['firstname'])) {
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+		if (isset($this->error['otp_code'])) {
+			$data['error_otp_code'] = $this->error['otp_code'];
+		} else {
+			$data['error_otp_code'] = '';
+		}
+			]]>
+		</add>
+	</operation>
+	 -->
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$data['column_left'] = $this->load->controller('common/column_left');
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+		$data['module_phone_verification_status'] = $this->config->get('module_phone_verification_status');
+		if ($data['module_phone_verification_status']) {
+			$data['phone_verification'] = $this->load->controller('extension/module/phone_verification', $data);
+		} else {
+			$data['phone_verification'] = '';
+		}
+			]]>
+		</add>
+	</operation>
+	<!-- <operation error="skip">
+		<search>
+			<![CDATA[
+				if (isset($this->request->post['telephone'])) {
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+		if (isset($this->request->post['otp_code'])) {
+			$data['otp_code'] = $this->request->post['otp_code'];
+		} else {
+			$data['otp_code'] = '';
+		}	
+			]]>
+		</add>
+	</operation> -->
+</file>
+<file path="catalog/view/theme/journal3/template/account/edit.twig">
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				<div class="buttons clearfix">
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+				{% if redirect %}
+					<input type="hidden" name="redirect" value="{{ redirect }}" />
+				{% endif %}   	
+			]]>
+		</add>
+	</operation>
+</file>
+
+<file path="catalog/controller/account/edit.php">
+	<!-- <operation error="skip">
+		<search>
+			<![CDATA[
+				if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+			if ($this->config->get('module_phone_verification_status')) {
+				if (!$this->customer->isTelephoneVerified()) {
+					$this->load->model('extension/module/phone_verification');
+
+					$otp = $this->model_extension_module_phone_verification->getCustomerSmsOtp($this->request->post['telephone'], $this->request->post['otp_code']);
+					if ($otp) {
+						$this->model_extension_module_phone_verification->disableSmsOtp($otp['sms_otp_id']);
+						$this->request->post['telephone_verified'] = 1;
+					} else {
+						$this->request->post['telephone_verified'] = 0;
+					}
+				}
+			}
+			]]>
+		</add>
+	</operation> -->
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$data['back'] = $this->url->link('account/account', '', true);
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+		if (isset($this->request->post['confirm_telephone'])) {
+			$data['confirm_telephone'] = $this->request->post['confirm_telephone'];
+		} elseif (!empty($customer_info)) {
+			$data['confirm_telephone'] = $customer_info['telephone'];
+		} else {
+			$data['confirm_telephone'] = '';
+		}
+
+        if (!empty($customer_info)) {
+        	$data['telephone_verified'] = isset($customer_info['telephone_verified']) ? $customer_info['telephone_verified'] : 0;
+        } elseif ($data['confirm_telephone'] && $data['telephone'] && $data['confirm_telephone'] == $data['telephone']) {
+        	$data['telephone_verified'] = 1;
+        } else {
+        	$data['telephone_verified'] = 0;
+        }
+
+        if (!$data['confirm_telephone'] || !$data['telephone'] || $data['confirm_telephone'] != $data['telephone']) {
+        	$data['telephone_verified'] = 0;
+        }
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$this->response->redirect($this->url->link('account/account', '', true));
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+			if (isset($this->request->post['redirect']) && $this->request->post['redirect'] != $this->url->link('account/logout', '', true) && (strpos($this->request->post['redirect'], $this->config->get('config_url')) !== false || strpos($this->request->post['redirect'], $this->config->get('config_ssl')) !== false)) {
+				$this->response->redirect(str_replace('&amp;', '&', $this->request->post['redirect']));
+			} else {
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$this->response->redirect($this->url->link('account/account', '', true));
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+			}
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				 if (isset($this->error['firstname'])) {
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+		if (isset($this->request->post['redirect']) ) {
+			$data['redirect'] = $this->request->post['redirect'];
+		} elseif (isset($this->session->data['redirect'])) {
+			$data['redirect'] = $this->session->data['redirect'];
+			unset($this->session->data['redirect']);
+		} else {
+			$data['redirect'] = '';
+		}
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				if ((utf8_strlen($this->request->post['telephone']) < 3) || (utf8_strlen($this->request->post['telephone']) > 32)) {
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+				/*
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$this->error['telephone'] = $this->language->get('error_telephone');
+			]]>
+		</search>
+		<add position="after" offset="1">
+			<![CDATA[
+				*/
+			]]>
+		</add>
+	</operation>
+</file>
+<file path="catalog/view/theme/journal3/template/account/edit.twig">
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				<div class="form-group {% if j3.settings.get('accountAccountTelephoneField') == 'required' %}required{% endif %} account-telephone">
+			]]>
+		</search>
+		<add position="replace">
+			<![CDATA[
+				<div class="form-group">
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				<input type="tel" name="telephone" value="{{ telephone }}" placeholder="{{ entry_telephone }}" id="input-telephone" class="form-control" />
+			]]>
+		</search>
+		<add position="replace">
+			<![CDATA[
+				<div class="control-label">{{ telephone }}</div>
+			]]>
+		</add>
+	</operation>
+</file>
+
+<file path="catalog/view/theme/journal3/template/account/register.twig">
+	<operation>
+		<search>
+			<![CDATA[
+            <input type="tel" name="telephone" value="{{ telephone }}" placeholder="{{ entry_telephone }}" id="input-telephone" class="form-control" />
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[{#]]>
+		</add>
+	</operation>
+	<operation>
+		<search>
+			<![CDATA[
+            <input type="tel" name="telephone" value="{{ telephone }}" placeholder="{{ entry_telephone }}" id="input-telephone" class="form-control" />
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[#}
+			<div style="display: flex">
+				<input type="tel" value="{{ telephone }}" placeholder="{{ entry_telephone }}" id="input-telephone" class="form-control" style="height: 42px" />
+
+				{% if module_phone_verification_status == 1 %}
+					<span class="input-group-verify col-sm-2">
+						<div id="send-otp"></div>
+					</span>
+				{% endif %} 
+			</div>
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				<div class="text-danger">{{ error_telephone }}</div>
+			]]>
+		</search>
+		<add position="after" offset="2">
+			<![CDATA[
+          {% if module_phone_verification_status == 1 %}
+            {{ phone_verification }} 
+          {% endif %}	   	
+			]]>
+		</add>
+	</operation> 
+	<operation>
+			<search>
+				<![CDATA[
+					{% if error_telephone %}
+				]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+					<div id="phone_message"></div>
+					<input type="hidden" name="telephone" value="{{ telephone }}" id="telephone"  />
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[{{ footer }} ]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+					<script>
+						var phoneInputField = document.querySelector("#input-telephone");
+						var iti = intlTelInput(phoneInputField, {
+							preferredCountries: ["my","sg","id","th","vn","ph","bn","mm"],
+							initialCountry: "my",
+							separateDialCode: true,
+							utilsScript:
+							"https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+						});
+
+						$("button[type=submit]").click(function(e) {
+							$('.account-telephone').removeClass('has-error');
+							var phoneInput = $('#input-telephone').val();
+							var countryData = iti.getSelectedCountryData();
+							
+							var phoneNumber = libphonenumber.parsePhoneNumberFromString(phoneInput, countryData.iso2.toUpperCase());
+							if (phoneNumber && phoneNumber.isValid()) {
+								var telephone = phoneNumber.countryCallingCode + phoneNumber.nationalNumber;
+								$('#telephone').val(telephone);
+							} else {   
+								$('.account-telephone').addClass('has-error');
+								$('#phone_message').addClass('text-danger').html('{{ error_phone_invalid }}');
+								$('#telephone').val(phoneInput);
+								e.preventDefault();
+							}
+							$('#input-telephone').val(phoneInput);
+						});
+					</script>
+				]]>
+			</add>
+		</operation>
+</file>
+<!-- <file path="catalog/controller/account/register.php">
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+			if ($this->config->get('module_phone_verification_status')) {
+				$this->load->model('extension/module/phone_verification');
+
+				$otp = $this->model_extension_module_phone_verification->getSmsOtp($this->request->post['telephone'], $this->request->post['otp_code']);
+				if ($otp) {
+					$this->model_extension_module_phone_verification->disableSmsOtp($otp['sms_otp_id']);
+					$this->request->post['telephone_verified'] = 1;
+				} else {
+					$this->request->post['telephone_verified'] = 0;
+				}
+			}
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				return !$this->error;
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+        if ($this->config->get('module_phone_verification_status')) {
+        	if (utf8_strlen($this->request->post['otp_code']) < 1) {
+        		$this->error['otp_code'] = $this->language->get('error_code');
+        	} else {
+        		$this->load->model('extension/module/phone_verification');
+
+        		$otp = $this->model_extension_module_phone_verification->getSmsOtp($this->request->post['telephone'], $this->request->post['otp_code']);
+
+        		if (!$otp) {
+        			$this->error['otp_code'] = $this->language->get('error_code');
+        		}
+        	}
+        }
+			]]>
+		</add>
+	</operation>
+</file> -->
+
+<file path="catalog/model/account/customer.php">
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				return $customer_id;
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+		if (isset($data['telephone_verified'])) {
+			$this->db->query("UPDATE " . DB_PREFIX . "customer SET telephone_verified = '" . (int)$data['telephone_verified'] . "' WHERE customer_id = '" . $this->db->escape($customer_id) . "'");
+		}
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				public function editCustomer($customer_id, $data) {
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+		if (isset($data['telephone_verified'])) {
+			$this->db->query("UPDATE " . DB_PREFIX . "customer SET telephone_verified = '" . (int)$data['telephone_verified'] . "' WHERE customer_id = '" . $this->db->escape($customer_id) . "'");
+		}
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search index="1">
+			<![CDATA[
+				email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "',
+			]]>
+		</search>
+		<add position="replace">
+			<![CDATA[
+				email = '" . $this->db->escape($data['email']) . "', 
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				public function editNewsletter($newsletter) {
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+	public function editPasswordCode($telephone, $code) {
+		$this->db->query("UPDATE `" . DB_PREFIX . "customer` SET code = '" . $this->db->escape($code) . "' WHERE telephone = '" . $this->db->escape($telephone) . "'");
+	}
+			]]>
+		</add>
+	</operation>
+</file>
+
+<file path="catalog/controller/checkout/checkout.php">
+	<operation>
+		<search>
+			<![CDATA[
+				$this->load->language('checkout/checkout');
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+				// Validate if customer telephone is verified
+				if ($this->config->get('module_phone_verification_status') == 1 && $this->config->get('module_phone_verification_required_checkout') == 1 && $this->customer->getId() && !$this->customer->isTelephoneVerified()) {
+					$this->session->data['redirect'] = $this->url->link('checkout/checkout', '', true);
+
+					$this->response->redirect($this->url->link('account/edit', '', true));
+				}
+			]]>
+		</add>
+	</operation>
+</file>
+
+<file path="system/library/cart/customer.php">
+	<operation>
+		<search>
+			<![CDATA[
+				public function getNewsletter() {
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+			public function isTelephoneVerified() {
+				return $this->isLogged() && $this->telephone_verified == 1;
+			}
+			]]>
+		</add>
+	</operation>
+	<operation>
+		<search>
+			<![CDATA[
+				$this->newsletter = $customer_query->row['newsletter'];
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+				$this->telephone_verified = isset($customer_query->row['telephone_verified']) ? $customer_query->row['telephone_verified'] : 0;
+			]]>
+		</add>
+	</operation>
+</file>
+  
+<file path="admin/controller/customer/customer.php">
+	<operation>
+		<search>
+			<![CDATA[
+				$data['customers'][] = array(
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+				'verified'       => $result['telephone_verified'],
+			]]>
+		</add>
+	</operation>
+</file>
+
+<file path="admin/view/template/customer/customer_list.twig">
+	<operation>
+		<search>
+			<![CDATA[
+				<td class="text-left">{% if sort == 'c.email' %}<a href="{{ sort_email }}" class="{{ order|lower }}">{{ column_email }}</a>{% else %}<a href="{{ sort_email }}">{{ column_email }}</a>{% endif %}</td>
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+                      <td class="text-left">{{ text_phone_verify }}</td>
+			]]>
+		</add>
+	</operation>
+	<operation>
+		<search>
+			<![CDATA[
+				<td class="text-left">{{ customer.email }}</td>
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+                    <td class="text-left">{% if customer.verified == '1' %}{{ text_yes }}{% else %}{{ text_no }}{% endif %}</td>
+			]]>
+		</add>
+	</operation>
+</file>
+
+<file path="admin/language/en-gb/customer/customer.php">
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$_['text_unlock']
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+$_['text_phone_verify']          = 'Phone Verified';
+			]]>
+		</add>
+	</operation>
+</file>
+
+<file path="catalog/controller/journal3/checkout.php">
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				if (isset($this->session->data['error'])) {
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+				$this->document->addScript('https://unpkg.com/libphonenumber-js@1.9.9/bundle/libphonenumber-min.js');
+				$this->document->addScript('https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js');
+				$this->document->addStyle('https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css');
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$data['login_block'] = $this->renderView('journal3/checkout/login', array(
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+				$data['module_phone_verification_status'] = $this->config->get('module_phone_verification_status');
+				if ($data['module_phone_verification_status']) {
+						$data['phone_verification'] = $this->load->controller('extension/module/phone_verification', $data);
+				} else {
+						$data['phone_verification'] = '';
+				}
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$this->language->get('entry_confirm'),
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+						'module_phone_verification_status' => $data['module_phone_verification_status'],
+						'phone_verification'               => $data['phone_verification'],
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				'reward_message'
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+						'otp_code'                   => null,
+			]]>
+		</add>
+	</operation>
+	<!-- <operation error="skip">
+		<search>
+			<![CDATA[
+				$order_data['password'] = $this->request->post['password'];
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+				$order_data['otp_code'] = $this->request->post['otp_code'];
+			]]>
+		</add>
+	</operation> -->
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				} else if (in_array($key, array('firstname', 'lastname', 'email', 'telephone', 'fax', 'custom_field', 'customer_group_id', 'password', 'company'))) {
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[/*]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				} else if (in_array($key, array('firstname', 'lastname', 'email', 'telephone', 'fax', 'custom_field', 'customer_group_id', 'password', 'company'))) {
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[*/
+						} else if (in_array($key, array('firstname', 'lastname', 'email', 'telephone', 'fax', 'custom_field', 'customer_group_id', 'password', 'company', 'otp_code'))) {
+			]]>
+		</add>
+	</operation>
+	<!-- <operation error="skip">
+		<search>
+			<![CDATA[
+				$account_data['newsletter'] = Arr::get($this->request->post, 'newsletter') === 'true';
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+				if ($this->config->get('module_phone_verification_status')) {
+						$this->load->model('extension/module/phone_verification');
+
+						$otp = $this->model_extension_module_phone_verification->getSmsOtp($this->request->post['order_data']['telephone'], $this->request->post['otp_code']);
+						if ($otp) {
+								$this->model_extension_module_phone_verification->disableSmsOtp($otp['sms_otp_id']);
+								$account_data['telephone_verified'] = 1;
+						} else {
+								$account_data['telephone_verified'] = 0;
+						}
+				}
+			]]>
+		</add>
+	</operation> -->
+</file>
+
+<file path="catalog/view/theme/journal3/template/journal3/checkout/register.twig">
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				<input v-model="order_data.telephone" type="text" name="telephone" value="" placeholder="{{ entry_telephone }}" id="input-telephone" class="form-control"/>
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[{#]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				<input v-model="order_data.telephone" type="text" name="telephone" value="" placeholder="{{ entry_telephone }}" id="input-telephone" class="form-control"/>
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[#}
+
+			{% if not module_phone_verification_status %}
+			<input v-model="order_data.telephone" type="text" name="telephone" value="" placeholder="{{ entry_telephone }}" id="input-user-telephone" class="form-control"/>
+
+			{% else %}
+			<input v-model="order_data.fake_telephone" type="text" name="fake_telephone" value="" placeholder="{{ entry_telephone }}" id="input-telephone" class="form-control"/>
+      <input v-model="order_data.telephone" type="hidden" name="telephone" value="" id="telephone"  />
+
+      <span class="input-group-verify col-sm-2" style="display: contents">
+        <div id="send-otp"><button type="button" style="background: #3a4754;" id="btn-verify-otp" class="btn btn-default" v-on:click="verify()">{{ button_send }}</button></div>
+      </span>  
+      {% endif %} 
+
+      <div id="phone_message"></div>
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				<span class="text-danger" v-if="error && error.telephone" v-html="error.telephone"></span>
+			]]>
+		</search>
+		<add position="after" offset="1">
+			<![CDATA[
+		{% if module_phone_verification_status == 1 %}
+      <div class="form-group required">
+        <label class="col-sm-2 control-label" for="input-otp-code">{{ entry_code }}</label>
+        <div class="col-sm-6">
+            <input v-model="otp_code" type="text" name="otp_code" placeholder="{{ entry_code }}" id="input-otp-code" class="form-control" />
+            {% if telephone_verified %}
+            <span class="input-group-verify">
+              <button type="button" id="btn-verify-otp" class="btn btn-default" v-on:click="verify()">{{ button_verify }}</button>
+            </span>
+            {% endif %} 
+          
+          {% if error_otp_code %}
+          <div class="text-danger" id="error_code">{{ error_otp_code }}</div>
+          {% endif %} 
+        </div>
+      </div>
+    {% endif %}  
+			]]>
+		</add>
+	</operation>
+</file>
+
+<file path="catalog/model/journal3/order.php">
+	<operation>
+		<search>
+			<![CDATA[
+				$order_data['telephone'] = '';
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+				$order_data['fake_telephone'] = '';
+			]]>
+		</add>
+	</operation>
+	<operation>
+		<search>
+			<![CDATA[
+				$order_data['telephone'] = $this->customer->getTelephone();
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+						$order_data['fake_telephone'] = $this->customer->getTelephone();
+			]]>
+		</add>
+	</operation>
+	<operation>
+		<search>
+			<![CDATA[
+				$order_data['telephone'] = $order_info['telephone'];
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+								$order_data['fake_telephone'] = $order_info['telephone'];
+			]]>
+		</add>
+	</operation>
+	<operation>
+		<search>
+			<![CDATA[
+				$order_data['telephone'] = Arr::get($this->request->post, 'order_data.telephone', '');
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+						$order_data['fake_telephone'] = Arr::get($this->request->post, 'order_data.fake_telephone', '');
+			]]>
+		</add>
+	</operation>
+</file>
+
+<file path="catalog/language/en-gb/account/forgotten.php">
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$_['text_success']
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+$_['text_your_telephone'] = 'Your Telephone No.';
+$_['text_telephone']      = 'Enter the telephone number associated with your account and verify the OTP. Click submit to password your reset.';
+
+$_['entry_telephone']     = 'Telephone';
+
+$_['error_telephone']     = 'Telephone must be between 3 and 32 characters!';
+$_['error_code']          = 'Invalid verification code. Please try again.';
+$_['error_expired']       = 'Verification code has expired. Please try again with new verification code.';
+$_['error_verification']  = 'Phone number not verified yet! Please tap Verify to send code for verification';
+
+//Button
+$_['button_verify']          = 'Verify';
+			]]>
+		</add>
+	</operation>
+</file>
+
+<file path="catalog/controller/account/forgotten.php">
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$this->load->language('account/forgotten');
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+		$this->document->addScript('https://unpkg.com/libphonenumber-js@1.9.9/bundle/libphonenumber-min.js');
+		$this->document->addScript('https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js');
+		$this->document->addStyle('https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css');
+			]]>
+		</add>
+	</operation>
+	<!-- <operation error="skip">
+		<search>
+			<![CDATA[
+				$this->model_account_customer->editCode($this->request->post['email'], token(40));
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+			if ($this->config->get('module_phone_verification_status')) {
+				$this->load->model('extension/module/phone_verification');
+
+				$otp = $this->model_extension_module_phone_verification->getSmsOtp($this->request->post['telephone'], $this->request->post['otp_code']);
+				if ($otp) {
+					$this->model_extension_module_phone_verification->disableSmsOtp($otp['sms_otp_id']);
+
+					$code = token(40);
+
+					$this->model_account_customer->editPasswordCode($this->request->post['telephone'], $code);
+
+					$this->response->redirect($this->url->link('account/reset', 'code=' . $code, true));
+				}
+			} else {]]>
+		</add>
+	</operation> -->
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$this->response->redirect($this->url->link('account/login', '', true));
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+			}
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$data['action'] = $this->url->link('account/forgotten', '', true);
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+			if ($this->config->get('module_phone_verification_status')) {
+				if (isset($this->error['otp_code'])) {
+					$data['error_otp_code'] = $this->error['otp_code'];
+				} else {
+					$data['error_otp_code'] = '';
+				}
+
+				if (isset($this->error['telephone'])) {
+					$data['error_telephone'] = $this->error['telephone'];
+				} else {
+					$data['error_telephone'] = '';
+				}
+
+				if (isset($this->request->post['telephone'])) {
+					$data['telephone'] = $this->request->post['telephone'];
+				} else {
+					$data['telephone'] = '';
+				}
+			}
+
+			$data['module_phone_verification_status'] = $this->config->get('module_phone_verification_status');
+			if ($data['module_phone_verification_status']) {
+				$data['otp_forgotten'] = true;
+
+				$data['phone_verification'] = $this->load->controller('extension/module/phone_verification', $data);
+			} else {
+				$data['phone_verification'] = '';
+			}
+			]]>
+		</add>
+	</operation>
+	<!-- <operation error="skip">
+		<search>
+			<![CDATA[
+				if (!isset($this->request->post['email'])) {
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+		if ($this->config->get('module_phone_verification_status')) {
+			if (!isset($this->request->post['telephone'])) {
+				$this->error['telephone'] = $this->language->get('error_telephone');
+			} elseif (!$this->model_account_customer->getTotalCustomersByTelephone($this->request->post['telephone'])) {
+				$this->error['telephone'] = $this->language->get('error_telephone');
+			}
+
+    	if (utf8_strlen($this->request->post['otp_code']) < 1) {
+    		$this->error['otp_code'] = $this->language->get('error_code');
+    	} else {
+    		$this->load->model('extension/module/phone_verification');
+
+    		$otp = $this->model_extension_module_phone_verification->getSmsOtp($this->request->post['telephone'], $this->request->post['otp_code']);
+
+    		if (!$otp) {
+    			$this->error['otp_code'] = $this->language->get('error_code');
+    		}
+    	}
+
+			// Check if customer has been approved.
+			$customer_info = $this->model_account_customer->getCustomerByTelephone($this->request->post['telephone']);
+
+			if ($customer_info && !$customer_info['status']) {
+				$this->error['warning'] = $this->language->get('error_approved');
+			}
+		} else {
+			]]>
+		</add>
+	</operation> -->
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				return !$this->error;
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+		}
+			]]>
+		</add>
+	</operation>
+</file>
+
+<file path="catalog/view/theme/journal3/template/account/forgotten.twig">
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				<legend>{{ text_your_email }}</legend>
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+					{% if module_phone_verification_status != 1 %}]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				</fieldset>
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+					{% elseif module_phone_verification_status == 1 %}
+					<legend>{{ text_your_telephone }}</legend>
+					<div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-telephone">{{ entry_telephone }}</label>
+            <div class="col-sm-10">
+              <input type="text" value="{{ telephone }}" placeholder="{{ entry_telephone }}" id="input-telephone" class="form-control" />
+
+              <span class="input-group-verify col-sm-2">
+                <div id="send-otp"></div>
+              </span>  
+          
+              <div id="phone_message"></div>
+              <input type="hidden" name="telephone" value="{{ telephone }}" id="telephone"  />
+
+              {% if error_telephone %}
+              <div class="text-danger">{{ error_telephone }}</div>
+              {% endif %}
+            </div>
+          </div>
+           
+          {{ phone_verification }} 
+          {% endif %} 
+			]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				{{ footer }}
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+<script>
+  var phoneInputField = document.querySelector("#input-telephone");
+  var iti = intlTelInput(phoneInputField, {
+    preferredCountries: ["my","sg","id","th","vn","ph","bn","mm"],
+    initialCountry: "my",
+    separateDialCode: true,
+    utilsScript:
+    "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+  });
+
+  $("button[type=submit]").click(function(e) {
+    $('.account-telephone').removeClass('has-error');
+    var phoneInput = $('#input-telephone').val();
+    var countryData = iti.getSelectedCountryData();
+    
+    var phoneNumber = libphonenumber.parsePhoneNumberFromString(phoneInput, countryData.iso2.toUpperCase());
+    if (phoneNumber && phoneNumber.isValid()) {
+      var telephone = phoneNumber.countryCallingCode + phoneNumber.nationalNumber;
+      $('#telephone').val(telephone);
+    } else {   
+      $('.account-telephone').addClass('has-error');
+      $('#phone_message').addClass('text-danger').html('{{ error_phone_invalid }}');
+      $('#telephone').val(phoneInput);
+      e.preventDefault();
+    }
+    $('#input-telephone').val(phoneInput);
+  });
+</script>
+			]]>
+		</add>
+	</operation>
+</file>
+
+<file path="catalog/controller/account/reset.php">
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$this->model_account_customer->editPassword($customer_info['email'], $this->request->post['password']);
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+				if (!$this->config->get('module_phone_verification_status')) {]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$this->model_account_customer->editPassword($customer_info['email'], $this->request->post['password']);
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+				} else {
+					$this->model_account_customer->editPassword($customer_info['telephone'], $this->request->post['password']);
+				}
+			]]>
+		</add>
+	</operation>
+</file>
+
+<file path="catalog/controller/account/password.php">
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$this->model_account_customer->editPassword($this->customer->getEmail(), $this->request->post['password']);
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+			if (!$this->config->get('module_phone_verification_status')) {]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				$this->model_account_customer->editPassword($this->customer->getEmail(), $this->request->post['password']);
+			]]>
+		</search>
+		<add position="after">
+			<![CDATA[
+			} else {
+				$this->model_account_customer->editPassword($this->customer->getTelephone(), $this->request->post['password']);
+			}
+			]]>
+		</add>
+	</operation>
+</file>
+
+<file path="catalog/controller/api/customer.php">
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				if (!$customer_info || !$this->customer->login($customer_info['email'], '', true)) {
+			]]>
+		</search>
+		<add position="replace">
+			<![CDATA[if (!$customer_info || !$this->customer->login($customer_info['telephone'], '', true)) {]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				if ((utf8_strlen(trim($this->request->post['lastname'])) < 1) || (utf8_strlen(trim($this->request->post['lastname'])) > 32)) {
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[/*]]>
+		</add>
+	</operation>
+	<operation error="skip">
+		<search>
+			<![CDATA[
+				if ((utf8_strlen($this->request->post['email']) > 96) || (!filter_var($this->request->post['email'], FILTER_VALIDATE_EMAIL))) {
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[*/]]>
+		</add>
+	</operation>
+</file>
+
+<!-- For Mockup Purpose -->
+<file path="catalog/view/theme/journal3/template/extension/module/phone_verification.twig">
+	<operation error="skip">
+		<search>
+			<![CDATA[
+			function verify() {
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+			/*
+			]]>
+		</add>
+	</operation>
+
+	<operation error="skip">
+		<search>
+			<![CDATA[
+			function startOtpCountdown() {
+			]]>
+		</search>
+		<add position="before">
+			<![CDATA[
+			*/
+			function verify() {
+				$('#input-otp-code').val(Math.floor(Math.random() * 100000));
+			}
+			]]>
+		</add>
+	</operation>
+</file>
+<!-- For Mockup Purpose End -->
+</modification>

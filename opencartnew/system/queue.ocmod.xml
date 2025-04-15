@@ -1,0 +1,51 @@
+<modification>
+	<name>MICES Queue</name>
+	<version>1.0.0</version>
+	<code>mices_syncgo</code>
+	<author>Mices Technology</author>
+	<link>https://www.mices.com.my/</link>
+	
+	<file path="system/library/config.php">
+		<operation error="log">
+			<search><![CDATA[
+				public function get($key) {
+			]]></search>
+			<add position="after"><![CDATA[
+		if (getenv('QUEUE_CRON') && $key == 'action_pre_action') {
+			$skip_pre_action = array(
+				'startup/error',
+				'startup/event',
+				'startup/sass',
+				'startup/login',
+				'startup/permission'
+			);
+			$actions = isset($this->data[$key]) ? $this->data[$key] : array();
+			foreach ($actions as $index => $action) {
+				if (in_array($action, $skip_pre_action)) {
+					unset($actions[$index]);
+				}
+			}
+			return $actions;
+		}
+			]]></add>
+		</operation>	
+	</file>
+	<file path="system/library/db.php">
+		<operation error="log">
+			<search><![CDATA[
+				public function connected() {
+			]]></search>
+			<add position="before"><![CDATA[
+	public function recreate($adaptor, $hostname, $username, $password, $database, $port = NULL) {
+		$class = 'DB\\' . $adaptor;
+
+		if (class_exists($class)) {
+			$this->adaptor = new $class($hostname, $username, $password, $database, $port);
+		} else {
+			throw new \Exception('Error: Could not load database adaptor ' . $adaptor . '!');
+		}
+	}
+			]]></add>
+		</operation>	
+	</file>
+</modification>

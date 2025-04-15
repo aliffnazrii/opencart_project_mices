@@ -1,0 +1,46 @@
+<?php $val = array (
+  'css' => '.module-title-289
+.subtitle{display:none;font-size:16px;color:rgba(139, 145, 152, 1);max-width:980px}.module-title-289 .title-divider{display:block;height:2px;background:rgba(226, 226, 226, 1);margin-top:10px;margin-bottom:10px;margin-left:0;margin-right:auto}.module-title-289 .title-wrapper{text-align:left}.module-title-289
+h3{font-family:\'Montserrat\';font-weight:700;font-size:30px;color:rgba(254, 90, 94, 1)}.module-title-289 .title-wrapper
+h3{font-style:italic}.module-title-289 .title-wrapper::before{opacity:.05;display:none}@media (max-width: 760px){.module-title-289
+h3{font-size:20px}.module-title-289
+.subtitle{font-size:14px}}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        700 => '700',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'DAILY LOW PRICE',
+    'subtitle' => '',
+    'status' => true,
+    'id' => 'title-67fdfb73029e9',
+    'module_id' => 289,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-289',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

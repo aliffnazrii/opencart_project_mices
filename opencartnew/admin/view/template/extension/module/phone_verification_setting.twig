@@ -1,0 +1,187 @@
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="pull-right">
+        <button type="submit" form="form-module" data-toggle="tooltip" title="{{ button_save }}" class="btn btn-primary"><i class="fa fa-save"></i></button>
+        <a href="{{ cancel }}" data-toggle="tooltip" title="{{ button_cancel }}" class="btn btn-default"><i class="fa fa-reply"></i></a></div>
+      <h1>{{ heading_title }}</h1>
+      <ul class="breadcrumb">
+        {% for breadcrumb in breadcrumbs %}
+        <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="container-fluid">
+    {% if error_warning %}
+    <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+    {% endif %}
+    {% if success %}
+    <div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> {{ success }}
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+    {% endif %}
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-pencil"></i> {{ text_edit }}</h3>
+      </div>
+      <div class="panel-body">
+        <form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-module" class="form-horizontal">
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#tab-general" data-toggle="tab">{{ tab_general }}</a></li>
+            <li><a href="#tab-vendor" data-toggle="tab">{{ tab_vendor }}</a></li>
+             <li><a href="#tab-log" data-toggle="tab">{{ tab_log }}</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="tab-general">
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-status">{{ entry_status }}</label>
+                <div class="col-sm-10">
+                  <select name="module_phone_verification_status" id="input-status" class="form-control">
+                    {% if module_phone_verification_status %}
+                    <option value="1" selected="selected">{{ text_enabled }}</option>
+                    <option value="0">{{ text_disabled }}</option>
+                    {% else %}
+                    <option value="1">{{ text_enabled }}</option>
+                    <option value="0" selected="selected">{{ text_disabled }}</option>
+                    {% endif %}
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-sandbox">{{ entry_sandbox }}</label>
+                <div class="col-sm-10">
+                  <select name="module_phone_verification_sandbox" id="input-sandbox" class="form-control">
+                    {% if module_phone_verification_sandbox %}
+                    <option value="1" selected="selected">{{ text_enabled }}</option>
+                    <option value="0">{{ text_disabled }}</option>
+                    {% else %}
+                    <option value="1">{{ text_enabled }}</option>
+                    <option value="0" selected="selected">{{ text_disabled }}</option>
+                    {% endif %}
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-vendor">{{ entry_vendor }}</label>
+                <div class="col-sm-10">
+                  <select name="module_phone_verification_vendor" id="input-vendor" class="form-control">
+                    <option value="">{{ text_select }}</option>
+                    {% for key,value in vendors %}
+                    <option value="{{ key }}" {% if module_phone_verification_vendor == key %} selected="selected" {% endif %}>{{ value }}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-message"><span data-toggle="tooltip" title="{{ help_message }}">{{ entry_message }}</span></label>
+                <div class="col-sm-10">
+                  <textarea name="module_phone_verification_message" placeholder="{{ entry_message }}" id="input-message" class="form-control">{{ module_phone_verification_message }}</textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-resend-interval">{{ entry_resend_interval }}</label>
+                <div class="col-sm-10">
+                  <input type="text" name="module_phone_verification_resend_interval" value="{{ module_phone_verification_resend_interval }}" placeholder="{{ entry_resend_interval }}" id="input-resend-interval" class="form-control" />
+                  <div class="text-info">{{ text_default_interval }}</div>
+                  {% if error_resend_interval %}
+                    <div class="text-danger">{{ error_resend_interval }}</div>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-limit">{{ entry_limit }}</label>
+                <div class="col-sm-10">
+                  <input type="text" name="module_phone_verification_daily_limit" value="{{ module_phone_verification_daily_limit }}" placeholder="{{ entry_limit }}" id="input-limit" class="form-control" />
+                   <div class="text-info">{{ text_default_limit }}</div>
+                  {% if error_limit %}
+                    <div class="text-danger">{{ error_limit }}</div>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label">{{ entry_required_checkout }}</label>
+                <div class="col-sm-10">
+                  <label class="radio-inline">
+	        				<input type="radio" name="module_phone_verification_required_checkout" value="1" 	{% if module_phone_verification_required_checkout %} checked="checked" {% endif %}/>	
+                  {{ text_yes }}
+                  </label>
+                  <label class="radio-inline">
+                  <input type="radio" name="module_phone_verification_required_checkout" value="0" {% if not module_phone_verification_required_checkout %} checked="checked" {% endif %} />
+                  {{ text_no }}
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="tab-vendor">
+              <div class="row">
+                <div class="col-sm-2">
+                  <ul class="nav nav-pills nav-stacked">
+                    {% for vendor_key,vendor_value in vendors %}
+                    <li {% if vendor == vendor_key or (not vendor and loop.first) %}class="active"{% endif %}><a href="#tab-{{ vendor_key }}" data-toggle="tab">{{ vendor_value }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+                <div class="col-sm-10">
+                  <div class="tab-content">
+                    {% for vendor_key,vendor_value in vendors %}
+                    <div class="tab-pane {% if vendor == vendor_key or (not vendor and loop.first) %} active {% endif %}" id="tab-{{ vendor_key }}">
+                      {% for setting_key,setting_value in setting[vendor_key] %}
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label" for="input-{{ setting_key }}">{{ setting_value.language }}</label>
+                        <div class="col-sm-10">
+                          <input type="text" name="module_phone_verification_setting[{{ vendor_key }}][{{ setting_key }}]" value="{{ setting_value.value }}" placeholder="{{ setting_value.language }}" id="input-username" class="form-control" />
+                        </div>
+                      </div>
+                      {% endfor %}
+                      </div>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            </div>
+             <div class="tab-pane" id="tab-log">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="table-responsive">
+                    <table class="table table-bordered sg_bg-white">
+                      <thead>
+                        <tr>
+                          <th style="width: 70%;">{{ column_file_name }}</th>
+                          <th>{{ column_size }}</th>
+                          <th>{{ column_action }}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {% if log_files %}
+                          {% for file in log_files %}
+                            <tr>
+                              <td>{{ file['name'] }}</td>
+                              <td class="text-right">{{ file['size'] }}</td>
+                              <td>
+                                <a href="{{ file['download'] }}" data-toggle="tooltip" title="{{ button_download }}" class="btn btn-primary"><i class="fa fa-download"></i></a>
+                                <a onclick="confirm('{{ text_confirm }}') ? location.href='{{ file['delete'] }}' : false;" data-toggle="tooltip" title="{{ button_delete }}" class="btn btn-danger"><i class="fa fa-trash-o"></i></a>
+                              </td>
+                            </tr>
+                          {% endfor %}
+                        {% else %}
+                          <tr>
+                            <td class="text-center" colspan="3">{{ text_no_log }}</td>
+                          </tr>
+                        {% endif %}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{{ footer }}

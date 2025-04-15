@@ -1,0 +1,83 @@
+<?php $val = array (
+  'css' => '.module-grid-308 .grid-row-1{padding:0px;margin-bottom:20px}.module-grid-308 .grid-row-1::before{display:block;left:0;width:100vw}.module-grid-308 .grid-row-1 .grid-col-1{width:50%;padding-bottom:0px}.module-grid-308 .grid-row-1 .grid-col-1 .grid-item{height:100%}.module-grid-308 .grid-row-1 .grid-col-1 .grid-items{justify-content:flex-start}.module-grid-308 .grid-row-1 .grid-col-2{width:50%;padding:0px}.module-grid-308 .grid-row-1 .grid-col-2 .grid-item{height:auto}.module-grid-308 .grid-row-1 .grid-col-2 .grid-items{justify-content:center}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'name' => 'New Column',
+    'grid_classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-grid',
+      2 => 'module-grid-308',
+      3 => 'grid-rows',
+    ),
+    'rows' => 
+    array (
+      1 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-1',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-1',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '309',
+                  'name' => 'App QR Download',
+                  'type' => 'info_blocks',
+                ),
+              ),
+            ),
+          ),
+          2 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-2',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '305',
+                  'name' => 'Domaio App Download',
+                  'type' => 'info_blocks',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

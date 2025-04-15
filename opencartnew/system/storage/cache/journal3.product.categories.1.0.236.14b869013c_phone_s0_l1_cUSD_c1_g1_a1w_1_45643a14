@@ -1,0 +1,3671 @@
+<?php $val = array (
+  'category_id' => '236',
+  'parent_id' => '230',
+  'title' => 'Bath',
+  'items' => 
+  array (
+    326 => 
+    array (
+      'category_id' => '326',
+      'parent_id' => '236',
+      'title' => 'Bath Accessories',
+      'items' => 
+      array (
+        327 => 
+        array (
+          'category_id' => '327',
+          'parent_id' => '326',
+          'title' => 'Bath Organisers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c327',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_327',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        328 => 
+        array (
+          'category_id' => '328',
+          'parent_id' => '326',
+          'title' => 'Body Puffs &amp; Brushs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c328',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_328',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        329 => 
+        array (
+          'category_id' => '329',
+          'parent_id' => '326',
+          'title' => 'Hair Dryer Holders',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c329',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_329',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        330 => 
+        array (
+          'category_id' => '330',
+          'parent_id' => '326',
+          'title' => 'Make Up Organisers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c330',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_330',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        331 => 
+        array (
+          'category_id' => '331',
+          'parent_id' => '326',
+          'title' => 'Shower Caps',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c331',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_331',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        332 => 
+        array (
+          'category_id' => '332',
+          'parent_id' => '326',
+          'title' => 'Shower Curtains, Rods &amp; Rings',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c332',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_332',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        333 => 
+        array (
+          'category_id' => '333',
+          'parent_id' => '326',
+          'title' => 'Soap Dishes ',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c333',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_333',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        334 => 
+        array (
+          'category_id' => '334',
+          'parent_id' => '326',
+          'title' => 'Soap Dispensers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c334',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_334',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        335 => 
+        array (
+          'category_id' => '335',
+          'parent_id' => '326',
+          'title' => 'Tissue Box Covers ',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c335',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_335',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        336 => 
+        array (
+          'category_id' => '336',
+          'parent_id' => '326',
+          'title' => 'Toilet Brush Holders',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c336',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_336',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        337 => 
+        array (
+          'category_id' => '337',
+          'parent_id' => '326',
+          'title' => 'Toilet Paper Holders ',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c337',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_337',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        338 => 
+        array (
+          'category_id' => '338',
+          'parent_id' => '326',
+          'title' => 'Toothbrush Holders ',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c338',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_338',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        339 => 
+        array (
+          'category_id' => '339',
+          'parent_id' => '326',
+          'title' => 'Towel Bars &amp; Racks',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c339',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_339',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        340 => 
+        array (
+          'category_id' => '340',
+          'parent_id' => '326',
+          'title' => 'Towel Rings &amp; Hooks',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c340',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_340',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c326',
+        'dropdown' => 
+        array (
+          327 => 
+          array (
+            'category_id' => '327',
+            'parent_id' => '326',
+            'title' => 'Bath Organisers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c327',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_327',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          328 => 
+          array (
+            'category_id' => '328',
+            'parent_id' => '326',
+            'title' => 'Body Puffs &amp; Brushs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c328',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_328',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          329 => 
+          array (
+            'category_id' => '329',
+            'parent_id' => '326',
+            'title' => 'Hair Dryer Holders',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c329',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_329',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          330 => 
+          array (
+            'category_id' => '330',
+            'parent_id' => '326',
+            'title' => 'Make Up Organisers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c330',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_330',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          331 => 
+          array (
+            'category_id' => '331',
+            'parent_id' => '326',
+            'title' => 'Shower Caps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c331',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_331',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          332 => 
+          array (
+            'category_id' => '332',
+            'parent_id' => '326',
+            'title' => 'Shower Curtains, Rods &amp; Rings',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c332',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_332',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          333 => 
+          array (
+            'category_id' => '333',
+            'parent_id' => '326',
+            'title' => 'Soap Dishes ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c333',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_333',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          334 => 
+          array (
+            'category_id' => '334',
+            'parent_id' => '326',
+            'title' => 'Soap Dispensers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c334',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_334',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          335 => 
+          array (
+            'category_id' => '335',
+            'parent_id' => '326',
+            'title' => 'Tissue Box Covers ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c335',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_335',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          336 => 
+          array (
+            'category_id' => '336',
+            'parent_id' => '326',
+            'title' => 'Toilet Brush Holders',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c336',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_336',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          337 => 
+          array (
+            'category_id' => '337',
+            'parent_id' => '326',
+            'title' => 'Toilet Paper Holders ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c337',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_337',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          338 => 
+          array (
+            'category_id' => '338',
+            'parent_id' => '326',
+            'title' => 'Toothbrush Holders ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c338',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_338',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          339 => 
+          array (
+            'category_id' => '339',
+            'parent_id' => '326',
+            'title' => 'Towel Bars &amp; Racks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c339',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_339',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          340 => 
+          array (
+            'category_id' => '340',
+            'parent_id' => '326',
+            'title' => 'Towel Rings &amp; Hooks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c340',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_340',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    341 => 
+    array (
+      'category_id' => '341',
+      'parent_id' => '236',
+      'title' => 'Bath Fixtures',
+      'items' => 
+      array (
+        342 => 
+        array (
+          'category_id' => '342',
+          'parent_id' => '341',
+          'title' => 'Bath Furniture &amp; Set',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c342',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_341_342',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c341',
+        'dropdown' => 
+        array (
+          342 => 
+          array (
+            'category_id' => '342',
+            'parent_id' => '341',
+            'title' => 'Bath Furniture &amp; Set',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c342',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_341_342',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_341',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    343 => 
+    array (
+      'category_id' => '343',
+      'parent_id' => '236',
+      'title' => 'Bath Sinks',
+      'items' => 
+      array (
+        344 => 
+        array (
+          'category_id' => '344',
+          'parent_id' => '343',
+          'title' => 'Drop In Bathroom Sinks',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c344',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_344',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        345 => 
+        array (
+          'category_id' => '345',
+          'parent_id' => '343',
+          'title' => 'Pedestral Sinks',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c345',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_345',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        346 => 
+        array (
+          'category_id' => '346',
+          'parent_id' => '343',
+          'title' => 'Undermount Bathroom Sinks',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c346',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_346',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        347 => 
+        array (
+          'category_id' => '347',
+          'parent_id' => '343',
+          'title' => 'Vessels Sinks',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c347',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_347',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        348 => 
+        array (
+          'category_id' => '348',
+          'parent_id' => '343',
+          'title' => 'Wall Mount Sinks',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c348',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_348',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c343',
+        'dropdown' => 
+        array (
+          344 => 
+          array (
+            'category_id' => '344',
+            'parent_id' => '343',
+            'title' => 'Drop In Bathroom Sinks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c344',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_344',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          345 => 
+          array (
+            'category_id' => '345',
+            'parent_id' => '343',
+            'title' => 'Pedestral Sinks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c345',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_345',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          346 => 
+          array (
+            'category_id' => '346',
+            'parent_id' => '343',
+            'title' => 'Undermount Bathroom Sinks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c346',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_346',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          347 => 
+          array (
+            'category_id' => '347',
+            'parent_id' => '343',
+            'title' => 'Vessels Sinks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c347',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_347',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          348 => 
+          array (
+            'category_id' => '348',
+            'parent_id' => '343',
+            'title' => 'Wall Mount Sinks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c348',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_348',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    349 => 
+    array (
+      'category_id' => '349',
+      'parent_id' => '236',
+      'title' => 'Bath Taps',
+      'items' => 
+      array (
+        350 => 
+        array (
+          'category_id' => '350',
+          'parent_id' => '349',
+          'title' => 'Centerset Sink Taps',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c350',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_350',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        351 => 
+        array (
+          'category_id' => '351',
+          'parent_id' => '349',
+          'title' => 'Single Handle Sink Taps',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c351',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_351',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        352 => 
+        array (
+          'category_id' => '352',
+          'parent_id' => '349',
+          'title' => 'Touchless Sink Taps',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c352',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_352',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        353 => 
+        array (
+          'category_id' => '353',
+          'parent_id' => '349',
+          'title' => 'Vessel Sink Faucets',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c353',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_353',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        354 => 
+        array (
+          'category_id' => '354',
+          'parent_id' => '349',
+          'title' => 'Wall Mounted Sink Taps',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c354',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_354',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        355 => 
+        array (
+          'category_id' => '355',
+          'parent_id' => '349',
+          'title' => 'Widespread Sink Taps',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c355',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_355',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c349',
+        'dropdown' => 
+        array (
+          350 => 
+          array (
+            'category_id' => '350',
+            'parent_id' => '349',
+            'title' => 'Centerset Sink Taps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c350',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_350',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          351 => 
+          array (
+            'category_id' => '351',
+            'parent_id' => '349',
+            'title' => 'Single Handle Sink Taps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c351',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_351',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          352 => 
+          array (
+            'category_id' => '352',
+            'parent_id' => '349',
+            'title' => 'Touchless Sink Taps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c352',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_352',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          353 => 
+          array (
+            'category_id' => '353',
+            'parent_id' => '349',
+            'title' => 'Vessel Sink Faucets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c353',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_353',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          354 => 
+          array (
+            'category_id' => '354',
+            'parent_id' => '349',
+            'title' => 'Wall Mounted Sink Taps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c354',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_354',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          355 => 
+          array (
+            'category_id' => '355',
+            'parent_id' => '349',
+            'title' => 'Widespread Sink Taps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c355',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_355',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    356 => 
+    array (
+      'category_id' => '356',
+      'parent_id' => '236',
+      'title' => 'Bath Textiles',
+      'items' => 
+      array (
+        357 => 
+        array (
+          'category_id' => '357',
+          'parent_id' => '356',
+          'title' => 'Bath Mats',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c357',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_357',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        358 => 
+        array (
+          'category_id' => '358',
+          'parent_id' => '356',
+          'title' => 'Bath Robes &amp; Slippers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c358',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_358',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        359 => 
+        array (
+          'category_id' => '359',
+          'parent_id' => '356',
+          'title' => 'Bath Sheets',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c359',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_359',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        360 => 
+        array (
+          'category_id' => '360',
+          'parent_id' => '356',
+          'title' => 'Bath Towels ',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c360',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_360',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        361 => 
+        array (
+          'category_id' => '361',
+          'parent_id' => '356',
+          'title' => 'Face Towels ',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c361',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_361',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        362 => 
+        array (
+          'category_id' => '362',
+          'parent_id' => '356',
+          'title' => 'Hand Towels',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c362',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_362',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c356',
+        'dropdown' => 
+        array (
+          357 => 
+          array (
+            'category_id' => '357',
+            'parent_id' => '356',
+            'title' => 'Bath Mats',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c357',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_357',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          358 => 
+          array (
+            'category_id' => '358',
+            'parent_id' => '356',
+            'title' => 'Bath Robes &amp; Slippers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c358',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_358',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          359 => 
+          array (
+            'category_id' => '359',
+            'parent_id' => '356',
+            'title' => 'Bath Sheets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c359',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_359',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          360 => 
+          array (
+            'category_id' => '360',
+            'parent_id' => '356',
+            'title' => 'Bath Towels ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c360',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_360',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          361 => 
+          array (
+            'category_id' => '361',
+            'parent_id' => '356',
+            'title' => 'Face Towels ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c361',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_361',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          362 => 
+          array (
+            'category_id' => '362',
+            'parent_id' => '356',
+            'title' => 'Hand Towels',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c362',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_362',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    363 => 
+    array (
+      'category_id' => '363',
+      'parent_id' => '236',
+      'title' => 'Shower Systems',
+      'items' => 
+      array (
+        364 => 
+        array (
+          'category_id' => '364',
+          'parent_id' => '363',
+          'title' => 'Shower Arms &amp; Slide Bars ',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c364',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_363_364',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        365 => 
+        array (
+          'category_id' => '365',
+          'parent_id' => '363',
+          'title' => 'Shower Heads &amp; Pipes',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c365',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_363_365',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        366 => 
+        array (
+          'category_id' => '366',
+          'parent_id' => '363',
+          'title' => 'Shower Towers &amp; Sets',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c366',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_363_366',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c363',
+        'dropdown' => 
+        array (
+          364 => 
+          array (
+            'category_id' => '364',
+            'parent_id' => '363',
+            'title' => 'Shower Arms &amp; Slide Bars ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c364',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_363_364',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          365 => 
+          array (
+            'category_id' => '365',
+            'parent_id' => '363',
+            'title' => 'Shower Heads &amp; Pipes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c365',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_363_365',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          366 => 
+          array (
+            'category_id' => '366',
+            'parent_id' => '363',
+            'title' => 'Shower Towers &amp; Sets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c366',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_363_366',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_363',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c236',
+    'dropdown' => 
+    array (
+      326 => 
+      array (
+        'category_id' => '326',
+        'parent_id' => '236',
+        'title' => 'Bath Accessories',
+        'items' => 
+        array (
+          327 => 
+          array (
+            'category_id' => '327',
+            'parent_id' => '326',
+            'title' => 'Bath Organisers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c327',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_327',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          328 => 
+          array (
+            'category_id' => '328',
+            'parent_id' => '326',
+            'title' => 'Body Puffs &amp; Brushs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c328',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_328',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          329 => 
+          array (
+            'category_id' => '329',
+            'parent_id' => '326',
+            'title' => 'Hair Dryer Holders',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c329',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_329',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          330 => 
+          array (
+            'category_id' => '330',
+            'parent_id' => '326',
+            'title' => 'Make Up Organisers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c330',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_330',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          331 => 
+          array (
+            'category_id' => '331',
+            'parent_id' => '326',
+            'title' => 'Shower Caps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c331',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_331',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          332 => 
+          array (
+            'category_id' => '332',
+            'parent_id' => '326',
+            'title' => 'Shower Curtains, Rods &amp; Rings',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c332',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_332',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          333 => 
+          array (
+            'category_id' => '333',
+            'parent_id' => '326',
+            'title' => 'Soap Dishes ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c333',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_333',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          334 => 
+          array (
+            'category_id' => '334',
+            'parent_id' => '326',
+            'title' => 'Soap Dispensers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c334',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_334',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          335 => 
+          array (
+            'category_id' => '335',
+            'parent_id' => '326',
+            'title' => 'Tissue Box Covers ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c335',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_335',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          336 => 
+          array (
+            'category_id' => '336',
+            'parent_id' => '326',
+            'title' => 'Toilet Brush Holders',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c336',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_336',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          337 => 
+          array (
+            'category_id' => '337',
+            'parent_id' => '326',
+            'title' => 'Toilet Paper Holders ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c337',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_337',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          338 => 
+          array (
+            'category_id' => '338',
+            'parent_id' => '326',
+            'title' => 'Toothbrush Holders ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c338',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_338',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          339 => 
+          array (
+            'category_id' => '339',
+            'parent_id' => '326',
+            'title' => 'Towel Bars &amp; Racks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c339',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_339',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          340 => 
+          array (
+            'category_id' => '340',
+            'parent_id' => '326',
+            'title' => 'Towel Rings &amp; Hooks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c340',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_340',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c326',
+          'dropdown' => 
+          array (
+            327 => 
+            array (
+              'category_id' => '327',
+              'parent_id' => '326',
+              'title' => 'Bath Organisers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c327',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_327',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            328 => 
+            array (
+              'category_id' => '328',
+              'parent_id' => '326',
+              'title' => 'Body Puffs &amp; Brushs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c328',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_328',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            329 => 
+            array (
+              'category_id' => '329',
+              'parent_id' => '326',
+              'title' => 'Hair Dryer Holders',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c329',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_329',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            330 => 
+            array (
+              'category_id' => '330',
+              'parent_id' => '326',
+              'title' => 'Make Up Organisers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c330',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_330',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            331 => 
+            array (
+              'category_id' => '331',
+              'parent_id' => '326',
+              'title' => 'Shower Caps',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c331',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_331',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            332 => 
+            array (
+              'category_id' => '332',
+              'parent_id' => '326',
+              'title' => 'Shower Curtains, Rods &amp; Rings',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c332',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_332',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            333 => 
+            array (
+              'category_id' => '333',
+              'parent_id' => '326',
+              'title' => 'Soap Dishes ',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c333',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_333',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            334 => 
+            array (
+              'category_id' => '334',
+              'parent_id' => '326',
+              'title' => 'Soap Dispensers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c334',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_334',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            335 => 
+            array (
+              'category_id' => '335',
+              'parent_id' => '326',
+              'title' => 'Tissue Box Covers ',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c335',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_335',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            336 => 
+            array (
+              'category_id' => '336',
+              'parent_id' => '326',
+              'title' => 'Toilet Brush Holders',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c336',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_336',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            337 => 
+            array (
+              'category_id' => '337',
+              'parent_id' => '326',
+              'title' => 'Toilet Paper Holders ',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c337',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_337',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            338 => 
+            array (
+              'category_id' => '338',
+              'parent_id' => '326',
+              'title' => 'Toothbrush Holders ',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c338',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_338',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            339 => 
+            array (
+              'category_id' => '339',
+              'parent_id' => '326',
+              'title' => 'Towel Bars &amp; Racks',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c339',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_339',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            340 => 
+            array (
+              'category_id' => '340',
+              'parent_id' => '326',
+              'title' => 'Towel Rings &amp; Hooks',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c340',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326_340',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_326',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      341 => 
+      array (
+        'category_id' => '341',
+        'parent_id' => '236',
+        'title' => 'Bath Fixtures',
+        'items' => 
+        array (
+          342 => 
+          array (
+            'category_id' => '342',
+            'parent_id' => '341',
+            'title' => 'Bath Furniture &amp; Set',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c342',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_341_342',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c341',
+          'dropdown' => 
+          array (
+            342 => 
+            array (
+              'category_id' => '342',
+              'parent_id' => '341',
+              'title' => 'Bath Furniture &amp; Set',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c342',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_341_342',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_341',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      343 => 
+      array (
+        'category_id' => '343',
+        'parent_id' => '236',
+        'title' => 'Bath Sinks',
+        'items' => 
+        array (
+          344 => 
+          array (
+            'category_id' => '344',
+            'parent_id' => '343',
+            'title' => 'Drop In Bathroom Sinks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c344',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_344',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          345 => 
+          array (
+            'category_id' => '345',
+            'parent_id' => '343',
+            'title' => 'Pedestral Sinks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c345',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_345',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          346 => 
+          array (
+            'category_id' => '346',
+            'parent_id' => '343',
+            'title' => 'Undermount Bathroom Sinks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c346',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_346',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          347 => 
+          array (
+            'category_id' => '347',
+            'parent_id' => '343',
+            'title' => 'Vessels Sinks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c347',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_347',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          348 => 
+          array (
+            'category_id' => '348',
+            'parent_id' => '343',
+            'title' => 'Wall Mount Sinks',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c348',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_348',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c343',
+          'dropdown' => 
+          array (
+            344 => 
+            array (
+              'category_id' => '344',
+              'parent_id' => '343',
+              'title' => 'Drop In Bathroom Sinks',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c344',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_344',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            345 => 
+            array (
+              'category_id' => '345',
+              'parent_id' => '343',
+              'title' => 'Pedestral Sinks',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c345',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_345',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            346 => 
+            array (
+              'category_id' => '346',
+              'parent_id' => '343',
+              'title' => 'Undermount Bathroom Sinks',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c346',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_346',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            347 => 
+            array (
+              'category_id' => '347',
+              'parent_id' => '343',
+              'title' => 'Vessels Sinks',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c347',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_347',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            348 => 
+            array (
+              'category_id' => '348',
+              'parent_id' => '343',
+              'title' => 'Wall Mount Sinks',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c348',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343_348',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_343',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      349 => 
+      array (
+        'category_id' => '349',
+        'parent_id' => '236',
+        'title' => 'Bath Taps',
+        'items' => 
+        array (
+          350 => 
+          array (
+            'category_id' => '350',
+            'parent_id' => '349',
+            'title' => 'Centerset Sink Taps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c350',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_350',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          351 => 
+          array (
+            'category_id' => '351',
+            'parent_id' => '349',
+            'title' => 'Single Handle Sink Taps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c351',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_351',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          352 => 
+          array (
+            'category_id' => '352',
+            'parent_id' => '349',
+            'title' => 'Touchless Sink Taps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c352',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_352',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          353 => 
+          array (
+            'category_id' => '353',
+            'parent_id' => '349',
+            'title' => 'Vessel Sink Faucets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c353',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_353',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          354 => 
+          array (
+            'category_id' => '354',
+            'parent_id' => '349',
+            'title' => 'Wall Mounted Sink Taps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c354',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_354',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          355 => 
+          array (
+            'category_id' => '355',
+            'parent_id' => '349',
+            'title' => 'Widespread Sink Taps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c355',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_355',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c349',
+          'dropdown' => 
+          array (
+            350 => 
+            array (
+              'category_id' => '350',
+              'parent_id' => '349',
+              'title' => 'Centerset Sink Taps',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c350',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_350',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            351 => 
+            array (
+              'category_id' => '351',
+              'parent_id' => '349',
+              'title' => 'Single Handle Sink Taps',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c351',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_351',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            352 => 
+            array (
+              'category_id' => '352',
+              'parent_id' => '349',
+              'title' => 'Touchless Sink Taps',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c352',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_352',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            353 => 
+            array (
+              'category_id' => '353',
+              'parent_id' => '349',
+              'title' => 'Vessel Sink Faucets',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c353',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_353',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            354 => 
+            array (
+              'category_id' => '354',
+              'parent_id' => '349',
+              'title' => 'Wall Mounted Sink Taps',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c354',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_354',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            355 => 
+            array (
+              'category_id' => '355',
+              'parent_id' => '349',
+              'title' => 'Widespread Sink Taps',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c355',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349_355',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_349',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      356 => 
+      array (
+        'category_id' => '356',
+        'parent_id' => '236',
+        'title' => 'Bath Textiles',
+        'items' => 
+        array (
+          357 => 
+          array (
+            'category_id' => '357',
+            'parent_id' => '356',
+            'title' => 'Bath Mats',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c357',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_357',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          358 => 
+          array (
+            'category_id' => '358',
+            'parent_id' => '356',
+            'title' => 'Bath Robes &amp; Slippers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c358',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_358',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          359 => 
+          array (
+            'category_id' => '359',
+            'parent_id' => '356',
+            'title' => 'Bath Sheets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c359',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_359',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          360 => 
+          array (
+            'category_id' => '360',
+            'parent_id' => '356',
+            'title' => 'Bath Towels ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c360',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_360',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          361 => 
+          array (
+            'category_id' => '361',
+            'parent_id' => '356',
+            'title' => 'Face Towels ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c361',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_361',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          362 => 
+          array (
+            'category_id' => '362',
+            'parent_id' => '356',
+            'title' => 'Hand Towels',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c362',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_362',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c356',
+          'dropdown' => 
+          array (
+            357 => 
+            array (
+              'category_id' => '357',
+              'parent_id' => '356',
+              'title' => 'Bath Mats',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c357',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_357',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            358 => 
+            array (
+              'category_id' => '358',
+              'parent_id' => '356',
+              'title' => 'Bath Robes &amp; Slippers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c358',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_358',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            359 => 
+            array (
+              'category_id' => '359',
+              'parent_id' => '356',
+              'title' => 'Bath Sheets',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c359',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_359',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            360 => 
+            array (
+              'category_id' => '360',
+              'parent_id' => '356',
+              'title' => 'Bath Towels ',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c360',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_360',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            361 => 
+            array (
+              'category_id' => '361',
+              'parent_id' => '356',
+              'title' => 'Face Towels ',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c361',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_361',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            362 => 
+            array (
+              'category_id' => '362',
+              'parent_id' => '356',
+              'title' => 'Hand Towels',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c362',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356_362',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_356',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      363 => 
+      array (
+        'category_id' => '363',
+        'parent_id' => '236',
+        'title' => 'Shower Systems',
+        'items' => 
+        array (
+          364 => 
+          array (
+            'category_id' => '364',
+            'parent_id' => '363',
+            'title' => 'Shower Arms &amp; Slide Bars ',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c364',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_363_364',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          365 => 
+          array (
+            'category_id' => '365',
+            'parent_id' => '363',
+            'title' => 'Shower Heads &amp; Pipes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c365',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_363_365',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          366 => 
+          array (
+            'category_id' => '366',
+            'parent_id' => '363',
+            'title' => 'Shower Towers &amp; Sets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c366',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_363_366',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c363',
+          'dropdown' => 
+          array (
+            364 => 
+            array (
+              'category_id' => '364',
+              'parent_id' => '363',
+              'title' => 'Shower Arms &amp; Slide Bars ',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c364',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_363_364',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            365 => 
+            array (
+              'category_id' => '365',
+              'parent_id' => '363',
+              'title' => 'Shower Heads &amp; Pipes',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c365',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_363_365',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            366 => 
+            array (
+              'category_id' => '366',
+              'parent_id' => '363',
+              'title' => 'Shower Towers &amp; Sets',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c366',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_363_366',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236_363',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_236',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

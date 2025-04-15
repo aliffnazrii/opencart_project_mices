@@ -1,0 +1,318 @@
+<?php $val = array (
+  'css' => '.module-catalog-367 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-367 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-367 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-367 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-367 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-367 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-367 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-367 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-367  .item-content{padding-top:10px}.module-catalog-367  .catalog-title{padding-right:10px}.module-catalog-367 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-367 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-367
+.subitems{align-items:flex-start}.module-catalog-367 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-367 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-367 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-367 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-367 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-367 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-367 .catalog-image{margin-right:10px}.module-catalog-367 .item-assets{flex-direction:row}.module-catalog-367 .item-assets>a{max-width:40%;order:0}.module-catalog-367 .item-assets
+.subitems{width:60%}.module-catalog-367 .item-assets .catalog-image{display:block}.module-catalog-367 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-367 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-367 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Heating, Cooling & Air Treatment',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb70d2edf',
+    'module_id' => 367,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-367',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '367-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Air Curtains',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=729_734',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Cassette Air Conditioners',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=729_730',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Multi Split System Air Conditioners',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=729_731',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Portable Air Conditioner/Air Coolers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=729_732',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Wall/Window Air Conditioners',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=729_733',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Air Conditioning',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=729',
+        'total' => '5',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '367-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Air Purifiers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=735_736',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Dehumidfiers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=735_737',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Humidifiers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=735_738',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Air Treatment',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=735',
+        'total' => '3',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '367-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Box Fans',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=739_744',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Ceiling Fans',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=739_740',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Cooler Fans',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=739_749',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Desk Fans',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=739_746',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Exhaust &amp; Ventilation Fans',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=739_741',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Fan Blades',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=739_742',
+            'image' => '',
+            'image2x' => '',
+          ),
+          6 => 
+          array (
+            'name' => 'Floor Fans',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=739_743',
+            'image' => '',
+            'image2x' => '',
+          ),
+          7 => 
+          array (
+            'name' => 'Stand Fans',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=739_747',
+            'image' => '',
+            'image2x' => '',
+          ),
+          8 => 
+          array (
+            'name' => 'Table Fans',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=739_748',
+            'image' => '',
+            'image2x' => '',
+          ),
+          9 => 
+          array (
+            'name' => 'Tower Fans',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=739_745',
+            'image' => '',
+            'image2x' => '',
+          ),
+          10 => 
+          array (
+            'name' => 'Wall &amp; Auto Fans',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=739_750',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Fans',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=739',
+        'total' => '11',
+      ),
+      4 => 
+      array (
+        'limit' => '4',
+        'id' => '367-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Storage Tank',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=751_753',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Tankless Water Heaters ',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=751_752',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Water Heaters',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=751',
+        'total' => '2',
+      ),
+    ),
+  ),
+);

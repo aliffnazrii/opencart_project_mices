@@ -1,0 +1,474 @@
+<?php $val = array (
+  'css' => '.module-catalog-360 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-360 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-360 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-360 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-360 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-360 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-360 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-360 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-360  .item-content{padding-top:10px}.module-catalog-360  .catalog-title{padding-right:10px}.module-catalog-360 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-360 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-360
+.subitems{align-items:flex-start}.module-catalog-360 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-360 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-360 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-360 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-360 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-360 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-360 .catalog-image{margin-right:10px}.module-catalog-360 .item-assets{flex-direction:row}.module-catalog-360 .item-assets>a{max-width:40%;order:0}.module-catalog-360 .item-assets
+.subitems{width:60%}.module-catalog-360 .item-assets .catalog-image{display:block}.module-catalog-360 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-360 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-360 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Computers, Printing & Gaming',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb708af7d',
+    'module_id' => 360,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-360',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '360-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Air &amp; Water Cooling',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=411_412',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Computer Cases',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=411_413',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Computer Memory',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=411_414',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'External Devices',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=411_415',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Graphic Cards',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=411_416',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Motherboards',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=411_417',
+            'image' => '',
+            'image2x' => '',
+          ),
+          6 => 
+          array (
+            'name' => 'Processors',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=411_418',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Computer Components',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=411',
+        'total' => '7',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '360-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Computer Speakers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=419_420',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Keyboards, Mouse &amp; Mats',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=419_421',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Laptop Bags &amp; Sleeves',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=419_422',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Monitors',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=419_423',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Software',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=419_424',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Computer Accessories',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=419',
+        'total' => '5',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '360-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => '2 in 1 Pcs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=425_426',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Chromebooks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=425_427',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Desktop &amp; All in Ones',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=425_428',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Gaming Pcs &amp; Vrs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=425_429',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Laptops',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=425_430',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Microsoft Surface',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=425_431',
+            'image' => '',
+            'image2x' => '',
+          ),
+          6 => 
+          array (
+            'name' => 'Modern Pcs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=425_432',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Computers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=425',
+        'total' => '7',
+      ),
+      4 => 
+      array (
+        'limit' => '',
+        'id' => '360-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Games',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=433_434',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Gaming Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=433_435',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Gaming Consoles',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=433_436',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Gaming Headphones',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=433_437',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Game Hub',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=433',
+        'total' => '4',
+      ),
+      5 => 
+      array (
+        'limit' => '',
+        'id' => '360-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Desktop Hard Drives',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=438_439',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Network Storage',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=438_440',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Portable Hard Drives',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=438_441',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'USB Flash Drives',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=438_442',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Hard Drive &amp; Storage',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=438',
+        'total' => '4',
+      ),
+      6 => 
+      array (
+        'limit' => '',
+        'id' => '360-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Ethernet Switches',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=443_444',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Modems &amp; Routers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=443_445',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Networking Adapters',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=443_446',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'WIFI Range Extenders',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=443_447',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Networking',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=443',
+        'total' => '4',
+      ),
+      7 => 
+      array (
+        'limit' => '',
+        'id' => '360-7',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-7',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Inks, Toners &amp; Papers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=448_449',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Printers &amp; Scanners',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=448_450',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Printing &amp; Accessories',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=448',
+        'total' => '2',
+      ),
+      8 => 
+      array (
+        'limit' => '',
+        'id' => '360-8',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-8',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Smart Board',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=451',
+        'total' => '0',
+      ),
+    ),
+  ),
+);

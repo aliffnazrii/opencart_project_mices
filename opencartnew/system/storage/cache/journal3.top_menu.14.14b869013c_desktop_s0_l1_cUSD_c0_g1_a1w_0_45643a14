@@ -1,0 +1,150 @@
+<?php $val = array (
+  'css' => '.top-menu-14>ul>.top-menu-item-3>a{text-align:left}.top-menu-14>ul>.top-menu-item-3>a>.links-text{display:block}.top-menu-14 > ul > .top-menu-item-3 > a .count-badge{position:relative}.top-menu-14>ul>.top-menu-item-4>a{text-align:left}.top-menu-14>ul>.top-menu-item-4>a>.links-text{display:block}.top-menu-14 > ul > .top-menu-item-4 > a .count-badge{position:relative}.desktop .top-menu-14 .j-menu li.top-menu-item-5:hover>a:first-child{color:rgba(41,40,38,1)}.top-menu-14>ul>.top-menu-item-5>a{text-align:left}.top-menu-14>ul>.top-menu-item-5>a>.links-text{display:block}.top-menu-14 > ul > .top-menu-item-5 > a .count-badge{position:relative}.top-menu-14>ul>.top-menu-item-6>a{text-align:left}.top-menu-14>ul>.top-menu-item-6>a>.links-text{display:block}.top-menu-14 > ul > .top-menu-item-6 > a .count-badge{position:relative}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'scheduledStatus' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'status' => true,
+    'id' => 'top-menu-67fdfb75ea243',
+    'module_id' => 14,
+    'classes' => 
+    array (
+      0 => 'top-menu',
+      1 => 'top-menu-14',
+    ),
+    'items' => 
+    array (
+      3 => 
+      array (
+        'title' => 'Notifications (0)',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'top-menu-item',
+          2 => 'top-menu-item-3',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          'icon-only' => false,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      4 => 
+      array (
+        'title' => 'Sign Up',
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'http://opencartnew.test/index.php?route=account/register',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'top-menu-item',
+          2 => 'top-menu-item-4',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          'icon-only' => false,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      5 => 
+      array (
+        'title' => '|',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'top-menu-item',
+          2 => 'top-menu-item-5',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          'icon-only' => false,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      6 => 
+      array (
+        'title' => 'Login',
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'http://opencartnew.test/index.php?route=account/login',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'top-menu-item',
+          2 => 'top-menu-item-6',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          'icon-only' => false,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

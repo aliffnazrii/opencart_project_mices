@@ -1,0 +1,26 @@
+<modification>
+	<name>
+		MICES Xilnex
+	</name>
+	<version>
+		1.0.0
+	</version>
+	<code>
+		mices_xilnex 
+	</code>
+	<author>
+		Mices Technology
+	</author>
+	<link>
+		https://www.mices.com.my/
+	</link>
+
+
+    <file path="Journal ByPassed/">
+		<operation>
+			<search><![CDATA[]]></search>
+			<add position="after"><![CDATA[
+			]]></add>
+		</operation>	
+	</file>
+</modification>

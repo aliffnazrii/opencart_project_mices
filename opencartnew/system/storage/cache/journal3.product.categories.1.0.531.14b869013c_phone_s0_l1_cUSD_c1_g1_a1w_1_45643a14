@@ -1,0 +1,119 @@
+<?php $val = array (
+  'category_id' => '531',
+  'parent_id' => '242',
+  'title' => 'Telco',
+  'items' => 
+  array (
+    532 => 
+    array (
+      'category_id' => '532',
+      'parent_id' => '531',
+      'title' => 'Post-paid',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c532',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_242_531_532',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    533 => 
+    array (
+      'category_id' => '533',
+      'parent_id' => '531',
+      'title' => 'Pre-paid',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c533',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_242_531_533',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c531',
+    'dropdown' => 
+    array (
+      532 => 
+      array (
+        'category_id' => '532',
+        'parent_id' => '531',
+        'title' => 'Post-paid',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c532',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_242_531_532',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      533 => 
+      array (
+        'category_id' => '533',
+        'parent_id' => '531',
+        'title' => 'Pre-paid',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c533',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_242_531_533',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=232_242_531',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

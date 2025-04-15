@@ -1,0 +1,538 @@
+{{ header }}
+<ul class="breadcrumb">
+  {% for breadcrumb in breadcrumbs %}
+    <li>
+      <a href="{{ breadcrumb.href }}">
+        {{ breadcrumb.text }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+{% if j3.settings.get('pageTitlePosition') == 'top' %}
+  <h1 class="title page-title">
+    <span>
+      {{ heading_title }}
+    </span>
+  </h1>
+{% endif %}
+{{ j3.loadController('journal3/layout', 'top') }}
+<div id="account-coupon" class="container">
+  <div class="row justify-content-center">
+    {{ column_left }}
+    <div id="content" class="{{ class }}">
+      {% if j3.settings.get('pageTitlePosition') == 'default' %}
+        <h1 class="title page-title">
+          {{ heading_title }}
+        </h1>
+      {% endif %}
+      {{ content_top }}
+      <style>
+.voucher-container {
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.voucher-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.voucher-search {
+  margin-bottom: 20px;
+}
+
+.voucher-search input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.voucher-container {
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.voucher-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 769px) {
+  .voucher-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .voucher-card {
+    margin: 0;
+  }
+}
+.voucher-card {
+  min-width: 280px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+}
+
+.voucher-left {
+  background: rgb(247, 207, 85);
+  color: #fff;
+  padding: 15px;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.voucher-left::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 10px;
+  background: radial-gradient(circle at 0 50%, transparent 10px, #fff 10px) repeat-y;
+  background-size: 10px 20px;
+}
+
+.discount-amount {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.discount-type {
+  font-size: 14px;
+}
+
+.voucher-right {
+  padding: 15px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.voucher-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.voucher-validity {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.voucher-terms {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.claim-button {
+  background: rgb(247, 207, 85);
+    color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s;
+}
+
+.claim-button:hover {
+  background:rgb(215, 185, 17);
+}
+
+.claimed {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.claimed:hover {
+  background: #ccc;
+}
+
+@media (min-width: 769px) {
+  .voucher-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  #account-coupon .container {
+    padding: 0;
+  }
+  
+  .voucher-grid {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  
+  .voucher-card {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+</style>
+      <style>
+        .voucher-modal {
+          display: none;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.5);
+          z-index: 1000;
+        }
+
+        .voucher-modal-content {
+          background: #fff;
+          width: 100%;
+          height: 90%;
+          top: 10%;
+          position: absolute;
+          overflow-y: auto;
+          animation: slideUp 0.3s ease-out;
+          transform: translateY(0);
+          transition: transform 0.3s ease-out;
+        }
+
+        .voucher-modal-content.closing {
+          transform: translateY(100%);
+        }
+
+        @keyframes slideUp {
+          from { transform: translateY(100%); }
+          to { transform: translateY(0); }
+        }
+
+        .modal-header {
+          padding: 20px;
+          border-bottom: 1px solid #eee;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: sticky;
+          top: 0;
+          background: #fff;
+          z-index: 1;
+        }
+
+        .modal-title {
+          margin: 0;
+          font-size: 1.5rem;
+        }
+
+        .close-modal {
+          position: absolute;
+          right: 15px;
+          top: 15px;
+          font-size: 24px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+
+        .close-modal:hover {
+          opacity: 0.7;
+          transform: rotate(90deg);
+        }
+        .modal-body {
+          padding: 20px;
+        }
+
+        .voucher-detail-card {
+          display: flex;
+          background: #fff;
+          border: 1px solid #eee;
+          border-radius: 12px;
+          margin-bottom: 20px;
+          overflow: hidden;
+        }
+
+        .voucher-detail-left {
+          background: rgb(247, 207, 85);
+          padding: 30px;
+          width: 40%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+        }
+
+        .voucher-detail-left::after {
+          content: '';
+          position: absolute;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          width: 15px;
+          background: radial-gradient(circle at 0 50%, transparent 15px, #fff 15px) repeat-y;
+          background-size: 15px 30px;
+        }
+
+        .detail-amount {
+          font-size: 32px;
+          font-weight: bold;
+          color: #fff;
+          margin-bottom: 10px;
+        }
+
+        .detail-code {
+          font-size: 18px;
+          color: #fff;
+        }
+
+        .voucher-detail-right {
+          padding: 30px;
+          flex-grow: 1;
+        }
+
+        .detail-name {
+          font-size: 24px;
+          font-weight: bold;
+          margin-bottom: 15px;
+        }
+
+        .detail-validity {
+          font-size: 14px;
+          color: #666;
+        }
+
+        .voucher-description-section {
+          background: #fff;
+          padding: 20px;
+          border-radius: 12px;
+          border: 1px solid #eee;
+        }
+
+        .voucher-description-section h3 {
+          margin-top: 0;
+          margin-bottom: 15px;
+          color: #333;
+        }
+
+        .detail-description {
+          font-size: 14px;
+          line-height: 1.6;
+          color: #666;
+        }
+
+        .modal-footer {
+          padding: 20px;
+          border-top: 1px solid #eee;
+          text-align: right;
+          position: sticky;
+          bottom: 0;
+          background: #fff;
+        }
+
+        .modal-close-btn {
+          background: rgb(247, 207, 85);
+          color: #fff;
+          border: none;
+          padding: 12px 24px;
+          border-radius: 6px;
+          cursor: pointer;
+          font-size: 16px;
+          transition: all 0.3s ease;
+          transform: scale(1);
+          opacity: 1;
+          width : 100%;
+        }
+
+        .modal-close-btn:hover {
+          background: rgb(215, 185, 17);
+        }
+
+
+      </style>
+      <script>
+        function openVoucherModal(button, serial) {
+  const modalId = 'voucherModal-' + serial;
+          const modal = document.getElementById('voucherModal-' + serial);
+          const amount = button.getAttribute('data-voucher-amount');
+          const code = button.getAttribute('data-voucher-code');
+          const name = button.getAttribute('data-voucher-name');
+          const validity = button.getAttribute('data-voucher-validity');
+          const description = button.getAttribute('data-voucher-description');
+
+          modal.querySelector('.detail-amount').textContent = amount;
+          modal.querySelector('.detail-code').textContent = code;
+          modal.querySelector('.detail-name').textContent = name;
+          modal.querySelector('.detail-validity').textContent = 'Valid until: ' + validity;
+          modal.querySelector('.detail-description').textContent = description;
+
+          modal.style.display = 'block';
+          document.body.style.overflow = 'hidden';
+        }
+
+        let touchStartY = 0;
+        let touchEndY = 0;
+
+        let currentSerial = null;
+
+function closeVoucherModal(serial) {
+  const modal = document.getElementById('voucherModal-' + serial);
+  const modalContent = modal.querySelector('.voucher-modal-content');
+  
+  modalContent.classList.add('closing');
+  
+  setTimeout(() => {
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+    modalContent.classList.remove('closing');
+  }, 300);
+}
+
+        function handleTouchStart(event) {
+          touchStartY = event.touches[0].clientY;
+        }
+
+        function handleTouchMove(event) {
+          touchEndY = event.touches[0].clientY;
+          const modalContent = event.currentTarget;
+          const deltaY = touchEndY - touchStartY;
+
+          if (deltaY > 0 && modalContent.scrollTop === 0) {
+            event.preventDefault();
+            modalContent.style.transform = `translateY(${deltaY}px)`;
+          }
+        }
+
+        function handleTouchEnd(event) {
+          const modalContent = event.currentTarget;
+          const deltaY = touchEndY - touchStartY;
+
+          modalContent.style.transform = '';
+          
+          if (deltaY > 100) {
+            closeVoucherModal(serial);
+          } else {
+            modalContent.style.transform = 'translateY(0)';
+          }
+        }
+
+        // Close modal when clicking outside
+        window.addEventListener('click', function(event) {
+  const modals = document.querySelectorAll('.voucher-modal');
+  modals.forEach(modal => {
+    if (modal.style.display === 'block' && event.target === modal) {
+      const serial = modal.id.replace('voucherModal-', '');
+      closeVoucherModal(serial);
+    }
+  });
+});
+
+        document.addEventListener('DOMContentLoaded', function() {
+          const modalContent = document.querySelector('.voucher-modal-content');
+          modalContent.addEventListener('touchstart', handleTouchStart, { passive: false });
+          modalContent.addEventListener('touchmove', handleTouchMove, { passive: false });
+          modalContent.addEventListener('touchend', handleTouchEnd);
+        });
+      </script>
+      <div class="voucher-container">
+        <div class="voucher-grid">
+          {% for voucher in vouchers %}
+            <!-- Voucher Modal -->
+            <div id="voucherModal-{{ voucher.serial }}" class="voucher-modal">
+              <div class="voucher-modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title">
+                    {{ text_details }}
+                  </h2>
+                  <span class="close-modal" onclick="closeVoucherModal('{{ voucher.serial }}')">
+                    &times;
+                  </span>
+                </div>
+                <div class="modal-body">
+                  <div class="qr-code-section" style="text-align: center; padding: 20px;">
+                    <img src="{{ voucher.path }}" alt="QR Code" style="width: 200px; height: 200px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"></div>
+                    <div class="voucher-detail-card card-bordered">
+                      <div class="voucher-detail-left">
+                        <div class="detail-amount"></div>
+                        <div class="detail-code"></div>
+                      </div>
+                      <div class="voucher-detail-right">
+                        <div class="detail-name"></div>
+                        <div class="detail-validity"></div>
+                      </div>
+                    </div>
+                    <div class="voucher-description-section">
+                      <h3>
+                        {{ text_terms }}
+                      </h3>
+                      <p style="text-align: justify; padding: 0 20px;">
+                        The voucher is valid for purchases made on our website only. It cannot be used in conjunction with other promotions or discounts unless otherwise stated. The voucher must be used before the expiration date shown and cannot be exchanged for cash. Only one voucher can be used per transaction. If the purchase amount is less than the voucher value, the remaining balance will be forfeited. We reserve the right to cancel or refuse any voucher that we believe is being used fraudulently or in breach of these terms. Vouchers are non-transferable and can only be used by the original recipient. Any attempt to sell or transfer the voucher will render it void. We are not responsible for lost or stolen vouchers. For full terms and conditions, please visit our website.
+                      </p>
+                      <div class="detail-description"></div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button onclick="closeVoucherModal('{{ voucher.serial }}')" class="modal-close-btn animate-close">
+                      {{ button_close }}
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="voucher-card">
+                <div class="voucher-left">
+                  <div class="discount-amount">
+                    {{ voucher.amount }}
+                  </div>
+                  <div class="discount-type">
+                    {{ voucher.code }}
+                  </div>
+                </div>
+                <div class="voucher-right">
+                  <div>
+                    <div class="voucher-title">
+                      {{ voucher.name }}
+                    </div>
+                    <div class="voucher-validity">
+                      {{ text_validity }}
+                      :
+                      {{ voucher.date_end }}
+                    </div>
+                    <div class="voucher-terms">
+                      {{ voucher.description }}
+                    </div>
+                  </div>
+                  <button onclick="openVoucherModal(this, '{{ voucher.serial }}')" data-voucher-name="{{ voucher.name }}" data-voucher-code="{{ voucher.code }}" data-voucher-amount="{{ voucher.amount }}" data-voucher-validity="{{ voucher.date_end }}" data-voucher-description="{{ voucher.description }}" class="claim-button{% if voucher.status == 0 %} claimed{% endif %}">
+                    {% if voucher.status == 1 %}
+                      {{ button_use }}
+                    {% endif %}
+                  </button>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+        {{ content_bottom }}
+      </div>
+      {{ column_right }}
+    </div>
+  </div>
+  {{ footer }}
+  

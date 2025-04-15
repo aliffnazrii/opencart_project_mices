@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<name>
+		Sync Customer Coupon
+	</name>
+	<code>
+		sync_customer_coupon
+	</code>
+	<version>
+		1.0
+	</version>
+	<author>
+		MICES Technology Sdn Bhd
+	</author>
+	<link>
+		https://www.mices.com.my
+	</link>
+	
+	<file path="admin/controller/marketing/coupon.php">
+		<operation>
+			<search>
+				<![CDATA[public function index() {]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				public function install() {
+				$this->db->query("ALTER TABLE " . DB_PREFIX . "coupon ADD COLUMN acilit_voucher_id varchar(255) DEFAULT NULL");
+				$this->db->query("ALTER TABLE " . DB_PREFIX . "coupon ADD COLUMN customer_id int(11) DEFAULT NULL");
+				$this->db->query("ALTER TABLE " . DB_PREFIX . "coupon ADD COLUMN voucher_id varchar(255) DEFAULT NULL");
+				$this->db->query("ALTER TABLE " . DB_PREFIX . "coupon ADD COLUMN voucher_serialNo varchar(255) DEFAULT NULL");
+				$this->db->query("ALTER TABLE " . DB_PREFIX . "coupon ADD COLUMN mapping int(11) DEFAULT 0");
+				}
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[class ControllerMarketingCoupon extends Controller {]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				use Acilit\AcilitLoader;
+				use Acilit\AcilitVoucher;
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA['date_start' => date($this->language->get('date_format_short'), strtotime($result['date_start'])),]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				'voucher_id' => $result['voucher_id'],
+				'voucher_serialNo' => $result['voucher_serialNo'],
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/model/marketing/coupon.php">
+		<operation>
+			<search>
+				<![CDATA[$sql = "SELECT coupon_id, name, code, discount, date_start, date_end, status FROM " . DB_PREFIX . "coupon";]]>
+			</search>
+			<add position="replace">
+				<![CDATA[ $sql = "SELECT coupon_id, name, code, discount, date_start, date_end, status, acilit_voucher_id, voucher_id, voucher_serialNo FROM " . DB_PREFIX . "coupon"; ]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->db->query("INSERT INTO " . DB_PREFIX . "coupon SET name = '" . $this->db->escape($data['name']) . "', code = '" . $this->db->escape($data['code']) . "', discount = '" . (float)$data['discount'] . "', type = '" . $this->db->escape($data['type']) . "', total = '" . (float)$data['total'] . "', logged = '" . (int)$data['logged'] . "', shipping = '" . (int)$data['shipping'] . "', date_start = '" . $this->db->escape($data['date_start']) . "', date_end = '" . $this->db->escape($data['date_end']) . "', uses_total = '" . (int)$data['uses_total'] . "', uses_customer = '" . (int)$data['uses_customer'] . "', status = '" . (int)$data['status'] . "', date_added = NOW(), acilit_voucher_id = '" . (int)$data['acilit_voucher_id'] . "', customer_id = '" . (int)$data['customer_id'] . "', voucher_id = '" . (int)$data['voucher_id'] . "', voucher_serialNo = '" . $this->db->escape($data['voucher_serialNo']) . "', mapping = '" . $this->db->escape($data['mapping']) . "'");]]>
+			</search>
+			<add position="replace">
+				<![CDATA[$this->db->query("INSERT INTO " . DB_PREFIX . "coupon SET name = '" . $this->db->escape($data['name']) . "', code = '" . $this->db->escape($data['code']) . "', discount = '" . (float)$data['discount'] . "', type = '" . $this->db->escape($data['type']) . "', total = '" . (float)$data['total'] . "', logged = '" . (int)$data['logged'] . "', shipping = '" . (int)$data['shipping'] . "', date_start = '" . $this->db->escape($data['date_start']) . "', date_end = '" . $this->db->escape($data['date_end']) . "', uses_total = '" . (int)$data['uses_total'] . "', uses_customer = '" . (int)$data['uses_customer'] . "', status = '" . (int)$data['status'] . "', date_added = NOW(), acilit_voucher_id = '" . $this->db->escape($data['voucher_id']) . "', customer_id = '" . (int)$data['customer_id'] . "', voucher_id = '" . $this->db->escape($data['voucher_id']) . "', voucher_serialNo = '" . $this->db->escape($data['voucher_serialNo']) . "', mapping = '" . $this->db->escape($data['mapping']) . "'");]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$sort_data = array(]]>
+			</search>
+			<add position="after" offset="1">
+				<![CDATA[
+				'acilit_voucher_id',
+				'voucher_serialNo',
+				'voucher_id',
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/controller/common/column_left.php">
+		<operation>
+			<search>
+				<![CDATA[if ($this->user->hasPermission('access', 'marketing/coupon')) {]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				if ($this->user->hasPermission('access', 'marketing/acilit_voucher')) {
+				$marketing[] = array(
+				'name'     => 'Acilit Voucher',
+				'href'     => $this->url->link('marketing/acilit_voucher', 'user_token=' . $this->session->data['user_token'], true),
+				'children' => array()
+				);
+				}
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/view/template/marketing/coupon_list.twig">
+		<operation>
+			<search>
+				<![CDATA[<td class="text-left">{% if sort == 'date_start' %}]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				<td class="text-left">{% if sort == 'voucher_id' %}
+				<a href="{{ sort_voucher_id }}" class="{{ order|lower }}">{{ column_voucher_id }}</a>
+				{% else %}
+				<a href="{{ sort_voucher_id }}">{{ column_voucher_id }}</a>
+				{% endif %}</td>
+				<td class="text-left">{% if sort == 'voucher_serialNo' %}
+				<a href="{{ sort_voucher_serialNo }}" class="{{ order|lower }}">{{ column_voucher_serialNo }}</a>
+				{% else %}
+				<a href="{{ sort_voucher_serialNo }}">{{ column_voucher_serialNo }}</a>
+				{% endif %}</td>
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[<td class="text-right">{{ coupon.discount }}</td>]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				<td class="text-right">{{ coupon.voucher_id }}</td>
+				<td class="text-right">{{ coupon.voucher_serialNo }}</td>
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$this->response->setOutput($this->load->view('marketing/coupon_history', $data));]]>
+			</search>
+			<add position="after" offset="2">
+				<![CDATA[ ]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/language/en-gb/marketing/coupon.php">
+		<operation>
+			<search>
+				<![CDATA[$_['column_action']       = 'Action';]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				$_['column_voucher_id']       = 'Voucher ID';
+				$_['column_voucher_serialNo']       = 'Serial No';
+				$_['text_link']       = 'Link';
+				$_['text_unlink']       = 'Unlink';
+				$_['entry_serialNo']       = 'Voucher Serial No';
+				$_['entry_voucher_id']       = 'Voucher ID';
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/view/template/marketing/coupon_form.twig">
+		<operation>
+			<search>
+				<![CDATA[<input type="text" name="name" value="{{ name }}"]]>
+			</search>
+			<add position="after" offset="0">
+				<![CDATA[
+				<input type="hidden" name="acilit_voucher_id" value="{{ acilit_voucher_id }}">
+				{% if acilit_error %}
+				<div id="acilit-voucher-message" class="text-danger">
+				{{ acilit_error }}
+				</div>
+				{% else %}
+				<div id="acilit-voucher-message"></div>
+				{% endif %}
+				<a id="btn-voucher-validate" class="btn btn-primary {{ acilit_voucher_id != '0' and acilit_voucher_id != '' ? 'hide' : '' }}" onclick="validateVoucher()">
+				{{ text_link }}
+				</a>
+				<a id="btn-voucher-unlink" class="btn btn-primary {{ acilit_voucher_id == '0' or acilit_voucher_id == '' ? 'hide' : '' }}" onclick="unlinkVoucher()">
+				{{ text_unlink }}
+				</a>
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[<label class="col-sm-2 control-label" for="input-code">]]>
+			</search>
+			<add position="before" offset="2">
+				<![CDATA[
+				</div>
+				<div class="form-group">
+				<label class="col-sm-2 control-label" for="input-total"><span data-toggle="tooltip" title="Voucher ID in Acilit">Voucher Id</span></label>
+				<div class="col-sm-10">
+				<input type="text" name="voucher_id" value="{{ voucher_id }}" placeholder="{{ entry_voucher_id }}" id="input-voucherId" class="form-control" />
+				</div>
+				</div>
+				<div class="form-group">
+				<label class="col-sm-2 control-label" for="input-total"><span data-toggle="tooltip" title="Serial No From Acilit">Serial No</span></label>
+				<div class="col-sm-10">
+				<input type="text" name="voucher_serialNo" value="{{ voucher_serialNo }}" placeholder="{{ entry_serialNo }}" id="input-voucher-serialNo" class="form-control" />
+				</div>
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$('input[name=\'product\']').autocomplete({]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				function validateVoucher() {
+				$('#acilit-voucher-message').removeClass('text-success text-danger').text('');
+				
+				var voucher = $('input[name="voucher"]').val();
+				var button = $('#btn-voucher-validate');
+				
+				$.ajax({
+				url: 'index.php?route=extension/module/acilit/validateVoucher&user_token={{ user_token }}',
+				dataType: 'json',
+				method: 'POST',
+				data: { model: voucher },
+				beforeSend: function() {
+				$(button).button('loading');
+				},
+				complete: function() {
+				$(button).button('reset');
+				},
+				success: function(json) {
+				if (json.error) {
+				$('#acilit-voucher-message').addClass('text-danger').text(json.error);
+				} else {
+				$('#acilit-voucher-message').addClass('text-success').text('Linked');
+				
+				if (json.voucher_id) {
+				$('input[name="voucher_id"]').val(json.voucher_id);
+				$('input[name="price"]').val(json.price);
+				$('input[name="sku"]').val(json.quantity);
+				$('input[name="voucher_id"]').val(json.voucher_id);
+				
+				$('input[name="voucher_id"]').prop('readonly', true);
+				$('#btn-voucher-unlink').removeClass('hide');
+				$('#btn-voucher-validate').addClass('hide');
+				}
+				}
+				}
+				});
+				}
+				
+				function unlinkVoucher() {
+				$('#acilit-voucher-message').removeClass('text-success text-danger').text('');
+				
+				$('input[name="voucher_id"]').val(0);
+				$('input[name="voucher_id"]').prop('readonly', false);
+				$('#btn-voucher-validate').removeClass('hide');
+				$('#btn-voucher-unlink').addClass('hide');
+				
+				$('#acilit-voucher-message').addClass('text-success').text('Not Linked');
+				}
+				]]>
+			</add>
+		</operation>
+	</file>
+	
+</modification>

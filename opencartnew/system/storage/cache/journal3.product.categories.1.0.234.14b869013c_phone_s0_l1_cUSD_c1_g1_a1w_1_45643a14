@@ -1,0 +1,2471 @@
+<?php $val = array (
+  'category_id' => '234',
+  'parent_id' => '229',
+  'title' => 'Audio &amp; Visuals',
+  'items' => 
+  array (
+    270 => 
+    array (
+      'category_id' => '270',
+      'parent_id' => '234',
+      'title' => 'Media Streaming Players',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c270',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_270',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    275 => 
+    array (
+      'category_id' => '275',
+      'parent_id' => '234',
+      'title' => 'Players &amp; Recorders',
+      'items' => 
+      array (
+        280 => 
+        array (
+          'category_id' => '280',
+          'parent_id' => '275',
+          'title' => 'Analogue/ Digital Radios',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c280',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_280',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        276 => 
+        array (
+          'category_id' => '276',
+          'parent_id' => '275',
+          'title' => 'Blu-Ray Players &amp; Recorders',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c276',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_276',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        279 => 
+        array (
+          'category_id' => '279',
+          'parent_id' => '275',
+          'title' => 'CD Players/ Turntables',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c279',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_279',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        277 => 
+        array (
+          'category_id' => '277',
+          'parent_id' => '275',
+          'title' => 'DVD Players &amp; Recorders',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c277',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_277',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        278 => 
+        array (
+          'category_id' => '278',
+          'parent_id' => '275',
+          'title' => 'Pvrs &amp; Media Players',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c278',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_278',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c275',
+        'dropdown' => 
+        array (
+          280 => 
+          array (
+            'category_id' => '280',
+            'parent_id' => '275',
+            'title' => 'Analogue/ Digital Radios',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c280',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_280',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          276 => 
+          array (
+            'category_id' => '276',
+            'parent_id' => '275',
+            'title' => 'Blu-Ray Players &amp; Recorders',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c276',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_276',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          279 => 
+          array (
+            'category_id' => '279',
+            'parent_id' => '275',
+            'title' => 'CD Players/ Turntables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c279',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_279',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          277 => 
+          array (
+            'category_id' => '277',
+            'parent_id' => '275',
+            'title' => 'DVD Players &amp; Recorders',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c277',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_277',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          278 => 
+          array (
+            'category_id' => '278',
+            'parent_id' => '275',
+            'title' => 'Pvrs &amp; Media Players',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c278',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_278',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    281 => 
+    array (
+      'category_id' => '281',
+      'parent_id' => '234',
+      'title' => 'Sound Systems',
+      'items' => 
+      array (
+        282 => 
+        array (
+          'category_id' => '282',
+          'parent_id' => '281',
+          'title' => 'Av Receivers / Amplifiers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c282',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_282',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        283 => 
+        array (
+          'category_id' => '283',
+          'parent_id' => '281',
+          'title' => 'Hi Fi System',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c283',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_283',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        284 => 
+        array (
+          'category_id' => '284',
+          'parent_id' => '281',
+          'title' => 'Home Theatre System',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c284',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_284',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        286 => 
+        array (
+          'category_id' => '286',
+          'parent_id' => '281',
+          'title' => 'Karaoke Touchscreen',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c286',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_286',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        285 => 
+        array (
+          'category_id' => '285',
+          'parent_id' => '281',
+          'title' => 'Power Mixers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c285',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_285',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c281',
+        'dropdown' => 
+        array (
+          282 => 
+          array (
+            'category_id' => '282',
+            'parent_id' => '281',
+            'title' => 'Av Receivers / Amplifiers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c282',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_282',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          283 => 
+          array (
+            'category_id' => '283',
+            'parent_id' => '281',
+            'title' => 'Hi Fi System',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c283',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_283',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          284 => 
+          array (
+            'category_id' => '284',
+            'parent_id' => '281',
+            'title' => 'Home Theatre System',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c284',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_284',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          286 => 
+          array (
+            'category_id' => '286',
+            'parent_id' => '281',
+            'title' => 'Karaoke Touchscreen',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c286',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_286',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          285 => 
+          array (
+            'category_id' => '285',
+            'parent_id' => '281',
+            'title' => 'Power Mixers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c285',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_285',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    295 => 
+    array (
+      'category_id' => '295',
+      'parent_id' => '234',
+      'title' => 'Speakers',
+      'items' => 
+      array (
+        297 => 
+        array (
+          'category_id' => '297',
+          'parent_id' => '295',
+          'title' => 'Ceiling Speakers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c297',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_297',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        300 => 
+        array (
+          'category_id' => '300',
+          'parent_id' => '295',
+          'title' => 'Center &amp; Surrond Speakers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c300',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_300',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        298 => 
+        array (
+          'category_id' => '298',
+          'parent_id' => '295',
+          'title' => 'Loud Speakers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c298',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_298',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        296 => 
+        array (
+          'category_id' => '296',
+          'parent_id' => '295',
+          'title' => 'Soundbars',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c296',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_296',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        299 => 
+        array (
+          'category_id' => '299',
+          'parent_id' => '295',
+          'title' => 'Subwoofers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c299',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_299',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        301 => 
+        array (
+          'category_id' => '301',
+          'parent_id' => '295',
+          'title' => 'Tower Speakers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c301',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_301',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c295',
+        'dropdown' => 
+        array (
+          297 => 
+          array (
+            'category_id' => '297',
+            'parent_id' => '295',
+            'title' => 'Ceiling Speakers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c297',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_297',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          300 => 
+          array (
+            'category_id' => '300',
+            'parent_id' => '295',
+            'title' => 'Center &amp; Surrond Speakers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c300',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_300',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          298 => 
+          array (
+            'category_id' => '298',
+            'parent_id' => '295',
+            'title' => 'Loud Speakers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c298',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_298',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          296 => 
+          array (
+            'category_id' => '296',
+            'parent_id' => '295',
+            'title' => 'Soundbars',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c296',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_296',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          299 => 
+          array (
+            'category_id' => '299',
+            'parent_id' => '295',
+            'title' => 'Subwoofers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c299',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_299',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          301 => 
+          array (
+            'category_id' => '301',
+            'parent_id' => '295',
+            'title' => 'Tower Speakers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c301',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_301',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    287 => 
+    array (
+      'category_id' => '287',
+      'parent_id' => '234',
+      'title' => 'TVs',
+      'items' => 
+      array (
+        288 => 
+        array (
+          'category_id' => '288',
+          'parent_id' => '287',
+          'title' => 'HD Tvs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c288',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_288',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        290 => 
+        array (
+          'category_id' => '290',
+          'parent_id' => '287',
+          'title' => 'Oled Tvs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c290',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_290',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        294 => 
+        array (
+          'category_id' => '294',
+          'parent_id' => '287',
+          'title' => 'Projectors',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c294',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_294',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        289 => 
+        array (
+          'category_id' => '289',
+          'parent_id' => '287',
+          'title' => 'Qled Tvs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c289',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_289',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        292 => 
+        array (
+          'category_id' => '292',
+          'parent_id' => '287',
+          'title' => 'Qned Tvs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c292',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_292',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        291 => 
+        array (
+          'category_id' => '291',
+          'parent_id' => '287',
+          'title' => 'UHD Tvs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c291',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_291',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        293 => 
+        array (
+          'category_id' => '293',
+          'parent_id' => '287',
+          'title' => 'Uled Tvs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c293',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_293',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c287',
+        'dropdown' => 
+        array (
+          288 => 
+          array (
+            'category_id' => '288',
+            'parent_id' => '287',
+            'title' => 'HD Tvs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c288',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_288',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          290 => 
+          array (
+            'category_id' => '290',
+            'parent_id' => '287',
+            'title' => 'Oled Tvs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c290',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_290',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          294 => 
+          array (
+            'category_id' => '294',
+            'parent_id' => '287',
+            'title' => 'Projectors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c294',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_294',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          289 => 
+          array (
+            'category_id' => '289',
+            'parent_id' => '287',
+            'title' => 'Qled Tvs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c289',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_289',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          292 => 
+          array (
+            'category_id' => '292',
+            'parent_id' => '287',
+            'title' => 'Qned Tvs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c292',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_292',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          291 => 
+          array (
+            'category_id' => '291',
+            'parent_id' => '287',
+            'title' => 'UHD Tvs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c291',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_291',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          293 => 
+          array (
+            'category_id' => '293',
+            'parent_id' => '287',
+            'title' => 'Uled Tvs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c293',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_293',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c234',
+    'dropdown' => 
+    array (
+      270 => 
+      array (
+        'category_id' => '270',
+        'parent_id' => '234',
+        'title' => 'Media Streaming Players',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c270',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_270',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      275 => 
+      array (
+        'category_id' => '275',
+        'parent_id' => '234',
+        'title' => 'Players &amp; Recorders',
+        'items' => 
+        array (
+          280 => 
+          array (
+            'category_id' => '280',
+            'parent_id' => '275',
+            'title' => 'Analogue/ Digital Radios',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c280',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_280',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          276 => 
+          array (
+            'category_id' => '276',
+            'parent_id' => '275',
+            'title' => 'Blu-Ray Players &amp; Recorders',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c276',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_276',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          279 => 
+          array (
+            'category_id' => '279',
+            'parent_id' => '275',
+            'title' => 'CD Players/ Turntables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c279',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_279',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          277 => 
+          array (
+            'category_id' => '277',
+            'parent_id' => '275',
+            'title' => 'DVD Players &amp; Recorders',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c277',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_277',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          278 => 
+          array (
+            'category_id' => '278',
+            'parent_id' => '275',
+            'title' => 'Pvrs &amp; Media Players',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c278',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_278',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c275',
+          'dropdown' => 
+          array (
+            280 => 
+            array (
+              'category_id' => '280',
+              'parent_id' => '275',
+              'title' => 'Analogue/ Digital Radios',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c280',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_280',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            276 => 
+            array (
+              'category_id' => '276',
+              'parent_id' => '275',
+              'title' => 'Blu-Ray Players &amp; Recorders',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c276',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_276',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            279 => 
+            array (
+              'category_id' => '279',
+              'parent_id' => '275',
+              'title' => 'CD Players/ Turntables',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c279',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_279',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            277 => 
+            array (
+              'category_id' => '277',
+              'parent_id' => '275',
+              'title' => 'DVD Players &amp; Recorders',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c277',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_277',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            278 => 
+            array (
+              'category_id' => '278',
+              'parent_id' => '275',
+              'title' => 'Pvrs &amp; Media Players',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c278',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275_278',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_275',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      281 => 
+      array (
+        'category_id' => '281',
+        'parent_id' => '234',
+        'title' => 'Sound Systems',
+        'items' => 
+        array (
+          282 => 
+          array (
+            'category_id' => '282',
+            'parent_id' => '281',
+            'title' => 'Av Receivers / Amplifiers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c282',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_282',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          283 => 
+          array (
+            'category_id' => '283',
+            'parent_id' => '281',
+            'title' => 'Hi Fi System',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c283',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_283',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          284 => 
+          array (
+            'category_id' => '284',
+            'parent_id' => '281',
+            'title' => 'Home Theatre System',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c284',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_284',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          286 => 
+          array (
+            'category_id' => '286',
+            'parent_id' => '281',
+            'title' => 'Karaoke Touchscreen',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c286',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_286',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          285 => 
+          array (
+            'category_id' => '285',
+            'parent_id' => '281',
+            'title' => 'Power Mixers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c285',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_285',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c281',
+          'dropdown' => 
+          array (
+            282 => 
+            array (
+              'category_id' => '282',
+              'parent_id' => '281',
+              'title' => 'Av Receivers / Amplifiers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c282',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_282',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            283 => 
+            array (
+              'category_id' => '283',
+              'parent_id' => '281',
+              'title' => 'Hi Fi System',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c283',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_283',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            284 => 
+            array (
+              'category_id' => '284',
+              'parent_id' => '281',
+              'title' => 'Home Theatre System',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c284',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_284',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            286 => 
+            array (
+              'category_id' => '286',
+              'parent_id' => '281',
+              'title' => 'Karaoke Touchscreen',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c286',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_286',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            285 => 
+            array (
+              'category_id' => '285',
+              'parent_id' => '281',
+              'title' => 'Power Mixers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c285',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281_285',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_281',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      295 => 
+      array (
+        'category_id' => '295',
+        'parent_id' => '234',
+        'title' => 'Speakers',
+        'items' => 
+        array (
+          297 => 
+          array (
+            'category_id' => '297',
+            'parent_id' => '295',
+            'title' => 'Ceiling Speakers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c297',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_297',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          300 => 
+          array (
+            'category_id' => '300',
+            'parent_id' => '295',
+            'title' => 'Center &amp; Surrond Speakers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c300',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_300',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          298 => 
+          array (
+            'category_id' => '298',
+            'parent_id' => '295',
+            'title' => 'Loud Speakers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c298',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_298',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          296 => 
+          array (
+            'category_id' => '296',
+            'parent_id' => '295',
+            'title' => 'Soundbars',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c296',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_296',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          299 => 
+          array (
+            'category_id' => '299',
+            'parent_id' => '295',
+            'title' => 'Subwoofers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c299',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_299',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          301 => 
+          array (
+            'category_id' => '301',
+            'parent_id' => '295',
+            'title' => 'Tower Speakers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c301',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_301',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c295',
+          'dropdown' => 
+          array (
+            297 => 
+            array (
+              'category_id' => '297',
+              'parent_id' => '295',
+              'title' => 'Ceiling Speakers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c297',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_297',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            300 => 
+            array (
+              'category_id' => '300',
+              'parent_id' => '295',
+              'title' => 'Center &amp; Surrond Speakers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c300',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_300',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            298 => 
+            array (
+              'category_id' => '298',
+              'parent_id' => '295',
+              'title' => 'Loud Speakers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c298',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_298',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            296 => 
+            array (
+              'category_id' => '296',
+              'parent_id' => '295',
+              'title' => 'Soundbars',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c296',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_296',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            299 => 
+            array (
+              'category_id' => '299',
+              'parent_id' => '295',
+              'title' => 'Subwoofers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c299',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_299',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            301 => 
+            array (
+              'category_id' => '301',
+              'parent_id' => '295',
+              'title' => 'Tower Speakers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c301',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295_301',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_295',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      287 => 
+      array (
+        'category_id' => '287',
+        'parent_id' => '234',
+        'title' => 'TVs',
+        'items' => 
+        array (
+          288 => 
+          array (
+            'category_id' => '288',
+            'parent_id' => '287',
+            'title' => 'HD Tvs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c288',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_288',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          290 => 
+          array (
+            'category_id' => '290',
+            'parent_id' => '287',
+            'title' => 'Oled Tvs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c290',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_290',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          294 => 
+          array (
+            'category_id' => '294',
+            'parent_id' => '287',
+            'title' => 'Projectors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c294',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_294',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          289 => 
+          array (
+            'category_id' => '289',
+            'parent_id' => '287',
+            'title' => 'Qled Tvs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c289',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_289',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          292 => 
+          array (
+            'category_id' => '292',
+            'parent_id' => '287',
+            'title' => 'Qned Tvs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c292',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_292',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          291 => 
+          array (
+            'category_id' => '291',
+            'parent_id' => '287',
+            'title' => 'UHD Tvs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c291',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_291',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          293 => 
+          array (
+            'category_id' => '293',
+            'parent_id' => '287',
+            'title' => 'Uled Tvs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c293',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_293',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c287',
+          'dropdown' => 
+          array (
+            288 => 
+            array (
+              'category_id' => '288',
+              'parent_id' => '287',
+              'title' => 'HD Tvs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c288',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_288',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            290 => 
+            array (
+              'category_id' => '290',
+              'parent_id' => '287',
+              'title' => 'Oled Tvs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c290',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_290',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            294 => 
+            array (
+              'category_id' => '294',
+              'parent_id' => '287',
+              'title' => 'Projectors',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c294',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_294',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            289 => 
+            array (
+              'category_id' => '289',
+              'parent_id' => '287',
+              'title' => 'Qled Tvs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c289',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_289',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            292 => 
+            array (
+              'category_id' => '292',
+              'parent_id' => '287',
+              'title' => 'Qned Tvs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c292',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_292',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            291 => 
+            array (
+              'category_id' => '291',
+              'parent_id' => '287',
+              'title' => 'UHD Tvs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c291',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_291',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            293 => 
+            array (
+              'category_id' => '293',
+              'parent_id' => '287',
+              'title' => 'Uled Tvs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c293',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287_293',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234_287',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=229_234',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

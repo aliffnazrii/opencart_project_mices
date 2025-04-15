@@ -1,0 +1,215 @@
+<?php $val = array (
+  'category_id' => '244',
+  'parent_id' => '230',
+  'title' => 'Flooring',
+  'items' => 
+  array (
+    572 => 
+    array (
+      'category_id' => '572',
+      'parent_id' => '244',
+      'title' => 'Exercise &amp; Gym Floorings',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c572',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_244_572',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    573 => 
+    array (
+      'category_id' => '573',
+      'parent_id' => '244',
+      'title' => 'Outdoor Flooring',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c573',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_244_573',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    574 => 
+    array (
+      'category_id' => '574',
+      'parent_id' => '244',
+      'title' => 'Rugs &amp; Mats',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c574',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_244_574',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    575 => 
+    array (
+      'category_id' => '575',
+      'parent_id' => '244',
+      'title' => 'Vinyl Floorings',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c575',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_244_575',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c244',
+    'dropdown' => 
+    array (
+      572 => 
+      array (
+        'category_id' => '572',
+        'parent_id' => '244',
+        'title' => 'Exercise &amp; Gym Floorings',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c572',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_244_572',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      573 => 
+      array (
+        'category_id' => '573',
+        'parent_id' => '244',
+        'title' => 'Outdoor Flooring',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c573',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_244_573',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      574 => 
+      array (
+        'category_id' => '574',
+        'parent_id' => '244',
+        'title' => 'Rugs &amp; Mats',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c574',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_244_574',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      575 => 
+      array (
+        'category_id' => '575',
+        'parent_id' => '244',
+        'title' => 'Vinyl Floorings',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c575',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_244_575',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_244',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

@@ -1,0 +1,452 @@
+{{ header }}{{ column_left }}
+<div id="content">
+    <div class="page-header">
+        <div class="container-fluid">
+            <div class="pull-right">
+                <a href="{{ pull_settings_url }}" data-toggle="tooltip" title="{{ help_pull_settings }}" class="btn btn-warning"><i class="fa fa-refresh"></i></a>
+                <button type="submit" form="form-xilnex-setting" data-toggle="tooltip" title="{{ button_save }}" class="btn btn-primary"><i class="fa fa-save"></i></button>
+            </div>
+            <h1>{{ heading_title }}</h1>
+            <ul class="breadcrumb">
+                {% for breadcrumb in breadcrumbs %}
+                <li><a href="{{ breadcrumb['href'] }}">{{ breadcrumb['text'] }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid">
+        {% if (error_warning) %}
+        <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+        </div>
+        {% endif %}
+        {% if success %}
+        <div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> {{ success }}
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+        </div>
+        {% endif %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-pencil"></i> {{ text_form }}</h3>
+            </div>
+            <div class="panel-body">
+                <form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-xilnex-setting"  class="form-horizontal">
+                    <fieldset>
+                        <legend>{{ text_general }}</legend>
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label" for="app-id">{{ entry_app_id }}</label>
+                            <div class="col-sm-10">
+                                <input name="module_xilnex_appid" id="app-id" class="form-control" value="{{ module_xilnex_appid }}"></input>
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label" for="app-id">{{ entry_token }}</label>
+                            <div class="col-sm-10">
+                                <input name="module_xilnex_token" id="token" class="form-control" value="{{ module_xilnex_token }}"></input>
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label" for="auth">{{ entry_auth }}</label>
+                            <div class="col-sm-10">
+                                <input name="module_xilnex_auth" id="auth" class="form-control" value="{{ module_xilnex_auth }}"></input>
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label" for="status">{{ entry_status }}</label>
+                            <div class="col-sm-10">
+                                {% if module_xilnex_status %}
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_status" value="1" checked="checked" /> {{ text_enabled }}
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_status" value="0" /> {{ text_disabled }}
+                                    </label>
+                                {% else %}
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_status" value="1" /> {{ text_enabled }}
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_status" value="0" checked="checked" /> {{ text_disabled }}
+                                    </label>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>{{ text_customer }}</legend>
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label">{{ entry_default_customer_outlet }}</label>
+                            <div class="col-sm-10">
+                                <select name="module_xilnex_default_customer_outlet" class="form-control">
+                                    {% for outlet in outlets %}
+                                        {% if module_xilnex_default_customer_outlet == outlet.location_id %}
+                                            <option value="{{ outlet.location_id }}" selected="selected">{{ outlet.name }}</option>
+                                        {% else %}
+                                            <option value="{{ outlet.location_id }}">{{ outlet.name }}</option>
+                                        {% endif %}
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label">{{ entry_member_tier }}</label>
+                            <div class="col-sm-10">
+                                <table class="table table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <td class="text-left">{{ column_customer_group }}</td>
+                                            <td class="text-left">{{ column_member_tier }}</td>
+                                            <td class="text-left">{{ column_membership_discount }}</td>
+                                            <td class="text-left"><span data-toggle="tooltip" title="{{ help_overlap_coupon }}">{{ column_overlap_coupon }}</span></td>
+                                            <td class="text-left"><span data-toggle="tooltip" title="{{ help_overlap_product }}">{{ column_overlap_product }}</span></td>
+                                            <td class="text-left"><span data-toggle="tooltip" title="{{ help_requirement }}">{{ column_requirement }}</span></td>
+                                            <td class="text-left"><span data-toggle="tooltip" title="{{ help_renewal }}">{{ column_renewal }}</span></td>
+                                            <td class="text-left">{{ column_tier_level }}</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for customer_group in customer_groups %}
+                                            <tr>
+                                                <td>{{ customer_group.name }} <input type="hidden" name="module_xilnex_membership_tier[{{ customer_group.customer_group_id }}][customer_group_id]" value="{{ customer_group.customer_group_id }}" /></td>
+                                                <td>
+                                                    <select class="form-control select-customer-type" data-customer-group-id="{{ customer_group.customer_group_id }}" name="module_xilnex_membership_tier[{{ customer_group.customer_group_id }}][xilnex_customer_type]">
+                                                        {% for customer_type in customer_types %}
+                                                            {% if customer_type.xilnex_customer_type_id == module_xilnex_membership_tier[customer_group.customer_group_id]['xilnex_customer_type'] %}
+                                                                <option value="{{ customer_type.xilnex_customer_type_id }}" selected="selected">{{ customer_type.xilnex_customer_type }}</option>
+                                                            {% else %}
+                                                                <option value="{{ customer_type.xilnex_customer_type_id }}">{{ customer_type.xilnex_customer_type }}</option>
+                                                            {% endif %}
+                                                        {% endfor %}
+                                                    </select>
+                                                    {# <input type="text" class="form-control" name="module_xilnex_membership_tier[{{ customer_group.customer_group_id }}][tier_name]" value="{{ module_xilnex_membership_tier[customer_group.customer_group_id]['tier_name'] }}"> #}
+                                                </td>
+                                                <td>
+                                                    {# <select class="form-control" id="discount-percentage-{{ customer_group.customer_group_id }}" disabled="disabled">
+                                                        {% for customer_type in customer_types %}
+                                                            {% if customer_type.xilnex_customer_type_id == module_xilnex_membership_tier[customer_group.customer_group_id]['xilnex_customer_type'] %}
+                                                                <option value="{{ customer_type.xilnex_customer_type_id }}" selected="selected">{{ customer_type.discount_percentage|number_format }}</option>
+                                                            {% else %}
+                                                                <option value="{{ customer_type.xilnex_customer_type_id }}">{{ customer_type.discount_percentage|number_format }}</option>
+                                                            {% endif %}
+                                                        {% endfor %}
+                                                    </select> #}
+                                                    <input type="number" class="form-control" name="module_xilnex_membership_tier[{{ customer_group.customer_group_id }}][membership_discount]" value="{{ module_xilnex_membership_tier[customer_group.customer_group_id]['membership_discount'] }}">
+                                                </td>
+                                                <td>
+                                                    <select name="module_xilnex_membership_tier[{{ customer_group.customer_group_id }}][overlap_coupon]" class="form-control">
+                                                        {% if module_xilnex_membership_tier[customer_group.customer_group_id].overlap_coupon %}
+                                                            <option value="1" selected="selected">{{ text_enabled }}</option>
+                                                            <option value="0">{{ text_disabled }}</option>
+                                                        {% else %}
+                                                            <option value="1">{{ text_enabled }}</option>
+                                                            <option value="0" selected="selected">{{ text_disabled }}</option>
+                                                        {% endif %}
+                                                    </select>
+                                                </td>
+                                                <td>
+                                                    <select name="module_xilnex_membership_tier[{{ customer_group.customer_group_id }}][overlap_product_promo]" class="form-control">
+                                                        {% if module_xilnex_membership_tier[customer_group.customer_group_id].overlap_product_promo %}
+                                                            <option value="1" selected="selected">{{ text_enabled }}</option>
+                                                            <option value="0">{{ text_disabled }}</option>
+                                                        {% else %}
+                                                            <option value="1">{{ text_enabled }}</option>
+                                                            <option value="0" selected="selected">{{ text_disabled }}</option>
+                                                        {% endif %}
+                                                    </select>
+                                                </td>
+                                                <td>
+                                                    <table class="table table-bordered table-hover">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>{{ entry_min_purchase }}</td>
+                                                                <td><input type="text" class="form-control" name="module_xilnex_membership_tier[{{ customer_group.customer_group_id }}][req_min_purchase]" value="{{ module_xilnex_membership_tier[customer_group.customer_group_id]['req_min_purchase'] }}"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>{{ entry_duration }}</td>
+                                                                <td><input type="text" class="form-control" name="module_xilnex_membership_tier[{{ customer_group.customer_group_id }}][req_duration]" value="{{ module_xilnex_membership_tier[customer_group.customer_group_id]['req_duration'] }}"></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+
+                                                <td>
+                                                    <table class="table table-bordered table-hover">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>{{ entry_min_purchase }}</td>
+                                                                <td><input type="text" class="form-control" name="module_xilnex_membership_tier[{{ customer_group.customer_group_id }}][renewal_min_purchase]" value="{{ module_xilnex_membership_tier[customer_group.customer_group_id]['renewal_min_purchase'] }}"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>{{ entry_duration }}</td>
+                                                                <td><input type="text" class="form-control" name="module_xilnex_membership_tier[{{ customer_group.customer_group_id }}][renewal_duration]" value="{{ module_xilnex_membership_tier[customer_group.customer_group_id]['renewal_duration'] }}"></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td>
+                                                    <input type="text" class="form-control" name="module_xilnex_membership_tier[{{ customer_group.customer_group_id }}][tier_level]" value="{{ module_xilnex_membership_tier[customer_group.customer_group_id]['tier_level'] }}">
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label">{{ entry_renew_membership_status }}</label>
+                            <div class="col-sm-10">
+                                {% if module_xilnex_membership_renew_status %}
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_membership_renew_status" value="1" checked="checked" /> {{ text_enabled }}
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_membership_renew_status" value="0" /> {{ text_disabled }}
+                                    </label>
+                                {% else %}
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_membership_renew_status" value="1" /> {{ text_enabled }}
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_membership_renew_status" value="0" checked="checked" /> {{ text_disabled }}
+                                    </label>
+                                {% endif %}
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label">{{ entry_upgrade_membership_status }}</label>
+                            <div class="col-sm-10">
+                            {% if module_xilnex_membership_upgrade_status %}
+                                <label class="radio-inline">
+                                    <input type="radio" name="module_xilnex_membership_upgrade_status" value="1" checked="checked" /> {{ text_enabled }}
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="module_xilnex_membership_upgrade_status" value="0" /> {{ text_disabled }}
+                                </label>
+                            {% else %}
+                                <label class="radio-inline">
+                                    <input type="radio" name="module_xilnex_membership_upgrade_status" value="1" /> {{ text_enabled }}
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="module_xilnex_membership_upgrade_status" value="0" checked="checked" /> {{ text_disabled }}
+                                </label>
+                            {% endif %}
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label">{{ entry_sync_customer_status }}</label>
+                            <div class="col-sm-10">
+                            {% if module_xilnex_sync_customer_status %}
+                                <label class="radio-inline">
+                                    <input type="radio" name="module_xilnex_sync_customer_status" value="1" checked="checked" /> {{ text_enabled }}
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="module_xilnex_sync_customer_status" value="0" /> {{ text_disabled }}
+                                </label>
+                            {% else %}
+                                <label class="radio-inline">
+                                    <input type="radio" name="module_xilnex_sync_customer_status" value="1" /> {{ text_enabled }}
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="module_xilnex_sync_customer_status" value="0" checked="checked" /> {{ text_disabled }}
+                                </label>
+                            {% endif %}
+                            </div>
+                        </div>
+                    </fieldset> 
+
+                    <fieldset>
+                        <legend>{{ text_order }}</legend>
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label">{{ entry_pull_order_date }}</label>
+                            <div class="col-sm-10">
+                                <div class="input-group date">
+                                    <input type="text" name="module_xilnex_pull_order_date" value="{{ module_xilnex_pull_order_date }}" placeholder="{{ entry_pull_order_date }}" data-date-format="YYYY-MM-DD" id="input-pull-order-date" class="form-control" />
+                                    <span class="input-group-btn">
+                                        <button type="button" class="btn btn-default"><i class="fa fa-calendar"></i></button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label">{{ entry_order_sync_status }}</label>
+                            <div class="col-sm-10">
+                                <div class="well well-sm" style="height: 150px; overflow: auto;">                     
+                                    {% for order_status in order_statuses %}
+                                        {% if order_status.order_status_id in module_xilnex_order_sync_status %}
+                                            <div class="checkbox"><label><input type="checkbox" name="module_xilnex_order_sync_status[]" value="{{ order_status.order_status_id }}" checked="checked"> {{ order_status.name }}</label></div>
+                                        {% else %}
+                                            <div class="checkbox"><label><input type="checkbox" name="module_xilnex_order_sync_status[]" value="{{ order_status.order_status_id }}"> {{ order_status.name }}</label></div>
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label">{{ entry_order_complete_status }}</label>
+                            <div class="col-sm-10">
+                                <select name="module_xilnex_order_complete_status" id="input-order-status" class="form-control">
+                                {% for order_status in order_statuses %}
+                                    {% if order_status.order_status_id == module_xilnex_order_complete_status %}
+                                    <option value="{{ order_status.order_status_id }}" selected="selected">{{ order_status.name }}</option>
+                                    {% else %}
+                                    <option value="{{ order_status.order_status_id }}">{{ order_status.name }}</option>
+                                    {% endif %}
+                                {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label">{{ entry_order_canceled_status }}</label>
+                            <div class="col-sm-10">
+                                <select name="module_xilnex_order_canceled_status" class="form-control">
+                                {% for order_status in order_statuses %}
+                                    {% if order_status.order_status_id == module_xilnex_order_canceled_status %}
+                                    <option value="{{ order_status.order_status_id }}" selected="selected">{{ order_status.name }}</option>
+                                    {% else %}
+                                    <option value="{{ order_status.order_status_id }}">{{ order_status.name }}</option>
+                                    {% endif %}
+                                {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label" for="auth">{{ entry_shipping_item_code }}</label>
+                            <div class="col-sm-10">
+                                <input name="module_xilnex_shipping_item_code" id="shipping-item-code" class="form-control" value="{{ module_xilnex_shipping_item_code }}"></input>
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label">{{ entry_push_order_outlet }}</label>
+                            <div class="col-sm-10">
+                                <select name="module_xilnex_push_order_outlet" class="form-control">
+                                    {% for outlet in outlets %}
+                                        {% if module_xilnex_push_order_outlet == outlet.location_id %}
+                                            <option value="{{ outlet.location_id }}" selected="selected">{{ outlet.name }}</option>
+                                        {% else %}
+                                            <option value="{{ outlet.location_id }}">{{ outlet.name }}</option>
+                                        {% endif %}
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="{{ help_alert_order_fail }}">{{ entry_alert_order_fail }}</span></label>
+                            <div class="col-sm-10">
+                                {% if module_xilnex_alert_order_fail %}
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_alert_order_fail" value="1" checked="checked" /> {{ text_enabled }}
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_alert_order_fail" value="0" /> {{ text_disabled }}
+                                    </label>
+                                {% else %}
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_alert_order_fail" value="1" /> {{ text_enabled }}
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_alert_order_fail" value="0" checked="checked" /> {{ text_disabled }}
+                                    </label>
+                                {% endif %}
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label" for="input-alert-order-fail-email"><span data-toggle="tooltip" title="{{ help_alert_order_fail_email }}">{{ entry_alert_order_fail_email }}</span></label>
+                            <div class="col-sm-10">
+                                <textarea name="module_xilnex_alert_order_fail_email" rows="5" placeholder="{{ entry_alert_order_fail_email }}" id="input-alert-order-fail-email" class="form-control">{{ module_xilnex_alert_order_fail_email }}</textarea>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>{{ text_products }}</legend>
+                         <div class="form-group required">
+                            <label class="col-sm-2 control-label">{{ entry_sync_product_quantity_outlet }}</label>
+                            <div class="col-sm-10">
+                                <div class="well well-sm" style="height: 150px; overflow: auto;">                     
+                                    {% for outlet in outlets %}
+                                        {% if outlet.location_id in module_xilnex_sync_product_quantity_outlet %}
+                                            <div class="checkbox"><label><input type="checkbox" name="module_xilnex_sync_product_quantity_outlet[]" value="{{ outlet.location_id }}" checked="checked"> {{ outlet.name }}</label></div>
+                                        {% else %}
+                                            <div class="checkbox"><label><input type="checkbox" name="module_xilnex_sync_product_quantity_outlet[]" value="{{ outlet.location_id }}"> {{ outlet.name }}</label></div>
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label">{{ entry_prioritize_product_special }}</label>
+                            <div class="col-sm-10">
+                                {% if module_xilnex_prioritize_product_special %}
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_prioritize_product_special" value="1" checked="checked" /> {{ text_enabled }}
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_prioritize_product_special" value="0" /> {{ text_disabled }}
+                                    </label>
+                                {% else %}
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_prioritize_product_special" value="1" /> {{ text_enabled }}
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_prioritize_product_special" value="0" checked="checked" /> {{ text_disabled }}
+                                    </label>
+                                {% endif %}
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="col-sm-2 control-label">{{ entry_sync_product_status }}</label>
+                            <div class="col-sm-10">
+                                {% if module_xilnex_sync_product_status %}
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_sync_product_status" value="1" checked="checked" /> {{ text_enabled }}
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_sync_product_status" value="0" /> {{ text_disabled }}
+                                    </label>
+                                {% else %}
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_sync_product_status" value="1" /> {{ text_enabled }}
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="module_xilnex_sync_product_status" value="0" checked="checked" /> {{ text_disabled }}
+                                    </label>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript"><!--
+  $('.date').datetimepicker({
+    language: '{{ datepicker }}',
+    pickTime: false
+  });
+
+  $('.select-customer-type').on('change', function () {
+    var customer_group_id = $(this).data('customer-group-id');
+    var customer_type = $(this).val();
+    $('#discount-percentage-' + customer_group_id).val(customer_type);
+  });
+  //--></script>
+
+{{ footer }}
+</div>

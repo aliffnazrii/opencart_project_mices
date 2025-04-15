@@ -1,0 +1,364 @@
+<?php $val = array (
+  'css' => '.module-catalog-358 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-358 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-358 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-358 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-358 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-358 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-358 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-358 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-358  .item-content{padding-top:10px}.module-catalog-358  .catalog-title{padding-right:10px}.module-catalog-358 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-358 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-358
+.subitems{align-items:flex-start}.module-catalog-358 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-358 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-358 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-358 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-358 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-358 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-358 .catalog-image{margin-right:10px}.module-catalog-358 .item-assets{flex-direction:row}.module-catalog-358 .item-assets>a{max-width:40%;order:0}.module-catalog-358 .item-assets
+.subitems{width:60%}.module-catalog-358 .item-assets .catalog-image{display:block}.module-catalog-358 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-358 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-358 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Storage Organisers',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb71821b3',
+    'module_id' => 358,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-358',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '358-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Clothes Storage Organisers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=997_998',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Compact Wardrobe',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=997_1002',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Door Hooks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=997_999',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Garment Bags',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=997_1000',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Hanging Clothes Organisers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=997_1001',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Wardrobes Organisers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=997_1003',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Clothes Organisers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=997',
+        'total' => '6',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '358-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Food Containers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1004_1005',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Food Packaging Wrap &amp; Foil',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1004_1006',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Food Sealing Clips',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1004_1007',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Jar &amp; Tins',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1004_1009',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Kitchen &amp; Shelf Trolleys',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1004_1010',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Spice &amp; Condiment Stands',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1004_1011',
+            'image' => '',
+            'image2x' => '',
+          ),
+          6 => 
+          array (
+            'name' => 'Wine Racks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1004_1012',
+            'image' => '',
+            'image2x' => '',
+          ),
+          7 => 
+          array (
+            'name' => 'Zipper Bags',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1004_1008',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Food Storage &amp; Organisers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1004',
+        'total' => '8',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '358-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Desk Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1013_1014',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Drawer &amp; Shelf Organisers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1013_1015',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Magazine Files',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1013_1016',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Media Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1013_1017',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Newspaper Racks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1013_1018',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Noticeboards',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1013_1019',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Paper &amp; Media Organisers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1013',
+        'total' => '6',
+      ),
+      4 => 
+      array (
+        'limit' => '',
+        'id' => '358-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Baskets',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1020_1021',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Storage Boxes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1020_1022',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Storage Boxes &amp; Baskets',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1020',
+        'total' => '2',
+      ),
+      5 => 
+      array (
+        'limit' => '',
+        'id' => '358-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Complete Wall Shelves',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1023_1024',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Shelves',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1023_1025',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Shelving Brackets',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1023_1026',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Shelves &amp; Wall Organisation',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1023',
+        'total' => '3',
+      ),
+    ),
+  ),
+);

@@ -1,0 +1,559 @@
+<?php $val = array (
+  'css' => '.module-catalog-366 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-366 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-366 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-366 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-366 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-366 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-366 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-366 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-366  .item-content{padding-top:10px}.module-catalog-366  .catalog-title{padding-right:10px}.module-catalog-366 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-366 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-366
+.subitems{align-items:flex-start}.module-catalog-366 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-366 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-366 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-366 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-366 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-366 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-366 .catalog-image{margin-right:10px}.module-catalog-366 .item-assets{flex-direction:row}.module-catalog-366 .item-assets>a{max-width:40%;order:0}.module-catalog-366 .item-assets
+.subitems{width:60%}.module-catalog-366 .item-assets .catalog-image{display:block}.module-catalog-366 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-366 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-366 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Gardening & Outdoors',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb714a833',
+    'module_id' => 366,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-366',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '366-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Grill Tool Set',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=629_630',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Grill Utensils Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=629_631',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Skewers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=629_632',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Tongs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=629_633',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Grilling Tools',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=629',
+        'total' => '4',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '366-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Charcoal Grills',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=634_635',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Portable Grills',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=634_636',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Grills',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=634',
+        'total' => '2',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '366-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Camping Chairs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=637_638',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Camping Tables',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=637_639',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Cooler Boxes',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=637_640',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Ice Packs',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=637_641',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Camping Equipment',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=637',
+        'total' => '4',
+      ),
+      4 => 
+      array (
+        'limit' => '',
+        'id' => '366-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Camping Tents',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=642_644',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Sleeping Bags',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=642_643',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Tents &amp; Shelters',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=642',
+        'total' => '2',
+      ),
+      5 => 
+      array (
+        'limit' => '',
+        'id' => '366-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Garden Wall Bricks',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=645_646',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Landscape Rocks &amp; Pebbles',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=645_647',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Landscaping',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=645',
+        'total' => '2',
+      ),
+      6 => 
+      array (
+        'limit' => '',
+        'id' => '366-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Blowers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_649',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Garden Hoses',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_650',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Garden Seeds',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_664',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Garden Shears',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_652',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Garden Soils',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_665',
+            'image' => '',
+            'image2x' => '',
+          ),
+          5 => 
+          array (
+            'name' => 'Gardening Tools',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_651',
+            'image' => '',
+            'image2x' => '',
+          ),
+          6 => 
+          array (
+            'name' => 'Hose Connectors &amp; Adapters',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_653',
+            'image' => '',
+            'image2x' => '',
+          ),
+          7 => 
+          array (
+            'name' => 'Hose Reels &amp; Storages',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_654',
+            'image' => '',
+            'image2x' => '',
+          ),
+          8 => 
+          array (
+            'name' => 'Hose Timers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_655',
+            'image' => '',
+            'image2x' => '',
+          ),
+          9 => 
+          array (
+            'name' => 'Insect Killers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_656',
+            'image' => '',
+            'image2x' => '',
+          ),
+          10 => 
+          array (
+            'name' => 'Irrigation Systems',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_657',
+            'image' => '',
+            'image2x' => '',
+          ),
+          11 => 
+          array (
+            'name' => 'Lawn Mowers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_658',
+            'image' => '',
+            'image2x' => '',
+          ),
+          12 => 
+          array (
+            'name' => 'Lawn Sprinklers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_659',
+            'image' => '',
+            'image2x' => '',
+          ),
+          13 => 
+          array (
+            'name' => 'Nozzles and Wands',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_660',
+            'image' => '',
+            'image2x' => '',
+          ),
+          14 => 
+          array (
+            'name' => 'Pressure Washers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_661',
+            'image' => '',
+            'image2x' => '',
+          ),
+          15 => 
+          array (
+            'name' => 'Trimmers &amp; Edgers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_662',
+            'image' => '',
+            'image2x' => '',
+          ),
+          16 => 
+          array (
+            'name' => 'Watering Cans &amp; Sprayers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648_663',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Lawn &amp; Outdoor Care',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=648',
+        'total' => '17',
+      ),
+      7 => 
+      array (
+        'limit' => '',
+        'id' => '366-7',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-7',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Artificial Trees',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=666_667',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Flags &amp; Accessories',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=666_668',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Fountains',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=666_669',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Garden Statues &amp; Decor',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=666_670',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Wind Catchers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=666_671',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Outdoor Decor',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=666',
+        'total' => '5',
+      ),
+      8 => 
+      array (
+        'limit' => '',
+        'id' => '366-8',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-8',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Fence Planters',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=672_673',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Plant Pots',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=672_674',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Planters &amp; Pots',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=672',
+        'total' => '2',
+      ),
+      9 => 
+      array (
+        'limit' => '',
+        'id' => '366-9',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-9',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Plant Movers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=675_676',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Plant Stands',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=675_677',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Plant Stands &amp; Movers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=675',
+        'total' => '2',
+      ),
+      10 => 
+      array (
+        'limit' => '',
+        'id' => '366-10',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-10',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Landscape Rocks &amp; Pebbles',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=647',
+        'total' => '0',
+      ),
+    ),
+  ),
+);

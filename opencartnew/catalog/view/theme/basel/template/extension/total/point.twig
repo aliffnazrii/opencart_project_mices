@@ -1,0 +1,41 @@
+
+<h4 id="heading-point"><b>{{ heading_title }}</b></h4>
+	<div class="form-vertical">
+      	<label class="control-label" for="input-point">{{ entry_point }}</label>
+      	<label class="control-label" for="input-point">{{ help_point }}</label>
+		{% if help_point2 %}
+      		<label class="control-label" for="input-point">{{ help_point2 }}</label>
+		{% endif %}
+        <input type="text" name="point" value="{{ point }}" placeholder="{{ entry_point }}" id="input-point" class="form-control margin-b10" />
+		<input type="button" value="{{ button_point }}" id="button-point" data-loading-text="{{ text_loading }}"  class="btn btn-primary" />
+</div>
+
+<script type="text/javascript"><!--
+	$('#button-point').on('click', function() {
+		$.ajax({
+			url: 'index.php?route=extension/total/point/point',
+			type: 'post',
+			data: 'point=' + encodeURIComponent($('input[name=\'point\']').val()),
+			dataType: 'json',
+			beforeSend: function() {
+				$('#button-point').button('loading');
+			},
+			complete: function() {
+				$('#button-point').button('reset');
+			},
+			success: function(json) {
+				$('.alert').remove();
+
+				if (json['error']) {
+					$('#content').prepend('<div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> ' + json['error'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+
+					$('html, body').animate({ scrollTop: 0 }, 'slow');
+				}
+
+				if (json['redirect']) {
+					location = json['redirect'];
+				}
+			}
+		});
+	});
+//--></script>

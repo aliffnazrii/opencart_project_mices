@@ -1,0 +1,12 @@
+{
+	"name": "mices/queue",
+	"description": "The MICES Queue.",
+    "require": {
+        "symfony/console": "^5.4"
+    },
+    "autoload": {
+        "classmap": [
+            "console"
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+<?php $val = array (
+  'category_id' => '250',
+  'parent_id' => '230',
+  'title' => 'Kitchen Fixtures',
+  'items' => 
+  array (
+    799 => 
+    array (
+      'category_id' => '799',
+      'parent_id' => '250',
+      'title' => 'Kitchen Sinks',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c799',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_250_799',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c250',
+    'dropdown' => 
+    array (
+      799 => 
+      array (
+        'category_id' => '799',
+        'parent_id' => '250',
+        'title' => 'Kitchen Sinks',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c799',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_250_799',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_250',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

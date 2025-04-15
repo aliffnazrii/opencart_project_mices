@@ -1,0 +1,774 @@
+<modification>
+	<name>Journal Responsive UI</name>
+	<version>1.0.0</version>
+	<code>journal_responsive_ui</code>
+	<author>Mices Technology</author>
+	<link>https://www.mices.com.my/</link>
+
+	<!-- Order History -->
+	<file path="catalog/view/theme/journal3/template/account/order_list.twig">
+        <operation>
+			<search><![CDATA[
+				{{ header }}
+			]]></search>
+			<add position="after"><![CDATA[
+			 	<style>
+					.cart-mobile {
+						visibility: hidden;
+						display: none;
+					}
+
+					@media screen and (max-width: 600px) {
+						.cart-desktop {
+							visibility: hidden;
+							display: none;
+						}
+						.cart-mobile {
+							visibility: visible;
+							display: block;
+						}
+					}
+				</style>
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+				<h1 class="title page-title"><span>{{ heading_title }}</span></h1>
+			]]></search>
+			<add position="replace"><![CDATA[
+				<h1 class="title page-title"><span>{{ heading_title_alt }}</span></h1>
+			]]></add>
+		</operation>
+        
+		<operation>
+			<search><![CDATA[
+				<div class="table-responsive">
+			]]></search>
+			<add position="replace"><![CDATA[
+			 	<div class="table-responsive cart-mobile">
+					<table class="table table-bordered table-hover">
+						<tbody>
+						{% for order in orders %}
+							<tr data-url="{{ order.view }}">
+								<td class="text-left" style="border-bottom: 1px solid #ddd">
+									<span>{{ text_order_no }}:</span><br/>
+									<a href="{{ order.view }}" style="text-decoration:none" data-toggle="tooltip" title="{{ button_view }}" class="link-button">
+										<b style="font-size:20px">{{ order.order_id }}</b>
+									</a><br/>
+									<span>{{ text_status }} : {{ order.status }}</span>
+								
+								</td>
+								<td class="text-right" style="border-bottom: 1px solid #ddd">
+									<span style="color:#0071CE; font-size:16px">{{ order.total }}</span><br/>
+									<span>{{ order.date_added }}</span>
+								</td>
+							</tr>
+							{% endfor %}
+						</tbody>
+					</table>
+				</div>
+                <div class="table-responsive cart-desktop">
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+				<div class="buttons clearfix">
+			]]></search>
+			<add position="before"><![CDATA[
+				<!--
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+				{{ content_bottom }}</div>
+			]]></search>
+			<add position="before"><![CDATA[
+				-->
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+				{{ footer }}
+			]]></search>
+			<add position="before"><![CDATA[
+				<script>
+					$('.mobile tr').on('click', function(){
+						let order_info_link = this.getAttribute('data-url');
+						window.document.location = order_info_link;
+					});
+				</script>
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/account/order.php">
+        <operation>
+			<search><![CDATA[
+				'view'       => $this->url->link('account/order/info', 'order_id=' . $result['order_id'], true),
+			]]></search>
+			<add position="before"><![CDATA[
+			 	'payment_method'      => $result['payment_method'],
+			]]></add>
+		</operation>
+		
+		<operation>
+			<search><![CDATA[
+				'date_added' => date($this->language->get('date_format_short'), strtotime($result['date_added'])),
+			]]></search>
+			<add position="replace"><![CDATA[
+				'date_added' => date($this->language->get('d/m/Y, H:i A'), strtotime($result['date_added'])),
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/language/en-gb/account/order.php">
+        <operation>
+			<search><![CDATA[
+				$_['text_error']            = 'The order you requested could not be found!';
+			]]></search>
+			<add position="after"><![CDATA[
+$_['text_order_no']            = 'Order No';
+$_['text_paid_by']             = 'Paid By';
+$_['text_status']              = 'Status';
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+$_['heading_title']         = 'Order History';
+			]]></search>
+			<add position="after"><![CDATA[
+$_['heading_title_alt']         = 'Transaction History';
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/model/account/order.php">
+        <operation>
+			<search><![CDATA[
+				$query = $this->db->query("SELECT o.order_id, o.firstname, o.lastname, os.name as status, o.date_added, o.total, o.currency_code, o.currency_value FROM `" . DB_PREFIX . "order` o LEFT JOIN " . DB_PREFIX . "order_status os ON (o.order_status_id = os.order_status_id) WHERE o.customer_id = '" . (int)$this->customer->getId() . "' AND o.order_status_id > '0' AND o.store_id = '" . (int)$this->config->get('config_store_id') . "' AND os.language_id = '" . (int)$this->config->get('config_language_id') . "' ORDER BY o.order_id DESC LIMIT " . (int)$start . "," . (int)$limit);
+			]]></search>
+			<add position="replace"><![CDATA[
+				$query = $this->db->query("SELECT o.order_id, o.firstname, o.lastname, os.name as status, o.date_added, o.total, o.currency_code, o.currency_value, o.payment_method FROM `" . DB_PREFIX . "order` o LEFT JOIN " . DB_PREFIX . "order_status os ON (o.order_status_id = os.order_status_id) WHERE o.customer_id = '" . (int)$this->customer->getId() . "' AND o.order_status_id > '0' AND o.store_id = '" . (int)$this->config->get('config_store_id') . "' AND os.language_id = '" . (int)$this->config->get('config_language_id') . "' ORDER BY o.order_id DESC LIMIT " . (int)$start . "," . (int)$limit);
+			]]></add>
+		</operation>
+	</file>
+
+
+	<!-- Order Detail -->
+	<file path="catalog/view/theme/journal3/template/account/order_info.twig">
+		<operation>
+			<search><![CDATA[
+				{{ header }}
+			]]></search>
+			<add position="after"><![CDATA[
+			 	<style>
+					.cart-mobile {
+						visibility: hidden;
+						display: none;
+					}			
+
+					@media screen and (max-width: 600px) {
+						.cart-desktop {
+							visibility: hidden;
+							display: none;
+						}
+
+						.cart-mobile {
+							visibility: visible;
+							display: block;
+						}
+					}
+				</style>
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+				<table class="table table-bordered table-hover table-order">
+			]]></search>
+			<add position="replace"><![CDATA[
+				<table class="table table-bordered table-hover table-order cart-desktop">
+			]]></add>
+		</operation>
+
+		<operation>
+			<search index="0"><![CDATA[
+				<div class="table-responsive">
+			]]></search>
+			<add position="before"><![CDATA[
+		<div class="cart-table cart-mobile">
+			<table class="table table-bordered">
+				<tbody>
+					{% for product in products %}
+						<tr>
+							<td class="text-left">
+							<div>{{ product.name }} ({{ product.model }})
+								{% for option in product.option %} <br />
+								&nbsp;<small> - {{ option.name }}: {{ option.value }}</small> {% endfor %}
+							</div>
+							</td>
+							<td class="text-right">
+							<div>
+								{{ product.price }} X {{ product.quantity }} <br/>
+								<b>{{ product.total }}</b>
+							</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" style="border-bottom: 1px solid #ddd;">
+								<div style="display:flex">
+									{% if product.reorder %} 
+										<a href="{{ product.reorder }}" data-toggle="tooltip" title="{{ button_reorder }}" class="btn btn-primary" style="width:100%; margin-right:5px;"><i style="margin-right:5px" class="fa fa-shopping-cart"></i> {{ button_reorder }}</a> 
+									{% endif %} 
+									{% if product.allow_return %}
+										<a href="{{ product.return }}" data-toggle="tooltip" title="{{ button_return }}" class="btn btn-danger" style="width:100%"><i style="margin-right:5px" class="fa fa-reply"></i> {{ button_return }}</a>
+									{% endif %} 
+								</div>
+							</td>
+						</tr>
+						{% endfor %}
+						
+						{% for voucher in vouchers %}
+						<tr>
+							<td></td>
+							<td class="text-left td-voucher">{{ voucher.description }}</td>
+							<td class="text-right td-voucher">{{ voucher.amount }}</td>
+						</tr>
+					{% endfor %}
+				</tbody>
+
+				<tfoot>
+					{% for total in totals %}
+					<tr>
+						<td class="text-right"><b>{{ total.title }}</b></td>
+						<td class="text-right">{{ total.text }}</td>
+					</tr>
+					{% endfor %}
+				</tfoot>
+			</table>
+        </div>
+			]]></add>
+		</operation>
+	</file>
+
+	
+	<!-- Cart -->
+	<file path="catalog/view/theme/journal3/template/checkout/cart.twig">
+
+		<operation>
+			<search><![CDATA[
+				{{ header }}
+			]]></search>
+			<add position="after"><![CDATA[
+			 	<style>
+					.cart-mobile {
+						visibility: hidden;
+						display: none;
+					}
+
+					.cart-table .stepper i.icon {
+						font-family: "icomoon";
+						font-weight: 400;
+						text-rendering: auto;
+						-webkit-font-smoothing: antialiased;
+						cursor: pointer;
+					}
+
+					.cart-table .stepper i.icon:hover {
+						background-color: rgba(238,238,238,1);
+					}
+
+					.cart-table .stepper i.icon-plus:before {
+						content: "\eba0";
+					}
+
+					.cart-table .stepper i.icon-minus:before {
+						content: "\eb85";
+					}
+
+					/*Cart Table style modification*/
+					/*start*/
+					.cart-mobile .cart-table table tbody td:first-child{
+						border-left:1px solid black !important;
+						border-top-left-radius: 20px;
+						border-bottom-left-radius: 20px;
+					}
+
+					.cart-mobile .cart-table table tbody td:last-child{
+						border-right:1px solid black !important;
+						border-top-right-radius: 20px;
+						border-bottom-right-radius: 20px;
+					}
+
+					.cart-mobile .cart-table table tbody td{
+						border-top:1px solid black !important;
+						border-bottom:1px solid black !important;
+					}
+
+					.cart-mobile .cart-table table>tbody:first-child>tr:first-of-type>td{
+						border-top:1px solid black !important;
+					}
+
+					.cart-mobile .cart-table table{
+						border-spacing: 0 10px;
+					}
+
+					/*end*/
+
+					@media screen and (max-width: 600px) {
+						.cart-desktop {
+							visibility: hidden;
+							display: none;
+						}
+
+						.cart-mobile {
+							visibility: visible;
+							display: block;
+						}
+					}
+				</style>
+			]]></add>
+		</operation>
+
+		<operation>
+			<search index="0"><![CDATA[
+				<h1 class="title page-title">
+			]]></search>
+			<add position="replace"><![CDATA[
+			 	<h1 class="title page-title" style="margin-top:unset">
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+				&nbsp;({{ weight }})
+			]]></search>
+			<add position="replace"><![CDATA[
+			 {# &nbsp;({{ weight }}) #}
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+				<h2 class="title">{{ text_next }}</h2>
+			]]></search>
+			<add position="replace"><![CDATA[
+				<h2 class="title">{{ delivery_information_title }}</h2>
+			]]></add>
+		</operation>
+
+		<operation>
+			<search index="0"><![CDATA[
+				<form action="{{ action }}" method="post" enctype="multipart/form-data" class="cart-table">
+			]]></search>
+			<add position="replace"><![CDATA[
+			<form action="{{ action }}" method="post" enctype="multipart/form-data" class="cart-table cart-mobile">
+			 	<div class="table-responsive">
+					<table class="table table-bordered">
+						<tbody>
+
+						{% for product in products %}
+							<tr>
+							<td class="text-center td-image" style="border-bottom: 1px solid #ddd">{% if product.thumb %} <a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" /></a> {% endif %}</td>
+							<td class="text-left td-name" style="border-bottom: 1px solid #ddd"><a href="{{ product.href }}" style="text-decoration:none; font-weight:600">{{ product.name }}</a> {% if not product.stock %} <span class="text-danger">***</span> {% endif %}
+								{% if product.option %}
+									{% for option in product.option %} <br />
+										<small>{{ option.name }}: {{ option.value }}</small> {% endfor %}
+								{% endif %}
+								<div style="display:flex">
+									<div class="input-group btn-block" style="margin-top: 10px">
+										<div class="stepper" style="width:auto">
+											<i class="icon icon-minus" onclick="$(this).parent().find('.fa-angle-down').trigger('click')"  style="border-right: 1px solid black; height: 100%; place-content: center; padding: 0 5px;"></i>
+											<i style="display:none" class="fa fa-angle-down"></i>
+											<input type="text" name="quantity[{{ product.cart_id }}]" value="{{ product.quantity }}" size="1" class="form-control" style="padding: 6px 12px; background-color:transparent !important; border:none !important"/>
+											<i class="icon icon-plus" onclick="$(this).parent().find('.fa-angle-up').trigger('click')" style="border-left: 1px solid black; height: 100%; place-content: center; padding: 0 5px;"></i>
+											<i style="display:none" class="fa fa-angle-up"></i>
+										</div>
+									</div>
+									<span style="color: #0071CE; margin-top:16px; font-size:14px;">{{ product.total }}</span>
+									<button style="visibility:hidden; display:none" type="submit" data-toggle="tooltip" title="{{ button_update }}" class="btn btn-update"><i class="fa fa-refresh"></i></button>
+                    				<button style="visibility:hidden; display:none" type="button" data-toggle="tooltip" title="{{ button_remove }}" class="btn btn-remove" onclick="cart.remove('{{ product.cart_id }}');"><i class="fa fa-times-circle"></i></button>
+								</div>
+								{% if product.reward %} <br />
+									<small>{{ product.reward }}</small> {% endif %}
+								{% if product.recurring %} <br />
+									<span class="label label-info">{{ text_recurring_item }}</span> <small>{{ product.recurring }}</small> {% endif %}</td>
+							</tr>
+						{% endfor %}
+						{% for voucher in vouchers %}
+							<tr>
+							<td></td>
+							<td class="text-left td-voucher">{{ voucher.description }}</td>
+							<td class="text-left td-voucher"></td>
+							<td class="text-left td-voucher"><div class="input-group btn-block" style="max-width: 200px;">
+								<input type="text" name="" value="1" size="1" disabled="disabled" class="form-control" />
+								<span class="input-group-btn">
+							<button type="button" data-toggle="tooltip" title="{{ button_remove }}" class="btn btn-danger" onclick="voucher.remove('{{ voucher.key }}');"><i class="fa fa-times-circle"></i></button>
+							</span></div></td>
+							<td class="text-right td-voucher">{{ voucher.amount }}</td>
+							<td class="text-right td-voucher">{{ voucher.amount }}</td>
+							</tr>
+						{% endfor %}
+						</tbody>
+					</table>
+				</div>
+				</form>
+				<form action="{{ action }}" method="post" enctype="multipart/form-data" class="cart-table cart-desktop">
+			]]></add>
+		</operation>
+
+		<operation>
+			<search index="1"><![CDATA[
+				<td class="text-center td-qty">
+			]]></search>
+			<add position="before"><![CDATA[
+			<!--
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+				<td class="text-center td-price">{{ product.price }}</td>
+			]]></search>
+			<add position="before"><![CDATA[
+			-->
+			<td class="text-center td-qty">
+				<div style="display:flex">
+					<div class="input-group btn-block">
+						<div class="stepper" style="width:auto">
+							<i class="icon icon-minus" onclick="$(this).parent().find('.fa-angle-down').trigger('click')"  style="border-right: 1px solid black; height: 100%; place-content: center; padding: 0 5px;"></i>
+							<i style="display:none" class="fa fa-angle-down"></i>
+							<input type="text" name="quantity[{{ product.cart_id }}]" value="{{ product.quantity }}" size="1" class="form-control" style="padding: 6px 12px; background-color:transparent !important; border:none !important"/>
+							<i class="icon icon-plus" onclick="$(this).parent().find('.fa-angle-up').trigger('click')" style="border-left: 1px solid black; height: 100%; place-content: center; padding: 0 5px;"></i>
+							<i style="display:none" class="fa fa-angle-up"></i>
+						</div>
+						<span class="input-group-btn">
+							<button style="visibility:hidden; display:none" type="submit" data-toggle="tooltip" title="{{ button_update }}" class="btn btn-update"><i class="fa fa-refresh"></i></button>
+							<button style="margin-left: 1rem; background: transparent; color:rgb(51, 51, 51)" type="button" data-toggle="tooltip" title="{{ button_remove }}" class="btn btn-remove" onclick="cart.remove('{{ product.cart_id }}');"><i class="fa fa-trash-o"></i></button>
+						</span>
+					</div>
+				</div>
+			</td>
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+				{{ footer }}
+			]]></search>
+			<add position="before"><![CDATA[
+<div id="confirmation-modal" class="modal fade" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document" style="top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%);">
+		<div class="modal-content">
+			<div class="modal-body">
+				<span>Remove product from shopping cart?</span>
+			</div>
+			<div class="modal-footer" style="display: flex; justify-content:space-between">
+				<button type="button" class="btn btn-info" data-dismiss="modal" style="margin-left: 0; margin-right: auto;">Cancel</button>
+				<button type="button" class="btn btn-danger" data-dismiss="modal" id="modal-btn-remove" style="margin-right: 0; margin-left: auto;">Remove</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	var selectedProduct = "";
+	$(".cart-table input" ).on( "change", function() {
+		$(this).parent().parent().parent().find('.btn-update').click();
+	} );
+	$(".cart-table .stepper .fa.fa-angle-down" ).on( "click", function() {
+		quantity = parseInt($(this).parent().find("input").val());
+
+		product_name = $(this).parent().parent().parent().parent().find('a').text();
+		$('.modal .modal-body span').html("Remove <b>" + product_name + "</b> from shopping cart?");
+		if(quantity == 1){
+			selectedProduct = $(this).parent().parent().parent();
+			$('#confirmation-modal').modal('show');
+		}
+	});
+
+	$("#confirmation-modal #modal-btn-remove").on("click", function(){
+		$(selectedProduct).find('.btn-remove').click();
+	});
+</script>
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/language/en-gb/checkout/cart.php">
+		<operation>
+			<search><![CDATA[
+				$_['heading_title']            = 'Shopping Cart';
+			]]></search>
+			<add position="replace"><![CDATA[
+			 	$_['heading_title']              = 'My Cart';
+			 	$_['delivery_information_title']              = 'Delivery Information';
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/language/en-gb/en-gb.php">
+		<operation>
+			<search><![CDATA[
+				$_['button_checkout']       = 'Checkout';
+			]]></search>
+			<add position="replace"><![CDATA[
+				$_['button_checkout']       = 'Check Out';
+			]]></add>
+		</operation>
+	</file>
+
+	<!-- Wishlist -->
+	<file path="catalog/view/theme/journal3/template/account/wishlist.twig">
+		<operation>
+			<search><![CDATA[{{ header }}]]></search>
+			<add position="after"><![CDATA[
+<style>
+	.wishlist-mobile {
+		visibility: hidden;
+		display: none;
+	}
+
+	@media screen and (max-width: 600px) {
+		.wishlist-desktop {
+			visibility: hidden;
+			display: none;
+		}
+		.wishlist-mobile {
+			visibility: visible;
+			display: block;
+		}
+	}
+</style>
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+				<div class="table-responsive">
+			]]></search>
+			<add position="replace"><![CDATA[
+	<div class="wishlist-mobile">
+		<table class="table table-bordered">
+			<tbody>
+			{% for product in products %}
+				<tr>
+					<td class="text-center td-image" style="border-bottom: 1px solid #ddd">{% if product.thumb %} <a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" /></a> {% endif %}</td>
+					<td class="text-left" style="display: flex; flex-direction: column; border-bottom: 1px solid #ddd">
+						<div>
+							<a href="{{ product.href }}">{{ product.name }} ({{ product.model }})</a> {% if not product.stock %} <span class="text-danger">***</span> {% endif %}
+						</div>
+						<div class="td-price">
+							{% if product.price %}
+								<div class="price"> 
+								{% if not product.special %}
+									{{ product.price }}
+								{% else %} 
+									<b>{{ product.special }}</b> <s>{{ product.price }}</s> 
+								{% endif %} 
+								</div>
+							{% endif %}
+						</div>
+						<div style="display:flex">
+							{% if j3.settings.get('catalogCartStatus') %}
+								<button type="button" onclick="cart.add('{{ product.product_id }}');" data-toggle="tooltip" title="{{ button_cart }}" class="btn btn-primary" style="width:100%" data-loading-text="<i class='fa fa-shopping-cart'></i>"><i class="fa fa-shopping-cart"></i></button>
+							{% endif %}
+							<a href="{{ product.remove }}" data-toggle="tooltip" title="{{ button_remove }}" class="btn btn-danger btn-remove" style="width:100%; margin-left:5px"><i class="fa fa-times"></i></a></td>
+						</div>
+					</td>
+				</tr>
+			{% endfor %}
+			</tbody>
+		</table>
+	</div>
+	<div class="table-responsive wishlist-desktop">
+			]]></add>
+		</operation>
+	</file>
+	
+	<!-- Journal Cart Page -->
+	<file path="catalog/view/theme/journal3/template/journal3/checkout/cart.twig">
+		<operation>
+			<search><![CDATA[
+    <div class="table-responsive">
+			]]></search>
+			<add position="before"><![CDATA[
+	{% if not is_mobile %}	
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+    		<td class="text-left td-qty">
+			]]></search>
+			<add position="before"><![CDATA[
+			<!--
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+          <td class="text-right td-price" v-html="product.price"></td>
+			]]></search>
+			<add position="before"><![CDATA[
+			-->
+			<td class="text-left td-qty">
+				<div style="display:flex">
+					<div class="input-group btn-block">
+						<div class="stepper" style="width:auto">
+							<i class="icon icon-minus" v-on:click="updateCartItemQuantity(index, -1)" style="border-right: 1px solid black;"></i>
+							<input type="text" size="1" v-model="product.quantity" v-on:change="updateCartItemQuantityValue(index, $event.target.value)" class="form-control" style="padding: 6px 12px; background-color:transparent !important; border:none !important" />
+							<i class="icon icon-plus" v-on:click="updateCartItemQuantity(index, 1)" style="border-left: 1px solid black;"></i>
+						</div>
+           				 <span class="input-group-btn">
+							<button style="margin-left: 1rem; background: transparent; color:rgb(51, 51, 51)" type="button" data-toggle="tooltip" title="{{ button_remove }}" class="btn btn-danger" v-on:click="deleteCartItem(product)"><i class="fa fa-trash"></i></button>
+						</span>
+          			</div>
+				</div>
+			</td>
+			]]></add>
+		</operation>
+
+
+		<operation>
+			<search index="1"><![CDATA[
+      <table class="table table-bordered">
+			]]></search>
+			<add position="before"><![CDATA[
+	{% else %}
+		<div class="table-responsive">
+			<table class="table table-bordered">
+				<tbody>
+					<tr v-for="(product, index) in products">
+						<td class="text-center td-image" width="25%" style="padding-left: 8px; padding-right: 8px; border-bottom: 1px solid #ddd">
+							<a :href="product.href">
+								<img :src="product.thumb" :srcset="srcSet(product.thumb, product.thumb2x)" :alt="product.name" :title="product.name" class="img-thumbnail"/>
+							</a>
+						</td>
+						<td class="text-left td-name" style="padding-left: 8px; padding-right: 8px; border-bottom: 1px solid #ddd">
+							<a :href="product.href" v-html="product.name"></a>
+							<span v-if="!product.stock" class="text-danger">***</span>
+
+							<br/>
+							<small v-html="'{{ column_model }}: ' + product.model"></small>
+
+							<template v-for="option in product.option">
+								<br/>
+								<small v-html="option.name + ': ' + option.value"></small>
+							</template>
+
+							<br v-if="product.reward"/>
+							<small v-if="product.reward" v-html="product.reward "></small>
+							<br v-if="product.recurring"/>
+							<span v-if="product.recurring" class="label label-info">{{ text_recurring_item }}</span>
+							<small v-if="product.recurring" v-html="product.recurring"></small>
+
+							<div style="display:flex">
+								<div class="input-group btn-block">
+									<div class="stepper" style="width:auto">
+										<i class="icon icon-minus" v-on:click="updateCartItemQuantity(index, -1)" style="border-right: 1px solid black; background: white"></i>
+										<input type="text" size="1" v-model="product.quantity" v-on:change="updateCartItemQuantityValue(index, $event.target.value)" class="form-control" style="padding: 6px 12px; background-color:transparent !important; border:none !important" />
+										<i class="icon icon-plus" v-on:click="updateCartItemQuantity(index, 1)" style="border-left: 1px solid black; background: white"></i>
+									</div>
+								</div>
+								<div style="display:flex; align-items: center;">
+									<span v-html="product.total" >{{ product.total }}</span>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	{% endif %}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/view/theme/journal3/template/journal3/checkout/checkout.twig">
+		<operation>
+			<search><![CDATA[
+{{ footer }}
+			]]></search>
+			<add position="before"><![CDATA[
+<style>
+	.stepper i.icon-plus:before {
+    	content: "\eba0";
+	}
+
+  	.stepper i.icon-minus:before {
+    	content: "\eb85";
+	}
+
+	.stepper i.icon {
+		font-family: "icomoon";
+		font-weight: 400;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		height: 100%; 
+		place-content: center; 
+		padding: 0 5px;
+		cursor: pointer;
+		background: white;
+	}
+
+	.stepper i.icon:hover {
+		background-color: rgba(238,238,238,1);
+	}
+</style>
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/journal3/checkout.php">
+		<operation>
+			<search><![CDATA[
+			'error_warning'       => $this->language->get('error_stock'),
+			]]></search>
+			<add position="after"><![CDATA[
+			'is_mobile'       => $this->checkIfMobile(),
+			]]></add>
+		</operation>
+
+		<operation>
+			<search><![CDATA[
+	private function addAccountAddress($type) {
+			]]></search>
+			<add position="before"><![CDATA[
+	private function checkIfMobile() {
+		$user_agent = $this->request->server['HTTP_USER_AGENT'];
+		$use_mobile = strpos($user_agent, 'iPhone') ||
+			strpos($user_agent, 'Android') ||
+			strpos($user_agent, 'webOS') ||
+			strpos($user_agent, 'iPad') ||
+			strpos($user_agent, 'iPod') ||
+			strpos($user_agent, 'BlackBerry') ||
+			strpos($user_agent, 'Windows Phone');
+		return $use_mobile;
+	}
+			]]></add>
+		</operation>
+	</file>
+
+	<!-- Register Page -->
+	<file path="catalog/view/theme/journal3/template/account/register.twig">
+		<operation>
+			<search><![CDATA[<div class="pull-right">{{ text_agree }}]]></search>
+			<add position="replace"><![CDATA[<div class="pull-left">]]></add>
+		</operation>
+
+		<operation>
+			<search index="0"><![CDATA[
+				<button type="submit" class="btn btn-primary" data-loading-text="<span>{{ button_continue }}</span>"><span>{{ button_continue }}</span></button>
+			]]></search>
+			<add position="before"><![CDATA[
+			{{ text_agree }}
+			]]></add>
+		</operation>
+	</file>
+</modification>

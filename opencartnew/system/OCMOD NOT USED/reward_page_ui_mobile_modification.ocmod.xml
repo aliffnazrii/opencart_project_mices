@@ -1,0 +1,282 @@
+<modification>
+	<name>
+		Reward Page UI Mobile Modification
+	</name>
+	<version>
+		1.0.0
+	</version>
+	<code>
+		reward_page_ui_mobile_modification
+	</code>
+	<author>
+		Mices Technology
+	</author>
+	<link>
+		https://www.mices.com.my/
+	</link>
+	<file path="catalog/model/account/customer.php">
+		<operation>
+			<search>
+				<![CDATA[class ModelAccountCustomer extends Model]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				require_once DIR_SYSTEM . '/library/barcode_generator/vendor/autoload.php';
+				require_once DIR_SYSTEM . '/library/barcode_generator/QRCodeGenerator.php';
+				
+				use Opencart\System\Library\BarcodeGenerator\QRCodeGenerator;
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[public function getAffiliateByTracking($tracking) {]]>
+			</search>
+			<add position="after" offset="4">
+				<![CDATA[
+				public function generateBarcode($num)
+				{
+					$qrGenerator = new \Opencart\System\Library\BarcodeGenerator\QRCodeGenerator();
+
+					$fileName = $num . '_qrcode.png';
+					$filePath = DIR_IMAGE . 'qrcode/user_telephone/' . $fileName;
+
+					if (!file_exists($filePath)) {
+						// Create directory if it doesn't exist
+						$directory = DIR_IMAGE . 'qrcode/user_telephone';
+						if (!is_dir($directory)) {
+							mkdir($directory, 0755, true);
+						}
+
+						$qrData = '||' . $num . '||' . date('YmdHis') . '||';
+						$qrGenerator->setOptions(['outputType' => \chillerlan\QRCode\QRCode::OUTPUT_IMAGE_PNG]);
+						$qrCode = $qrGenerator->generate($qrData, 300);
+						file_put_contents($filePath, $qrCode);
+					}
+
+					return 'image/qrcode/user_telephone/' . $fileName;
+				}
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="catalog/controller/account/point.php">
+		<operation>
+			<search>
+				<![CDATA[$transaction_total = $this->model_account_point->getTotalPoints();]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				$epoint = new Epoint($this->registry);
+				
+				$epoint->updateCustomerPointBalance($this->customer->getId(), $this->model_account_point->getTotalAmount());
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="catalog/controller/account/account.php">
+		<operation>
+			<search>
+				<![CDATA[$data['column_left'] = $this->load->controller('common/column_left');]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				$data['customer_info'] = $this->model_account_customer->getCustomer($this->customer->getId());
+				$data['barcode'] = $this->model_account_customer->generateBarcode($this->customer->getTelephone());
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[$data['wishlist'] = $this->url->link('account/wishlist');]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				$data['coupon'] = $this->url->link('account/coupon', '', true);
+				$data['coupon_history'] = $this->url->link('account/coupon/history', '', true);
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="catalog/language/en-gb/account/coupon.php">
+		<operation>
+			<search>
+				<![CDATA[$_['text_empty']]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				$_['entry_redeem_coupon']     = 'Enter coupon code to redeem';
+				
+				$_['text_my_coupon']          = 'My Coupons';
+				$_['text_coupon_history']     = 'Coupon History';
+				$_['text_no_coupons']         = 'No coupons available';
+				$_['text_okay']         	  = 'Okay';
+				$_['text_apply']    		  = 'Apply';
+				$_['text_success_redeem'] 	  = 'Successfully redeemed';
+				
+				$_['column_code']             = 'Code';
+				$_['column_name']             = 'Name';
+				$_['column_valid']            = 'Validity';
+				$_['column_discount']         = 'Discount';
+				$_['column_product']          = 'Product';
+				$_['column_category']         = 'Product';
+				
+				$_['column_order']            = 'Order ID';
+				$_['column_amount']           = 'Amount';
+				$_['column_date_used']        = 'Date Used';
+				
+				$_['text_pagination']         = 'Showing %d to %d of %d (%d Pages)';
+				$_['text_total_coupons']      = 'Total Coupons';
+				$_['text_available_coupons']  = 'Available Coupons';
+				$_['text_history_coupons']    = 'Coupon History';
+				
+				$_['error_coupon']    		  = 'Coupon Invalid';
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="catalog/language/en-gb/account/account.php">
+		<operation>
+			<search>
+				<![CDATA[$_['text_tracking']]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				$_['text_my_coupon']       = 'My Coupons';
+				$_['text_coupon_history']       = 'Coupon History';
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file path="catalog/view/theme/journal3/template/account/account.twig">
+		<operation>
+			<search>
+				<![CDATA[ {{ header }} ]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				<style>
+				.banner-style {
+				background: linear-gradient(90deg, #F9D342 0%, #FFE066 50%, #F9D342 70%, #E6B800 100%);
+				margin-left: 10px;
+				margin-right: 10px;
+				padding: 10px;
+				padding-bottom: 20px;
+				padding-top: 20px;
+				color: #ffffff;
+				margin: 15px;
+				position: relative;
+				border: 1px solid #ffffff;
+				border-radius: 20px;
+				overflow: hidden;
+				}
+				
+				.banner-style span {
+				line-height: 1.2 !important;
+				}
+
+				.desktop .banner-style {
+				
+				line-height: 2 !important;
+				width:70%
+
+				}
+				
+				@media (min-width: 992px) {
+				.text-md-center {
+				text-align: left !important;
+				}
+				.no-gutters {
+				margin-left: 20px;
+				}
+				.barcode {
+				padding: 0;
+				}
+				}
+				
+				@media (max-width: 991px) {
+				.text-md-center {
+				text-align: center !important;
+				}
+				.barcode {
+				display: flex;
+				justify-content: center;
+				
+				}
+				.hutz-points {
+				display: block;
+				width: 100%;
+				text-align: center;
+				margin-top: 0.5rem;
+				}
+				}
+				</style>
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[<h2 class="title">{{ text_my_account }}</h2>]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+				<div id="reward-points-banner-block">
+				<div id="reward-points-banner">
+				<div class="banner-style text-center">
+				<div class="row no-gutters" style="margin-top: 20px;">
+				<p class="text-center" style="font-weight:900; font-size:30px; color:#5A0F14;">MEMBERSHIP</p>
+				<div class="col-md-6 text-center barcode">
+				<div style="background-color: #ffffff; border-radius: 4px; padding: 10px; width: 60%; height: auto; display: flex; flex-direction: column; align-items: center; justify-content: center; margin:20px;">
+				<img src="{{ barcode }}" alt="Barcode Image" style="width: 100%; height: auto; margin-bottom:0.5rem;" />
+				<span style="color:#000; font-weight:900; font-size:18px">{{ customer_info.telephone }}</span>
+				</div>
+				</div>
+				<div class="col-md-6 text-center">
+				<div class="col-12 row">
+				<span class="text-center" style="font-weight:700; font-size:20px; color:#5A0F14;">{{customer_info.firstname|upper}} {{ customer_info.lastname|upper }}</span>
+				<div id="reward-points-value" style="color:#6A3B25; font-size:40px; font-weight:600">{{ customer_info.points|round|number_format(0, '.', ',') }}</div>
+				<span style="color: #141300; font-weight:900; font-size:18px">Points</span>
+				</div>
+				</div>
+				</div>
+				{% if tier_info %}
+				<div class="text-left" style="margin-top: 30px; border-radius: 4px; padding: 10px; width: 100%; height: auto; color: #141300;">
+				<table style="width: 100%;">
+				{% if tier_info.renewal_min_purchase_left %}
+				<tr>
+				<td style="width: 1%; vertical-align: top; color: #79432A; font-weight: 600;">*</td>
+				<td>
+				Shop up to <span style="color:#79432A; font-weight:600;">{{ tier_info.renewal_min_purchase_left }}</span> more by <span style="color:#79432A; font-weight:600;">{{ tier_info.tier_renewal_date|date('d/m/Y') }}</span> to remain in <span style="color:#79432A; font-weight:600;">{{ customer_info.name }}</span>.
+				</td>
+				</tr>
+				{% endif %}
+				{% if tier_info.amount_left_to_upgrade %}
+				<tr>
+				<td style="width: 1%; vertical-align: top; color: #79432A; font-weight: 600;">*</td>
+				<td>
+				Shop up to <span style="color:#79432A; font-weight:600;">{{ tier_info.amount_left_to_upgrade }}</span> more by <span style="color:#79432A; font-weight:600;">{{ tier_info.purchase_to_upgrade_by|date('d/m/Y') }}</span> to tier up to <span style="color:#79432A; font-weight:600;">{{ tier_info.next_tier_name }}</span>.
+				</td>
+				</tr>
+				{% endif %}
+				</table>
+				</div>
+				{% endif %}
+				</div>
+				</div>
+				</div>
+				]]>
+			</add>
+		</operation>
+		<operation>
+			<search>
+				<![CDATA[<li><a href="{{ wishlist }}">{{ text_wishlist }}</a></li>]]>
+			</search>
+			<add position="after">
+				<![CDATA[
+				<li><a href="{{ coupon }}">{{ text_my_coupon }}</a></li>
+				<li><a href="{{ coupon_history }}">{{ text_coupon_history }}</a></li>
+				]]>
+			</add>
+		</operation>
+	</file>
+</modification>

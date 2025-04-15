@@ -1,0 +1,31 @@
+<p>{{ text_total_points }}</p>
+<div class="table-responsive">
+  <table class="table table-bordered table-hover">
+    <thead>
+      <tr>
+        <td class="text-left">{{ column_date_added }}</td>
+        <td class="text-left">{{ column_description }}</td>
+        <td class="text-right">{{ column_points }}</td>
+      </tr>
+    </thead>
+    <tbody>
+      {% if point_transactions %}
+      {% for point_transaction in point_transactions %}
+      <tr>
+        <td class="text-left">{{ point_transaction.date_added }}</td>
+        <td class="text-left">{{ point_transaction.description }}</td>
+        <td class="text-right">{{ point_transaction.points }}</td>
+      </tr>
+      {% endfor %}
+      {% else %}
+      <tr>
+        <td class="text-center" colspan="3">{{ text_no_results }}</td>
+      </tr>
+      {% endif %}
+    </tbody>
+  </table>
+</div>
+<div class="row">
+  <div class="col-sm-6 text-left">{{ pagination }}</div>
+  <div class="col-sm-6 text-right">{{ results }}</div>
+</div>

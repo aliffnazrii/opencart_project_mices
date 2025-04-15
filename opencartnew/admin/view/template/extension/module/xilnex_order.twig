@@ -1,0 +1,235 @@
+{{ header }}{{ column_left }}
+<div id="content">
+	<div class="page-header">
+		<div class="container-fluid">
+			<h1>{{ heading_title }}</h1>
+			<ul class="breadcrumb">
+				{% for breadcrumb in breadcrumbs %}
+					<li><a href="{{ breadcrumb['href'] }}">{{ breadcrumb['text'] }}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="filter-order" class="col-md-3 col-md-push-9 col-sm-12 hidden-sm hidden-xs">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="fa fa-filter"></i>{{ text_filter }}</h3>
+					</div>
+					<div class="panel-body">
+						<div class="form-group">
+							<label class="control-label" for="input-order-id">{{ entry_order_id }}</label>
+							<input type="text" name="filter_order_id" value="{{ filter_order_id }}" placeholder="{{ entry_order_id }}" id="input-order-id" class="form-control"/>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label" for="input-xilnex-order-id">{{ entry_xilnex_order_id }}</label>
+							<input type="text" name="filter_xilnex_order_id" value="{{ filter_xilnex_order_id }}" placeholder="{{ entry_xilnex_order_id }}" id="input-xilnex-order-id" class="form-control"/>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label" for="input-customer">{{ entry_customer }}</label>
+							<input type="text" name="filter_customer" value="{{ filter_customer }}" placeholder="{{ entry_customer }}" id="input-customer" class="form-control"/>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label" for="input-sales-date">{{ entry_sales_date }}</label>
+							<div class="input-group date">
+								<input type="text" name="filter_sales_date" value="{{ filter_sales_date }}" placeholder="{{ entry_sales_date }}" data-date-format="YYYY-MM-DD" id="input-sales-date" class="form-control" />
+								<span class="input-group-btn">
+									<button type="button" class="btn btn-default"><i class="fa fa-calendar"></i></button>
+								</span>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label" for="input-has-error">{{ entry_has_error }}</label>
+							<select name="filter_has_error" id="input-has-error" class="form-control">
+								<option value=""></option>
+								{% if filter_has_error == '1' %}
+									<option value="1" selected="selected">{{ text_yes }}</option>
+								{% else %}
+									<option value="1">{{ text_yes }}</option>
+								{% endif %}
+
+								{% if filter_has_error == '0' %}
+									<option value="0" selected="selected">{{ text_no }}</option>
+								{% else %}
+									<option value="0">{{ text_no }}</option>
+								{% endif %}
+							</select>
+						</div>
+
+						<div class="form-group text-right">
+							<button type="button" id="button-reset" class="btn btn-default"><i class="fa fa-reply"></i>{{ button_reset }}</button>
+							<button type="button" id="button-filter" class="btn btn-default"><i class="fa fa-filter"></i>{{ button_filter }}</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-9 col-md-pull-3 col-sm-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="fa fa-pencil"></i>{{ heading_title }}</h3>
+					</div>
+					<div class="panel-body">
+						<div class="table-responsive">
+							<table class="table table-bordered table-hover">
+								<thead>
+									<tr>
+                      					<td class="text-left">{% if sort == 'xo.order_id' %}<a href="{{ sort_order_id }}" class="{{ order|lower }}">{{ column_order_id }}</a>{% else %}<a href="{{ sort_order_id }}">{{ column_order_id }}</a>{% endif %}</td>
+                      					<td class="text-left">{% if sort == 'xo.xilnex_order_id' %}<a href="{{ sort_xilnex_order_id }}" class="{{ order|lower }}">{{ column_xilnex_id }}</a>{% else %}<a href="{{ sort_xilnex_order_id }}">{{ column_xilnex_id }}</a>{% endif %}</td>
+                      					<td class="text-left">{% if sort == 'customer' %}<a href="{{ sort_customer }}" class="{{ order|lower }}">{{ column_customer }}</a>{% else %}<a href="{{ sort_customer }}">{{ column_customer }}</a>{% endif %}</td>
+										<td class="text-left">{{ column_outlet }}</td>
+										<td class="text-left">{{ column_status }}</td>
+										<td class="text-left">{{ column_sync_order_status }}</td>
+                      					<td class="text-left">{% if sort == 'xo.total' %}<a href="{{ sort_total }}" class="{{ order|lower }}">{{ column_total }}</a>{% else %}<a href="{{ sort_total }}">{{ column_total }}</a>{% endif %}</td>
+                      					<td class="text-left">{% if sort == 'xo.sales_date' %}<a href="{{ sort_sales_date }}" class="{{ order|lower }}">{{ column_sales_date }}</a>{% else %}<a href="{{ sort_sales_date }}">{{ column_sales_date }}</a>{% endif %}</td>
+                      					<td class="text-left">{% if sort == 'xo.date_added' %}<a href="{{ sort_date_added }}" class="{{ order|lower }}">{{ column_date_added }}</a>{% else %}<a href="{{ sort_date_added }}">{{ column_date_added }}</a>{% endif %}</td>
+										<td class="text-left">{{ column_error }}</td>
+										<td class="text-left">{{ column_action }}</td>
+									</tr>
+								</thead>
+								<tbody>
+									{% if orders %}
+										{% for order in orders %}
+											<tr>
+												<td class="text-right"><a href="{{ order.view }}" target="_blank">{{ order.order_id }}</a></td>
+												<td class="text-right">{{ order.xilnex_order_id }}</td>
+												<td class="text-left">{{ order.customer }}</td>
+												<td class="text-left">{{ order.outlet }}</td>
+												<td class="text-left">{{ order.order_status }}</td>
+												<td class="text-left">
+												{% if order.sync_order_status == 1 %}
+													<span class="label label-success">{{ text_synced }}</span>
+												{% else %}
+													{% if order.job_id > 0 %}
+														<span class="label label-warning">{{ text_syncing }}</span>
+													{% else %}
+														<span class="label label-danger">{{ text_order_not_synced }}</span>
+													{% endif %}
+												{% endif %}
+												</td>
+												<td class="text-right">{{ order.total }}</td>
+												<td class="text-right">{{ order.sales_date }}</td>
+												<td class="text-left">{{ order.date_added }}</td>
+												<td class="text-center">
+													{% if order.error %}
+														<span><i class="fa fa-exclamation-circle fa-2x text-danger" data-toggle="tooltip" rel="tooltip" title="{{ order.error }}" data-original-title="{{ order.error }}"></i></span> 
+													{% endif %}
+												</td>
+												<td class="text-right">
+													{% if order.resync %}
+														<a class="btn btn-primary button-resync" href="#" data-url="{{ order.resync }}" data-toggle="tooltip" rel="tooltip" title="{{ button_resync_order }}" data-original-title="{{ button_resync_order }}"><i class="fa fa-refresh"></i></a>
+													{% endif %}
+												</td>
+											</tr>
+										{% endfor %}
+									{% else %}
+										<tr>
+											<td class="text-center" colspan="8">{{ text_no_results }}</td>
+										</tr>
+									{% endif %}
+								</tbody>
+							</table>
+						</div>
+						<div class="row">
+							<div class="col-sm-6 text-left">{{ pagination }}</div>
+							<div class="col-sm-6 text-right">{{ results }}</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$('#button-filter').on('click', function () {
+		url = '';
+
+		var filter_order_id = $('input[name=\'filter_order_id\']').val();
+		if (filter_order_id) {
+			url += '&filter_order_id=' + encodeURIComponent(filter_order_id);
+		}
+
+		var filter_xilnex_order_id = $('input[name=\'filter_xilnex_order_id\']').val();
+		if (filter_xilnex_order_id) {
+			url += '&filter_xilnex_order_id=' + encodeURIComponent(filter_xilnex_order_id);
+		}
+
+		var filter_customer = $('input[name=\'filter_customer\']').val();
+		if (filter_customer) {
+			url += '&filter_customer=' + encodeURIComponent(filter_customer);
+		}
+
+		var filter_sales_date = $('input[name=\'filter_sales_date\']').val();
+		if (filter_sales_date) {
+			url += '&filter_sales_date=' + encodeURIComponent(filter_sales_date);
+		}
+
+		var filter_has_error = $('select[name=\'filter_has_error\']').val();
+		if (filter_has_error) {
+			url += '&filter_has_error=' + encodeURIComponent(filter_has_error);
+		}
+
+		location = 'index.php?route=extension/module/xilnex/order&user_token={{ user_token }}' + url;
+	});
+
+	$('#button-reset').on('click', function () {
+		url = '';
+		location = 'index.php?route=extension/module/xilnex/order&user_token={{ user_token }}' + url;
+	});
+
+	$('.button-resync').on('click', function (e) {
+		e.preventDefault();
+		var button = $(this);
+
+		var resync_url = $(this).data('url');
+
+		$.ajax({
+			url: resync_url,
+			dataType: 'json',
+			beforeSend: function() {
+				$(button).button('loading');
+			},
+			complete: function() {
+				$(button).button('reset');
+			},
+			success: function(json) {
+				if (json['success']) {
+					alert(json['success']);
+					$('#button-filter').trigger('click')
+				}
+
+				if (json['error']) {
+					alert(json['error']);
+				}
+			},
+			error: function(xhr, ajaxOptions, thrownError) {
+				alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+			}
+		});	
+	});
+
+	$('input[name=\'filter_customer\']').autocomplete({
+		'source': function(request, response) {
+		$.ajax({
+			url: 'index.php?route=customer/customer/autocomplete&user_token={{ user_token }}&filter_name=' +  encodeURIComponent(request),
+			dataType: 'json',
+			success: function(json) {
+				response($.map(json, function(item) {
+					return {
+						label: item['name'],
+						value: item['customer_id']
+					}
+				}));
+			}
+		});
+		},
+		'select': function(item) {
+			$('input[name=\'filter_customer\']').val(item['label']);
+		}
+	});
+</script>{{ footer }}</div>

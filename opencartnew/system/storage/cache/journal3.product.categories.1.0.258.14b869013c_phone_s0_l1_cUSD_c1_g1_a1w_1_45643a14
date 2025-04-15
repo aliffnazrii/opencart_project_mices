@@ -1,0 +1,1751 @@
+<?php $val = array (
+  'category_id' => '258',
+  'parent_id' => '230',
+  'title' => 'Vacuum &amp; Laundry Appliances',
+  'items' => 
+  array (
+    1134 => 
+    array (
+      'category_id' => '1134',
+      'parent_id' => '258',
+      'title' => 'Dryers',
+      'items' => 
+      array (
+        1135 => 
+        array (
+          'category_id' => '1135',
+          'parent_id' => '1134',
+          'title' => 'Condensing Dryers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1135',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1134_1135',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1136 => 
+        array (
+          'category_id' => '1136',
+          'parent_id' => '1134',
+          'title' => 'Heat Pump Dryers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1136',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1134_1136',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1137 => 
+        array (
+          'category_id' => '1137',
+          'parent_id' => '1134',
+          'title' => 'Vented Dryers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1137',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1134_1137',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c1134',
+        'dropdown' => 
+        array (
+          1135 => 
+          array (
+            'category_id' => '1135',
+            'parent_id' => '1134',
+            'title' => 'Condensing Dryers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1135',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1134_1135',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1136 => 
+          array (
+            'category_id' => '1136',
+            'parent_id' => '1134',
+            'title' => 'Heat Pump Dryers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1136',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1134_1136',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1137 => 
+          array (
+            'category_id' => '1137',
+            'parent_id' => '1134',
+            'title' => 'Vented Dryers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1137',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1134_1137',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1134',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    1138 => 
+    array (
+      'category_id' => '1138',
+      'parent_id' => '258',
+      'title' => 'Garment Care',
+      'items' => 
+      array (
+        1139 => 
+        array (
+          'category_id' => '1139',
+          'parent_id' => '1138',
+          'title' => 'Garment Steamers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1139',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1138_1139',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1140 => 
+        array (
+          'category_id' => '1140',
+          'parent_id' => '1138',
+          'title' => 'Irons',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1140',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1138_1140',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c1138',
+        'dropdown' => 
+        array (
+          1139 => 
+          array (
+            'category_id' => '1139',
+            'parent_id' => '1138',
+            'title' => 'Garment Steamers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1139',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1138_1139',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1140 => 
+          array (
+            'category_id' => '1140',
+            'parent_id' => '1138',
+            'title' => 'Irons',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1140',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1138_1140',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1138',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    1141 => 
+    array (
+      'category_id' => '1141',
+      'parent_id' => '258',
+      'title' => 'Vacuum Cleaners',
+      'items' => 
+      array (
+        1142 => 
+        array (
+          'category_id' => '1142',
+          'parent_id' => '1141',
+          'title' => 'Robotic Vacuum Cleaners',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1142',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1142',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1143 => 
+        array (
+          'category_id' => '1143',
+          'parent_id' => '1141',
+          'title' => 'Steam Cleaners',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1143',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1143',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1144 => 
+        array (
+          'category_id' => '1144',
+          'parent_id' => '1141',
+          'title' => 'Stick &amp; Handheld Vacuum Cleaners',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1144',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1144',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1145 => 
+        array (
+          'category_id' => '1145',
+          'parent_id' => '1141',
+          'title' => 'Upright &amp; Barrel Vaccum Cleaners',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1145',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1145',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1146 => 
+        array (
+          'category_id' => '1146',
+          'parent_id' => '1141',
+          'title' => 'Vacuum Bags &amp; Filters',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1146',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1146',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c1141',
+        'dropdown' => 
+        array (
+          1142 => 
+          array (
+            'category_id' => '1142',
+            'parent_id' => '1141',
+            'title' => 'Robotic Vacuum Cleaners',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1142',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1142',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1143 => 
+          array (
+            'category_id' => '1143',
+            'parent_id' => '1141',
+            'title' => 'Steam Cleaners',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1143',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1143',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1144 => 
+          array (
+            'category_id' => '1144',
+            'parent_id' => '1141',
+            'title' => 'Stick &amp; Handheld Vacuum Cleaners',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1144',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1144',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1145 => 
+          array (
+            'category_id' => '1145',
+            'parent_id' => '1141',
+            'title' => 'Upright &amp; Barrel Vaccum Cleaners',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1145',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1145',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1146 => 
+          array (
+            'category_id' => '1146',
+            'parent_id' => '1141',
+            'title' => 'Vacuum Bags &amp; Filters',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1146',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1146',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    1154 => 
+    array (
+      'category_id' => '1154',
+      'parent_id' => '258',
+      'title' => 'Washer Dryers',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c1154',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1154',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    1147 => 
+    array (
+      'category_id' => '1147',
+      'parent_id' => '258',
+      'title' => 'Washing Machine',
+      'items' => 
+      array (
+        1148 => 
+        array (
+          'category_id' => '1148',
+          'parent_id' => '1147',
+          'title' => 'Front Load Washing Machines',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1148',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1147_1148',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1149 => 
+        array (
+          'category_id' => '1149',
+          'parent_id' => '1147',
+          'title' => 'Top Load Washing Machines',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1149',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1147_1149',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c1147',
+        'dropdown' => 
+        array (
+          1148 => 
+          array (
+            'category_id' => '1148',
+            'parent_id' => '1147',
+            'title' => 'Front Load Washing Machines',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1148',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1147_1148',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1149 => 
+          array (
+            'category_id' => '1149',
+            'parent_id' => '1147',
+            'title' => 'Top Load Washing Machines',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1149',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1147_1149',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1147',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    1150 => 
+    array (
+      'category_id' => '1150',
+      'parent_id' => '258',
+      'title' => 'Washing Machine Parts',
+      'items' => 
+      array (
+        1151 => 
+        array (
+          'category_id' => '1151',
+          'parent_id' => '1150',
+          'title' => 'Inlets Hose Joints',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1151',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1150_1151',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1152 => 
+        array (
+          'category_id' => '1152',
+          'parent_id' => '1150',
+          'title' => 'Washing Machine Inlets',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1152',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1150_1152',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        1153 => 
+        array (
+          'category_id' => '1153',
+          'parent_id' => '1150',
+          'title' => 'Washing Machine Outlets',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c1153',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1150_1153',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c1150',
+        'dropdown' => 
+        array (
+          1151 => 
+          array (
+            'category_id' => '1151',
+            'parent_id' => '1150',
+            'title' => 'Inlets Hose Joints',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1151',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1150_1151',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1152 => 
+          array (
+            'category_id' => '1152',
+            'parent_id' => '1150',
+            'title' => 'Washing Machine Inlets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1152',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1150_1152',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1153 => 
+          array (
+            'category_id' => '1153',
+            'parent_id' => '1150',
+            'title' => 'Washing Machine Outlets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1153',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1150_1153',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1150',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c258',
+    'dropdown' => 
+    array (
+      1134 => 
+      array (
+        'category_id' => '1134',
+        'parent_id' => '258',
+        'title' => 'Dryers',
+        'items' => 
+        array (
+          1135 => 
+          array (
+            'category_id' => '1135',
+            'parent_id' => '1134',
+            'title' => 'Condensing Dryers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1135',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1134_1135',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1136 => 
+          array (
+            'category_id' => '1136',
+            'parent_id' => '1134',
+            'title' => 'Heat Pump Dryers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1136',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1134_1136',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1137 => 
+          array (
+            'category_id' => '1137',
+            'parent_id' => '1134',
+            'title' => 'Vented Dryers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1137',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1134_1137',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c1134',
+          'dropdown' => 
+          array (
+            1135 => 
+            array (
+              'category_id' => '1135',
+              'parent_id' => '1134',
+              'title' => 'Condensing Dryers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1135',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1134_1135',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1136 => 
+            array (
+              'category_id' => '1136',
+              'parent_id' => '1134',
+              'title' => 'Heat Pump Dryers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1136',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1134_1136',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1137 => 
+            array (
+              'category_id' => '1137',
+              'parent_id' => '1134',
+              'title' => 'Vented Dryers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1137',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1134_1137',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1134',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      1138 => 
+      array (
+        'category_id' => '1138',
+        'parent_id' => '258',
+        'title' => 'Garment Care',
+        'items' => 
+        array (
+          1139 => 
+          array (
+            'category_id' => '1139',
+            'parent_id' => '1138',
+            'title' => 'Garment Steamers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1139',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1138_1139',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1140 => 
+          array (
+            'category_id' => '1140',
+            'parent_id' => '1138',
+            'title' => 'Irons',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1140',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1138_1140',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c1138',
+          'dropdown' => 
+          array (
+            1139 => 
+            array (
+              'category_id' => '1139',
+              'parent_id' => '1138',
+              'title' => 'Garment Steamers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1139',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1138_1139',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1140 => 
+            array (
+              'category_id' => '1140',
+              'parent_id' => '1138',
+              'title' => 'Irons',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1140',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1138_1140',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1138',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      1141 => 
+      array (
+        'category_id' => '1141',
+        'parent_id' => '258',
+        'title' => 'Vacuum Cleaners',
+        'items' => 
+        array (
+          1142 => 
+          array (
+            'category_id' => '1142',
+            'parent_id' => '1141',
+            'title' => 'Robotic Vacuum Cleaners',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1142',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1142',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1143 => 
+          array (
+            'category_id' => '1143',
+            'parent_id' => '1141',
+            'title' => 'Steam Cleaners',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1143',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1143',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1144 => 
+          array (
+            'category_id' => '1144',
+            'parent_id' => '1141',
+            'title' => 'Stick &amp; Handheld Vacuum Cleaners',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1144',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1144',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1145 => 
+          array (
+            'category_id' => '1145',
+            'parent_id' => '1141',
+            'title' => 'Upright &amp; Barrel Vaccum Cleaners',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1145',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1145',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1146 => 
+          array (
+            'category_id' => '1146',
+            'parent_id' => '1141',
+            'title' => 'Vacuum Bags &amp; Filters',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1146',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1146',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c1141',
+          'dropdown' => 
+          array (
+            1142 => 
+            array (
+              'category_id' => '1142',
+              'parent_id' => '1141',
+              'title' => 'Robotic Vacuum Cleaners',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1142',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1142',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1143 => 
+            array (
+              'category_id' => '1143',
+              'parent_id' => '1141',
+              'title' => 'Steam Cleaners',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1143',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1143',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1144 => 
+            array (
+              'category_id' => '1144',
+              'parent_id' => '1141',
+              'title' => 'Stick &amp; Handheld Vacuum Cleaners',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1144',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1144',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1145 => 
+            array (
+              'category_id' => '1145',
+              'parent_id' => '1141',
+              'title' => 'Upright &amp; Barrel Vaccum Cleaners',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1145',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1145',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1146 => 
+            array (
+              'category_id' => '1146',
+              'parent_id' => '1141',
+              'title' => 'Vacuum Bags &amp; Filters',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1146',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141_1146',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1141',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      1154 => 
+      array (
+        'category_id' => '1154',
+        'parent_id' => '258',
+        'title' => 'Washer Dryers',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c1154',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1154',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      1147 => 
+      array (
+        'category_id' => '1147',
+        'parent_id' => '258',
+        'title' => 'Washing Machine',
+        'items' => 
+        array (
+          1148 => 
+          array (
+            'category_id' => '1148',
+            'parent_id' => '1147',
+            'title' => 'Front Load Washing Machines',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1148',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1147_1148',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1149 => 
+          array (
+            'category_id' => '1149',
+            'parent_id' => '1147',
+            'title' => 'Top Load Washing Machines',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1149',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1147_1149',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c1147',
+          'dropdown' => 
+          array (
+            1148 => 
+            array (
+              'category_id' => '1148',
+              'parent_id' => '1147',
+              'title' => 'Front Load Washing Machines',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1148',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1147_1148',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1149 => 
+            array (
+              'category_id' => '1149',
+              'parent_id' => '1147',
+              'title' => 'Top Load Washing Machines',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1149',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1147_1149',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1147',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      1150 => 
+      array (
+        'category_id' => '1150',
+        'parent_id' => '258',
+        'title' => 'Washing Machine Parts',
+        'items' => 
+        array (
+          1151 => 
+          array (
+            'category_id' => '1151',
+            'parent_id' => '1150',
+            'title' => 'Inlets Hose Joints',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1151',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1150_1151',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1152 => 
+          array (
+            'category_id' => '1152',
+            'parent_id' => '1150',
+            'title' => 'Washing Machine Inlets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1152',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1150_1152',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          1153 => 
+          array (
+            'category_id' => '1153',
+            'parent_id' => '1150',
+            'title' => 'Washing Machine Outlets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c1153',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1150_1153',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c1150',
+          'dropdown' => 
+          array (
+            1151 => 
+            array (
+              'category_id' => '1151',
+              'parent_id' => '1150',
+              'title' => 'Inlets Hose Joints',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1151',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1150_1151',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1152 => 
+            array (
+              'category_id' => '1152',
+              'parent_id' => '1150',
+              'title' => 'Washing Machine Inlets',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1152',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1150_1152',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            1153 => 
+            array (
+              'category_id' => '1153',
+              'parent_id' => '1150',
+              'title' => 'Washing Machine Outlets',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c1153',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1150_1153',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258_1150',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_258',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

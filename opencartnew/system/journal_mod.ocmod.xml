@@ -1,0 +1,77 @@
+<modification>
+  <name>Journal JS Mod</name>
+  <version>1.0.0</version>
+  <code>journal_mod</code>
+  <author>Mices Technology</author>
+  <link>https://www.mices.com.my/</link>
+  <file path="catalog/controller/journal3/checkout.php">
+    <operation>
+      <search>
+        <![CDATA[$this->journal3->document->addScript('catalog/view/theme/journal3/js/checkout.js', 'footer');]]>
+      </search>
+      <add position="before">
+        <![CDATA[
+    $checkoutjs = DIR_APPLICATION . 'view/theme/journal3/js/checkout.js';
+    if (modification($checkoutjs) != 'catalog/view/theme/journal3/js/checkout.js') {
+      $content = file_get_contents(modification($checkoutjs));
+      $hash = substr(md5($content), 0, 6);
+      $newjs = 'checkout-mod-'.$hash.'.js';
+      $new = DIR_APPLICATION . 'view/theme/journal3/js/' . $newjs;
+      if (!file_exists($new)) {
+        $old = glob(DIR_APPLICATION . 'view/theme/journal3/js/checkout-mod-*.js');
+        
+        file_put_contents($new, $content);
+        array_map('unlink', $old);
+      }
+      $this->journal3->document->addScript('catalog/view/theme/journal3/js/' . $newjs, 'footer');
+    } else {
+        ]]>
+      </add>
+    </operation>
+    <operation>
+      <search>
+        <![CDATA[$this->journal3->document->addScript('catalog/view/theme/journal3/js/checkout.js', 'footer');]]>
+      </search>
+      <add position="after">
+        <![CDATA[
+    }
+        ]]>
+      </add>
+    </operation>
+  </file>
+  <file path="system/library/journal3/document.php">
+    <operation>
+      <search>
+        <![CDATA[$this->addScript('catalog/view/theme/journal3/js/journal.js?t=' . md5(file_get_contents(DIR_APPLICATION . 'view/theme/journal3/js/journal.js')), 'footer');]]>
+      </search>
+      <add position="before">
+        <![CDATA[
+          $journaljs = DIR_APPLICATION . 'view/theme/journal3/js/journal.js';
+          if (modification($journaljs) != 'catalog/view/theme/journal3/js/journal.js') {
+            $content = file_get_contents(modification($journaljs));
+            $hash = substr(md5($content), 0, 6);
+            $newjs = 'journal-mod-'.$hash.'.js';
+            $new = DIR_APPLICATION . 'view/theme/journal3/js/' . $newjs;
+            if (!file_exists($new)) {
+              $old = glob(DIR_APPLICATION . 'view/theme/journal3/js/journal-mod-*.js');
+              
+              file_put_contents($new, $content);
+              array_map('unlink', $old);
+            }
+            $this->addScript('catalog/view/theme/journal3/js/' . $newjs, 'footer');
+          } else {
+        ]]>
+      </add>
+    </operation>
+    <operation>
+      <search>
+        <![CDATA[$this->addScript('catalog/view/theme/journal3/js/journal.js?t=' . md5(file_get_contents(DIR_APPLICATION . 'view/theme/journal3/js/journal.js')), 'footer');]]>
+      </search>
+      <add position="after">
+        <![CDATA[
+          }
+        ]]>
+      </add>
+    </operation>
+  </file>
+</modification>

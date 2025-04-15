@@ -1,0 +1,1845 @@
+2025-03-06 2:52:49 - Array
+(
+    [url] => https://api.acilit.com/logic/v2/companyinfo/all
+    [http_code] => 0
+    [curl_err] => 6
+    [request] => []
+    [response] => 
+)
+
+2025-03-06 2:52:49 - Array
+(
+    [url] => https://api.acilit.com/apps/v2/sync/customertypes?limit=10
+    [http_code] => 0
+    [curl_err] => 6
+    [request] => []
+    [response] => 
+)
+
+2025-03-06 7:15:28 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/SKU'."}
+)
+
+2025-03-06 7:16:12 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/SKU'."}
+)
+
+2025-03-06 7:17:33 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/Members'."}
+)
+
+2025-03-06 7:18:16 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => 
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/Members'."}
+)
+
+2025-03-06 7:18:30 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/Members'."}
+)
+
+2025-03-06 7:19:54 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/Members'."}
+)
+
+2025-03-06 7:30:02 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/Members'."}
+)
+
+2025-03-06 7:31:21 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Auth
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => {"username":"user","password":"pass"}
+    [response] => "Invalid credentials"
+)
+
+2025-03-06 9:03:08 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Voucher
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-03-06 9:04:44 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Voucher
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-03-06 9:06:34 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Voucher
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-03-06 9:07:57 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Voucher
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-03-07 1:07:13 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/Members'."}
+)
+
+2025-03-07 1:07:34 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/Members'."}
+)
+
+2025-03-07 1:18:25 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/Members'."}
+)
+
+2025-03-07 1:19:51 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/Members'."}
+)
+
+2025-03-07 1:22:27 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?phone=60189839423
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/Members?phone=60189839423'."}
+)
+
+2025-03-07 1:23:22 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=60189839423
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-11 3:53:02 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10
+    [http_code] => 500
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"An error has occurred."}
+)
+
+2025-03-11 3:53:17 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10
+    [http_code] => 500
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"An error has occurred."}
+)
+
+2025-03-11 5:42:30 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=718907980
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-11 5:47:16 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=010101
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-11 5:48:12 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=010101
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-11 5:48:13 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberCreation
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => {"Customer_Name":"fhj fhj","Email":"a@a.com","Phone_No":"010101"}
+    [response] => "IC No is used."
+)
+
+2025-03-11 5:48:13 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=010101
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-11 5:50:59 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=45764576
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-11 5:50:59 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberCreation
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => {"Customer_Name":"adf asdf","Email":"asdf@c.com","Phone_No":"45764576","IC_No":"45764576"}
+    [response] => "IC No is used."
+)
+
+2025-03-11 5:51:00 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=45764576
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-11 5:52:49 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=346346
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-11 5:52:49 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberCreation
+    [http_code] => 500
+    [curl_err] => 0
+    [request] => {"Customer_Name":"dfh dh","Email":"df@gmail.com","Phone_No":"346346","ICNo":"346346"}
+    [response] => "Failed to register member."
+)
+
+2025-03-11 5:52:50 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=346346
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-11 6:02:13 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=888666
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-11 6:08:21 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=2222
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-11 6:08:22 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberCreation
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => {"Customer_Name":"ffff ffff","Email":"ff@ff.com","Phone_No":"2222","ICNo":"2222","BirthDate":"","Address1":"","Address2":"","Address3":"","Gender":"","Race":"","Marital_Status":"","Occupation":""}
+    [response] => "Phone No is used."
+)
+
+2025-03-11 6:08:22 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=2222
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-11 6:13:22 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=009988
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-11 6:15:34 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberCreation
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => {"Customer_Name":"mmm mmm","Email":"m@m.com","Phone_No":"009988","ICNo":"009988","BirthDate":"","Address1":"","Address2":"","Address3":"","Gender":"","Race":"","Marital_Status":"","Occupation":""}
+    [response] => "Phone No is used."
+)
+
+2025-03-11 6:19:56 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=444555666
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-12 3:13:45 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15'."}
+)
+
+2025-03-12 3:14:10 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15'."}
+)
+
+2025-03-12 3:16:21 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15'."}
+)
+
+2025-03-12 3:17:19 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15'."}
+)
+
+2025-03-12 3:17:41 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15'."}
+)
+
+2025-03-12 3:18:02 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15'."}
+)
+
+2025-03-12 3:18:55 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15'."}
+)
+
+2025-03-12 3:19:24 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15'."}
+)
+
+2025-03-12 3:19:33 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15'."}
+)
+
+2025-03-12 3:24:49 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Auth
+    [http_code] => 0
+    [curl_err] => 35
+    [request] => {"username":"DarsonApi","password":"D@rSon@Api123"}
+    [response] => 
+)
+
+2025-03-12 3:25:15 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?code=Product+15
+    [http_code] => 0
+    [curl_err] => 35
+    [request] => []
+    [response] => 
+)
+
+2025-03-12 3:28:10 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Auth
+    [http_code] => 0
+    [curl_err] => 52
+    [request] => {"username":"DarsonApi","password":"D@rSon@Api123"}
+    [response] => 
+)
+
+2025-03-12 3:28:18 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=GLE-TP30WH%2F30W%2FDLTEST
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-03-12 6:44:10 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=Product+15
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Item not found"
+)
+
+2025-03-12 6:46:08 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=Product+15
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Item not found"
+)
+
+2025-03-12 7:23:29 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=Product+21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Item not found"
+)
+
+2025-03-12 7:26:10 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=Product+21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Item not found"
+)
+
+2025-03-12 7:26:22 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=Product+21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Item not found"
+)
+
+2025-03-12 7:28:29 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=Product+21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Item not found"
+)
+
+2025-03-12 7:29:39 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=Product+21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Item not found"
+)
+
+2025-03-12 7:29:58 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=Product+21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Item not found"
+)
+
+2025-03-12 7:30:05 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=Product+21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Item not found"
+)
+
+2025-03-12 7:30:50 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=Product+21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Item not found"
+)
+
+2025-03-12 7:33:27 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=Product+21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Item not found"
+)
+
+2025-03-12 7:34:19 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=Product+21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Item not found"
+)
+
+2025-03-12 8:17:00 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=Product+8
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Item not found"
+)
+
+2025-03-13 5:46:52 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MembersTrans?ContactNo=444555666
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-20 1:39:42 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Auth
+    [http_code] => 0
+    [curl_err] => 28
+    [request] => {"username":"DarsonApi","password":"D@rSon@Api123"}
+    [response] => 
+)
+
+2025-03-20 8:28:41 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?phone=601119891036&page=1&pageSize=20&FromDate=2025-03-19&ToDate=2025-03-20
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?phone=601119891036&page=1&pageSize=20&FromDate=2025-03-19&ToDate=2025-03-20'."}
+)
+
+2025-03-20 8:31:15 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?phone=601119891036&page=1&pageSize=20&FromDate=2025-03-19&ToDate=2025-03-20
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?phone=601119891036&page=1&pageSize=20&FromDate=2025-03-19&ToDate=2025-03-20'."}
+)
+
+2025-03-20 8:32:44 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?phone=601119891036&page=1&pageSize=20&FromDate=2025-03-19&ToDate=2025-03-20
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?phone=601119891036&page=1&pageSize=20&FromDate=2025-03-19&ToDate=2025-03-20'."}
+)
+
+2025-03-20 8:36:50 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?phone=601119891036&page=1&pageSize=20&FromDate=2025-03-19&ToDate=2025-03-20
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?phone=601119891036&page=1&pageSize=20&FromDate=2025-03-19&ToDate=2025-03-20'."}
+)
+
+2025-03-20 8:37:39 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?phone=601119891036&page=1&pageSize=20&FromDate=2025-03-19&ToDate=2025-03-20
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"No HTTP resource was found that matches the request URI 'https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?phone=601119891036&page=1&pageSize=20&FromDate=2025-03-19&ToDate=2025-03-20'."}
+)
+
+2025-03-21 1:12:58 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-03-20&ToDate=2025-03-21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-21 1:28:28 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-03-20&ToDate=2025-03-21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-21 1:33:10 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-03-20&ToDate=2025-03-21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-21 1:34:48 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-03-20&ToDate=2025-03-21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-21 1:35:10 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-03-20&ToDate=2025-03-21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-21 1:38:06 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-03-20&ToDate=2025-03-21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-21 1:42:40 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-03-20&ToDate=2025-03-21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-21 1:45:53 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-03-20+01%3A45%3A49&ToDate=2025-03-21+01%3A45%3A49
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-21 1:49:33 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=20%2F03%2F2025&ToDate=21%2F03%2F2025
+    [http_code] => 500
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"An error has occurred."}
+)
+
+2025-03-21 1:50:38 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-03-20&ToDate=2025-03-21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-21 1:52:53 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025%2F03%2F20&ToDate=2025%2F03%2F21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-21 1:53:17 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=20%2F03%2F2025&ToDate=21%2F03%2F2025
+    [http_code] => 500
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"An error has occurred."}
+)
+
+2025-03-21 2:00:16 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=21%2F03%2F2025&ToDate=20%2F03%2F2025
+    [http_code] => 500
+    [curl_err] => 0
+    [request] => []
+    [response] => {"Message":"An error has occurred."}
+)
+
+2025-03-21 2:10:19 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-03-20&ToDate=2025-03-21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-21 2:12:46 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025%2F03%2F20&ToDate=2025%2F03%2F21
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-21 2:13:12 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025%2F03%2F20
+    [http_code] => 406
+    [curl_err] => 0
+    [request] => []
+    [response] => "Invalid date selection."
+)
+
+2025-03-21 7:08:45 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-03-20&ToDate=
+    [http_code] => 406
+    [curl_err] => 0
+    [request] => []
+    [response] => "Invalid date selection."
+)
+
+2025-03-21 7:20:31 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-03-20&ToDate=
+    [http_code] => 406
+    [curl_err] => 0
+    [request] => []
+    [response] => "Invalid date selection."
+)
+
+2025-03-21 7:27:14 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-03-20&ToDate=
+    [http_code] => 406
+    [curl_err] => 0
+    [request] => []
+    [response] => "Invalid date selection."
+)
+
+2025-03-21 7:29:28 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-03-20
+    [http_code] => 406
+    [curl_err] => 0
+    [request] => []
+    [response] => "Invalid date selection."
+)
+
+2025-03-21 7:31:43 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-03-20
+    [http_code] => 406
+    [curl_err] => 0
+    [request] => []
+    [response] => "Invalid date selection."
+)
+
+2025-03-25 1:54:53 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 1:58:32 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 1:58:32 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2405213932300","UID":"M"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-03-25 1:58:54 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:01:29 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:01:46 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:02:03 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:03:37 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?Contact_No=601119891036
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:03:55 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?Contact_No=601119891036
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:04:25 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?Contact_No=601119891036
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:04:43 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?Contact_No=601119891036
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:04:58 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?Contact_No=601119891036
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:06:39 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?Contact_No=601119891036
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:10:00 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?Contact_No=601119891036
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:10:14 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?Contact_No=601119891036
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:11:01 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?Contact_No=601119891036
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:11:53 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?Contact_No=601119891036
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:11:59 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?Contact_No=601119891036
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:12:47 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=Array
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:17:42 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2405213932300","UID":"00000001"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-03-25 2:17:52 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2405213932300","UID":"00000001"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-03-25 2:20:05 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2405213932300","UID":"00000001"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-03-25 2:35:11 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=6011123456789
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 2:48:07 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=60189839423
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-03-25 3:36:59 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2405213932300","UID":"00000001"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-04 9:57:46 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-04-04 9:59:06 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-04-04 10:00:39 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-04 10:00:54 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-04-04 10:01:03 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-04 10:01:52 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-04 10:02:02 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-04 10:04:56 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-04-04 10:07:05 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-04-04 10:08:10 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-04-04 10:09:01 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-07 1:49:27 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-04-07 4:45:02 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-07 4:46:11 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-04-07 4:47:12 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-07 4:47:43 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-07 4:49:38 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-04-07 4:49:43 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-04-07 4:50:55 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-04-07 4:51:42 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 401
+    [curl_err] => 0
+    [request] => []
+    [response] => "Unauthorized"
+)
+
+2025-04-07 4:57:37 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-07 4:57:38 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => {"Voucher_SerialNo":"260","UID":"APP11000004886"}
+    [response] => "Voucher not found."
+)
+
+2025-04-07 4:59:32 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-07 4:59:33 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => {"Voucher_SerialNo":"260","UID":"APP11000004886"}
+    [response] => "Voucher not found."
+)
+
+2025-04-07 5:08:02 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-07 5:13:02 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-07 5:13:23 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-07 5:13:36 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-07 5:15:05 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-07 5:15:29 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-07 5:15:39 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-07 5:16:48 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-07 5:17:57 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-07 5:19:59 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-08 1:14:21 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-08 1:14:44 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-08 1:15:49 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?phone=60189839423
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-08 1:15:59 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?telephone=60189839423
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-08 1:17:39 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?Contact_No=60189839423
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-08 1:17:49 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?Contact_No=60189839423
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-08 1:18:06 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?Contact_No=60189839423
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-08 1:18:28 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?ContactNo=60189839423
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-08 1:19:01 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?ContactNo=60189839423
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-08 1:19:42 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?ContactNo=60189839423
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-08 1:20:16 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?ContactNo=601119891036
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-08 1:23:22 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-08 1:23:32 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=?ContactNo=601119891036
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-08 2:47:46 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407340639478","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 2:47:52 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407271720202","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 2:49:02 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407271720202","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 2:49:18 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407841651737","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 2:49:25 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407841651737","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 2:51:00 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2411292127004","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 2:51:49 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2411292127004","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 2:52:06 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407340639478","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 2:52:21 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407340639478","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 2:54:05 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407841651737","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 2:54:56 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407340639478","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 2:55:54 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407841651737","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 2:56:29 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407841651737","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 3:35:36 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2406834738584","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 3:36:34 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2406834738584","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 3:37:00 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407841651737","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 3:37:11 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407340639478","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 3:37:16 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407271720202","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 3:37:38 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2405631335374","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-08 4:20:46 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407841651737","UID":"APP11000004886","ContactNo":"60189839423"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-10 2:01:55 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/Members?ContactNo=601888999001
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Member not found"
+)
+
+2025-04-10 2:03:55 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=Product+
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Item not found"
+)
+
+2025-04-10 2:18:00 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberCreation
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => {"Customer_Name":" ","Email":null,"Phone_No":null,"ICNo":null,"BirthDate":"","Address1":"","Address2":"","Address3":"","Gender":"","Race":"","Marital_Status":"","Occupation":""}
+    [response] => "Phone No is used."
+)
+
+2025-04-10 2:18:02 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberCreation
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => {"Customer_Name":" ","Email":null,"Phone_No":null,"ICNo":null,"BirthDate":"","Address1":"","Address2":"","Address3":"","Gender":"","Race":"","Marital_Status":"","Occupation":""}
+    [response] => "Phone No is used."
+)
+
+2025-04-10 2:18:05 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberCreation
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => {"Customer_Name":" ","Email":null,"Phone_No":null,"ICNo":null,"BirthDate":"","Address1":"","Address2":"","Address3":"","Gender":"","Race":"","Marital_Status":"","Occupation":""}
+    [response] => "Phone No is used."
+)
+
+2025-04-10 2:22:48 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberCreation
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => {"Customer_Name":" ","Email":null,"Phone_No":null,"ICNo":null,"BirthDate":"","Address1":"","Address2":"","Address3":"","Gender":"","Race":"","Marital_Status":"","Occupation":""}
+    [response] => "Phone No is used."
+)
+
+2025-04-10 2:26:27 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberDetailsUpdate?ContactNo=
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => {"Customer_Name":"nazmilah nazmisist","Email":"nazmi@gmail.com","Phone_No":"601888999001","ICNo":"601888999001","BirthDate":"","Address1":"","Address2":"","Address3":"","Gender":"","Race":"","Marital_Status":"","Occupation":""}
+    [response] => "Customer not found."
+)
+
+2025-04-10 2:27:10 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberDetailsUpdate?ContactNo=
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => {"Customer_Name":"nazmilah nazmisist","Email":"nazmi@gmail.com","Phone_No":"601888999001","ICNo":"601888999001","BirthDate":"","Address1":"","Address2":"","Address3":"","Gender":"","Race":"","Marital_Status":"","Occupation":""}
+    [response] => "Customer not found."
+)
+
+2025-04-10 2:28:51 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberDetailsUpdate?ContactNo=601888999001
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => {"Customer_Name":"nazmilah nazmisist","Email":"nazmi@gmail.com","Phone_No":"601888999001","ICNo":"601888999001","BirthDate":"","Address1":"","Address2":"","Address3":"","Gender":"","Race":"","Marital_Status":"","Occupation":""}
+    [response] => "Customer not found."
+)
+
+2025-04-10 3:13:37 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2024-04-10
+    [http_code] => 406
+    [curl_err] => 0
+    [request] => []
+    [response] => "Invalid date selection."
+)
+
+2025-04-10 3:19:59 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-01-01
+    [http_code] => 406
+    [curl_err] => 0
+    [request] => []
+    [response] => "Invalid date selection."
+)
+
+2025-04-10 3:20:53 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-01-01
+    [http_code] => 406
+    [curl_err] => 0
+    [request] => []
+    [response] => "Invalid date selection."
+)
+
+2025-04-11 4:03:32 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=321123
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Item not found"
+)
+
+2025-04-11 4:03:39 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/SKU?page=1&pageSize=10&itemfilter=0198823
+    [http_code] => 404
+    [curl_err] => 0
+    [request] => []
+    [response] => "Item not found"
+)
+
+2025-04-11 8:11:49 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-01-01
+    [http_code] => 406
+    [curl_err] => 0
+    [request] => []
+    [response] => "Invalid date selection."
+)
+
+2025-04-11 8:20:49 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/MemberOrderInvoice?ContactNo=601119891036&page=1&pageSize=20&FromDate=2025-01-01
+    [http_code] => 406
+    [curl_err] => 0
+    [request] => []
+    [response] => "Invalid date selection."
+)
+
+2025-04-15 3:39:39 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407271720202","UID":"00000001","ContactNo":"601119891036"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-15 3:39:48 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407271720202","UID":"00000001","ContactNo":"601119891036"}
+    [response] => "Voucher already redeemed."
+)
+
+2025-04-15 3:41:49 - Array
+(
+    [url] => https://dmsc.darson.com.my/DarsonAPI/api/VoucherStatusUpdate
+    [http_code] => 409
+    [curl_err] => 0
+    [request] => {"VoucherSerialNo":"2407271720202","UID":"00000001","ContactNo":"601119891036"}
+    [response] => "Voucher already redeemed."
+)
+

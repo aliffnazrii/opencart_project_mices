@@ -1,0 +1,312 @@
+<?php $val = array (
+  'css' => '.module-catalog-374 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-374 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-374 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-374 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-374 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-374 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-374 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-374 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-374  .item-content{padding-top:10px}.module-catalog-374  .catalog-title{padding-right:10px}.module-catalog-374 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-374 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-374
+.subitems{align-items:flex-start}.module-catalog-374 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-374 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-374 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-374 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-374 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-374 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-374 .catalog-image{margin-right:10px}.module-catalog-374 .item-assets{flex-direction:row}.module-catalog-374 .item-assets>a{max-width:40%;order:0}.module-catalog-374 .item-assets
+.subitems{width:60%}.module-catalog-374 .item-assets .catalog-image{display:block}.module-catalog-374 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-374 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-374 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Vacuum & Laundry Appliances',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb70de2e5',
+    'module_id' => 374,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-374',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '374-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Condensing Dryers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1134_1135',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Heat Pump Dryers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1134_1136',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Vented Dryers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1134_1137',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Dryers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1134',
+        'total' => '3',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '374-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Garment Steamers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1138_1139',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Irons',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1138_1140',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Garment Care',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1138',
+        'total' => '2',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '374-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Robotic Vacuum Cleaners',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1141_1142',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Steam Cleaners',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1141_1143',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Stick &amp; Handheld Vacuum Cleaners',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1141_1144',
+            'image' => '',
+            'image2x' => '',
+          ),
+          3 => 
+          array (
+            'name' => 'Upright &amp; Barrel Vaccum Cleaners',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1141_1145',
+            'image' => '',
+            'image2x' => '',
+          ),
+          4 => 
+          array (
+            'name' => 'Vacuum Bags &amp; Filters',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1141_1146',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Vacuum Cleaners',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1141',
+        'total' => '5',
+      ),
+      4 => 
+      array (
+        'limit' => '',
+        'id' => '374-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Front Load Washing Machines',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1147_1148',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Top Load Washing Machines',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1147_1149',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Washing Machine',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1147',
+        'total' => '2',
+      ),
+      5 => 
+      array (
+        'limit' => '',
+        'id' => '374-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Inlets Hose Joints',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1150_1151',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Washing Machine Inlets',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1150_1152',
+            'image' => '',
+            'image2x' => '',
+          ),
+          2 => 
+          array (
+            'name' => 'Washing Machine Outlets',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1150_1153',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Washing Machine Parts',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1150',
+        'total' => '3',
+      ),
+      6 => 
+      array (
+        'limit' => '',
+        'id' => '374-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Washer Dryers',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=1154',
+        'total' => '0',
+      ),
+    ),
+  ),
+);

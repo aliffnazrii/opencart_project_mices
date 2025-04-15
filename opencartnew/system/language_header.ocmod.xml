@@ -1,0 +1,56 @@
+<modification>
+	<name>Language Header</name>
+	<version>1.0.0</version>
+	<code>language_header</code>
+	<author>Mices Technology</author>
+	<link>https://www.mices.com.my/</link>
+
+    <file path="catalog\view\theme\journal3\template\common\language.twig">
+        <operation>
+			<search><![CDATA[
+				<div class="dropdown drop-menu">
+			]]></search>
+			<add position="replace"><![CDATA[
+                {# <div class="dropdown drop-menu">
+			]]></add>
+		</operation>
+
+        <operation>
+			<search index="1"><![CDATA[
+				</div>
+			]]></search>
+			<add position="replace"><![CDATA[
+                </div> #}
+
+                <ul class="j-menu">
+					{% for language in languages %}
+					{% set name = language.code|slice(0, 2)|upper %}
+					{% if name == 'MY' %}
+						{% set name = 'BM' %}
+					{% endif %}
+						<li>
+							<a class="language-select" data-name="{{ language.code }}">{{ name }}</a>
+						</li>
+						{% if languages|length - 1 >= loop.index %}
+						<li>
+							<span class="language-select">|</span>
+						</li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+
+				<style>
+					.language-currency {
+						pointer-events: auto;
+						margin-right: unset !important;
+						order: -1;
+					}
+					.top-menu.top-menu-2{
+						margin-right: auto;
+					}
+				</style>
+			]]></add>
+		</operation>
+	</file>
+
+</modification>

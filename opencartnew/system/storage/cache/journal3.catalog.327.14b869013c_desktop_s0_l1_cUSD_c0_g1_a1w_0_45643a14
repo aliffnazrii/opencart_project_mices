@@ -1,0 +1,257 @@
+<?php $val = array (
+  'css' => '.module-catalog-327 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-catalog-327 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-catalog-327 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-catalog-327 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-catalog-327 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-catalog-327 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-catalog-327 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-327 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-327  .item-content{padding-top:10px}.module-catalog-327  .catalog-title{padding-right:10px}.module-catalog-327 .catalog-title{margin-bottom:8px;display:flex;font-family:\'Montserrat\';font-weight:600;color:rgba(51, 51, 51, 1);text-transform:capitalize;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-327 .catalog-title:hover{color:rgba(249, 211, 66, 1)}.module-catalog-327
+.subitems{align-items:flex-start}.module-catalog-327 .subitem > a
+span{color:rgba(41, 40, 38, 1)}.module-catalog-327 .subitem > a:hover
+span{color:rgba(249, 211, 66, 1);text-decoration:underline}.module-catalog-327 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-327 .subitem.view-more a:hover
+span{color:rgba(249, 211, 66, 1)}.module-catalog-327 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px}.module-catalog-327 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1);border-radius:3px}.module-catalog-327 .catalog-image{margin-right:10px}.module-catalog-327 .item-assets{flex-direction:row}.module-catalog-327 .item-assets>a{max-width:40%;order:0}.module-catalog-327 .item-assets
+.subitems{width:60%}.module-catalog-327 .item-assets .catalog-image{display:block}.module-catalog-327 .title.module-title{font-size:15px;text-decoration:underline;margin-top:10px;margin-right:10px;margin-left:10px;text-align:center}.module-catalog-327 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-catalog-327 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Montserrat' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Apparel',
+    'images' => false,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'viewMoreText' => '',
+    'status' => true,
+    'id' => 'catalog-67fdfb72008d4',
+    'module_id' => 327,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-327',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '',
+        'id' => '327-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Shirts',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=259',
+        'total' => '0',
+      ),
+      2 => 
+      array (
+        'limit' => '',
+        'id' => '327-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Polos',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=260',
+        'total' => '0',
+      ),
+      3 => 
+      array (
+        'limit' => '',
+        'id' => '327-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Boots',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=261_262',
+            'image' => '',
+            'image2x' => '',
+          ),
+          1 => 
+          array (
+            'name' => 'Slippers',
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=261_263',
+            'image' => '',
+            'image2x' => '',
+          ),
+        ),
+        'image' => '',
+        'name' => 'Footwear',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=261',
+        'total' => '2',
+      ),
+      4 => 
+      array (
+        'limit' => '',
+        'id' => '327-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Bracelet &amp; Jewelry',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=264',
+        'total' => '0',
+      ),
+      6 => 
+      array (
+        'limit' => '',
+        'id' => '327-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Scrunchy &amp; Headbands',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=266',
+        'total' => '0',
+      ),
+      7 => 
+      array (
+        'limit' => '',
+        'id' => '327-7',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-7',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Hairpins &amp; Hairclips',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=267',
+        'total' => '0',
+      ),
+      8 => 
+      array (
+        'limit' => '',
+        'id' => '327-8',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-8',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Eyewear',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=268',
+        'total' => '0',
+      ),
+      9 => 
+      array (
+        'limit' => '',
+        'id' => '327-9',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-9',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => '',
+        'name' => 'Head Wear',
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=269',
+        'total' => '0',
+      ),
+    ),
+  ),
+);

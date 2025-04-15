@@ -1,0 +1,887 @@
+<?php $val = array (
+  'category_id' => '254',
+  'parent_id' => '230',
+  'title' => 'Miscellaneous',
+  'items' => 
+  array (
+    928 => 
+    array (
+      'category_id' => '928',
+      'parent_id' => '254',
+      'title' => 'Bank Services',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c928',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_928',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    924 => 
+    array (
+      'category_id' => '924',
+      'parent_id' => '254',
+      'title' => 'Cashier Counters',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c924',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_924',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    934 => 
+    array (
+      'category_id' => '934',
+      'parent_id' => '254',
+      'title' => 'Coupons',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c934',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_934',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    929 => 
+    array (
+      'category_id' => '929',
+      'parent_id' => '254',
+      'title' => 'Delivery Services',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c929',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_929',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    926 => 
+    array (
+      'category_id' => '926',
+      'parent_id' => '254',
+      'title' => 'Extended Warranty',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c926',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_926',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    935 => 
+    array (
+      'category_id' => '935',
+      'parent_id' => '254',
+      'title' => 'Gift Cards',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c935',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_935',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    925 => 
+    array (
+      'category_id' => '925',
+      'parent_id' => '254',
+      'title' => 'Gondola &amp; Accessories',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c925',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_925',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    930 => 
+    array (
+      'category_id' => '930',
+      'parent_id' => '254',
+      'title' => 'Installation Services',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c930',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_930',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    936 => 
+    array (
+      'category_id' => '936',
+      'parent_id' => '254',
+      'title' => 'Mascot',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c936',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_936',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    940 => 
+    array (
+      'category_id' => '940',
+      'parent_id' => '254',
+      'title' => 'Member Upgrade',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c940',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_940',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    938 => 
+    array (
+      'category_id' => '938',
+      'parent_id' => '254',
+      'title' => 'Promotion Discount',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c938',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_938',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    937 => 
+    array (
+      'category_id' => '937',
+      'parent_id' => '254',
+      'title' => 'Promotion Package',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c937',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_937',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    939 => 
+    array (
+      'category_id' => '939',
+      'parent_id' => '254',
+      'title' => 'Promotion Pwp',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c939',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_939',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    927 => 
+    array (
+      'category_id' => '927',
+      'parent_id' => '254',
+      'title' => 'Replacement Warranty',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c927',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_927',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    931 => 
+    array (
+      'category_id' => '931',
+      'parent_id' => '254',
+      'title' => 'Spare Parts',
+      'items' => 
+      array (
+        932 => 
+        array (
+          'category_id' => '932',
+          'parent_id' => '931',
+          'title' => 'Blender Jugs',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c932',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_931_932',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c931',
+        'dropdown' => 
+        array (
+          932 => 
+          array (
+            'category_id' => '932',
+            'parent_id' => '931',
+            'title' => 'Blender Jugs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c932',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_931_932',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_931',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    933 => 
+    array (
+      'category_id' => '933',
+      'parent_id' => '254',
+      'title' => 'Vouchers',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c933',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_933',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c254',
+    'dropdown' => 
+    array (
+      928 => 
+      array (
+        'category_id' => '928',
+        'parent_id' => '254',
+        'title' => 'Bank Services',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c928',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_928',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      924 => 
+      array (
+        'category_id' => '924',
+        'parent_id' => '254',
+        'title' => 'Cashier Counters',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c924',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_924',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      934 => 
+      array (
+        'category_id' => '934',
+        'parent_id' => '254',
+        'title' => 'Coupons',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c934',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_934',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      929 => 
+      array (
+        'category_id' => '929',
+        'parent_id' => '254',
+        'title' => 'Delivery Services',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c929',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_929',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      926 => 
+      array (
+        'category_id' => '926',
+        'parent_id' => '254',
+        'title' => 'Extended Warranty',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c926',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_926',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      935 => 
+      array (
+        'category_id' => '935',
+        'parent_id' => '254',
+        'title' => 'Gift Cards',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c935',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_935',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      925 => 
+      array (
+        'category_id' => '925',
+        'parent_id' => '254',
+        'title' => 'Gondola &amp; Accessories',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c925',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_925',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      930 => 
+      array (
+        'category_id' => '930',
+        'parent_id' => '254',
+        'title' => 'Installation Services',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c930',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_930',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      936 => 
+      array (
+        'category_id' => '936',
+        'parent_id' => '254',
+        'title' => 'Mascot',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c936',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_936',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      940 => 
+      array (
+        'category_id' => '940',
+        'parent_id' => '254',
+        'title' => 'Member Upgrade',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c940',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_940',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      938 => 
+      array (
+        'category_id' => '938',
+        'parent_id' => '254',
+        'title' => 'Promotion Discount',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c938',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_938',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      937 => 
+      array (
+        'category_id' => '937',
+        'parent_id' => '254',
+        'title' => 'Promotion Package',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c937',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_937',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      939 => 
+      array (
+        'category_id' => '939',
+        'parent_id' => '254',
+        'title' => 'Promotion Pwp',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c939',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_939',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      927 => 
+      array (
+        'category_id' => '927',
+        'parent_id' => '254',
+        'title' => 'Replacement Warranty',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c927',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_927',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      931 => 
+      array (
+        'category_id' => '931',
+        'parent_id' => '254',
+        'title' => 'Spare Parts',
+        'items' => 
+        array (
+          932 => 
+          array (
+            'category_id' => '932',
+            'parent_id' => '931',
+            'title' => 'Blender Jugs',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c932',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_931_932',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c931',
+          'dropdown' => 
+          array (
+            932 => 
+            array (
+              'category_id' => '932',
+              'parent_id' => '931',
+              'title' => 'Blender Jugs',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c932',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_931_932',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_931',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      933 => 
+      array (
+        'category_id' => '933',
+        'parent_id' => '254',
+        'title' => 'Vouchers',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c933',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254_933',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_254',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

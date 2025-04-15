@@ -1,0 +1,3287 @@
+<?php $val = array (
+  'category_id' => '243',
+  'parent_id' => '230',
+  'title' => 'Electrical',
+  'items' => 
+  array (
+    534 => 
+    array (
+      'category_id' => '534',
+      'parent_id' => '243',
+      'title' => 'Cables &amp; Chargers',
+      'items' => 
+      array (
+        535 => 
+        array (
+          'category_id' => '535',
+          'parent_id' => '534',
+          'title' => 'Batteries &amp; Battery Chargers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c535',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_534_535',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        536 => 
+        array (
+          'category_id' => '536',
+          'parent_id' => '534',
+          'title' => 'Cables &amp; Accessories',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c536',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_534_536',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        537 => 
+        array (
+          'category_id' => '537',
+          'parent_id' => '534',
+          'title' => 'Chargers &amp; Adapters',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c537',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_534_537',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c534',
+        'dropdown' => 
+        array (
+          535 => 
+          array (
+            'category_id' => '535',
+            'parent_id' => '534',
+            'title' => 'Batteries &amp; Battery Chargers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c535',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_534_535',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          536 => 
+          array (
+            'category_id' => '536',
+            'parent_id' => '534',
+            'title' => 'Cables &amp; Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c536',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_534_536',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          537 => 
+          array (
+            'category_id' => '537',
+            'parent_id' => '534',
+            'title' => 'Chargers &amp; Adapters',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c537',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_534_537',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_534',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    553 => 
+    array (
+      'category_id' => '553',
+      'parent_id' => '243',
+      'title' => 'Dimmers &amp; Switches',
+      'items' => 
+      array (
+        556 => 
+        array (
+          'category_id' => '556',
+          'parent_id' => '553',
+          'title' => 'Gate Switches',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c556',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_553_556',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        555 => 
+        array (
+          'category_id' => '555',
+          'parent_id' => '553',
+          'title' => 'Light Switches',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c555',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_553_555',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        554 => 
+        array (
+          'category_id' => '554',
+          'parent_id' => '553',
+          'title' => 'Rotary Switches',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c554',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_553_554',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c553',
+        'dropdown' => 
+        array (
+          556 => 
+          array (
+            'category_id' => '556',
+            'parent_id' => '553',
+            'title' => 'Gate Switches',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c556',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_553_556',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          555 => 
+          array (
+            'category_id' => '555',
+            'parent_id' => '553',
+            'title' => 'Light Switches',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c555',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_553_555',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          554 => 
+          array (
+            'category_id' => '554',
+            'parent_id' => '553',
+            'title' => 'Rotary Switches',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c554',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_553_554',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_553',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    538 => 
+    array (
+      'category_id' => '538',
+      'parent_id' => '243',
+      'title' => 'Doorbells',
+      'items' => 
+      array (
+        539 => 
+        array (
+          'category_id' => '539',
+          'parent_id' => '538',
+          'title' => 'Doorbell Buttons',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c539',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_538_539',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        540 => 
+        array (
+          'category_id' => '540',
+          'parent_id' => '538',
+          'title' => 'Doorbell Chimes',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c540',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_538_540',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        541 => 
+        array (
+          'category_id' => '541',
+          'parent_id' => '538',
+          'title' => 'Doorbell Kits',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c541',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_538_541',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c538',
+        'dropdown' => 
+        array (
+          539 => 
+          array (
+            'category_id' => '539',
+            'parent_id' => '538',
+            'title' => 'Doorbell Buttons',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c539',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_538_539',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          540 => 
+          array (
+            'category_id' => '540',
+            'parent_id' => '538',
+            'title' => 'Doorbell Chimes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c540',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_538_540',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          541 => 
+          array (
+            'category_id' => '541',
+            'parent_id' => '538',
+            'title' => 'Doorbell Kits',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c541',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_538_541',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_538',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    542 => 
+    array (
+      'category_id' => '542',
+      'parent_id' => '243',
+      'title' => 'Electric Distribution',
+      'items' => 
+      array (
+        543 => 
+        array (
+          'category_id' => '543',
+          'parent_id' => '542',
+          'title' => 'Circuit Breakers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c543',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_543',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        544 => 
+        array (
+          'category_id' => '544',
+          'parent_id' => '542',
+          'title' => 'Disconnectors',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c544',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_544',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        545 => 
+        array (
+          'category_id' => '545',
+          'parent_id' => '542',
+          'title' => 'Electrical Wires',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c545',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_545',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        546 => 
+        array (
+          'category_id' => '546',
+          'parent_id' => '542',
+          'title' => 'Plugs &amp; Power Supplies',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c546',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_546',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        547 => 
+        array (
+          'category_id' => '547',
+          'parent_id' => '542',
+          'title' => 'Wire Connectors &amp; Wire Terminals',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c547',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_547',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c542',
+        'dropdown' => 
+        array (
+          543 => 
+          array (
+            'category_id' => '543',
+            'parent_id' => '542',
+            'title' => 'Circuit Breakers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c543',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_543',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          544 => 
+          array (
+            'category_id' => '544',
+            'parent_id' => '542',
+            'title' => 'Disconnectors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c544',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_544',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          545 => 
+          array (
+            'category_id' => '545',
+            'parent_id' => '542',
+            'title' => 'Electrical Wires',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c545',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_545',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          546 => 
+          array (
+            'category_id' => '546',
+            'parent_id' => '542',
+            'title' => 'Plugs &amp; Power Supplies',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c546',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_546',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          547 => 
+          array (
+            'category_id' => '547',
+            'parent_id' => '542',
+            'title' => 'Wire Connectors &amp; Wire Terminals',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c547',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_547',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    548 => 
+    array (
+      'category_id' => '548',
+      'parent_id' => '243',
+      'title' => 'Remotes',
+      'items' => 
+      array (
+        549 => 
+        array (
+          'category_id' => '549',
+          'parent_id' => '548',
+          'title' => 'Air Con Remotes',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c549',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548_549',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        550 => 
+        array (
+          'category_id' => '550',
+          'parent_id' => '548',
+          'title' => 'Fan Remotes',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c550',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548_550',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        551 => 
+        array (
+          'category_id' => '551',
+          'parent_id' => '548',
+          'title' => 'Lighting Remotes',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c551',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548_551',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        552 => 
+        array (
+          'category_id' => '552',
+          'parent_id' => '548',
+          'title' => 'TV Remotes',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c552',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548_552',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c548',
+        'dropdown' => 
+        array (
+          549 => 
+          array (
+            'category_id' => '549',
+            'parent_id' => '548',
+            'title' => 'Air Con Remotes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c549',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548_549',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          550 => 
+          array (
+            'category_id' => '550',
+            'parent_id' => '548',
+            'title' => 'Fan Remotes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c550',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548_550',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          551 => 
+          array (
+            'category_id' => '551',
+            'parent_id' => '548',
+            'title' => 'Lighting Remotes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c551',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548_551',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          552 => 
+          array (
+            'category_id' => '552',
+            'parent_id' => '548',
+            'title' => 'TV Remotes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c552',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548_552',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    557 => 
+    array (
+      'category_id' => '557',
+      'parent_id' => '243',
+      'title' => 'Sockets &amp; Covers',
+      'items' => 
+      array (
+        563 => 
+        array (
+          'category_id' => '563',
+          'parent_id' => '557',
+          'title' => 'Coaxial Socket',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c563',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_563',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        560 => 
+        array (
+          'category_id' => '560',
+          'parent_id' => '557',
+          'title' => 'Ethernet/ Phone Socket',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c560',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_560',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        561 => 
+        array (
+          'category_id' => '561',
+          'parent_id' => '557',
+          'title' => 'Extension Socket',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c561',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_561',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        562 => 
+        array (
+          'category_id' => '562',
+          'parent_id' => '557',
+          'title' => 'Socket Box',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c562',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_562',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        558 => 
+        array (
+          'category_id' => '558',
+          'parent_id' => '557',
+          'title' => 'Socket Covers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c558',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_558',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        559 => 
+        array (
+          'category_id' => '559',
+          'parent_id' => '557',
+          'title' => 'Switch Sockets',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c559',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_559',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c557',
+        'dropdown' => 
+        array (
+          563 => 
+          array (
+            'category_id' => '563',
+            'parent_id' => '557',
+            'title' => 'Coaxial Socket',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c563',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_563',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          560 => 
+          array (
+            'category_id' => '560',
+            'parent_id' => '557',
+            'title' => 'Ethernet/ Phone Socket',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c560',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_560',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          561 => 
+          array (
+            'category_id' => '561',
+            'parent_id' => '557',
+            'title' => 'Extension Socket',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c561',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_561',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          562 => 
+          array (
+            'category_id' => '562',
+            'parent_id' => '557',
+            'title' => 'Socket Box',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c562',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_562',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          558 => 
+          array (
+            'category_id' => '558',
+            'parent_id' => '557',
+            'title' => 'Socket Covers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c558',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_558',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          559 => 
+          array (
+            'category_id' => '559',
+            'parent_id' => '557',
+            'title' => 'Switch Sockets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c559',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_559',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    567 => 
+    array (
+      'category_id' => '567',
+      'parent_id' => '243',
+      'title' => 'TV &amp; Speaker Accessories',
+      'items' => 
+      array (
+        568 => 
+        array (
+          'category_id' => '568',
+          'parent_id' => '567',
+          'title' => 'Antennas &amp; Amplifiers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c568',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567_568',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        569 => 
+        array (
+          'category_id' => '569',
+          'parent_id' => '567',
+          'title' => 'Av Splitters &amp; Selectors',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c569',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567_569',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        570 => 
+        array (
+          'category_id' => '570',
+          'parent_id' => '567',
+          'title' => 'Microphones &amp; Accessories',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c570',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567_570',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        571 => 
+        array (
+          'category_id' => '571',
+          'parent_id' => '567',
+          'title' => 'Tv/Speaker Mount &amp; Brackets',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c571',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567_571',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c567',
+        'dropdown' => 
+        array (
+          568 => 
+          array (
+            'category_id' => '568',
+            'parent_id' => '567',
+            'title' => 'Antennas &amp; Amplifiers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c568',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567_568',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          569 => 
+          array (
+            'category_id' => '569',
+            'parent_id' => '567',
+            'title' => 'Av Splitters &amp; Selectors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c569',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567_569',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          570 => 
+          array (
+            'category_id' => '570',
+            'parent_id' => '567',
+            'title' => 'Microphones &amp; Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c570',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567_570',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          571 => 
+          array (
+            'category_id' => '571',
+            'parent_id' => '567',
+            'title' => 'Tv/Speaker Mount &amp; Brackets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c571',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567_571',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    564 => 
+    array (
+      'category_id' => '564',
+      'parent_id' => '243',
+      'title' => 'Wiring Devices',
+      'items' => 
+      array (
+        565 => 
+        array (
+          'category_id' => '565',
+          'parent_id' => '564',
+          'title' => 'Light Sensors',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c565',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_564_565',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        566 => 
+        array (
+          'category_id' => '566',
+          'parent_id' => '564',
+          'title' => 'Motion Sensors',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c566',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_564_566',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c564',
+        'dropdown' => 
+        array (
+          565 => 
+          array (
+            'category_id' => '565',
+            'parent_id' => '564',
+            'title' => 'Light Sensors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c565',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_564_565',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          566 => 
+          array (
+            'category_id' => '566',
+            'parent_id' => '564',
+            'title' => 'Motion Sensors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c566',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_564_566',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_564',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c243',
+    'dropdown' => 
+    array (
+      534 => 
+      array (
+        'category_id' => '534',
+        'parent_id' => '243',
+        'title' => 'Cables &amp; Chargers',
+        'items' => 
+        array (
+          535 => 
+          array (
+            'category_id' => '535',
+            'parent_id' => '534',
+            'title' => 'Batteries &amp; Battery Chargers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c535',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_534_535',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          536 => 
+          array (
+            'category_id' => '536',
+            'parent_id' => '534',
+            'title' => 'Cables &amp; Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c536',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_534_536',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          537 => 
+          array (
+            'category_id' => '537',
+            'parent_id' => '534',
+            'title' => 'Chargers &amp; Adapters',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c537',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_534_537',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c534',
+          'dropdown' => 
+          array (
+            535 => 
+            array (
+              'category_id' => '535',
+              'parent_id' => '534',
+              'title' => 'Batteries &amp; Battery Chargers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c535',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_534_535',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            536 => 
+            array (
+              'category_id' => '536',
+              'parent_id' => '534',
+              'title' => 'Cables &amp; Accessories',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c536',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_534_536',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            537 => 
+            array (
+              'category_id' => '537',
+              'parent_id' => '534',
+              'title' => 'Chargers &amp; Adapters',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c537',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_534_537',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_534',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      553 => 
+      array (
+        'category_id' => '553',
+        'parent_id' => '243',
+        'title' => 'Dimmers &amp; Switches',
+        'items' => 
+        array (
+          556 => 
+          array (
+            'category_id' => '556',
+            'parent_id' => '553',
+            'title' => 'Gate Switches',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c556',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_553_556',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          555 => 
+          array (
+            'category_id' => '555',
+            'parent_id' => '553',
+            'title' => 'Light Switches',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c555',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_553_555',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          554 => 
+          array (
+            'category_id' => '554',
+            'parent_id' => '553',
+            'title' => 'Rotary Switches',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c554',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_553_554',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c553',
+          'dropdown' => 
+          array (
+            556 => 
+            array (
+              'category_id' => '556',
+              'parent_id' => '553',
+              'title' => 'Gate Switches',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c556',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_553_556',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            555 => 
+            array (
+              'category_id' => '555',
+              'parent_id' => '553',
+              'title' => 'Light Switches',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c555',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_553_555',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            554 => 
+            array (
+              'category_id' => '554',
+              'parent_id' => '553',
+              'title' => 'Rotary Switches',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c554',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_553_554',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_553',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      538 => 
+      array (
+        'category_id' => '538',
+        'parent_id' => '243',
+        'title' => 'Doorbells',
+        'items' => 
+        array (
+          539 => 
+          array (
+            'category_id' => '539',
+            'parent_id' => '538',
+            'title' => 'Doorbell Buttons',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c539',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_538_539',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          540 => 
+          array (
+            'category_id' => '540',
+            'parent_id' => '538',
+            'title' => 'Doorbell Chimes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c540',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_538_540',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          541 => 
+          array (
+            'category_id' => '541',
+            'parent_id' => '538',
+            'title' => 'Doorbell Kits',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c541',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_538_541',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c538',
+          'dropdown' => 
+          array (
+            539 => 
+            array (
+              'category_id' => '539',
+              'parent_id' => '538',
+              'title' => 'Doorbell Buttons',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c539',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_538_539',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            540 => 
+            array (
+              'category_id' => '540',
+              'parent_id' => '538',
+              'title' => 'Doorbell Chimes',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c540',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_538_540',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            541 => 
+            array (
+              'category_id' => '541',
+              'parent_id' => '538',
+              'title' => 'Doorbell Kits',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c541',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_538_541',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_538',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      542 => 
+      array (
+        'category_id' => '542',
+        'parent_id' => '243',
+        'title' => 'Electric Distribution',
+        'items' => 
+        array (
+          543 => 
+          array (
+            'category_id' => '543',
+            'parent_id' => '542',
+            'title' => 'Circuit Breakers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c543',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_543',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          544 => 
+          array (
+            'category_id' => '544',
+            'parent_id' => '542',
+            'title' => 'Disconnectors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c544',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_544',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          545 => 
+          array (
+            'category_id' => '545',
+            'parent_id' => '542',
+            'title' => 'Electrical Wires',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c545',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_545',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          546 => 
+          array (
+            'category_id' => '546',
+            'parent_id' => '542',
+            'title' => 'Plugs &amp; Power Supplies',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c546',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_546',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          547 => 
+          array (
+            'category_id' => '547',
+            'parent_id' => '542',
+            'title' => 'Wire Connectors &amp; Wire Terminals',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c547',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_547',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c542',
+          'dropdown' => 
+          array (
+            543 => 
+            array (
+              'category_id' => '543',
+              'parent_id' => '542',
+              'title' => 'Circuit Breakers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c543',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_543',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            544 => 
+            array (
+              'category_id' => '544',
+              'parent_id' => '542',
+              'title' => 'Disconnectors',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c544',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_544',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            545 => 
+            array (
+              'category_id' => '545',
+              'parent_id' => '542',
+              'title' => 'Electrical Wires',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c545',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_545',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            546 => 
+            array (
+              'category_id' => '546',
+              'parent_id' => '542',
+              'title' => 'Plugs &amp; Power Supplies',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c546',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_546',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            547 => 
+            array (
+              'category_id' => '547',
+              'parent_id' => '542',
+              'title' => 'Wire Connectors &amp; Wire Terminals',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c547',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542_547',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_542',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      548 => 
+      array (
+        'category_id' => '548',
+        'parent_id' => '243',
+        'title' => 'Remotes',
+        'items' => 
+        array (
+          549 => 
+          array (
+            'category_id' => '549',
+            'parent_id' => '548',
+            'title' => 'Air Con Remotes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c549',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548_549',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          550 => 
+          array (
+            'category_id' => '550',
+            'parent_id' => '548',
+            'title' => 'Fan Remotes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c550',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548_550',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          551 => 
+          array (
+            'category_id' => '551',
+            'parent_id' => '548',
+            'title' => 'Lighting Remotes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c551',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548_551',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          552 => 
+          array (
+            'category_id' => '552',
+            'parent_id' => '548',
+            'title' => 'TV Remotes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c552',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548_552',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c548',
+          'dropdown' => 
+          array (
+            549 => 
+            array (
+              'category_id' => '549',
+              'parent_id' => '548',
+              'title' => 'Air Con Remotes',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c549',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548_549',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            550 => 
+            array (
+              'category_id' => '550',
+              'parent_id' => '548',
+              'title' => 'Fan Remotes',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c550',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548_550',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            551 => 
+            array (
+              'category_id' => '551',
+              'parent_id' => '548',
+              'title' => 'Lighting Remotes',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c551',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548_551',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            552 => 
+            array (
+              'category_id' => '552',
+              'parent_id' => '548',
+              'title' => 'TV Remotes',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c552',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548_552',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_548',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      557 => 
+      array (
+        'category_id' => '557',
+        'parent_id' => '243',
+        'title' => 'Sockets &amp; Covers',
+        'items' => 
+        array (
+          563 => 
+          array (
+            'category_id' => '563',
+            'parent_id' => '557',
+            'title' => 'Coaxial Socket',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c563',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_563',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          560 => 
+          array (
+            'category_id' => '560',
+            'parent_id' => '557',
+            'title' => 'Ethernet/ Phone Socket',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c560',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_560',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          561 => 
+          array (
+            'category_id' => '561',
+            'parent_id' => '557',
+            'title' => 'Extension Socket',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c561',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_561',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          562 => 
+          array (
+            'category_id' => '562',
+            'parent_id' => '557',
+            'title' => 'Socket Box',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c562',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_562',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          558 => 
+          array (
+            'category_id' => '558',
+            'parent_id' => '557',
+            'title' => 'Socket Covers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c558',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_558',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          559 => 
+          array (
+            'category_id' => '559',
+            'parent_id' => '557',
+            'title' => 'Switch Sockets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c559',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_559',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c557',
+          'dropdown' => 
+          array (
+            563 => 
+            array (
+              'category_id' => '563',
+              'parent_id' => '557',
+              'title' => 'Coaxial Socket',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c563',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_563',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            560 => 
+            array (
+              'category_id' => '560',
+              'parent_id' => '557',
+              'title' => 'Ethernet/ Phone Socket',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c560',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_560',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            561 => 
+            array (
+              'category_id' => '561',
+              'parent_id' => '557',
+              'title' => 'Extension Socket',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c561',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_561',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            562 => 
+            array (
+              'category_id' => '562',
+              'parent_id' => '557',
+              'title' => 'Socket Box',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c562',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_562',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            558 => 
+            array (
+              'category_id' => '558',
+              'parent_id' => '557',
+              'title' => 'Socket Covers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c558',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_558',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            559 => 
+            array (
+              'category_id' => '559',
+              'parent_id' => '557',
+              'title' => 'Switch Sockets',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c559',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557_559',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_557',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      567 => 
+      array (
+        'category_id' => '567',
+        'parent_id' => '243',
+        'title' => 'TV &amp; Speaker Accessories',
+        'items' => 
+        array (
+          568 => 
+          array (
+            'category_id' => '568',
+            'parent_id' => '567',
+            'title' => 'Antennas &amp; Amplifiers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c568',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567_568',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          569 => 
+          array (
+            'category_id' => '569',
+            'parent_id' => '567',
+            'title' => 'Av Splitters &amp; Selectors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c569',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567_569',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          570 => 
+          array (
+            'category_id' => '570',
+            'parent_id' => '567',
+            'title' => 'Microphones &amp; Accessories',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c570',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567_570',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          571 => 
+          array (
+            'category_id' => '571',
+            'parent_id' => '567',
+            'title' => 'Tv/Speaker Mount &amp; Brackets',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c571',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567_571',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c567',
+          'dropdown' => 
+          array (
+            568 => 
+            array (
+              'category_id' => '568',
+              'parent_id' => '567',
+              'title' => 'Antennas &amp; Amplifiers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c568',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567_568',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            569 => 
+            array (
+              'category_id' => '569',
+              'parent_id' => '567',
+              'title' => 'Av Splitters &amp; Selectors',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c569',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567_569',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            570 => 
+            array (
+              'category_id' => '570',
+              'parent_id' => '567',
+              'title' => 'Microphones &amp; Accessories',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c570',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567_570',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            571 => 
+            array (
+              'category_id' => '571',
+              'parent_id' => '567',
+              'title' => 'Tv/Speaker Mount &amp; Brackets',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c571',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567_571',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_567',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      564 => 
+      array (
+        'category_id' => '564',
+        'parent_id' => '243',
+        'title' => 'Wiring Devices',
+        'items' => 
+        array (
+          565 => 
+          array (
+            'category_id' => '565',
+            'parent_id' => '564',
+            'title' => 'Light Sensors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c565',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_564_565',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          566 => 
+          array (
+            'category_id' => '566',
+            'parent_id' => '564',
+            'title' => 'Motion Sensors',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c566',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_564_566',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c564',
+          'dropdown' => 
+          array (
+            565 => 
+            array (
+              'category_id' => '565',
+              'parent_id' => '564',
+              'title' => 'Light Sensors',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c565',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_564_565',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            566 => 
+            array (
+              'category_id' => '566',
+              'parent_id' => '564',
+              'title' => 'Motion Sensors',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c566',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_564_566',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243_564',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://opencartnew.test/index.php?route=product/category&amp;path=230_243',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);
